@@ -1,0 +1,353 @@
+{
+  "AppleALC": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": "76c5d7e00f34616c059f8d6b2cb3878349d9b31f",
+        "dateadded": "2020-02-02T21:17:48.686339+00:00",
+        "description": "Added TCSEL change to TC0 for Intel codecs",
+        "hashes": {
+          "debug": {
+            "sha256": "93ce669bf0b00190f6c3fffbbe57a2ec03932ab5086141f3c3e5cf01de47ace6"
+          },
+          "release": {
+            "sha256": "2a304d67b35bd8659687c94849b88d5fa0b423686da960643da2521d86412321"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/76c5d7e00f34616c059f8d6b2cb3878349d9b31f/Debug/AppleALC-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/76c5d7e00f34616c059f8d6b2cb3878349d9b31f/Release/AppleALC-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": "9dfbfadf0b1c0eaf777d4efd0281cb834a0d01c8",
+        "dateadded": "2020-02-02T21:17:48.679893+00:00",
+        "description": "Fix typo in the previous commit",
+        "hashes": {
+          "debug": {
+            "sha256": "730964ef8359b4a9b1a5cfb35109f129310f76723fc9be500e9bf38304fdd091"
+          },
+          "release": {
+            "sha256": "b2174e7faff7706357143fc1acafb31936d59cfa0190867078b9b6ddf24ce5fc"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9dfbfadf0b1c0eaf777d4efd0281cb834a0d01c8/Debug/AppleALC-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9dfbfadf0b1c0eaf777d4efd0281cb834a0d01c8/Release/AppleALC-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": "e0eda72188cb0dc5bbf748e3d77bcfc8a6b7e8cf",
+        "dateadded": "2020-01-31T19:04:45.233560+00:00",
+        "description": "add NEW ALC215 layout-id 18 for HP 830 G6 (#496)\n\n* Add files via upload\r\n\r\n* Add files via upload",
+        "hashes": {
+          "debug": {
+            "sha256": "b9fd3caa5d5ef0ecda2ad8330d185311b61e4499dad148e4342cfef398275c61"
+          },
+          "release": {
+            "sha256": "17cdfe38374d7716777f86414f4a699e173deb90275fea27f90358db96a724ca"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/e0eda72188cb0dc5bbf748e3d77bcfc8a6b7e8cf/Debug/AppleALC-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/e0eda72188cb0dc5bbf748e3d77bcfc8a6b7e8cf/Release/AppleALC-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": "2e254ee0bfcaed4a7cb24f9f595acf5541e43377",
+        "dateadded": "2020-01-31T19:04:45.227493+00:00",
+        "description": "Update changelog, rework codec order in info.plist",
+        "hashes": {
+          "debug": {
+            "sha256": "c3e9aa2455843e0e30050ced507f83b2f846e6a5be73548272281a6c18fb8002"
+          },
+          "release": {
+            "sha256": "6a91ad4e2ae20687171969c7ee01a1493dd00b497bc1be9dcdaf10b219275565"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/2e254ee0bfcaed4a7cb24f9f595acf5541e43377/Debug/AppleALC-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/2e254ee0bfcaed4a7cb24f9f595acf5541e43377/Release/AppleALC-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": "d679002d9f603d946828e1f95d8bc967d0554b97",
+        "dateadded": "2020-01-31T19:04:45.220672+00:00",
+        "description": "Fixed MinKernel",
+        "hashes": {
+          "debug": {
+            "sha256": "15a15d6d0fa30af97560c0410040e4f35e10f1b46a83ab470a26f55038ffb11b"
+          },
+          "release": {
+            "sha256": "41fa513a257057a1e583436dbdb30566add8b3cd75a04eb0d1a31b2e6c45ea81"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/d679002d9f603d946828e1f95d8bc967d0554b97/Debug/AppleALC-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/d679002d9f603d946828e1f95d8bc967d0554b97/Release/AppleALC-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      }
+    ]
+  },
+  "AppleSupportPkg": {
+    "type": "Other",
+    "versions": [
+      {
+        "commit": "f49d414c01d9e338d7d9ca5390a3b165a8c9da07",
+        "dateadded": "2020-02-06T18:07:56.353977+00:00",
+        "description": "ApfsDriverLoader: Fix compatibility with OcSupportPkg",
+        "hashes": {
+          "debug": "e5931214871b7d8aff5e8479ac146501c3d09763d894d08ae4bc7ff8644b08cb",
+          "release": "b0cc5c886c635218368a1304ef7d870d4478493a0f51c91baa73d91e7dcf7909"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/f49d414c01d9e338d7d9ca5390a3b165a8c9da07/Debug/AppleSupport-2.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/f49d414c01d9e338d7d9ca5390a3b165a8c9da07/Release/AppleSupport-2.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.5"
+      }
+    ]
+  },
+  "OpenCorePkg": {
+    "type": "Bootloader",
+    "versions": [
+      {
+        "commit": "772d1014278de3ce18afc83cdec33cefe9c92640",
+        "dateadded": "2020-02-06T18:07:56.318970+00:00",
+        "description": "OpenCoreUefi: Removed `AvoidHighAlloc` quirk due to removed I/O over 4GB\n\ncloses acidanthera/bugtracker#449",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/772d1014278de3ce18afc83cdec33cefe9c92640/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/772d1014278de3ce18afc83cdec33cefe9c92640/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "e359bd632bca42a40f435999c00a1a0e2239901d3c674d45a8564fd588f6365e",
+          "release": "920d71e979178e82afbb567d5d0c2ac7b7298b27dbdc92886ae787f0c6dcf36f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/772d1014278de3ce18afc83cdec33cefe9c92640/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/772d1014278de3ce18afc83cdec33cefe9c92640/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "0eeaa1d473034a079c53accf6f09170aee2fc9b4",
+        "dateadded": "2020-02-03T21:03:51.708040+00:00",
+        "description": "Bump version to 0.5.6",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0eeaa1d473034a079c53accf6f09170aee2fc9b4/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0eeaa1d473034a079c53accf6f09170aee2fc9b4/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "f3c8cd639415bc88aee63894d455204651d2597205ea06d04890b08ccfcd77ca",
+          "release": "0c0736000cbd9b47760603e03acb26cb2ca9baf7d3df0f20c92a815eabdc3a6b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0eeaa1d473034a079c53accf6f09170aee2fc9b4/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0eeaa1d473034a079c53accf6f09170aee2fc9b4/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "abb512985d1a1fa3d1f141bca0e2f6690c25dbd7",
+        "dateadded": "2020-02-02T21:17:48.664904+00:00",
+        "description": "OpenCoreKernel: Implement DummyPowerManagement quirk",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/abb512985d1a1fa3d1f141bca0e2f6690c25dbd7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/abb512985d1a1fa3d1f141bca0e2f6690c25dbd7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "cc16c214f461716ac4a1bd70070ae2eac24da3c3f58849491715c1e1dfe2f0ff",
+          "release": "0458d8069469879288e87cc4aa64094b8edbeb2398df1f4cecaacf7f05750d15"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/abb512985d1a1fa3d1f141bca0e2f6690c25dbd7/Debug/OpenCore-0.5.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/abb512985d1a1fa3d1f141bca0e2f6690c25dbd7/Release/OpenCore-0.5.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.5"
+      },
+      {
+        "commit": "74bc374964d84ca63d9e87b81c7221e87c7d75cb",
+        "dateadded": "2020-02-02T21:17:48.647946+00:00",
+        "description": "Docs: Improve kext samples",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74bc374964d84ca63d9e87b81c7221e87c7d75cb/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74bc374964d84ca63d9e87b81c7221e87c7d75cb/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "fc9691fa2bce4d016b9f7b52cdf524f9da59016cbd1f9b25bd254a80bb4acbf1",
+          "release": "f2100ac1586cdeff8842420de831a4b83b526edf3b551af1b7a5c53b1ec053a7"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74bc374964d84ca63d9e87b81c7221e87c7d75cb/Debug/OpenCore-0.5.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74bc374964d84ca63d9e87b81c7221e87c7d75cb/Release/OpenCore-0.5.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.5"
+      },
+      {
+        "commit": "7220d87a7216641d951886c9ef5c86b5d8989034",
+        "dateadded": "2020-02-02T21:17:48.632155+00:00",
+        "description": "OpenCoreMisc: Fix boot path logging",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7220d87a7216641d951886c9ef5c86b5d8989034/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7220d87a7216641d951886c9ef5c86b5d8989034/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "d5bd354c9fd3fd5b07e4c071b065fbe48329d3ce9fce23bb910a113a21103f8d",
+          "release": "9c9bf01ceefca67fb6b13874f63af8a8a42f5f064ad7d7e150e43b1855a9fe93"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7220d87a7216641d951886c9ef5c86b5d8989034/Debug/OpenCore-0.5.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7220d87a7216641d951886c9ef5c86b5d8989034/Release/OpenCore-0.5.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.5"
+      },
+      {
+        "commit": "24bdf3c27e6150b0106660bef2b11003d2cfb95e",
+        "dateadded": "2020-02-01T21:11:21.631741+00:00",
+        "description": "OpenCoreMisc: Implement TakeoffDelay support",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/24bdf3c27e6150b0106660bef2b11003d2cfb95e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/24bdf3c27e6150b0106660bef2b11003d2cfb95e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "615249ceb1b6ce44e2e84606f99f3a7b8eb6a2ee38a70330d00aa852784178aa",
+          "release": "74ced90c9cd7008d904d0db8d888a400fd4a7953e1e426a29e4501620dc51522"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/24bdf3c27e6150b0106660bef2b11003d2cfb95e/Debug/OpenCore-0.5.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/24bdf3c27e6150b0106660bef2b11003d2cfb95e/Release/OpenCore-0.5.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.5"
+      },
+      {
+        "commit": "74e8188a50a9626dcaf0d772ae0c085f245a0438",
+        "dateadded": "2020-02-01T21:11:21.617033+00:00",
+        "description": "Docs: Provide more information on Mac EFI",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74e8188a50a9626dcaf0d772ae0c085f245a0438/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74e8188a50a9626dcaf0d772ae0c085f245a0438/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "ef24b711805b05787ff5dc6152a54f20cb9760abec572ae937807895cb7b3f07",
+          "release": "3cd0864eb5e0236a2c2381c55ca9a9338bdeb258e6d0de9ae7bbf89e25a614f7"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74e8188a50a9626dcaf0d772ae0c085f245a0438/Debug/OpenCore-0.5.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74e8188a50a9626dcaf0d772ae0c085f245a0438/Release/OpenCore-0.5.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.5"
+      },
+      {
+        "commit": "76c3443a7cc68070e456299adfc35407a7878803",
+        "dateadded": "2020-02-01T21:11:21.598762+00:00",
+        "description": "Docs: Improve offline installer documentation",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/76c3443a7cc68070e456299adfc35407a7878803/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/76c3443a7cc68070e456299adfc35407a7878803/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "ee2d37fbeafe578af7a247c9bc67967446a8ba514f27ae4408f1e8361a7d4620",
+          "release": "3832c95920533fc615fad861254640db94c689d977129508a30afe07aa222e02"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/76c3443a7cc68070e456299adfc35407a7878803/Debug/OpenCore-0.5.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/76c3443a7cc68070e456299adfc35407a7878803/Release/OpenCore-0.5.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.5"
+      },
+      {
+        "commit": "12da62a72422a4833af79680196901d92d212f57",
+        "dateadded": "2020-01-31T19:04:45.204848+00:00",
+        "description": "OpenCorePlatform: Fixed `AvdiseWindows` not setting `FirmwareFeatures` in NVRAM",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/12da62a72422a4833af79680196901d92d212f57/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/12da62a72422a4833af79680196901d92d212f57/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "be41b900725365da70c666ed8045115eaf148260319f45c791aae3b335d75607",
+          "release": "879c15b1c012edc7f39050b46b26b864b8582b7a6501fb295ff01731aca72589"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/12da62a72422a4833af79680196901d92d212f57/Debug/OpenCore-0.5.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/12da62a72422a4833af79680196901d92d212f57/Release/OpenCore-0.5.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.5"
+      },
+      {
+        "commit": "204563ebcf1b88a44b3c0ec9908c4be62ad9346a",
+        "dateadded": "2020-01-31T19:04:45.188420+00:00",
+        "description": "Update Changelog.md",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/204563ebcf1b88a44b3c0ec9908c4be62ad9346a/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/204563ebcf1b88a44b3c0ec9908c4be62ad9346a/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "f11db8e144c4f7ba5c7a1873ec83df14fdac2262c08935670bac65ebb06e8364",
+          "release": "6b3099c8c1ef4d83061aa7efa8fa7dd8fd01b2c7382579315d5b97852c02ec55"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/204563ebcf1b88a44b3c0ec9908c4be62ad9346a/Debug/OpenCore-0.5.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/204563ebcf1b88a44b3c0ec9908c4be62ad9346a/Release/OpenCore-0.5.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.5"
+      }
+    ]
+  }
+}
