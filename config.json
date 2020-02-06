@@ -129,6 +129,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "c714c7a89d8f423a33261e74ee5aaa74f9433855",
+        "dateadded": "2020-02-06T21:04:49.477779+00:00",
+        "description": "Docs: Update Configuration",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c714c7a89d8f423a33261e74ee5aaa74f9433855/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c714c7a89d8f423a33261e74ee5aaa74f9433855/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "47029fef080704feb2614adb8204a5087fd1c17dd12747142d67a8444889bdc2",
+          "release": "b62fab4bba3a13d96d7143972281df3d7fe9c419b57642ac2c81990b844e0c41"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c714c7a89d8f423a33261e74ee5aaa74f9433855/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c714c7a89d8f423a33261e74ee5aaa74f9433855/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
         "commit": "772d1014278de3ce18afc83cdec33cefe9c92640",
         "dateadded": "2020-02-06T18:07:56.318970+00:00",
         "description": "OpenCoreUefi: Removed `AvoidHighAlloc` quirk due to removed I/O over 4GB\n\ncloses acidanthera/bugtracker#449",
