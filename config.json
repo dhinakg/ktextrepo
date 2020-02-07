@@ -129,6 +129,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "a63fe0fb8aa48f78fc43a6f26df06236b0203b82",
+        "dateadded": "2020-02-07T21:06:04.734969+00:00",
+        "description": "Docs: Fixed typo",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a63fe0fb8aa48f78fc43a6f26df06236b0203b82/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a63fe0fb8aa48f78fc43a6f26df06236b0203b82/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "175da7ef4047c1393fa9b9e527394cb9f49b9294fb7b427c7b1da13d6b23de88",
+          "release": "1e45a7180f74ed91192ba4a612d8fd98518d5b7f1c0ba05b8dbe6f25147ea1c3"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a63fe0fb8aa48f78fc43a6f26df06236b0203b82/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a63fe0fb8aa48f78fc43a6f26df06236b0203b82/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
         "commit": "c714c7a89d8f423a33261e74ee5aaa74f9433855",
         "dateadded": "2020-02-06T21:04:49.477779+00:00",
         "description": "Docs: Update Configuration",
@@ -369,6 +391,35 @@
         },
         "source": "built",
         "version": "0.5.5"
+      }
+    ]
+  },
+  "WhateverGreen": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": "09fd107d6931feabab1302945ca71245b71ad448",
+        "dateadded": "2020-02-07T21:06:04.753063+00:00",
+        "description": "Docs: Update Shiki FAQ",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/09fd107d6931feabab1302945ca71245b71ad448/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "92cdaa3fd6cabba13bbd32bd1d5ef63e518315f3236b2eb3d338361aa3b0a326",
+          "debug": {
+            "sha256": "98be9fc3657165c8290755b183d604b37d0623905e42b0566677d66bd1e22821"
+          },
+          "release": {
+            "sha256": "a367b503aaa5fbbeb390cd1ea19b1bcfcacc3332254294eae63d9b298cea8404"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/09fd107d6931feabab1302945ca71245b71ad448/Debug/WhateverGreen-1.3.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/09fd107d6931feabab1302945ca71245b71ad448/Release/WhateverGreen-1.3.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.6"
       }
     ]
   }
