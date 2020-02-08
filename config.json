@@ -129,6 +129,50 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "77b015cf7cb537e44aa9d38854c92c5e6bca588b",
+        "dateadded": "2020-02-08T21:10:37.014749+00:00",
+        "description": "OpenCoreUefi: Sync with new text rendering code",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/77b015cf7cb537e44aa9d38854c92c5e6bca588b/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/77b015cf7cb537e44aa9d38854c92c5e6bca588b/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "388eac8f2465b0987362ea9883e3c1ebed26713565a93c41e4f391677fbf186c",
+          "release": "71081da6381feebd4f479efebf7acafe252af98286463a1aa31e3683af1de9c8"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/77b015cf7cb537e44aa9d38854c92c5e6bca588b/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/77b015cf7cb537e44aa9d38854c92c5e6bca588b/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "718653017624ed580c391c943fa9e80e86d8fa03",
+        "dateadded": "2020-02-08T21:10:36.995513+00:00",
+        "description": "OpenCoreMisc: Add support for picker colouring",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/718653017624ed580c391c943fa9e80e86d8fa03/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/718653017624ed580c391c943fa9e80e86d8fa03/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "f8f60b10188e1cc67f1ead418c4ba6a295c6aa6d6a0e636bc125916ffdd71870",
+          "release": "f076029671474f39aa156eee69d3747330ce021c759d7f45b028e7a74bdb650d"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/718653017624ed580c391c943fa9e80e86d8fa03/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/718653017624ed580c391c943fa9e80e86d8fa03/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
         "commit": "a63fe0fb8aa48f78fc43a6f26df06236b0203b82",
         "dateadded": "2020-02-07T21:06:04.734969+00:00",
         "description": "Docs: Fixed typo",
@@ -397,6 +441,30 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "661d87d866722199fad93d064d803920c6230e5c",
+        "dateadded": "2020-02-08T21:10:37.032918+00:00",
+        "description": "Docs: Update Shiki FAQ zh-CN\n\nSync from https://github.com/acidanthera/WhateverGreen/commit/09fd107d6931feabab1302945ca71245b71ad448",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/661d87d866722199fad93d064d803920c6230e5c/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "92cdaa3fd6cabba13bbd32bd1d5ef63e518315f3236b2eb3d338361aa3b0a326",
+          "debug": {
+            "sha256": "a56db3cf5cde26370ab39c9e276a856455a4392cd94fa9f07a572b956a036e44"
+          },
+          "release": {
+            "sha256": "09f4ea1f23ca3e6e9266818eaa32a56d9e3d09d1bd812820c7b5a07a0525fb05"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/661d87d866722199fad93d064d803920c6230e5c/Debug/WhateverGreen-1.3.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/661d87d866722199fad93d064d803920c6230e5c/Release/WhateverGreen-1.3.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.6"
+      },
       {
         "commit": "09fd107d6931feabab1302945ca71245b71ad448",
         "dateadded": "2020-02-07T21:06:04.753063+00:00",
