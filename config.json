@@ -129,6 +129,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "82cc8c65f616e486aceddf6f0cbf74f3fd27e27e",
+        "dateadded": "2020-02-09T21:29:42.281726+00:00",
+        "description": "OpenCoreMisc: Implement Apple BootPicker support",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/82cc8c65f616e486aceddf6f0cbf74f3fd27e27e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/82cc8c65f616e486aceddf6f0cbf74f3fd27e27e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "a377ae9831590863642d69d41c20f7e1667116834722792c16e5944044ecbde6",
+          "release": "c08d31788edfc11c80273a3393cef51f5438e94d715a9442b59ff2706e1c6f57"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/82cc8c65f616e486aceddf6f0cbf74f3fd27e27e/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/82cc8c65f616e486aceddf6f0cbf74f3fd27e27e/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "0796e4e33be55a5b6eeeb1327d0639cf6552f140",
+        "dateadded": "2020-02-09T21:29:42.226680+00:00",
+        "description": "Docs: Fix some typos and clarify BootKicker",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0796e4e33be55a5b6eeeb1327d0639cf6552f140/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0796e4e33be55a5b6eeeb1327d0639cf6552f140/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "337b776da82dd915ce8c5277d55ad94b73e31723f3b66cd6a8fc82680c62820b",
+          "release": "396f5e17215930f0634dbadcecbf048acf99815150332bc25b209194eb3929a1"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0796e4e33be55a5b6eeeb1327d0639cf6552f140/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0796e4e33be55a5b6eeeb1327d0639cf6552f140/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "d278bed9729f6a1814cad654f892a3864c204948",
+        "dateadded": "2020-02-09T21:29:42.160737+00:00",
+        "description": "GopStop: Initial version",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d278bed9729f6a1814cad654f892a3864c204948/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d278bed9729f6a1814cad654f892a3864c204948/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "e3d434ab6055e3fa34fa9b0400f9a787e63596269bb81d5d84349066106e25f0",
+          "release": "91f89860c43fae7cb459fecf9d32d2c775cb19fb023cf96bbac13f213778be73"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d278bed9729f6a1814cad654f892a3864c204948/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d278bed9729f6a1814cad654f892a3864c204948/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "2f8b301f9a17684ec65c7a3a54a93f3e311abc01",
+        "dateadded": "2020-02-09T21:29:42.133334+00:00",
+        "description": "OpenCoreUefi: Introduce ProvideEarlyConsole",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2f8b301f9a17684ec65c7a3a54a93f3e311abc01/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2f8b301f9a17684ec65c7a3a54a93f3e311abc01/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "d607a3a969033d2be76ea53708256b0aaddab1dbee8789169335eeaa90d7d2d1",
+          "release": "8b01b14756ad99588320af5692676b7a1d8491f74b6041316bd1ffe8637180b8"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2f8b301f9a17684ec65c7a3a54a93f3e311abc01/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2f8b301f9a17684ec65c7a3a54a93f3e311abc01/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
         "commit": "77b015cf7cb537e44aa9d38854c92c5e6bca588b",
         "dateadded": "2020-02-08T21:10:37.014749+00:00",
         "description": "OpenCoreUefi: Sync with new text rendering code",
