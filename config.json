@@ -530,6 +530,54 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "44f656a953b5d296af7622cc858312624ef98126",
+        "dateadded": "2020-02-10T21:02:28.346849+00:00",
+        "description": "Extended maximum link rate fix for new laptops (#41)",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/44f656a953b5d296af7622cc858312624ef98126/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "92cdaa3fd6cabba13bbd32bd1d5ef63e518315f3236b2eb3d338361aa3b0a326",
+          "debug": {
+            "sha256": "67477004171ad43696cf08e04a716ef954b151da2fbb5888ec4cd992f759ed97"
+          },
+          "release": {
+            "sha256": "a6fa87537d2675f223e27542c00d94e8a97b13d25d11c25cfd1687160f51dd0a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/44f656a953b5d296af7622cc858312624ef98126/Debug/WhateverGreen-1.3.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/44f656a953b5d296af7622cc858312624ef98126/Release/WhateverGreen-1.3.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.6"
+      },
+      {
+        "commit": "3903a72380ae534bd216c6a960188b16d3572567",
+        "dateadded": "2020-02-10T21:02:28.340537+00:00",
+        "description": "Bump version to 1.3.7",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/3903a72380ae534bd216c6a960188b16d3572567/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "92cdaa3fd6cabba13bbd32bd1d5ef63e518315f3236b2eb3d338361aa3b0a326",
+          "debug": {
+            "sha256": "513172f4bc56e11aff35c80ff0c5063750612b67c404113fa1ed148a3fb911e6"
+          },
+          "release": {
+            "sha256": "445027823ae42ca69efe74b9f6f499cbfa53bfa7706325dfe8b9e3782367cc52"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/3903a72380ae534bd216c6a960188b16d3572567/Debug/WhateverGreen-1.3.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/3903a72380ae534bd216c6a960188b16d3572567/Release/WhateverGreen-1.3.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.7"
+      },
+      {
         "commit": "661d87d866722199fad93d064d803920c6230e5c",
         "dateadded": "2020-02-08T21:10:37.032918+00:00",
         "description": "Docs: Update Shiki FAQ zh-CN\n\nSync from https://github.com/acidanthera/WhateverGreen/commit/09fd107d6931feabab1302945ca71245b71ad448",
