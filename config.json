@@ -108,6 +108,22 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "2e076d20e1d47dee3efd30e6766f5449598b3a02",
+        "dateadded": "2020-02-13T21:17:25.873447+00:00",
+        "description": "Build: Fix compilation issues",
+        "hashes": {
+          "debug": "47ffc6cae87507f25ce76d72f026ff008cf0c0119942a34a5ab4db840bd1478f",
+          "release": "90b15af2e3934b28f5cfdb337bbb8469afe4ba2ab2e2aa85f9d4f5106995a8f1"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/2e076d20e1d47dee3efd30e6766f5449598b3a02/Debug/AppleSupport-2.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/2e076d20e1d47dee3efd30e6766f5449598b3a02/Release/AppleSupport-2.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.5"
+      },
+      {
         "commit": "f49d414c01d9e338d7d9ca5390a3b165a8c9da07",
         "dateadded": "2020-02-06T18:07:56.353977+00:00",
         "description": "ApfsDriverLoader: Fix compatibility with OcSupportPkg",
@@ -128,6 +144,28 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "1bbec25d40c982bdfee411418d136fbc14fb7642",
+        "dateadded": "2020-02-13T21:17:25.836793+00:00",
+        "description": "OpenCoreUefi: Drop ProvideEarlyConsole due to different workarounds",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1bbec25d40c982bdfee411418d136fbc14fb7642/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1bbec25d40c982bdfee411418d136fbc14fb7642/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "80baa632a6c482b7e7b493e4b4c5b019381cf944d829449bc4c803a9f77f23d4",
+          "release": "9e75bd59d13829fa064a6871e77b21c32f04d3d62bfc8fc42202b5dcff1ec133"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1bbec25d40c982bdfee411418d136fbc14fb7642/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1bbec25d40c982bdfee411418d136fbc14fb7642/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
       {
         "commit": "82cc8c65f616e486aceddf6f0cbf74f3fd27e27e",
         "dateadded": "2020-02-09T21:29:42.281726+00:00",
