@@ -141,6 +141,31 @@
       }
     ]
   },
+  "Lilu": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": "ce3c22d696418c7e95a19911de7dba6a229c9dfd",
+        "dateadded": "2020-02-14T21:04:06.803112+00:00",
+        "description": "Fixed IMEI device detection on some platforms",
+        "hashes": {
+          "debug": {
+            "sha256": "00f7689f3b9879a83919cb0029c33c4549a2bc63f048d176e40a7c1db492d8fd"
+          },
+          "release": {
+            "sha256": "cc4add75f65d4c29e2790bf70a1a400ab1a6dc879704cb44c170134c40333859"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/ce3c22d696418c7e95a19911de7dba6a229c9dfd/Debug/Lilu-1.4.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/ce3c22d696418c7e95a19911de7dba6a229c9dfd/Release/Lilu-1.4.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.2"
+      }
+    ]
+  },
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
