@@ -108,6 +108,22 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "20d953dbc7bddc9a5e260f1bcb025c72963cb262",
+        "dateadded": "2020-02-16T21:43:09.549179+00:00",
+        "description": "Build: Added SSE2 support in memory intrinsics for better performance",
+        "hashes": {
+          "debug": "69b82483b7a858630c9e5110e0657f548748ba30144439e032f17d4c92c8661d",
+          "release": "7af5cbc0073a620bec61a736cd2642d30dbcab897aa96544adb883bc6fb58605"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/20d953dbc7bddc9a5e260f1bcb025c72963cb262/Debug/AppleSupport-2.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/20d953dbc7bddc9a5e260f1bcb025c72963cb262/Release/AppleSupport-2.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.6"
+      },
+      {
         "commit": "2e076d20e1d47dee3efd30e6766f5449598b3a02",
         "dateadded": "2020-02-13T21:17:25.873447+00:00",
         "description": "Build: Fix compilation issues",
@@ -169,6 +185,138 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "fc2787927e8c1d2c32a9753eb6a1aa5adce4214e",
+        "dateadded": "2020-02-16T21:43:09.529792+00:00",
+        "description": "OpenCoreMisc: Sync with OcSupportPkg",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fc2787927e8c1d2c32a9753eb6a1aa5adce4214e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fc2787927e8c1d2c32a9753eb6a1aa5adce4214e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "2cf40cd1e0be1dadc3c4df75a7a28f13089607cb34af3d62f2081165ba51a6de",
+          "release": "0427dcdc140f041bc2bd771f8257c8695628f0883a3466c2c352962ad65d6d47"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fc2787927e8c1d2c32a9753eb6a1aa5adce4214e/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fc2787927e8c1d2c32a9753eb6a1aa5adce4214e/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "a75d232b742246f08975bd76ee519a3ec840b917",
+        "dateadded": "2020-02-16T21:43:09.502872+00:00",
+        "description": "Build: Added bundled HiiDatabase driver for very old firmwares",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a75d232b742246f08975bd76ee519a3ec840b917/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a75d232b742246f08975bd76ee519a3ec840b917/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "3602451fb6505a49e712ffa8d4d2798cff0a865c646ef8b9e65799201670ba33",
+          "release": "94b199ed1579fecf33882cdbdfd26361575f0f4710a428ae63cf1aa34ce2a120"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a75d232b742246f08975bd76ee519a3ec840b917/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a75d232b742246f08975bd76ee519a3ec840b917/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "8092aa321f6f76ebeba224cdbb9c2eb29e540abc",
+        "dateadded": "2020-02-16T21:43:09.473867+00:00",
+        "description": "Build: Added SSE2 support in memory intrinsics for better performance",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8092aa321f6f76ebeba224cdbb9c2eb29e540abc/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8092aa321f6f76ebeba224cdbb9c2eb29e540abc/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "dcf6f4fbdfdd16f06e5ea349e594a192df7b45d2133cec482d576ec8949d33b4",
+          "release": "888536a20e8cf81ca5e9ab8bf005489da7cd55f70820810e90b26433f9b3e4b5"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8092aa321f6f76ebeba224cdbb9c2eb29e540abc/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8092aa321f6f76ebeba224cdbb9c2eb29e540abc/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "e544c154fac6b411315e85c4c9a74477d1d65a65",
+        "dateadded": "2020-02-16T21:43:09.445712+00:00",
+        "description": "Docs: Extra lags for non-black backgrounds are fixed",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e544c154fac6b411315e85c4c9a74477d1d65a65/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e544c154fac6b411315e85c4c9a74477d1d65a65/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "307467d10d2e5ae07405087518e4a276d507750455fa912a085b38d58ab5e00b",
+          "release": "e0500d3b95df9c5a7ba239ce57b24df42c18883d3b8cd4a861d5a4b4cd844de5"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e544c154fac6b411315e85c4c9a74477d1d65a65/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e544c154fac6b411315e85c4c9a74477d1d65a65/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "ba050a68e2b36315c1044d35a93be47f4c3790cb",
+        "dateadded": "2020-02-16T21:43:09.409194+00:00",
+        "description": "Docs: Sync with OcSupportPkg",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ba050a68e2b36315c1044d35a93be47f4c3790cb/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ba050a68e2b36315c1044d35a93be47f4c3790cb/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "7e15fe3e634af61229aae7bada1a0955545184a46ef91e1d3a6d3667c2595c18",
+          "release": "a34ca6c80380e6ee902f4e1b3fdbdfd349ad44d088699e23e3f6065b5e1d0110"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ba050a68e2b36315c1044d35a93be47f4c3790cb/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ba050a68e2b36315c1044d35a93be47f4c3790cb/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "268761dcae074a0579057bd94a11adad3115698a",
+        "dateadded": "2020-02-16T21:43:09.377142+00:00",
+        "description": "Docs: Sync with latest changes",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/268761dcae074a0579057bd94a11adad3115698a/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/268761dcae074a0579057bd94a11adad3115698a/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "37b106f1ab39519d75501c032f5f21fde650de3f081ec71bc9fa4a779f6528d0",
+          "release": "82caea6c5cc5fd204177816a4edabd2fcd366f2b781f561e764caaffa8d38532"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/268761dcae074a0579057bd94a11adad3115698a/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/268761dcae074a0579057bd94a11adad3115698a/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
       {
         "commit": "1bbec25d40c982bdfee411418d136fbc14fb7642",
         "dateadded": "2020-02-13T21:17:25.836793+00:00",
