@@ -108,6 +108,22 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "4897b1bd08602f4d1da31f6a030d2ec4f46403ea",
+        "dateadded": "2020-02-19T21:14:33.066546+00:00",
+        "description": "Update Changelog.md",
+        "hashes": {
+          "debug": "c721ab62c35214808618c31e00626626e2b1402ce22dce4cac95ecd907a15d3a",
+          "release": "3b2d73d306a622b98712863a8305bec2ca982e06d67f24de415af7717bc91594"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/4897b1bd08602f4d1da31f6a030d2ec4f46403ea/Debug/AppleSupport-2.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/4897b1bd08602f4d1da31f6a030d2ec4f46403ea/Release/AppleSupport-2.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.6"
+      },
+      {
         "commit": "20d953dbc7bddc9a5e260f1bcb025c72963cb262",
         "dateadded": "2020-02-16T21:43:09.549179+00:00",
         "description": "Build: Added SSE2 support in memory intrinsics for better performance",
@@ -185,6 +201,28 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "70e920d95f0b13dfe899b4b7c8ba46506a0aaef8",
+        "dateadded": "2020-02-19T21:14:33.041068+00:00",
+        "description": "Docs: Fixed Configuration",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/70e920d95f0b13dfe899b4b7c8ba46506a0aaef8/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/70e920d95f0b13dfe899b4b7c8ba46506a0aaef8/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f0a0120833470343c0c5fc2996a60e54c49a1f263b7bb3bbbe76f9120e5d7df3",
+          "SSDT-PMC.aml": "f0d02ac3448ba7c38995b4c9c0e293a6d5d4007c07f0ba5122d8206abcfc81f9",
+          "debug": "7860311b5ff8ff526aab46791a7488103a9ebb4c845234dfc0ae2745bb3640f8",
+          "release": "567cff2d87bd4dafc48f256a93d53e2f45f89790c47cc700ca13faeed412e6d1"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/70e920d95f0b13dfe899b4b7c8ba46506a0aaef8/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/70e920d95f0b13dfe899b4b7c8ba46506a0aaef8/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
       {
         "commit": "3307b02a8ba312f30a00cd08abd012ee00569115",
         "dateadded": "2020-02-17T21:15:42.880512+00:00",
