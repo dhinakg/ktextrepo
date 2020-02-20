@@ -823,6 +823,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "e53252dec5c443c53231ddd1b50b2ee1491caf41",
+        "dateadded": "2020-02-20T00:57:06.238406+00:00",
+        "description": "Improved firmware loading handling on 10.15.4 (may fix booting issues on KBL+)",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e53252dec5c443c53231ddd1b50b2ee1491caf41/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "92cdaa3fd6cabba13bbd32bd1d5ef63e518315f3236b2eb3d338361aa3b0a326",
+          "debug": {
+            "sha256": "d9f21ca2855eb5f07108899ff38271ed62986babb727fd5cbdcae2d7d712e66c"
+          },
+          "release": {
+            "sha256": "9b3ab75bad299170ed5ebf8fe77b7e4ce410298d1dd136dc56c2333049168ea4"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e53252dec5c443c53231ddd1b50b2ee1491caf41/Debug/WhateverGreen-1.3.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e53252dec5c443c53231ddd1b50b2ee1491caf41/Release/WhateverGreen-1.3.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.7"
+      },
+      {
         "commit": "34ed040bef581c07147a3b892dc127bfbe5f727a",
         "dateadded": "2020-02-15T21:04:18.765494+00:00",
         "description": "Update FAQ.IntelHD.en.md",
