@@ -3,6 +3,46 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "ac02eb9d2e72d6d267f2dc70997904cf513b7b5b",
+        "dateadded": "2020-02-22T21:11:50.096061+00:00",
+        "description": "Added support for Intel C620 series PCH Audio (#503)",
+        "hashes": {
+          "debug": {
+            "sha256": "f4faa76460e8b9f0ce1a5aa77d93c9d668ac4aae632f480fd1ab6e3a04edb33f"
+          },
+          "release": {
+            "sha256": "12896d0e63b5acea69692b597c66752fe7d20d22aecf21e513462ec2e7493ba1"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/ac02eb9d2e72d6d267f2dc70997904cf513b7b5b/Debug/AppleALC-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/ac02eb9d2e72d6d267f2dc70997904cf513b7b5b/Release/AppleALC-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": "a5c8693f8a352d9b40f830adc42d3b7148331f75",
+        "dateadded": "2020-02-22T21:11:50.085895+00:00",
+        "description": "Bump version",
+        "hashes": {
+          "debug": {
+            "sha256": "9ff8d1eea6eab5a5f411e61897a5ad0508ecc101a4eb20b729e62039e069c342"
+          },
+          "release": {
+            "sha256": "baa38335c317f53c2b07247ea5d7d5fdc5b01f6b4de85a5237f3ff15ea32bafd"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/a5c8693f8a352d9b40f830adc42d3b7148331f75/Debug/AppleALC-1.4.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/a5c8693f8a352d9b40f830adc42d3b7148331f75/Release/AppleALC-1.4.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.7"
+      },
+      {
         "commit": "76c5d7e00f34616c059f8d6b2cb3878349d9b31f",
         "dateadded": "2020-02-02T21:17:48.686339+00:00",
         "description": "Added TCSEL change to TC0 for Intel codecs",
