@@ -148,6 +148,38 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "5271d56b8f1fa825130c6b54ef767477c095fd68",
+        "dateadded": "2020-02-23T21:16:28.590509+00:00",
+        "description": "AudioDxe: Sync with OcSupportPkg",
+        "hashes": {
+          "debug": "779ead113c37d860a16157ee14e26e40b0ad6ce58a671f8cfa8ef3197a8d708c",
+          "release": "faa9e2fc816fec9ffa4337660962eb1a6a7d44a85f18bcd07ff78f4d3f652be0"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/5271d56b8f1fa825130c6b54ef767477c095fd68/Debug/AppleSupport-2.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/5271d56b8f1fa825130c6b54ef767477c095fd68/Release/AppleSupport-2.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.6"
+      },
+      {
+        "commit": "b91e6cb1d25b2924ce9429d128fd43e54fd7c18a",
+        "dateadded": "2020-02-23T21:16:28.582349+00:00",
+        "description": "AudioDxe: Backport some changes from Clover",
+        "hashes": {
+          "debug": "940c63baa44d566a1286659b729843f63bfce96b7a05ff68cb35fda84b4d44c8",
+          "release": "6456a73dbd531aef80c5afeea9501f5426884d41508a2305fd0d3ce3968539ad"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/b91e6cb1d25b2924ce9429d128fd43e54fd7c18a/Debug/AppleSupport-2.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/b91e6cb1d25b2924ce9429d128fd43e54fd7c18a/Release/AppleSupport-2.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.6"
+      },
+      {
         "commit": "4897b1bd08602f4d1da31f6a030d2ec4f46403ea",
         "dateadded": "2020-02-19T21:14:33.066546+00:00",
         "description": "Update Changelog.md",
@@ -216,6 +248,46 @@
   "Lilu": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "a7fb93e98cb20def4f551115c18e0eb7e9264070",
+        "dateadded": "2020-02-23T21:16:28.606822+00:00",
+        "description": "Add Comet Lake Cpu Model (#55)",
+        "hashes": {
+          "debug": {
+            "sha256": "4376f37cb688fe3bdada7916f7c0a371d5abe16227e80b95fbc72a4ce41c7d05"
+          },
+          "release": {
+            "sha256": "81d34c0438316da3fb976c3db11b635e21385cfef7adcffebdb78daf4589e81e"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/a7fb93e98cb20def4f551115c18e0eb7e9264070/Debug/Lilu-1.4.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/a7fb93e98cb20def4f551115c18e0eb7e9264070/Release/Lilu-1.4.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.2"
+      },
+      {
+        "commit": "5e6168521963f0937483e6cc9a40d045cb042372",
+        "dateadded": "2020-02-23T21:16:28.599006+00:00",
+        "description": "Sync changelog with latest changes",
+        "hashes": {
+          "debug": {
+            "sha256": "3f7b20ff8e2a2aa4e896b272a7f0f7deeb3f693d6be7d8d0be9a58ea72bfb13f"
+          },
+          "release": {
+            "sha256": "46bebb2cfd85d615fbf6063987506e160055528e9078a5fcab06add520561b26"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/5e6168521963f0937483e6cc9a40d045cb042372/Debug/Lilu-1.4.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/5e6168521963f0937483e6cc9a40d045cb042372/Release/Lilu-1.4.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.2"
+      },
       {
         "commit": "ce3c22d696418c7e95a19911de7dba6a229c9dfd",
         "dateadded": "2020-02-14T21:04:06.803112+00:00",
