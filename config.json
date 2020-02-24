@@ -148,6 +148,22 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "ed5bf2723df9cdf1fdb47158cb7f5c7e2d06f2f3",
+        "dateadded": "2020-02-24T21:11:54.295606+00:00",
+        "description": "AudioDxe: Improve OcLog compatibility",
+        "hashes": {
+          "debug": "b940d715040fdb5c88e9752b90b5127403e4b8304596bf919eff7fdc3ff9a415",
+          "release": "7da86590b97020245dcc2a3c67bd3ca18229fabfa773aceb78bf9f668c2a20aa"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/ed5bf2723df9cdf1fdb47158cb7f5c7e2d06f2f3/Debug/AppleSupport-2.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/ed5bf2723df9cdf1fdb47158cb7f5c7e2d06f2f3/Release/AppleSupport-2.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.6"
+      },
+      {
         "commit": "5271d56b8f1fa825130c6b54ef767477c095fd68",
         "dateadded": "2020-02-23T21:16:28.590509+00:00",
         "description": "AudioDxe: Sync with OcSupportPkg",
