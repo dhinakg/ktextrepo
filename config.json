@@ -148,6 +148,22 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "4af75ecf8a066199830466421d97d4d2c871bb58",
+        "dateadded": "2020-02-25T21:11:58.271710+00:00",
+        "description": "AudioDxe: Fix buffer overrun causing artifacts",
+        "hashes": {
+          "debug": "d01849a0920d677fa968ea7265bafb8d8abbb3c986ac7d1790be3a0fbd5550d0",
+          "release": "070650aa9a038aad69d12fc744ef9e7ece15c637349ca29644f0d70f3f765a8b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/4af75ecf8a066199830466421d97d4d2c871bb58/Debug/AppleSupport-2.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/4af75ecf8a066199830466421d97d4d2c871bb58/Release/AppleSupport-2.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.6"
+      },
+      {
         "commit": "ed5bf2723df9cdf1fdb47158cb7f5c7e2d06f2f3",
         "dateadded": "2020-02-24T21:11:54.295606+00:00",
         "description": "AudioDxe: Improve OcLog compatibility",
