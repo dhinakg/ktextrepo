@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "feaed0ff382fe7927e44d88881451751325374d4",
+        "dateadded": "2020-02-28T02:30:12.211079+00:00",
+        "description": "Correct MaximumBootBeepVolume/Alt values",
+        "hashes": {
+          "debug": {
+            "sha256": "7ad069ce0b1172e5e4792c257b9dc579d1c271a63bb9bb6fd9abb80c15d70c71"
+          },
+          "release": {
+            "sha256": "2cc0ac2e54cab88aafb4f901134689ffb80f14394ab5312ceee9ab791630626d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/feaed0ff382fe7927e44d88881451751325374d4/Debug/AppleALC-1.4.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/feaed0ff382fe7927e44d88881451751325374d4/Release/AppleALC-1.4.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.7"
+      },
+      {
         "commit": "ac02eb9d2e72d6d267f2dc70997904cf513b7b5b",
         "dateadded": "2020-02-22T21:11:50.096061+00:00",
         "description": "Added support for Intel C620 series PCH Audio (#503)",
@@ -377,6 +397,94 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "e73a17dd849026d2b642f392ef6320a6e0c8c2c1",
+        "dateadded": "2020-02-28T02:30:12.170924+00:00",
+        "description": "OpenCoreMisc: Sync with the latest OcBootManagementLib changes",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e73a17dd849026d2b642f392ef6320a6e0c8c2c1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e73a17dd849026d2b642f392ef6320a6e0c8c2c1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "571b4391a3a2930d907cb67c3113294b9e7f9073e1cade14c473fa5064b66a44",
+          "release": "fd8df8f95e8f54e87ed760378db9375fcb2913ff652310067a19be20bce3e492"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e73a17dd849026d2b642f392ef6320a6e0c8c2c1/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e73a17dd849026d2b642f392ef6320a6e0c8c2c1/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "0f5c9a157facd9fe445ceb4a4f17486e4c34255b",
+        "dateadded": "2020-02-28T02:30:12.147617+00:00",
+        "description": "OpenCoreAudio: Fix audio termination",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0f5c9a157facd9fe445ceb4a4f17486e4c34255b/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0f5c9a157facd9fe445ceb4a4f17486e4c34255b/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "3cc4e54f2a67594dff23f8f87415284aefcb08b679a7be6e36bed7bbff8ba692",
+          "release": "f3aa0bdafa1cd9d322121d3f71f05e8c1a7d1394c1be0b315c19f5e74d47dcf1"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0f5c9a157facd9fe445ceb4a4f17486e4c34255b/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0f5c9a157facd9fe445ceb4a4f17486e4c34255b/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "6ff38446b10014a8dbca06f73283df85c8f9cfc5",
+        "dateadded": "2020-02-28T02:30:12.110245+00:00",
+        "description": "OpenCoreUefi: Fix Exit boot services event handling",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6ff38446b10014a8dbca06f73283df85c8f9cfc5/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6ff38446b10014a8dbca06f73283df85c8f9cfc5/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "7370288ed52587f86ecff87a8efd75ac11da66947a3fb1f24324c5efbc7f5382",
+          "release": "a0477151c240b1272692fd352d12991829fece5041e05606e97ab4578fc688f7"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6ff38446b10014a8dbca06f73283df85c8f9cfc5/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6ff38446b10014a8dbca06f73283df85c8f9cfc5/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "522f5ad2fb554ad34e76490bff8ca9530ab25008",
+        "dateadded": "2020-02-28T02:30:12.073115+00:00",
+        "description": "OpenCoreAudio: Fix another null pointer dereference",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/522f5ad2fb554ad34e76490bff8ca9530ab25008/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/522f5ad2fb554ad34e76490bff8ca9530ab25008/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "2bfcb46cf22d638d5b2f2cf2a2eb2f5b2bedfbccea3640f64208caaaffa50fee",
+          "release": "fa0ca70a0298de07410c5cdfe1cff0452ca7a53f444eed06f562ba085543e565"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/522f5ad2fb554ad34e76490bff8ca9530ab25008/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/522f5ad2fb554ad34e76490bff8ca9530ab25008/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
       {
         "commit": "70e920d95f0b13dfe899b4b7c8ba46506a0aaef8",
         "dateadded": "2020-02-19T21:14:33.041068+00:00",
