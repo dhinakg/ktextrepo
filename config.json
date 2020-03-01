@@ -168,6 +168,22 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "016b99c2bc057c7f902b2b8b18bfb2573f05e70f",
+        "dateadded": "2020-03-01T21:41:34.362649+00:00",
+        "description": "AudioDxe: Add basic VMware Fusion support",
+        "hashes": {
+          "debug": "e42aafbbdb6a6bff8a541292ac0a3ad7ff099b0747c67b92ebc13130e0cd6242",
+          "release": "4c851099dbcba743c8ecf6e9d2c3fdda56193333ac1e325cd63c2048bbd5eb75"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/016b99c2bc057c7f902b2b8b18bfb2573f05e70f/Debug/AppleSupport-2.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/016b99c2bc057c7f902b2b8b18bfb2573f05e70f/Release/AppleSupport-2.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.6"
+      },
+      {
         "commit": "8fb23db7c5d5c7d60434b4fa8f358b5d20709eab",
         "dateadded": "2020-02-29T22:36:29.398768+00:00",
         "description": "Build: Switch to OpenCorePkg instead of OcSupportPkg",
@@ -349,6 +365,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "f93b434b004d05134b36faa6189055a4d87a12c3",
+        "dateadded": "2020-03-01T21:41:34.373602+00:00",
+        "description": "Added getFatOffset MachO API",
+        "hashes": {
+          "debug": {
+            "sha256": "58128c5a227501ab6418fd99a847d657b598ec3cae4e40a07e78e45215b22275"
+          },
+          "release": {
+            "sha256": "448bfc7f84a4142f97cc2ac718130eafdfdbba74d1abca27eab448700b9361cc"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/f93b434b004d05134b36faa6189055a4d87a12c3/Debug/Lilu-1.4.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/f93b434b004d05134b36faa6189055a4d87a12c3/Release/Lilu-1.4.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.2"
+      },
+      {
         "commit": "e03b7ccc0806948d4ae748c65f20926c1f2f9cd2",
         "dateadded": "2020-02-29T22:36:29.408429+00:00",
         "description": "Update KnownPlugins.md",
@@ -433,6 +469,94 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "5e36af1bca16adfcd770d3ac468749e42972d15a",
+        "dateadded": "2020-03-01T21:41:34.338435+00:00",
+        "description": "OcConfigurationLib: Add python 2 compatibility in CheckSchema.py",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5e36af1bca16adfcd770d3ac468749e42972d15a/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5e36af1bca16adfcd770d3ac468749e42972d15a/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "cf37d5f1dbbacb7facda3ff99e50c1ab8ef3aa38f1c38281c6937f50be80d62f",
+          "release": "31d0b9b01c4ca0f55b2bf1789e72d9f7ac1544e70dedcece8661f7dc8c35a2c3"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5e36af1bca16adfcd770d3ac468749e42972d15a/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5e36af1bca16adfcd770d3ac468749e42972d15a/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "91a064350b47610a2211cfc0deb8a51ed6c8a35c",
+        "dateadded": "2020-03-01T21:41:34.302039+00:00",
+        "description": "OcHdaDevicesLib: Add VMware definitions",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/91a064350b47610a2211cfc0deb8a51ed6c8a35c/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/91a064350b47610a2211cfc0deb8a51ed6c8a35c/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "5b172a522120bc2ea65ff8f4747b2038f33437b4e429c5eaf89bd2fb184cbd3f",
+          "release": "a6c62d0f8f363b1e2429d9dd6e2b25cbbdb67c4153369094f43211528bafcc0d"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/91a064350b47610a2211cfc0deb8a51ed6c8a35c/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/91a064350b47610a2211cfc0deb8a51ed6c8a35c/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "6bd83477b79117ad458634ca61ce62cf5ee0346d",
+        "dateadded": "2020-03-01T21:41:34.270682+00:00",
+        "description": "VMwareHda: Add VMware HDA protocol GUID",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6bd83477b79117ad458634ca61ce62cf5ee0346d/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6bd83477b79117ad458634ca61ce62cf5ee0346d/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "eb1ba02c914325256ad5827e048116554887963c728ac7da5d6e7e99dc757ca5",
+          "release": "a421378a0924ccc5fe43a9c56587912c45b329dc24dd0e1269479bf26d9dda91"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6bd83477b79117ad458634ca61ce62cf5ee0346d/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6bd83477b79117ad458634ca61ce62cf5ee0346d/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
+      {
+        "commit": "fb3b8453bd5e20f1fdde7f6afcd420f3f7926a9b",
+        "dateadded": "2020-03-01T21:41:34.234978+00:00",
+        "description": "Docs: Add more information to docs",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fb3b8453bd5e20f1fdde7f6afcd420f3f7926a9b/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fb3b8453bd5e20f1fdde7f6afcd420f3f7926a9b/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "b5c95e6a4f97ae9c08efac5fbd6dbaaa0072adee6dfc919b1bb6eeea69ee8a0f",
+          "release": "614f1f46206d49ab60ee1bd82f6841fe966f7c9c9a9e2bef68f1130f5ffac3a8"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fb3b8453bd5e20f1fdde7f6afcd420f3f7926a9b/Debug/OpenCore-0.5.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fb3b8453bd5e20f1fdde7f6afcd420f3f7926a9b/Release/OpenCore-0.5.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.6"
+      },
       {
         "commit": "97585cb6c2578e567b01fc8255910ba08fcc240b",
         "dateadded": "2020-02-29T22:36:29.375414+00:00",
