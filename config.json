@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "aa56e80efea7d0fd4ac016fd09e89acf11e1cae8",
+        "dateadded": "2020-03-03T18:58:01.582119+00:00",
+        "description": "Support optional configurable delay before start of AppleHDAController (#515)",
+        "hashes": {
+          "debug": {
+            "sha256": "5b676267c217c97cc1a1c79e6960d1345a886a24cce3c9d01a74e850897c2fe6"
+          },
+          "release": {
+            "sha256": "05b68b57ce86a8d91fc99b2bc3804f62db213e29ceeac6bb515b2d80d048ce29"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/aa56e80efea7d0fd4ac016fd09e89acf11e1cae8/Debug/AppleALC-1.4.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/aa56e80efea7d0fd4ac016fd09e89acf11e1cae8/Release/AppleALC-1.4.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
         "commit": "55c4dd96fa47d4ddc277ee22eca92a837f02d6c8",
         "dateadded": "2020-03-03T16:52:20.162056+00:00",
         "description": "Add ALC235 layout-id 17 for Lenovo ThinkCentre Tiny M720q (#513)\n\nInputs:\r\n25 - Internal Mic (Combo with HP Out Front Jack when headset with integrated mic is inserted)\r\n26 - External Mic (Dedicated Front Jack setup as Audio Line-In port)\r\n\r\nOutputs:\r\n20 - Internal Speaker Out\r\n33 - Headphones Out (Dedicated Front Jack)\r\n\r\nBased on ALC235 layout-id 21 for Lenovo C530 Desktop PC by Andres ZeroCross with some small changes to Pin Configuration and added M720q ConfigData.",
@@ -1673,6 +1693,27 @@
         },
         "source": "built",
         "version": "1.1.1"
+      }
+    ]
+  },
+  "VoodooPS2-Alps": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": "e3defcc5391b99b322d6d93844086b59c8c9fc5e",
+        "dateadded": "2020-03-03T18:58:01.570123+00:00",
+        "description": "Fixed inversion",
+        "hashes": {
+          "debug": "89ab34933c5fc96d59ec5b954dd17141efffd0dc81cc941c526ba5fb40458933",
+          "release": "0719fcef829ea4f721d09023dd2ec788718e1c2d5789e8eb23ae91e67af02cd2"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VoodooPS2-Alps/e3defcc5391b99b322d6d93844086b59c8c9fc5e/Debug/debug.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VoodooPS2-Alps/e3defcc5391b99b322d6d93844086b59c8c9fc5e/Release/release.zip"
+        },
+        "source": "built",
+        "version": "6.0.0"
       }
     ]
   },
