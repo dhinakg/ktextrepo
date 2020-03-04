@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "6fe7f98f9b086ef4195000ec3529e85a0bf3a453",
+        "dateadded": "2020-03-04T21:34:19.226444+00:00",
+        "description": "Improve changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "e21731642a79a00e4721fb1d741ed297525c7bae959a997d1477e268b7fda53a"
+          },
+          "release": {
+            "sha256": "e1ba993f92e1c794d3c65cf6dc8995192a9889af6ff487a79589b35b6e4c56d2"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/6fe7f98f9b086ef4195000ec3529e85a0bf3a453/Debug/AppleALC-1.4.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/6fe7f98f9b086ef4195000ec3529e85a0bf3a453/Release/AppleALC-1.4.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
         "commit": "aa56e80efea7d0fd4ac016fd09e89acf11e1cae8",
         "dateadded": "2020-03-03T18:58:01.582119+00:00",
         "description": "Support optional configurable delay before start of AppleHDAController (#515)",
@@ -569,6 +589,50 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "923711d94d6ffca13535335ec83b910d9f888636",
+        "dateadded": "2020-03-04T21:34:19.200317+00:00",
+        "description": "Docs: fixed Configuration",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/923711d94d6ffca13535335ec83b910d9f888636/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/923711d94d6ffca13535335ec83b910d9f888636/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "8c91885a454d0440841117851a32e5041f12dfc74319e968fbedff2f3b6c87f8",
+          "release": "9069477d25757b956ca70084fa1ec9b059225b65765b68e381de59079a420d99"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/923711d94d6ffca13535335ec83b910d9f888636/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/923711d94d6ffca13535335ec83b910d9f888636/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "d9f23b27363d8d53c7e6079bb70b2b8963d8fc84",
+        "dateadded": "2020-03-04T21:34:19.170947+00:00",
+        "description": "Docs: Fixed typo",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d9f23b27363d8d53c7e6079bb70b2b8963d8fc84/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d9f23b27363d8d53c7e6079bb70b2b8963d8fc84/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "debdd6a038eff773fedb36947ef6a9b781a247fde602e178ac5d40bcff26bd56",
+          "release": "007e5cc08cb4e445a22969a5825417be2200f28b4c1e3e6c7b2a4a76a3ed687e"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d9f23b27363d8d53c7e6079bb70b2b8963d8fc84/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d9f23b27363d8d53c7e6079bb70b2b8963d8fc84/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
       {
         "commit": "cedd2c94c7749a7670cc4249990cc410b597ab91",
         "dateadded": "2020-03-03T16:52:20.070452+00:00",
