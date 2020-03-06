@@ -586,9 +586,98 @@
       }
     ]
   },
+  "NVMeFix": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": "b1e66474f141fe0d26f9d93ed2ce4ebc8a807aef",
+        "dateadded": "2020-03-06T21:28:56.801785+00:00",
+        "description": "Document IONVMeFamily debug flags",
+        "hashes": {
+          "debug": {
+            "sha256": "729719f60e17409c7687c7fb1dd719e29c51ff7fcb3f66f620c885441183dbd0"
+          },
+          "release": {
+            "sha256": "22382e837dbde7980a72a7f74878a3e08ca9acc866e08177a1346e621cb2efdf"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/b1e66474f141fe0d26f9d93ed2ce4ebc8a807aef/Debug/NVMeFix-1.0.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/b1e66474f141fe0d26f9d93ed2ce4ebc8a807aef/Release/NVMeFix-1.0.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.1"
+      },
+      {
+        "commit": "460193389831560d30750f8d36051a4f7d62f5b0",
+        "dateadded": "2020-03-06T21:28:56.786550+00:00",
+        "description": "Fix RequestAsyncEvents panic",
+        "hashes": {
+          "debug": {
+            "sha256": "6f48201554510441a80412d561d5ddac82bdcd9a1e85f2eb1de97d23b4d99fc2"
+          },
+          "release": {
+            "sha256": "cd26513d274a6b6f2dd851662b656c6e8455c124a48c85c2dc9308d059529eee"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/460193389831560d30750f8d36051a4f7d62f5b0/Debug/NVMeFix-1.0.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/460193389831560d30750f8d36051a4f7d62f5b0/Release/NVMeFix-1.0.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.1"
+      }
+    ]
+  },
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "c50c664b8c037c6714ffd06d2a219060cf0a0919",
+        "dateadded": "2020-03-06T21:28:56.760537+00:00",
+        "description": "OcFileLib: Add more logging on Disk I/O failure",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c50c664b8c037c6714ffd06d2a219060cf0a0919/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c50c664b8c037c6714ffd06d2a219060cf0a0919/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "8e52b419dae624b03773d3af589c419a68ffc63a28d1a4bc7fc25aebadd034f8",
+          "release": "6729c0644ffb9cea8096e4c8df1e419e13d04868bc3bd7a6a98ab32cee39b254"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c50c664b8c037c6714ffd06d2a219060cf0a0919/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c50c664b8c037c6714ffd06d2a219060cf0a0919/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "9684069ced6b4ab85576ecf1e8c54cb3712decf7",
+        "dateadded": "2020-03-06T21:28:56.730806+00:00",
+        "description": "OcBootManagementLib: Added TimeMachine detection to picker",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9684069ced6b4ab85576ecf1e8c54cb3712decf7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9684069ced6b4ab85576ecf1e8c54cb3712decf7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "f3c12b684768a7c300eb39db4b32344c19d813ae486d99d74260c4f1480e09ba",
+          "release": "787d0dc0bad557a6253bd97c4ccba0d65aeea37b7576605ab5f1537e9e3f531f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9684069ced6b4ab85576ecf1e8c54cb3712decf7/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9684069ced6b4ab85576ecf1e8c54cb3712decf7/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
       {
         "commit": "923711d94d6ffca13535335ec83b910d9f888636",
         "dateadded": "2020-03-04T21:34:19.200317+00:00",
