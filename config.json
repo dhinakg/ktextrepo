@@ -590,6 +590,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "98a03375747ad3b1a007b6c3bf9b13f546559b79",
+        "dateadded": "2020-03-07T21:37:23.507888+00:00",
+        "description": "Update previous change desc\n\nThe panic occurs elsewhere, and this code is unlikely to be relevant.",
+        "hashes": {
+          "debug": {
+            "sha256": "99761ac630b9a03f3ef982d62fc8bdc8f19856412497d800f6969cb66e28546f"
+          },
+          "release": {
+            "sha256": "d1b6706eb935766a3543291a8abc37d5e9a6a9d34540e7da4f2eb0ec191aeee2"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/98a03375747ad3b1a007b6c3bf9b13f546559b79/Debug/NVMeFix-1.0.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/98a03375747ad3b1a007b6c3bf9b13f546559b79/Release/NVMeFix-1.0.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.1"
+      },
+      {
         "commit": "b1e66474f141fe0d26f9d93ed2ce4ebc8a807aef",
         "dateadded": "2020-03-06T21:28:56.801785+00:00",
         "description": "Document IONVMeFamily debug flags",
@@ -634,6 +654,72 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "4795e55e014f7d21d6d0d35dab9a2e7202be074c",
+        "dateadded": "2020-03-07T21:37:23.482480+00:00",
+        "description": "OcFileLib: Fix parameter order for alignment check",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4795e55e014f7d21d6d0d35dab9a2e7202be074c/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4795e55e014f7d21d6d0d35dab9a2e7202be074c/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "2149247bf42945a7066e5ac0bd442320a794a9bba887151794d92adc1a4f25b5",
+          "release": "125f9a91124f59aa96c4fc3e3bec861244bd2c9b1237b3b56b6a5d2636966779"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4795e55e014f7d21d6d0d35dab9a2e7202be074c/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4795e55e014f7d21d6d0d35dab9a2e7202be074c/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "41bd8bbd05e04bd66599b9a392ec86946672e4ca",
+        "dateadded": "2020-03-07T21:37:23.459209+00:00",
+        "description": "Update Samples",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/41bd8bbd05e04bd66599b9a392ec86946672e4ca/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/41bd8bbd05e04bd66599b9a392ec86946672e4ca/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "c78bc20e1cea0fed8030b866664b60c8ce5d40b0e90f1ba8e4ee39fed8226626",
+          "release": "92c959e1dd868f9c5fd6939d5ce244fc67b1600f6f1f2a8a6b5232b7d019365a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/41bd8bbd05e04bd66599b9a392ec86946672e4ca/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/41bd8bbd05e04bd66599b9a392ec86946672e4ca/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "3fb1b6925a809cfb8b2edbfee3688cb8c75b0309",
+        "dateadded": "2020-03-07T21:37:23.433520+00:00",
+        "description": "BootLiquor: Match cursor behaviour with boot.efi",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3fb1b6925a809cfb8b2edbfee3688cb8c75b0309/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3fb1b6925a809cfb8b2edbfee3688cb8c75b0309/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "9f96ab323bac6de732fdffaea3b176d69b88929f1ed503dac41dbab0fee738d4",
+          "release": "7674500d5dbb833e16db79be080c59f0004f1fe04d9451257bd648e25a0df52e"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3fb1b6925a809cfb8b2edbfee3688cb8c75b0309/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3fb1b6925a809cfb8b2edbfee3688cb8c75b0309/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
       {
         "commit": "c50c664b8c037c6714ffd06d2a219060cf0a0919",
         "dateadded": "2020-03-06T21:28:56.760537+00:00",
