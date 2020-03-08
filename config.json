@@ -288,6 +288,38 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "fa5a20be0825ebb4950890b13d0f9caf468f00eb",
+        "dateadded": "2020-03-08T21:49:46.112276+00:00",
+        "description": "Build: Fix missing MtrrLib instance\n\ncloses acidanthera/bugtracker#756",
+        "hashes": {
+          "debug": "88170dc5b88a7c9100036df2d6813e9761ce0ed592e93ab682272023d3b2f08f",
+          "release": "25709cc8220a113f3175004929f09ba2db75437d238f34834c10ab8a2dcdfadb"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/fa5a20be0825ebb4950890b13d0f9caf468f00eb/Debug/AppleSupport-2.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/fa5a20be0825ebb4950890b13d0f9caf468f00eb/Release/AppleSupport-2.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.6"
+      },
+      {
+        "commit": "c0125d8f59fd945beb71234a51cfb3504ff36297",
+        "dateadded": "2020-03-08T21:49:46.098409+00:00",
+        "description": "ApfsDriverLoader: Add missing missing UninstallMultipleProtocolInterfaces terminator",
+        "hashes": {
+          "debug": "5caeec769fb50c1cf9c94eda2b0590c42cba5f1073eaf2fb603022e634cf6254",
+          "release": "427e93128447e1b26ee6b1c14500863b75e14e6f61ed341c9a2f67726a918c07"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/c0125d8f59fd945beb71234a51cfb3504ff36297/Debug/AppleSupport-2.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/c0125d8f59fd945beb71234a51cfb3504ff36297/Release/AppleSupport-2.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.6"
+      },
+      {
         "commit": "016b99c2bc057c7f902b2b8b18bfb2573f05e70f",
         "dateadded": "2020-03-01T21:41:34.362649+00:00",
         "description": "AudioDxe: Add basic VMware Fusion support",
@@ -654,6 +686,94 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "c46c22c006f56e7bcd377dfca86a1966d118d8ce",
+        "dateadded": "2020-03-08T21:49:46.072125+00:00",
+        "description": "FwProtect: Initial version to configure full NVRAM access from Shell\n\ncloses acidanthera/bugtracker#731",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c46c22c006f56e7bcd377dfca86a1966d118d8ce/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c46c22c006f56e7bcd377dfca86a1966d118d8ce/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "e06f1c01bbc9ffb6198a18223f037421151bda3c10f916a95a3f96a857c92027",
+          "release": "32939f9e85cc3f435c55978802f88e565f77dd923cb6c21efef86601c5eff075"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c46c22c006f56e7bcd377dfca86a1966d118d8ce/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c46c22c006f56e7bcd377dfca86a1966d118d8ce/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "e1fb54875f6be4afe4dac595375b3b8e9e12c00e",
+        "dateadded": "2020-03-08T21:49:46.035515+00:00",
+        "description": "OcInputLib: Do not abort on filtered key",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e1fb54875f6be4afe4dac595375b3b8e9e12c00e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e1fb54875f6be4afe4dac595375b3b8e9e12c00e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "95480b626ba56b05b6ff3f7226c0ab018fb8d1824dc8a121bdd6740761c9079f",
+          "release": "216a4f129d089d783564bb4ebe32774d32153b522ae911d80168b2ace244cd93"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e1fb54875f6be4afe4dac595375b3b8e9e12c00e/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e1fb54875f6be4afe4dac595375b3b8e9e12c00e/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "b1acc9ac3c4a3c43015dc39e557bfe6129e390e7",
+        "dateadded": "2020-03-08T21:49:45.992900+00:00",
+        "description": "Docs: Sync with latest changes",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b1acc9ac3c4a3c43015dc39e557bfe6129e390e7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b1acc9ac3c4a3c43015dc39e557bfe6129e390e7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "9a9be20eb1614e71117d905f82baea34d1a419fb68869a535df25abe100007ed",
+          "release": "aa4e722fa13ab830ac01635afd18f81db97bb58c999891c456d45e39087e8a1a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b1acc9ac3c4a3c43015dc39e557bfe6129e390e7/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b1acc9ac3c4a3c43015dc39e557bfe6129e390e7/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "a6d547f6d97a0d3d1170fd406acee0e5bbd4bbad",
+        "dateadded": "2020-03-08T21:49:45.955752+00:00",
+        "description": "OcDebugLogLib: Support Apple Debug Log protocol",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a6d547f6d97a0d3d1170fd406acee0e5bbd4bbad/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a6d547f6d97a0d3d1170fd406acee0e5bbd4bbad/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "92189566fa104f40e4add98cc810174c36b16906f99adf83ca4da5b116461fe5",
+          "release": "970d277beca4157b761062460e855f21151aacb8bd4f1d8163f8c0b2c49f0d6a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a6d547f6d97a0d3d1170fd406acee0e5bbd4bbad/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a6d547f6d97a0d3d1170fd406acee0e5bbd4bbad/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
       {
         "commit": "4795e55e014f7d21d6d0d35dab9a2e7202be074c",
         "dateadded": "2020-03-07T21:37:23.482480+00:00",
