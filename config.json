@@ -687,6 +687,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "a16a346d947bc91075964d24f92e34a6a80feb9e",
+        "dateadded": "2020-03-10T21:49:23.628938+00:00",
+        "description": "BootLiquor: Fix more compiler warnings\n\ncloses acidanthera/bugtracker#763\ncloses acidanthera/bugtracker#764",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a16a346d947bc91075964d24f92e34a6a80feb9e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a16a346d947bc91075964d24f92e34a6a80feb9e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "33c5824005e2ecd2b46a60be18cc9aff5d2877cc0329e9b14d3c103d43f46611",
+          "release": "dfd75c8701f2a72417cf96094d3982586bcaac26358d3310bee9427f3da06c8b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a16a346d947bc91075964d24f92e34a6a80feb9e/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a16a346d947bc91075964d24f92e34a6a80feb9e/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "2827a90df10bb1be901d8edf63df8a243e62d74e",
+        "dateadded": "2020-03-10T21:49:23.599783+00:00",
+        "description": "OcStringLib: Rename string functions to avoid conflicts with ShellLib",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2827a90df10bb1be901d8edf63df8a243e62d74e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2827a90df10bb1be901d8edf63df8a243e62d74e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "1939af7eefc996c994fb36398e7b83e98f813d7d169d2202a67d4b2fa961ec2c",
+          "release": "82556adbbe51e215f87811dcc703f85cfab1cff55cf8eb941ffb0b98a1c11c8a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2827a90df10bb1be901d8edf63df8a243e62d74e/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2827a90df10bb1be901d8edf63df8a243e62d74e/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "58180851d1235c33efdb4a2d4cffc23f317f5226",
+        "dateadded": "2020-03-10T21:49:23.570363+00:00",
+        "description": "Build: Add Shell with partial patch set",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/58180851d1235c33efdb4a2d4cffc23f317f5226/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/58180851d1235c33efdb4a2d4cffc23f317f5226/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "eb9f3dc3abfacceb8602b986ad642a13ceb8a5b39f9a4b6b366ea5077bc16e26",
+          "release": "5fbe9aa225ba769bd5cd4d6a62a6266d54ddde779e1ec97c7e0e87d6021561b1"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/58180851d1235c33efdb4a2d4cffc23f317f5226/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/58180851d1235c33efdb4a2d4cffc23f317f5226/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "f3b092dfe7e2947cbbb56a6b94a228046f7787f1",
+        "dateadded": "2020-03-10T21:49:23.538157+00:00",
+        "description": "BootLiquor: Fix touch Y axis and clean up",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f3b092dfe7e2947cbbb56a6b94a228046f7787f1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f3b092dfe7e2947cbbb56a6b94a228046f7787f1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "c16a6d4695d67bca4c516bfa105575252ab6fd8184078134a6bef066d27cc29e",
+          "release": "42d18887eed734bd2fdd9f588a4c05ad08ecb449e7e239c43a1656612890c699"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f3b092dfe7e2947cbbb56a6b94a228046f7787f1/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f3b092dfe7e2947cbbb56a6b94a228046f7787f1/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
         "commit": "c46c22c006f56e7bcd377dfca86a1966d118d8ce",
         "dateadded": "2020-03-08T21:49:46.072125+00:00",
         "description": "FwProtect: Initial version to configure full NVRAM access from Shell\n\ncloses acidanthera/bugtracker#731",
