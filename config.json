@@ -687,6 +687,72 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "d0e2c8ee9b58291e47cda67cf19c3f46431dcc99",
+        "dateadded": "2020-03-11T21:44:15.797113+00:00",
+        "description": "Build: Fix warnings found with static analysis",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d0e2c8ee9b58291e47cda67cf19c3f46431dcc99/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d0e2c8ee9b58291e47cda67cf19c3f46431dcc99/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "b660563aa57156ef4caf9f1636691adf62438b1274a5489f63b7f79ea0ebc849",
+          "release": "6c02013b109b724532e8cadd4f92a0b81b198ddc44c27c9538343848e01c54b3"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d0e2c8ee9b58291e47cda67cf19c3f46431dcc99/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d0e2c8ee9b58291e47cda67cf19c3f46431dcc99/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "0ce1df8c77becd5fcba3050b42f70cfe9c58e7fc",
+        "dateadded": "2020-03-11T21:44:15.767497+00:00",
+        "description": "OcCorePkg/Platform/BootLiquor: fix impossible (?) loss of data (UINT64 -> UINT32)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ce1df8c77becd5fcba3050b42f70cfe9c58e7fc/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ce1df8c77becd5fcba3050b42f70cfe9c58e7fc/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "ab452af7f8df9c400423951cba63fef869cacb62897fe4e5a731b3077844ffa7",
+          "release": "2b1e87ebafc8c3cd98f56cd6d895a9143cb615baa7167b2f0d3d7084ca8b5ffa"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ce1df8c77becd5fcba3050b42f70cfe9c58e7fc/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ce1df8c77becd5fcba3050b42f70cfe9c58e7fc/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "e7e02b900f88c4dee721f277d4dac57115c1ac79",
+        "dateadded": "2020-03-11T21:44:15.725119+00:00",
+        "description": "OcBootServicesTableLib: Initial version with fixes to controller connection",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e7e02b900f88c4dee721f277d4dac57115c1ac79/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e7e02b900f88c4dee721f277d4dac57115c1ac79/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "251b73566f087d3449b0c552ddf0a6d7d3535658ca7971a55f1da198b98f010d",
+          "release": "fd967d74c418fa9ac3ad5f941ff4d92c9049eaa3ace66a01c3ec66daf1792aaa"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e7e02b900f88c4dee721f277d4dac57115c1ac79/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e7e02b900f88c4dee721f277d4dac57115c1ac79/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
         "commit": "a16a346d947bc91075964d24f92e34a6a80feb9e",
         "dateadded": "2020-03-10T21:49:23.628938+00:00",
         "description": "BootLiquor: Fix more compiler warnings\n\ncloses acidanthera/bugtracker#763\ncloses acidanthera/bugtracker#764",
