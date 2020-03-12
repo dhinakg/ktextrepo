@@ -687,6 +687,50 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "c4344487cfd9b89148bea4fa405eced4ccc42058",
+        "dateadded": "2020-03-12T21:37:00.562943+00:00",
+        "description": "Debug: Add python 3 compatibility",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c4344487cfd9b89148bea4fa405eced4ccc42058/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c4344487cfd9b89148bea4fa405eced4ccc42058/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "93836baf29141db955d5aa4d348ab3c48a087b614f7d47a842df420e35468a2b",
+          "release": "42afd0e9ddc69a99566c551c7624969255074fd8cd316ea73e77af0b6cf9777b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c4344487cfd9b89148bea4fa405eced4ccc42058/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c4344487cfd9b89148bea4fa405eced4ccc42058/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "6d61426da5e89a33801c9f8a8f563861ed35d883",
+        "dateadded": "2020-03-12T21:37:00.527434+00:00",
+        "description": "OcAppleBootCompatLib: Implement ProtectUefiServices quirk",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6d61426da5e89a33801c9f8a8f563861ed35d883/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6d61426da5e89a33801c9f8a8f563861ed35d883/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "7ff727da8709a561f408ea6b2badf4f9f394a6d4046c8ade7db81afe3e3a2e90",
+          "release": "7746e804ad06c5d3398069a09a3d5819d7478355c45320f6d56982c885bba09e"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6d61426da5e89a33801c9f8a8f563861ed35d883/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6d61426da5e89a33801c9f8a8f563861ed35d883/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
         "commit": "d0e2c8ee9b58291e47cda67cf19c3f46431dcc99",
         "dateadded": "2020-03-11T21:44:15.797113+00:00",
         "description": "Build: Fix warnings found with static analysis",
