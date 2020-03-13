@@ -622,6 +622,86 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "66c9de5ee23077f33482d42ae2eae1458b779200",
+        "dateadded": "2020-03-13T21:28:46.388692+00:00",
+        "description": "Force ANS2MSIWorkaround to avoid I/O CQ timeouts\n\nForce enable ANS2MSIWorkaround.\n\nWe would often get a panic with I/O Read command timeout on VMware and Samsung PM981.\nSome investigation showed that CQ head entry phase and CQ phase would mismatch.\nThis implies there is a race such that CQ head gets updated to point to an entry with inverted\nphase.\nSince FilterIRQ detects phase mismatch, it does not schedule HandleIRQ at the workloop of NVMe\ncontroller, so a request is never handled and we get a timeout. If Filter and Handle IRQ calls can\npossibly race, this may happen because HandleIRQ does not manage to update CQ phase in time before\nFilterIRQ phase check is scheduled, observing the old phase. This is the case in situation where\ntwo FilterIRQ calls happen with no HandleIRQ in between where the controller was too slow to\nnotice INTMS being set.\nNormally, IRQ is masked just before HandleIRQ is scheduled in FilterIRQ, and unmasked when\nHandleIRQ is done. IONVMeController::ANS2MSIWorkaround forces IRQ to be masked at the very\nstart of FilterIRQ instead so that FilterIRQ does not race with itself. This seems to eliminate\nthe timeouts.",
+        "hashes": {
+          "debug": {
+            "sha256": "e000b1483e42eb38423f8a2551e6d65a6df98afc9c248c776b2705db45799782"
+          },
+          "release": {
+            "sha256": "724f18d5ef7d025c2966a4d60f5db4a4a35b4b93992fe034a28a67f30227ef88"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/66c9de5ee23077f33482d42ae2eae1458b779200/Debug/NVMeFix-1.0.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/66c9de5ee23077f33482d42ae2eae1458b779200/Release/NVMeFix-1.0.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.1"
+      },
+      {
+        "commit": "1cbc39c1c3ec5558091af290e7469688a9c71729",
+        "dateadded": "2020-03-13T21:28:46.373423+00:00",
+        "description": "Only use active NVMe PM if APST init fails",
+        "hashes": {
+          "debug": {
+            "sha256": "b00f7cfd82404490c6387edf5969b2c1f8f91663c47888f0b3c18b6c910c30e5"
+          },
+          "release": {
+            "sha256": "6856809dd3b11673aac020332622ea50dc271d53478ef7c6411dd3a17c6737c7"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/1cbc39c1c3ec5558091af290e7469688a9c71729/Debug/NVMeFix-1.0.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/1cbc39c1c3ec5558091af290e7469688a9c71729/Release/NVMeFix-1.0.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.1"
+      },
+      {
+        "commit": "1e35d314020e2d79d7bed9518dc5151cf8485a7b",
+        "dateadded": "2020-03-13T21:28:46.350907+00:00",
+        "description": "Use Lilu IOKit wrapper",
+        "hashes": {
+          "debug": {
+            "sha256": "d7c6e33a9d6152e0a5d83fd9975f688e9aae860a2f72a6bd331220184c51cba9"
+          },
+          "release": {
+            "sha256": "aa496f179d3bbd1d77595d6f0d88495c419283c9aee46ca13ea8309f96137836"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/1e35d314020e2d79d7bed9518dc5151cf8485a7b/Debug/NVMeFix-1.0.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/1e35d314020e2d79d7bed9518dc5151cf8485a7b/Release/NVMeFix-1.0.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.1"
+      },
+      {
+        "commit": "fd0d321dd4ced787d1eedd95a185e7cdd23b7fcf",
+        "dateadded": "2020-03-13T21:28:46.334084+00:00",
+        "description": "Update changelog for 1.0.2",
+        "hashes": {
+          "debug": {
+            "sha256": "7fd1f00e79decf9953c727d96ce2f13f4973f251d3f9bcbe2a1efaf5803190cf"
+          },
+          "release": {
+            "sha256": "3944593791578d5d56aa1df68e97bc32315fc5ac8cc8955506dc3d7f2eb0a7c6"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/fd0d321dd4ced787d1eedd95a185e7cdd23b7fcf/Debug/NVMeFix-1.0.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/fd0d321dd4ced787d1eedd95a185e7cdd23b7fcf/Release/NVMeFix-1.0.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.2"
+      },
+      {
         "commit": "98a03375747ad3b1a007b6c3bf9b13f546559b79",
         "dateadded": "2020-03-07T21:37:23.507888+00:00",
         "description": "Update previous change desc\n\nThe panic occurs elsewhere, and this code is unlikely to be relevant.",
@@ -686,6 +766,28 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "eceb36fff18551af4c488c4075cbb3e8e9b54f91",
+        "dateadded": "2020-03-13T21:28:46.302127+00:00",
+        "description": "OcBootManagementLib: Rename BOOTCAMP Windows to Windows",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eceb36fff18551af4c488c4075cbb3e8e9b54f91/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eceb36fff18551af4c488c4075cbb3e8e9b54f91/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "e4ff8f6220c84aad2ade14db0571f1531a0364f4ba89bbf2e3ac4119f94a4a6f",
+          "release": "0228ac3cb1c856c0bfdac6ec1fbd5b48b9b0a15114715e36d0874cbf069c24d2"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eceb36fff18551af4c488c4075cbb3e8e9b54f91/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eceb36fff18551af4c488c4075cbb3e8e9b54f91/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
       {
         "commit": "c4344487cfd9b89148bea4fa405eced4ccc42058",
         "dateadded": "2020-03-12T21:37:00.562943+00:00",
