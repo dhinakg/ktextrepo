@@ -288,6 +288,22 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "00ea022ae1be8fe8bcd34d980b525eaef83715ab",
+        "dateadded": "2020-03-14T21:49:46.151674+00:00",
+        "description": "Build: Remove unnecessary lib",
+        "hashes": {
+          "debug": "9eeeb8b4070fc14ff6bc345fb220a279913e91b779df5ecf70bbb3e9811aae53",
+          "release": "9582b12c284cd38ea1077db029f7c8599519b279f01cd83b8f1a383fe73db839"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/00ea022ae1be8fe8bcd34d980b525eaef83715ab/Debug/AppleSupport-2.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/00ea022ae1be8fe8bcd34d980b525eaef83715ab/Release/AppleSupport-2.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.6"
+      },
+      {
         "commit": "fa5a20be0825ebb4950890b13d0f9caf468f00eb",
         "dateadded": "2020-03-08T21:49:46.112276+00:00",
         "description": "Build: Fix missing MtrrLib instance\n\ncloses acidanthera/bugtracker#756",
@@ -622,6 +638,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "927c4c005658bcc2618bd3cea7b056702275cee4",
+        "dateadded": "2020-03-14T21:49:46.166786+00:00",
+        "description": "Update README",
+        "hashes": {
+          "debug": {
+            "sha256": "eb50c9e4184ddd4d6fb7db2feece33880e75e62b294d892383e1c5826eba8cbb"
+          },
+          "release": {
+            "sha256": "58e5a60b386a147d0ec1540c8b7f711fed9b6b738b20ea4c8835e3c4ff7b3768"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/927c4c005658bcc2618bd3cea7b056702275cee4/Debug/NVMeFix-1.0.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/927c4c005658bcc2618bd3cea7b056702275cee4/Release/NVMeFix-1.0.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.2"
+      },
+      {
         "commit": "66c9de5ee23077f33482d42ae2eae1458b779200",
         "dateadded": "2020-03-13T21:28:46.388692+00:00",
         "description": "Force ANS2MSIWorkaround to avoid I/O CQ timeouts\n\nForce enable ANS2MSIWorkaround.\n\nWe would often get a panic with I/O Read command timeout on VMware and Samsung PM981.\nSome investigation showed that CQ head entry phase and CQ phase would mismatch.\nThis implies there is a race such that CQ head gets updated to point to an entry with inverted\nphase.\nSince FilterIRQ detects phase mismatch, it does not schedule HandleIRQ at the workloop of NVMe\ncontroller, so a request is never handled and we get a timeout. If Filter and Handle IRQ calls can\npossibly race, this may happen because HandleIRQ does not manage to update CQ phase in time before\nFilterIRQ phase check is scheduled, observing the old phase. This is the case in situation where\ntwo FilterIRQ calls happen with no HandleIRQ in between where the controller was too slow to\nnotice INTMS being set.\nNormally, IRQ is masked just before HandleIRQ is scheduled in FilterIRQ, and unmasked when\nHandleIRQ is done. IONVMeController::ANS2MSIWorkaround forces IRQ to be masked at the very\nstart of FilterIRQ instead so that FilterIRQ does not race with itself. This seems to eliminate\nthe timeouts.",
@@ -766,6 +802,72 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "0ed42acb6f4dadb0923d41dc08c80dcdb59d9c3a",
+        "dateadded": "2020-03-14T21:49:46.120741+00:00",
+        "description": "OcBootServicesTableLib: Fix ConOut redirection in Shell",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ed42acb6f4dadb0923d41dc08c80dcdb59d9c3a/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ed42acb6f4dadb0923d41dc08c80dcdb59d9c3a/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "eaddac9869d66f1ed6e9d4a70b6a36043dc24998907b53497418bf282e6e828f",
+          "release": "1d96e16c8ad4ff46a40e398110c7cb34509525f7c28dad9879974bda89769353"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ed42acb6f4dadb0923d41dc08c80dcdb59d9c3a/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ed42acb6f4dadb0923d41dc08c80dcdb59d9c3a/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "d25ff1cedaca57cd8e722a1626547f35c0f47577",
+        "dateadded": "2020-03-14T21:49:46.090118+00:00",
+        "description": "disklabel: Replace readlabel and implement encoding support",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d25ff1cedaca57cd8e722a1626547f35c0f47577/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d25ff1cedaca57cd8e722a1626547f35c0f47577/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "da3abb30d24c27bb9022e05c8e416c55425765dcdeedf66e74eb25ca685b122d",
+          "release": "49ea1c362ea52caf7a4e8a8620cc76c98fe5eb200a12887cf8a0302454344bfb"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d25ff1cedaca57cd8e722a1626547f35c0f47577/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d25ff1cedaca57cd8e722a1626547f35c0f47577/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "f0d36479fbf382aa95e1fb8475225f54cbd0d734",
+        "dateadded": "2020-03-14T21:49:46.058436+00:00",
+        "description": "OcBootManagementLib: Add CustomDescribe routine",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f0d36479fbf382aa95e1fb8475225f54cbd0d734/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f0d36479fbf382aa95e1fb8475225f54cbd0d734/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "a82832e213246864470f2a2c9e5bc494bbb3b09cf11370fa9c63eb5f469fd9e5",
+          "release": "e76c11c5ef371886c7ed511a675d90ead9d2a288e4223d5ef8e7122ea6f36a9d"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f0d36479fbf382aa95e1fb8475225f54cbd0d734/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f0d36479fbf382aa95e1fb8475225f54cbd0d734/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
       {
         "commit": "eceb36fff18551af4c488c4075cbb3e8e9b54f91",
         "dateadded": "2020-03-13T21:28:46.302127+00:00",
