@@ -803,6 +803,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "9aae27d166a5ecf716b8cd32b4578485545f74f3",
+        "dateadded": "2020-03-15T21:53:53.332621+00:00",
+        "description": "Docs: Replaced PlatformInfo samples to iMac19,1",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9aae27d166a5ecf716b8cd32b4578485545f74f3/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9aae27d166a5ecf716b8cd32b4578485545f74f3/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "ebf8a62450c827cb364176dd2fb7d3921015db42128ce9d41a65e04a82a568f7",
+          "release": "3e0b146988827b340d02b3c64f10ac0ae78ece8ba39f6add43028572885bdb6a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9aae27d166a5ecf716b8cd32b4578485545f74f3/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9aae27d166a5ecf716b8cd32b4578485545f74f3/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "da4cf0f0bb6bbb53df45a40a671e595f792692b2",
+        "dateadded": "2020-03-15T21:53:53.300242+00:00",
+        "description": "Fixed previous",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/da4cf0f0bb6bbb53df45a40a671e595f792692b2/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/da4cf0f0bb6bbb53df45a40a671e595f792692b2/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "5afa256f553d69589e5e42729c0216951e647daeddf158c7b47c7376da5f791a",
+          "release": "bd0cbd2d4ace8bbf83502befba68c4acbc090dc347c6574961e6a941bc4ce80c"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/da4cf0f0bb6bbb53df45a40a671e595f792692b2/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/da4cf0f0bb6bbb53df45a40a671e595f792692b2/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "63735d449b7eba52b63e69b311569b9c4c9eb0e6",
+        "dateadded": "2020-03-15T21:53:53.259536+00:00",
+        "description": "Build: Rename some tools and drivers",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/63735d449b7eba52b63e69b311569b9c4c9eb0e6/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/63735d449b7eba52b63e69b311569b9c4c9eb0e6/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "307e8985dbda49a134d9b9b0bb390e678a3259ee64e54cb6b5d73585dc880be0",
+          "release": "0e80a2e8fd1769b06fa441bd8af9ab871c1f5af464338144ee5683dab15dbfff"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/63735d449b7eba52b63e69b311569b9c4c9eb0e6/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/63735d449b7eba52b63e69b311569b9c4c9eb0e6/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "997a830eeffadfeddb06bdef9c868488222964f1",
+        "dateadded": "2020-03-15T21:53:53.216428+00:00",
+        "description": "Docs: Fixed driver name",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/997a830eeffadfeddb06bdef9c868488222964f1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/997a830eeffadfeddb06bdef9c868488222964f1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "33b6701c2e4baf68b340e9e3decc78ca36b586ded10a2c037c79a515eebea25e",
+          "release": "fd3524fd92d479cd5bbc01338f1d6c3ea01ba1ee0006a1ffbcb58309f50ecdce"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/997a830eeffadfeddb06bdef9c868488222964f1/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/997a830eeffadfeddb06bdef9c868488222964f1/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
         "commit": "0ed42acb6f4dadb0923d41dc08c80dcdb59d9c3a",
         "dateadded": "2020-03-14T21:49:46.120741+00:00",
         "description": "OcBootServicesTableLib: Fix ConOut redirection in Shell",
@@ -2481,6 +2569,30 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "e38044126d302e91a109bfc92e62b82ae37e98cc",
+        "dateadded": "2020-03-15T21:53:53.367711+00:00",
+        "description": "Update README.md",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e38044126d302e91a109bfc92e62b82ae37e98cc/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "debug": {
+            "sha256": "8d619cb7d028ee5d6d7c0d543ee8e8673cee903d4ccd5bd79aaf7896a179a75a"
+          },
+          "release": {
+            "sha256": "c2f4f0e6289f200c2a16a94818ba0b74f9f2e14cd6791f5f8aa9dfe758c6638e"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e38044126d302e91a109bfc92e62b82ae37e98cc/Debug/WhateverGreen-1.3.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e38044126d302e91a109bfc92e62b82ae37e98cc/Release/WhateverGreen-1.3.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.7"
+      },
       {
         "commit": "e53252dec5c443c53231ddd1b50b2ee1491caf41",
         "dateadded": "2020-02-20T00:57:06.238406+00:00",
