@@ -638,6 +638,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "813e7900e42687dec78a444da792c298c224658e",
+        "dateadded": "2020-03-17T21:21:37.322670+00:00",
+        "description": "Readme typo",
+        "hashes": {
+          "debug": {
+            "sha256": "c71bc3d148725d646b9bba5016693338e8150a6d4b70af4a3fb1f1f9ec45e449"
+          },
+          "release": {
+            "sha256": "f01e02e2ce25407f3326d529f985f8442592fc6d23c216399a1b2782dd4efdc0"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/813e7900e42687dec78a444da792c298c224658e/Debug/NVMeFix-1.0.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/813e7900e42687dec78a444da792c298c224658e/Release/NVMeFix-1.0.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.2"
+      },
+      {
         "commit": "927c4c005658bcc2618bd3cea7b056702275cee4",
         "dateadded": "2020-03-14T21:49:46.166786+00:00",
         "description": "Update README",
