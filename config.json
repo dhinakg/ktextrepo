@@ -3,6 +3,46 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "9f840563878b37c3339b4b6901353dc2df47125e",
+        "dateadded": "2020-03-21T21:39:31.853658+00:00",
+        "description": "Guarded TCSEL change to TC0 with `alctsel=<01 00 00 00>` property or `alctsel=1` boot-arg\n\nOn some machines this cases a kernel panic when calling IOPCIDevice->configRead8",
+        "hashes": {
+          "debug": {
+            "sha256": "94ceaa002a1c17788505453563d33349237f2ac89de113ebcfad2cc40b2b6f22"
+          },
+          "release": {
+            "sha256": "9da3644d7cdbbaa4a567ef57748e1a6c2dfe445154dd20fc6c7029a1a3c9287d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9f840563878b37c3339b4b6901353dc2df47125e/Debug/AppleALC-1.4.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9f840563878b37c3339b4b6901353dc2df47125e/Release/AppleALC-1.4.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
+        "commit": "dde9c1b20f3386d59062dbdf283657bb7ed2ce0d",
+        "dateadded": "2020-03-21T21:39:31.833471+00:00",
+        "description": "Silence coverity and reduce work",
+        "hashes": {
+          "debug": {
+            "sha256": "91e1e2a044617f9b46ca21e918d8612b9f21e4b28168e0e4a49a70e521c4968b"
+          },
+          "release": {
+            "sha256": "17d9e8ffb4aab25e74ffc829f059a1fb47770bcf5856a798395e9a7391cbf705"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/dde9c1b20f3386d59062dbdf283657bb7ed2ce0d/Debug/AppleALC-1.4.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/dde9c1b20f3386d59062dbdf283657bb7ed2ce0d/Release/AppleALC-1.4.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
         "commit": "6fe7f98f9b086ef4195000ec3529e85a0bf3a453",
         "dateadded": "2020-03-04T21:34:19.226444+00:00",
         "description": "Improve changelog",
@@ -533,6 +573,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "ff412edacd249727e093a2f61c199ec2b54c16ec",
+        "dateadded": "2020-03-21T21:39:31.874001+00:00",
+        "description": "Improved modern CPUID detection",
+        "hashes": {
+          "debug": {
+            "sha256": "f8551ba4832f82a8a7f9e6df1fb2838c79fa7a9e70304b4ca2956f40db4a63f6"
+          },
+          "release": {
+            "sha256": "9dd183debdc0ea9601c7ffd0b9c7fb0eeeed8f6d2d73a46fdad1891ccb9a0cc0"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/ff412edacd249727e093a2f61c199ec2b54c16ec/Debug/Lilu-1.4.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/ff412edacd249727e093a2f61c199ec2b54c16ec/Release/Lilu-1.4.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.3"
+      },
+      {
         "commit": "f93b434b004d05134b36faa6189055a4d87a12c3",
         "dateadded": "2020-03-01T21:41:34.373602+00:00",
         "description": "Added getFatOffset MachO API",
@@ -822,6 +882,28 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "a3dec155a7c3b5e625b9fe4b56ec36a50f71ae76",
+        "dateadded": "2020-03-21T21:39:31.798075+00:00",
+        "description": "Debug: Add early and dirty LLDB support",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a3dec155a7c3b5e625b9fe4b56ec36a50f71ae76/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a3dec155a7c3b5e625b9fe4b56ec36a50f71ae76/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "0d6e7c0377695074811e8ef9d4479cc723cf8d34b9bba8b1f5b88ab5636d307d",
+          "release": "fc2c2232f93df7a3bb2b1d09e299c54be91c687317b1acd6acd5a4016a1e424d"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a3dec155a7c3b5e625b9fe4b56ec36a50f71ae76/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a3dec155a7c3b5e625b9fe4b56ec36a50f71ae76/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
       {
         "commit": "dae829ba930940d221fb34ab98ee9ec6ba7f4707",
         "dateadded": "2020-03-20T21:50:11.664766+00:00",
