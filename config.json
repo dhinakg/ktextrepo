@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "b14f69b95f33ce727160ac55052602a68440de47",
+        "dateadded": "2020-03-22T22:06:37.253711+00:00",
+        "description": "Update CI configuration to dpl v2",
+        "hashes": {
+          "debug": {
+            "sha256": "07f19b668e9a6f88be91d176a482bec0458743cc6141c521cde2244628996989"
+          },
+          "release": {
+            "sha256": "8dcd1724e57f252a75e28de497e9236e696021fcce37b657df7fa178c5f1341e"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/b14f69b95f33ce727160ac55052602a68440de47/Debug/AppleALC-1.4.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/b14f69b95f33ce727160ac55052602a68440de47/Release/AppleALC-1.4.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
         "commit": "9f840563878b37c3339b4b6901353dc2df47125e",
         "dateadded": "2020-03-21T21:39:31.853658+00:00",
         "description": "Guarded TCSEL change to TC0 with `alctsel=<01 00 00 00>` property or `alctsel=1` boot-arg\n\nOn some machines this cases a kernel panic when calling IOPCIDevice->configRead8",
@@ -328,6 +348,22 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "99d31192922da19263218ff776344e185e50ca2b",
+        "dateadded": "2020-03-22T22:06:37.235138+00:00",
+        "description": "Update CI configuration to dpl v2",
+        "hashes": {
+          "debug": "0c616ecd840a1c456ef1690edaf0cdbebccc9603326d45b0250dce7b28b583f3",
+          "release": "41e68a29eb9f2897d97ae895d464698449678771034c4054f5cec044a2ca088d"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/99d31192922da19263218ff776344e185e50ca2b/Debug/AppleSupport-2.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/99d31192922da19263218ff776344e185e50ca2b/Release/AppleSupport-2.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.6"
+      },
+      {
         "commit": "00ea022ae1be8fe8bcd34d980b525eaef83715ab",
         "dateadded": "2020-03-14T21:49:46.151674+00:00",
         "description": "Build: Remove unnecessary lib",
@@ -573,6 +609,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "a14c399d31956130d0c682123262033a78cc79aa",
+        "dateadded": "2020-03-22T22:06:37.291994+00:00",
+        "description": "Update CI configuration to dpl v2",
+        "hashes": {
+          "debug": {
+            "sha256": "8f500f834cbec1a17bd927059c252cf78c294e6d0d39ffa603dee5c8b7faab54"
+          },
+          "release": {
+            "sha256": "7a7acf9a6f99d7d5259f934b56b92638e5a356d671f4dd2ca407e2a580158bf8"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/a14c399d31956130d0c682123262033a78cc79aa/Debug/Lilu-1.4.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/a14c399d31956130d0c682123262033a78cc79aa/Release/Lilu-1.4.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.3"
+      },
+      {
         "commit": "ff412edacd249727e093a2f61c199ec2b54c16ec",
         "dateadded": "2020-03-21T21:39:31.874001+00:00",
         "description": "Improved modern CPUID detection",
@@ -697,6 +753,26 @@
   "NVMeFix": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "3ea1176dcb42be50b2fbd7a8d19cb4652d0d3c9d",
+        "dateadded": "2020-03-22T22:06:37.275097+00:00",
+        "description": "Update CI configuration to dpl v2",
+        "hashes": {
+          "debug": {
+            "sha256": "61948148d7dc412aa9696ec5d5fd04031d5b83dc7ad09c7af0e52059c861d257"
+          },
+          "release": {
+            "sha256": "d27a5811dfc23ea0dce4eaad59833ee7a0ec044e2659ef66d7382c963ef371ef"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/3ea1176dcb42be50b2fbd7a8d19cb4652d0d3c9d/Debug/NVMeFix-1.0.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/3ea1176dcb42be50b2fbd7a8d19cb4652d0d3c9d/Release/NVMeFix-1.0.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.2"
+      },
       {
         "commit": "813e7900e42687dec78a444da792c298c224658e",
         "dateadded": "2020-03-17T21:21:37.322670+00:00",
@@ -882,6 +958,94 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "da840e97bef351126bf2503f36cabfa469ceef5f",
+        "dateadded": "2020-03-22T22:06:37.199376+00:00",
+        "description": "Debug: Add PE DWARF GdbSyms to avoid LLDB crashes",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/da840e97bef351126bf2503f36cabfa469ceef5f/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/da840e97bef351126bf2503f36cabfa469ceef5f/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "8358b91e8cbb43725737265ee6a51567b60866c653a67719bfce6978eb4e7a48",
+          "release": "a479d4135f190bff46444d6df72b16acbbfb065d86af9fa68513165513ff3e79"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/da840e97bef351126bf2503f36cabfa469ceef5f/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/da840e97bef351126bf2503f36cabfa469ceef5f/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "3e5f3f3f9a8d3f197834bbfcf5029f771df89754",
+        "dateadded": "2020-03-22T22:06:37.154692+00:00",
+        "description": "Debug: Separate GdbSyms target as it contains invalid addresses",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3e5f3f3f9a8d3f197834bbfcf5029f771df89754/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3e5f3f3f9a8d3f197834bbfcf5029f771df89754/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "d807379f82579c466e54f7de94ae0a89f5179d8072bbd08d31cb6ad1c9c22b71",
+          "release": "09ad6aaac0b5724888ac61ac7c66a5d328b79afec4137ea416a5548448d44d1e"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3e5f3f3f9a8d3f197834bbfcf5029f771df89754/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3e5f3f3f9a8d3f197834bbfcf5029f771df89754/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "0c8431f0c8c0e321c622caeb628350be3706f50f",
+        "dateadded": "2020-03-22T22:06:37.100261+00:00",
+        "description": "Debug: Update readme file",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c8431f0c8c0e321c622caeb628350be3706f50f/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c8431f0c8c0e321c622caeb628350be3706f50f/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "56066850711f6259b8fa4ba7d3d9c711aab0e67f99b93a05e0b1a23bf6051c55",
+          "release": "f59116de3a482ecab990239b43d0eaed06bc180172471ba7d20f9d50de5c9dae"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c8431f0c8c0e321c622caeb628350be3706f50f/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c8431f0c8c0e321c622caeb628350be3706f50f/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "d9682012207e47fffa3356b33eabde1b54b99bf0",
+        "dateadded": "2020-03-22T22:06:37.049793+00:00",
+        "description": "Update CI configuration to dpl v2",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d9682012207e47fffa3356b33eabde1b54b99bf0/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d9682012207e47fffa3356b33eabde1b54b99bf0/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "9b1f65dfee316453af94f55788ea63bcc7aa879f901fe8ebdddc20c8703f9ea4",
+          "release": "a3fa32c186eeeda1aaee9fea57d9de8e98bda65b8ca15259c03456f845cbf624"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d9682012207e47fffa3356b33eabde1b54b99bf0/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d9682012207e47fffa3356b33eabde1b54b99bf0/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
       {
         "commit": "a3dec155a7c3b5e625b9fe4b56ec36a50f71ae76",
         "dateadded": "2020-03-21T21:39:31.798075+00:00",
@@ -2714,6 +2878,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "cbd700161728aeb8bdc515c15d275a69fc45540a",
+        "dateadded": "2020-03-22T22:06:37.310502+00:00",
+        "description": "Update CI configuration to dpl v2",
+        "hashes": {
+          "debug": {
+            "sha256": "7231427c0aa87eb333d7b0f3ea6090481f57a26bd331c427db292e0d2b800cb5"
+          },
+          "release": {
+            "sha256": "b0f15be3c0e9136b55b42b35e51f29ddd84c460c7f89afcd8f2498c8e3f6d752"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/cbd700161728aeb8bdc515c15d275a69fc45540a/Debug/VirtualSMC-1.1.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/cbd700161728aeb8bdc515c15d275a69fc45540a/Release/VirtualSMC-1.1.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.1"
+      },
+      {
         "commit": "2d1a89475236c06871c53093e6d05492e6352502",
         "dateadded": "2020-02-29T22:36:29.418261+00:00",
         "description": "Update KnownPlugins.md",
@@ -2759,6 +2943,30 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "0d0ebc2f61c35c4ed705ab7cab2157b79932918c",
+        "dateadded": "2020-03-22T22:06:37.328831+00:00",
+        "description": "Update CI configuration to dpl v2",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/0d0ebc2f61c35c4ed705ab7cab2157b79932918c/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "debug": {
+            "sha256": "ab6b44940ddc2e393203c79cdbccbf69a8e582dca987e1ebe7cc2694dd7e1f25"
+          },
+          "release": {
+            "sha256": "a93c7d984392a50c2c4dfd318b2144bf83e2429d02b8e5e3f0ea46fca0621601"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/0d0ebc2f61c35c4ed705ab7cab2157b79932918c/Debug/WhateverGreen-1.3.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/0d0ebc2f61c35c4ed705ab7cab2157b79932918c/Release/WhateverGreen-1.3.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.8"
+      },
       {
         "commit": "e8d112a4bd1e94e46ea674e6c4acb1a6bb838439",
         "dateadded": "2020-03-20T21:50:11.718423+00:00",
