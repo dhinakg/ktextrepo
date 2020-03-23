@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "9308ce0a1305bee47b02edae088a4683e985641d",
+        "dateadded": "2020-03-23T21:54:57.604323+00:00",
+        "description": "Revert \"Update CI configuration to dpl v2\"\n\nThis reverts commit b14f69b95f33ce727160ac55052602a68440de47.",
+        "hashes": {
+          "debug": {
+            "sha256": "b1eaaf9e1462d6d2e4f1b370867d4bbd553203a7bb66daabdcf56f241db89760"
+          },
+          "release": {
+            "sha256": "5371b4a0da13e8bdbd0b41441b5f7a31fdc976e76beb45aa22393e99bf8156e7"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9308ce0a1305bee47b02edae088a4683e985641d/Debug/AppleALC-1.4.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9308ce0a1305bee47b02edae088a4683e985641d/Release/AppleALC-1.4.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
         "commit": "b14f69b95f33ce727160ac55052602a68440de47",
         "dateadded": "2020-03-22T22:06:37.253711+00:00",
         "description": "Update CI configuration to dpl v2",
@@ -348,6 +368,22 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "9d351d96c68f544c5098b1eb462a95673c9aa3f1",
+        "dateadded": "2020-03-23T21:54:57.582710+00:00",
+        "description": "Revert \"Update CI configuration to dpl v2\"\n\nThis reverts commit 99d31192922da19263218ff776344e185e50ca2b.",
+        "hashes": {
+          "debug": "97d86a535be5c21df7594f78b5f40fffdafc32c84b579f24767ee6be078e0218",
+          "release": "7904704dd1de5948e945c0496911451d8975ca884c7ca39b7d5b29ab2b065587"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/9d351d96c68f544c5098b1eb462a95673c9aa3f1/Debug/AppleSupport-2.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/9d351d96c68f544c5098b1eb462a95673c9aa3f1/Release/AppleSupport-2.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.6"
+      },
+      {
         "commit": "99d31192922da19263218ff776344e185e50ca2b",
         "dateadded": "2020-03-22T22:06:37.235138+00:00",
         "description": "Update CI configuration to dpl v2",
@@ -609,6 +645,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "f7aa97fbcf3d6e4e50a009602ed843bb0670d106",
+        "dateadded": "2020-03-23T21:54:57.652237+00:00",
+        "description": "Revert \"Update CI configuration to dpl v2\"\n\nThis reverts commit a14c399d31956130d0c682123262033a78cc79aa.",
+        "hashes": {
+          "debug": {
+            "sha256": "dd91e6a62f9052e57618d059ddda4791091b11318716571d6aedb9d603768147"
+          },
+          "release": {
+            "sha256": "8015bf3b39bf5609af4fe7f602056e84a00a79d7c4eb02ca9f690548c0c7aab2"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/f7aa97fbcf3d6e4e50a009602ed843bb0670d106/Debug/Lilu-1.4.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/f7aa97fbcf3d6e4e50a009602ed843bb0670d106/Release/Lilu-1.4.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.3"
+      },
+      {
         "commit": "a14c399d31956130d0c682123262033a78cc79aa",
         "dateadded": "2020-03-22T22:06:37.291994+00:00",
         "description": "Update CI configuration to dpl v2",
@@ -753,6 +809,26 @@
   "NVMeFix": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "9525d7e2589f9f2a642dc0c9c9a4b2fe015275ef",
+        "dateadded": "2020-03-23T21:54:57.630846+00:00",
+        "description": "Revert \"Update CI configuration to dpl v2\"\n\nThis reverts commit 3ea1176dcb42be50b2fbd7a8d19cb4652d0d3c9d.",
+        "hashes": {
+          "debug": {
+            "sha256": "211a96b5cf1dd57f3e9e4ff5c6e4d6b0349f640ca7f24dd4c9d6dab6849bbeeb"
+          },
+          "release": {
+            "sha256": "33792098f7accc6d1cdc0d0efacf4d4b2cad18d96e8566fcb6b805b3d56d4669"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/9525d7e2589f9f2a642dc0c9c9a4b2fe015275ef/Debug/NVMeFix-1.0.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/9525d7e2589f9f2a642dc0c9c9a4b2fe015275ef/Release/NVMeFix-1.0.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.2"
+      },
       {
         "commit": "3ea1176dcb42be50b2fbd7a8d19cb4652d0d3c9d",
         "dateadded": "2020-03-22T22:06:37.275097+00:00",
@@ -958,6 +1034,50 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "a8ebda75a48215f3ebbad5c58d463afa98c225d8",
+        "dateadded": "2020-03-23T21:54:57.536277+00:00",
+        "description": "Debug: Merge all runners into efidebug.tool and fix XCODE5 with LLDB",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a8ebda75a48215f3ebbad5c58d463afa98c225d8/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a8ebda75a48215f3ebbad5c58d463afa98c225d8/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "70f5b9acd5d17e16d0c2f7ba196e072890c01a67c9ba92f5b704cb814555c8ec",
+          "release": "6b7122bc4d58e68e0a32df8158754e11f210a7905decede8c0b846d2d0666d7b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a8ebda75a48215f3ebbad5c58d463afa98c225d8/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a8ebda75a48215f3ebbad5c58d463afa98c225d8/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "0032190a8b34ab8f7bceb90a6ac708531248fb7d",
+        "dateadded": "2020-03-23T21:54:57.481683+00:00",
+        "description": "Revert \"Update CI configuration to dpl v2\"\n\nThis reverts commit d9682012207e47fffa3356b33eabde1b54b99bf0.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0032190a8b34ab8f7bceb90a6ac708531248fb7d/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0032190a8b34ab8f7bceb90a6ac708531248fb7d/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "eae21448cbbee12246a941be46ccdc837a17e54ffd4dc33651a20873fbeec978",
+          "release": "43bf45c09cee0378f4ce0a09b2fa4aa09436bde0a95fb2a22bc83927be823ffa"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0032190a8b34ab8f7bceb90a6ac708531248fb7d/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0032190a8b34ab8f7bceb90a6ac708531248fb7d/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
       {
         "commit": "da840e97bef351126bf2503f36cabfa469ceef5f",
         "dateadded": "2020-03-22T22:06:37.199376+00:00",
@@ -2878,6 +2998,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "a75f1b0409d2690b3336258176300db14d23f9f5",
+        "dateadded": "2020-03-23T21:54:57.672976+00:00",
+        "description": "Revert \"Update CI configuration to dpl v2\"\n\nThis reverts commit cbd700161728aeb8bdc515c15d275a69fc45540a.",
+        "hashes": {
+          "debug": {
+            "sha256": "f51d826278143e2a27ea41430abed430351f05cb8c854b99a3f4604ff34de2e9"
+          },
+          "release": {
+            "sha256": "6ee9f63c0955a89353f537115e07c6be83bf61b471929d716bf79b37b4e73a8d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/a75f1b0409d2690b3336258176300db14d23f9f5/Debug/VirtualSMC-1.1.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/a75f1b0409d2690b3336258176300db14d23f9f5/Release/VirtualSMC-1.1.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.1"
+      },
+      {
         "commit": "cbd700161728aeb8bdc515c15d275a69fc45540a",
         "dateadded": "2020-03-22T22:06:37.310502+00:00",
         "description": "Update CI configuration to dpl v2",
@@ -2943,6 +3083,30 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "1a0455d92a6587e9edd3e2aeb410c8608692fbc5",
+        "dateadded": "2020-03-23T21:54:57.692599+00:00",
+        "description": "Revert \"Update CI configuration to dpl v2\"\n\nThis reverts commit 0d0ebc2f61c35c4ed705ab7cab2157b79932918c.",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/1a0455d92a6587e9edd3e2aeb410c8608692fbc5/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "debug": {
+            "sha256": "5ff9e525f7cc631c3d8c4615d4d7088918e9ca6375618a74f7622117dd70c7dd"
+          },
+          "release": {
+            "sha256": "a1e2cacd54f564328e320666545d8c6dc1f6f0f3d1a5d145c4f4c3f5ac840398"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/1a0455d92a6587e9edd3e2aeb410c8608692fbc5/Debug/WhateverGreen-1.3.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/1a0455d92a6587e9edd3e2aeb410c8608692fbc5/Release/WhateverGreen-1.3.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.8"
+      },
       {
         "commit": "0d0ebc2f61c35c4ed705ab7cab2157b79932918c",
         "dateadded": "2020-03-22T22:06:37.328831+00:00",
