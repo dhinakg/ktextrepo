@@ -1035,6 +1035,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "2ef536bd07eb421f8f46347bf46abbb87b7bca92",
+        "dateadded": "2020-03-24T21:36:00.681786+00:00",
+        "description": "Update Kexts.md",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2ef536bd07eb421f8f46347bf46abbb87b7bca92/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2ef536bd07eb421f8f46347bf46abbb87b7bca92/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "229d9707b4d72d60fc836167e33c721ea060e8af769192a8a7385ddaba73cde6",
+          "release": "17495c648dba468c54362af32c4ed11e8e6400bf407dc779d045f95100802a80"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2ef536bd07eb421f8f46347bf46abbb87b7bca92/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2ef536bd07eb421f8f46347bf46abbb87b7bca92/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
         "commit": "a8ebda75a48215f3ebbad5c58d463afa98c225d8",
         "dateadded": "2020-03-23T21:54:57.536277+00:00",
         "description": "Debug: Merge all runners into efidebug.tool and fix XCODE5 with LLDB",
