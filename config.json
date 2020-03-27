@@ -1035,6 +1035,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "fd179a115b04bd10649b75970a30228fed4a6229",
+        "dateadded": "2020-03-27T21:34:02.339366+00:00",
+        "description": "OpenCanopy: Remove pointless ASSERTs\n\nFixes ASSERTing when BootPicker entries exceed the screen boundaries.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fd179a115b04bd10649b75970a30228fed4a6229/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fd179a115b04bd10649b75970a30228fed4a6229/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "a3d53020fca89e5b4a0787466b8bf4c762800101956496605de9c8303b0c89de",
+          "release": "0ad1fba414214fbbf3aaffa80723c0234aea62bcb989de1935ba217f4a45cb3a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fd179a115b04bd10649b75970a30228fed4a6229/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fd179a115b04bd10649b75970a30228fed4a6229/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
         "commit": "2ef536bd07eb421f8f46347bf46abbb87b7bca92",
         "dateadded": "2020-03-24T21:36:00.681786+00:00",
         "description": "Update Kexts.md",
