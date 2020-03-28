@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "9c37f049c0deb88263b9bc4b2f2da02ab64b4fb3",
+        "dateadded": "2020-03-28T21:39:42.434145+00:00",
+        "description": "Improved performance with Lilu 1.4.3 APIs",
+        "hashes": {
+          "debug": {
+            "sha256": "d9d6b0d074f7835c376a6a98957cc49189c4db94c45f744e164a5968e783e64e"
+          },
+          "release": {
+            "sha256": "0a06b855a6e4524f9897feef1238d374bd427327d597fa846cf098cc5e18cba8"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9c37f049c0deb88263b9bc4b2f2da02ab64b4fb3/Debug/AppleALC-1.4.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9c37f049c0deb88263b9bc4b2f2da02ab64b4fb3/Release/AppleALC-1.4.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
         "commit": "9308ce0a1305bee47b02edae088a4683e985641d",
         "dateadded": "2020-03-23T21:54:57.604323+00:00",
         "description": "Revert \"Update CI configuration to dpl v2\"\n\nThis reverts commit b14f69b95f33ce727160ac55052602a68440de47.",
@@ -645,6 +665,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "8b1bb9b7edf7de00ca410115fca72ab1a8234839",
+        "dateadded": "2020-03-28T21:39:42.457603+00:00",
+        "description": "Implement BaseDeviceInfo",
+        "hashes": {
+          "debug": {
+            "sha256": "ef6aaed6a06d9f5611083ad9acdc19ab18f685c4a3d626f82bc966fce6979ca2"
+          },
+          "release": {
+            "sha256": "31b1704defef1a51fb988467fdb4af39cdde74951dbe15b284a0d9546f823874"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/8b1bb9b7edf7de00ca410115fca72ab1a8234839/Debug/Lilu-1.4.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/8b1bb9b7edf7de00ca410115fca72ab1a8234839/Release/Lilu-1.4.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.3"
+      },
+      {
         "commit": "f7aa97fbcf3d6e4e50a009602ed843bb0670d106",
         "dateadded": "2020-03-23T21:54:57.652237+00:00",
         "description": "Revert \"Update CI configuration to dpl v2\"\n\nThis reverts commit a14c399d31956130d0c682123262033a78cc79aa.",
@@ -1034,6 +1074,28 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "f6b4ac59be255a5592ce0aad6e849a1e5b6a7ccb",
+        "dateadded": "2020-03-28T21:39:42.394459+00:00",
+        "description": "AcpiSamples/PLUG: Note alternative naming",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f6b4ac59be255a5592ce0aad6e849a1e5b6a7ccb/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f6b4ac59be255a5592ce0aad6e849a1e5b6a7ccb/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "5850fbdb42912c10116fd596fecc72c545267eaa9835d912717be8140e6de6da",
+          "release": "a6c070b38b2aee9fe60302c172dca541d99903f30a893d38815994a78ddf1ebe"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f6b4ac59be255a5592ce0aad6e849a1e5b6a7ccb/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f6b4ac59be255a5592ce0aad6e849a1e5b6a7ccb/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
       {
         "commit": "fd179a115b04bd10649b75970a30228fed4a6229",
         "dateadded": "2020-03-27T21:34:02.339366+00:00",
@@ -3042,6 +3104,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "bd58d878b1ecf58907e93eae0ce820485e8c501e",
+        "dateadded": "2020-03-28T21:39:42.477544+00:00",
+        "description": "Improved performance with Lilu 1.4.3 APIs",
+        "hashes": {
+          "debug": {
+            "sha256": "ca328835503ca6e5d5cac30baa9837c0b4e67794b374a474f3016385779face0"
+          },
+          "release": {
+            "sha256": "90d8076fd59cc03d31b281d26eb0a2e52952f6164d5e0edf6088e19109eee13d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/bd58d878b1ecf58907e93eae0ce820485e8c501e/Debug/VirtualSMC-1.1.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/bd58d878b1ecf58907e93eae0ce820485e8c501e/Release/VirtualSMC-1.1.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.2"
+      },
+      {
         "commit": "a75f1b0409d2690b3336258176300db14d23f9f5",
         "dateadded": "2020-03-23T21:54:57.672976+00:00",
         "description": "Revert \"Update CI configuration to dpl v2\"\n\nThis reverts commit cbd700161728aeb8bdc515c15d275a69fc45540a.",
@@ -3127,6 +3209,102 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "3273657c87e8d7680e6bab0a6e124da61744161d",
+        "dateadded": "2020-03-28T21:39:42.558941+00:00",
+        "description": "Added `igfxfcms=1` boot argument (and `complete-modeset` property) on Skylake and Apple",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/3273657c87e8d7680e6bab0a6e124da61744161d/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "debug": {
+            "sha256": "94fe5f1d3ca05beb3345d2e7543d965a5d3f0ef3b5c5823eb25327a99ba6e13d"
+          },
+          "release": {
+            "sha256": "c6d821672a444fe3a3011cfc2e2a4dfc498e4bbf44a5b8f679722713663a0901"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/3273657c87e8d7680e6bab0a6e124da61744161d/Debug/WhateverGreen-1.3.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/3273657c87e8d7680e6bab0a6e124da61744161d/Release/WhateverGreen-1.3.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.8"
+      },
+      {
+        "commit": "aa39269ac02f81c112f7c1dea94c354a64f97708",
+        "dateadded": "2020-03-28T21:39:42.537616+00:00",
+        "description": "Improved performance with Lilu 1.4.3 APIs",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/aa39269ac02f81c112f7c1dea94c354a64f97708/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "debug": {
+            "sha256": "f967e46829be8218b3d3235ccc1d680a6769429143383f163dcc3f28da698dc8"
+          },
+          "release": {
+            "sha256": "709dfe87ac65dd36132360e7957f61a597d8f34067602249d9b9382d4ed344e1"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/aa39269ac02f81c112f7c1dea94c354a64f97708/Debug/WhateverGreen-1.3.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/aa39269ac02f81c112f7c1dea94c354a64f97708/Release/WhateverGreen-1.3.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.8"
+      },
+      {
+        "commit": "3f1e49797a5575c626f78a66f9af4eda901c7806",
+        "dateadded": "2020-03-28T21:39:42.517219+00:00",
+        "description": "Fix compiler warning with latest 10.15 SDK",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/3f1e49797a5575c626f78a66f9af4eda901c7806/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "debug": {
+            "sha256": "4a65075415d92844593e33271248dd3a29b5110fb0971e5763804220fb4035e9"
+          },
+          "release": {
+            "sha256": "0a1c252b1ed24822c9741e0c53d75fe37d85374c136a0d2ed4144fa11f882e71"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/3f1e49797a5575c626f78a66f9af4eda901c7806/Debug/WhateverGreen-1.3.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/3f1e49797a5575c626f78a66f9af4eda901c7806/Release/WhateverGreen-1.3.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.8"
+      },
+      {
+        "commit": "e6216a56dd26e69eec2e285c5fb3a237b20fa8f2",
+        "dateadded": "2020-03-28T21:39:42.497160+00:00",
+        "description": "Fix warnings",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e6216a56dd26e69eec2e285c5fb3a237b20fa8f2/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "debug": {
+            "sha256": "738f3173d39189890dc78300cfea343c19ddd8f45a6c6f21b6e900817a38aba5"
+          },
+          "release": {
+            "sha256": "b90c54f820e8d522b91b98e62b8686b778f30ae66d375b7aa8d92152e66fedae"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e6216a56dd26e69eec2e285c5fb3a237b20fa8f2/Debug/WhateverGreen-1.3.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e6216a56dd26e69eec2e285c5fb3a237b20fa8f2/Release/WhateverGreen-1.3.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.8"
+      },
       {
         "commit": "1a0455d92a6587e9edd3e2aeb410c8608692fbc5",
         "dateadded": "2020-03-23T21:54:57.692599+00:00",
