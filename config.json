@@ -665,6 +665,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "2bcda8d3186af5503f921f098cff1213d88bc9f3",
+        "dateadded": "2020-03-29T21:59:19.809088+00:00",
+        "description": "Improve failure logging",
+        "hashes": {
+          "debug": {
+            "sha256": "aec56a68908148a4016ceef1bef4bb4e6c4710e72ccb763fb464544b4bb5865a"
+          },
+          "release": {
+            "sha256": "83e18651dabd25f6849462f88a68c23efec4a7e09a198aa85bdb4fdbd05be0b8"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/2bcda8d3186af5503f921f098cff1213d88bc9f3/Debug/Lilu-1.4.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/2bcda8d3186af5503f921f098cff1213d88bc9f3/Release/Lilu-1.4.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.3"
+      },
+      {
         "commit": "8b1bb9b7edf7de00ca410115fca72ab1a8234839",
         "dateadded": "2020-03-28T21:39:42.457603+00:00",
         "description": "Implement BaseDeviceInfo",
@@ -1074,6 +1094,94 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "e10ca6caecdf584a937e85ce71b1db7a1c7efc64",
+        "dateadded": "2020-03-29T21:59:19.772440+00:00",
+        "description": "Debug: Recognise debugger names in lowercase",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e10ca6caecdf584a937e85ce71b1db7a1c7efc64/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e10ca6caecdf584a937e85ce71b1db7a1c7efc64/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "6a9c7463cdb641a605c257342fd0be1e9145d7868ea4a5010637a13851b9de3d",
+          "release": "67521b591ffcad90f74ece128fee78e34722e0938f4a61c6158fada631c9cc6b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e10ca6caecdf584a937e85ce71b1db7a1c7efc64/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e10ca6caecdf584a937e85ce71b1db7a1c7efc64/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "fbd61914363ee291e2bd7578328b3a3d220ded19",
+        "dateadded": "2020-03-29T21:59:19.734352+00:00",
+        "description": "OcMemoryLib: Implement memory attribute printing",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fbd61914363ee291e2bd7578328b3a3d220ded19/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fbd61914363ee291e2bd7578328b3a3d220ded19/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "aec39a470c275677efc4e9b74bbc74973b97fd1ff13a3ae9f28f4b9728348493",
+          "release": "4a1d1c645ebb7af09d7b79457160aabbdd1a5ce9a53798307c13982af46a3e2d"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fbd61914363ee291e2bd7578328b3a3d220ded19/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fbd61914363ee291e2bd7578328b3a3d220ded19/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "f963012e9814beaa5931f1723b32ba1596870853",
+        "dateadded": "2020-03-29T21:59:19.694842+00:00",
+        "description": "Build: Fixed 4K section alignment in `OpenRuntime`",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f963012e9814beaa5931f1723b32ba1596870853/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f963012e9814beaa5931f1723b32ba1596870853/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "22641e16d7ee45272edb819ffb1b381d27bcf8efbe616f6da68c5f0bcbd83f73",
+          "release": "9104c6f6be6bed3cf6745c0f74035e9d9068844bf7a188029ce892196f81bd84"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f963012e9814beaa5931f1723b32ba1596870853/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f963012e9814beaa5931f1723b32ba1596870853/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "3f2069d352646150750365afb3cf4c2330c606ab",
+        "dateadded": "2020-03-29T21:59:19.656215+00:00",
+        "description": "Docs: Update changelog to clarify Linux issue resolution\n\ncloses acidanthera/bugtracker#491",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3f2069d352646150750365afb3cf4c2330c606ab/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3f2069d352646150750365afb3cf4c2330c606ab/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "2c4b71e8a9e174afa3fa988c3ee022af9d86349908b63a2247393efb6777e8d0",
+          "release": "e64fabc8f82698c1047ad49184f68a74277d4d662964d68b82f8c5cfc94c640a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3f2069d352646150750365afb3cf4c2330c606ab/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3f2069d352646150750365afb3cf4c2330c606ab/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
       {
         "commit": "f6b4ac59be255a5592ce0aad6e849a1e5b6a7ccb",
         "dateadded": "2020-03-28T21:39:42.394459+00:00",
