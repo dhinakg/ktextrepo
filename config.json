@@ -665,6 +665,66 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "43ed5575413e422bcc14b73a032a943b332c344c",
+        "dateadded": "2020-03-30T21:29:39.509441+00:00",
+        "description": "Drop dead code",
+        "hashes": {
+          "debug": {
+            "sha256": "13a3ced1f2af2b5c1223b225fc9d80af1310462dab8e043db34205917bd22128"
+          },
+          "release": {
+            "sha256": "9bc7c9558bf14c2d95b77a47ffa4a3a51d1339cfc7e067f1f44fef6af168428b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/43ed5575413e422bcc14b73a032a943b332c344c/Debug/Lilu-1.4.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/43ed5575413e422bcc14b73a032a943b332c344c/Release/Lilu-1.4.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.3"
+      },
+      {
+        "commit": "0bafc578159f81ece745d35e976222c9f187c097",
+        "dateadded": "2020-03-30T21:29:39.488010+00:00",
+        "description": "Fix model detection slow path",
+        "hashes": {
+          "debug": {
+            "sha256": "8f6944cc10d6e0f291bf2f205d5ba104b46f9cc76a178a9dded1b409a217b0e4"
+          },
+          "release": {
+            "sha256": "bdfb0e102e8840c7b27b43c7a898ade7b5a0f2d2ce4d587aec41d32ea08b8862"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/0bafc578159f81ece745d35e976222c9f187c097/Debug/Lilu-1.4.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/0bafc578159f81ece745d35e976222c9f187c097/Release/Lilu-1.4.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.3"
+      },
+      {
+        "commit": "e827287b7f9ec424b20b8fa41d6497d92704bd72",
+        "dateadded": "2020-03-30T21:29:39.466692+00:00",
+        "description": "Fix potential null pointer deref",
+        "hashes": {
+          "debug": {
+            "sha256": "19a1d280e98ed38f3c1e7ee5d995300b70e9141bd4ec0bb6596687740b1f48de"
+          },
+          "release": {
+            "sha256": "91f71655642adee5e7ba4d133d74d48113d3e60e664c1cd4d5845214e13fe86f"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/e827287b7f9ec424b20b8fa41d6497d92704bd72/Debug/Lilu-1.4.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/e827287b7f9ec424b20b8fa41d6497d92704bd72/Release/Lilu-1.4.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.3"
+      },
+      {
         "commit": "2bcda8d3186af5503f921f098cff1213d88bc9f3",
         "dateadded": "2020-03-29T21:59:19.809088+00:00",
         "description": "Improve failure logging",
@@ -3317,6 +3377,54 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "2eb5e5fea89f1d04df18a3fea78b3a5c923062a2",
+        "dateadded": "2020-03-30T21:29:39.551800+00:00",
+        "description": "Add IGPU debugging code",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/2eb5e5fea89f1d04df18a3fea78b3a5c923062a2/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "debug": {
+            "sha256": "fb4b2e78328ec7a48c6368cbe6119f14cacb5cb7947b8bfc0c26b4d34f24f35d"
+          },
+          "release": {
+            "sha256": "8277cbc4080c57758a7bc5e45cffa48e14ef2729466905b233f6473ac2d760a5"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/2eb5e5fea89f1d04df18a3fea78b3a5c923062a2/Debug/WhateverGreen-1.3.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/2eb5e5fea89f1d04df18a3fea78b3a5c923062a2/Release/WhateverGreen-1.3.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.8"
+      },
+      {
+        "commit": "927d15d933cad020c82b8ad56ec3d6ce81b5a648",
+        "dateadded": "2020-03-30T21:29:39.530586+00:00",
+        "description": "Disable IGPU debugging code by default",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/927d15d933cad020c82b8ad56ec3d6ce81b5a648/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "debug": {
+            "sha256": "7a1be8923d18238c378c34422b6aa9315914489d507e50a71358b47e84d2fe41"
+          },
+          "release": {
+            "sha256": "823eba04c345fae07e58853903ee8eb925b09e9d7a6c4945f48f52321189fd86"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/927d15d933cad020c82b8ad56ec3d6ce81b5a648/Debug/WhateverGreen-1.3.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/927d15d933cad020c82b8ad56ec3d6ce81b5a648/Release/WhateverGreen-1.3.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.8"
+      },
       {
         "commit": "3273657c87e8d7680e6bab0a6e124da61744161d",
         "dateadded": "2020-03-28T21:39:42.558941+00:00",
