@@ -3378,6 +3378,98 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "e673c4829d055825140147c6aa265e2b02a8b3eb",
+        "dateadded": "2020-03-31T21:30:20.534082+00:00",
+        "description": "Guard names with prefix to avoid confusion",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e673c4829d055825140147c6aa265e2b02a8b3eb/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "debug": {
+            "sha256": "fd30e62bb51378f5c1a13dcf329957738738bce392c0663c98b96751dc9c3aac"
+          },
+          "release": {
+            "sha256": "8f980746a2aab5e873cc7b422a9860f76a102088a39edb2d1fc4d30ee5e0e1aa"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e673c4829d055825140147c6aa265e2b02a8b3eb/Debug/WhateverGreen-1.3.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e673c4829d055825140147c6aa265e2b02a8b3eb/Release/WhateverGreen-1.3.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.8"
+      },
+      {
+        "commit": "d556acc36549e7fe39044d2a937e7fcc7d9df586",
+        "dateadded": "2020-03-31T21:30:20.439309+00:00",
+        "description": "Separate AGDC to a separate header",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/d556acc36549e7fe39044d2a937e7fcc7d9df586/Release/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "release": {
+            "sha256": "9b3bfa961c2920c537098e74f6ff3feb11b510e7d7bcf900d029416817906cbe"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/d556acc36549e7fe39044d2a937e7fcc7d9df586/Release/WhateverGreen-1.3.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.8"
+      },
+      {
+        "commit": "09e01eb2835b44e23a70233cdd54159b20681df9",
+        "dateadded": "2020-03-31T21:30:20.512568+00:00",
+        "description": "Added `igfxagdc=0` boot argument and `disable-agdc` IGPU property to disable AGDC",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/09e01eb2835b44e23a70233cdd54159b20681df9/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "debug": {
+            "sha256": "1fd711e3c64e9b776bd3129e34e98952fbf6abf3fa20425d4f7be6e0769bbd23"
+          },
+          "release": {
+            "sha256": "56e4028e07813daec444e8d156215908d83ae3f22067a0d738ff928305ec283b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/09e01eb2835b44e23a70233cdd54159b20681df9/Debug/WhateverGreen-1.3.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/09e01eb2835b44e23a70233cdd54159b20681df9/Release/WhateverGreen-1.3.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.8"
+      },
+      {
+        "commit": "e06ef98b5fd6b65aa13314e57dd419e3bd2af41b",
+        "dateadded": "2020-03-31T21:30:20.489517+00:00",
+        "description": "Added `igfxonln=1` boot argument and `force-online` IGPU property force online status for all displays",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e06ef98b5fd6b65aa13314e57dd419e3bd2af41b/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "debug": {
+            "sha256": "f2c937b445ce58cfafd8a8772cc7291ea2c7ee692794c2789d0f6cfe801af92f"
+          },
+          "release": {
+            "sha256": "3d48c79377624d3216ae6e58d64e18938933385e35565447d8d811a600f468ae"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e06ef98b5fd6b65aa13314e57dd419e3bd2af41b/Debug/WhateverGreen-1.3.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e06ef98b5fd6b65aa13314e57dd419e3bd2af41b/Release/WhateverGreen-1.3.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.8"
+      },
+      {
         "commit": "2eb5e5fea89f1d04df18a3fea78b3a5c923062a2",
         "dateadded": "2020-03-30T21:29:39.551800+00:00",
         "description": "Add IGPU debugging code",
