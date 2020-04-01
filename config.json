@@ -1155,6 +1155,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "eab7f470a4de63d79baf63cce39f1b3bef61f565",
+        "dateadded": "2020-04-01T21:37:56.807953+00:00",
+        "description": "Debug: Document about running QEMU in SMM mode",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eab7f470a4de63d79baf63cce39f1b3bef61f565/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eab7f470a4de63d79baf63cce39f1b3bef61f565/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "ead13f347c3a271126fcfd4096e80f9f87c3550bbce92c5c84ce37a232a263f4",
+          "release": "47a83f1b0e4364ad9ae82a98496be9f3a66282331c28c69118fd25bc14c4fe96"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eab7f470a4de63d79baf63cce39f1b3bef61f565/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eab7f470a4de63d79baf63cce39f1b3bef61f565/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
         "commit": "e10ca6caecdf584a937e85ce71b1db7a1c7efc64",
         "dateadded": "2020-03-29T21:59:19.772440+00:00",
         "description": "Debug: Recognise debugger names in lowercase",
@@ -3377,6 +3399,54 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "f6127236f2075c44e94f8142389c8a6b5e4ec314",
+        "dateadded": "2020-04-01T21:37:56.869464+00:00",
+        "description": "Fixed force-online device property",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/f6127236f2075c44e94f8142389c8a6b5e4ec314/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "debug": {
+            "sha256": "c054b140595b268cdb4ace1ec0e852de97ae883108e98c113791839e20ac1410"
+          },
+          "release": {
+            "sha256": "9a3f8c5926c31ac20daecafb6df58939a587f98d61898e1b9059edec3d19b3ca"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/f6127236f2075c44e94f8142389c8a6b5e4ec314/Debug/WhateverGreen-1.3.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/f6127236f2075c44e94f8142389c8a6b5e4ec314/Release/WhateverGreen-1.3.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.8"
+      },
+      {
+        "commit": "8169a6ac99993f268d524dd2e7243054c283a2a7",
+        "dateadded": "2020-04-01T21:37:56.847476+00:00",
+        "description": "Fix type issues in force-online",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/8169a6ac99993f268d524dd2e7243054c283a2a7/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "7efde83f9e08aed79de061821740254b2c1f38ab59d24a3965082740345a6ddd",
+          "debug": {
+            "sha256": "db58ab2b1eef9f1d26a4b8afc84bbf552e7fab03ce7970b5a0964f7d78862149"
+          },
+          "release": {
+            "sha256": "93133a9f3fd6c8bc49d0b4f636962d66f184ea622e3a81d259bc65fab6a58251"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/8169a6ac99993f268d524dd2e7243054c283a2a7/Debug/WhateverGreen-1.3.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/8169a6ac99993f268d524dd2e7243054c283a2a7/Release/WhateverGreen-1.3.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.8"
+      },
       {
         "commit": "e673c4829d055825140147c6aa265e2b02a8b3eb",
         "dateadded": "2020-03-31T21:30:20.534082+00:00",
