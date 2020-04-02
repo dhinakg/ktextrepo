@@ -3,6 +3,86 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "94f9d58311242e1eb1cc231d050d70b2902b38f1",
+        "dateadded": "2020-04-02T22:14:56.028960+00:00",
+        "description": "Adding Layout-7 for Realtek ALC255/ALC3234 for Dell 7348 (#524)\n\n* ALC255 support for Dell 7348\r\n\r\nan attempt to add layout 7 to the 7325 alc255\r\n\r\n* Update Platforms7.xml\r\n\r\nremoving unused pathmaps\r\n\r\n* Adding PinConfigs\r\n\r\n* Revert \"Update Platforms7.xml\"\r\n\r\nThis reverts commit 02d2d09f2f3119d14301214a89bda5531508207c.\r\n\r\n* Update Platforms7.xml\r\n\r\n* Revert \"Adding PinConfigs\"\r\n\r\nThis reverts commit 199ff9da36b2d950ba0c56ee3ffea85f774d4010.\r\n\r\n* Adding PinConfigs\r\n\r\n* Final PinConfigs\r\n\r\n01271c10 01271d01 01271ea6 01271f90\r\n01471c20 01471d01 01471e17 01471f90 01470c02\r\n01771cf0 01771d00 01771e00 01771f00\r\n01871cf0 01871d00 01871e00 01871f00\r\n01971cf0 01971d00 01971e00 01971f00\r\n01a71cf0 01a71d00 01a71e00 01a71f00\r\n01b71cf0 01b71d00 01b71e00 01b71f00\r\n01d71cf0 01d71d00 01d71e00 01d71f00\r\n01e71cf0 01e71d00 01e71e00 01e71f00\r\n02171ca0 02171d10 02171e21 02171f02\r\n\r\n* Tests\r\n\r\n* Fixing pathmap and Cleanup code\r\n\r\n* finally, without audio crackling on headphone\r\n\r\n* Update Info.plist\r\n\r\n* Update Platforms7.xml\r\n\r\n* Update layout7.xml\r\n\r\n* Update Platforms7.xml\r\n\r\n* maximum clean as possible\r\n\r\n* Update PinConfigs\r\n\r\n<01271C60 01271D00 01271EA0 01271F90 01471C20 01471D00 01471E17 01471F90 01470C02 01971C30 01971D10 01971E8B 01971F01 01A71C30 01A71D10 01A71E8B 01A71F01 02171C30 02171D10 02171E2B 02171F01 02170C02>\r\n\r\n<\r\n01271C60 01271D00 01271EA0 01271F90          # Mic\r\n01471C20 01471D00 01471E17 01471F90 01470C02 # Speaker\r\n01971C30 01971D10 01971E8B 01971F01          # Line In <- Does not work, but when it is mapped, the noise from the headset disappears\r\n01A71C30 01A71D10 01A71E8B 01A71F01          # Line In <- Works, but is not enabled so there is no conflict in the combined jack\r\n02171C30 02171D10 02171E2B 02171F01 02170C02 # Headphone\r\n>\r\n\r\n* final version (maybe)\r\n\r\nNovo patch (0x10134206 from layout7) em Info.plist\r\nFixing colors of the connectors in PinConfigs\r\nAdding DspFunctions on the microphone\r\ncode cleanup / typo",
+        "hashes": {
+          "debug": {
+            "sha256": "f88733a093ee354162db57301397ad43321248cc28101b5cce5e25b8a7899cb7"
+          },
+          "release": {
+            "sha256": "cc90b1901533d4ef0a846779bfabe00c49b5d8014d76f552e9dcdb76f77d8c7f"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/94f9d58311242e1eb1cc231d050d70b2902b38f1/Debug/AppleALC-1.4.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/94f9d58311242e1eb1cc231d050d70b2902b38f1/Release/AppleALC-1.4.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
+        "commit": "845969174aa9c89fd69be5b8e445a1459cbcf341",
+        "dateadded": "2020-04-02T22:14:55.999977+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "8b649d01cfae65fe7033379309dee5a895d7b3f3ea6b4821add7405bf407f9a9"
+          },
+          "release": {
+            "sha256": "8569767ae6926daa0821f820ce1f58ad7208eb17804c01e42275b848d009cbf9"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/845969174aa9c89fd69be5b8e445a1459cbcf341/Debug/AppleALC-1.4.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/845969174aa9c89fd69be5b8e445a1459cbcf341/Release/AppleALC-1.4.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
+        "commit": "949843047528e139b9bb9887785541b409d68d03",
+        "dateadded": "2020-04-02T22:14:55.974005+00:00",
+        "description": "Fix CX8050 LineIn for headsets with combo jack (#525)",
+        "hashes": {
+          "debug": {
+            "sha256": "fef1d945882219dbc9e5ac9793afcd22c9d4bbb0e3c2339ae05e1fc5957873e1"
+          },
+          "release": {
+            "sha256": "65d3b6b143214c735c6d0edee149ca15aec794717aeb2012309a17bf73a7d75a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/949843047528e139b9bb9887785541b409d68d03/Debug/AppleALC-1.4.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/949843047528e139b9bb9887785541b409d68d03/Release/AppleALC-1.4.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
+        "commit": "a22c591bbe651c60e82af184d5f28842a47908b5",
+        "dateadded": "2020-04-02T22:14:55.948147+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "47e74c1c91129e2140cd38202e1b83cf457473ce0863837cd45f77957587bdc2"
+          },
+          "release": {
+            "sha256": "d7494e217da856f034f58ea58958d0424b266d0fac4c14d924803c7ec1eaf303"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/a22c591bbe651c60e82af184d5f28842a47908b5/Debug/AppleALC-1.4.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/a22c591bbe651c60e82af184d5f28842a47908b5/Release/AppleALC-1.4.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
         "commit": "9c37f049c0deb88263b9bc4b2f2da02ab64b4fb3",
         "dateadded": "2020-03-28T21:39:42.434145+00:00",
         "description": "Improved performance with Lilu 1.4.3 APIs",
@@ -1154,6 +1234,94 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "5fcf850ac11a648c927fc4dc583550e61b7fb72f",
+        "dateadded": "2020-04-02T22:14:55.908469+00:00",
+        "description": "OcMemoryLib: Introduce attribute manipulation code",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5fcf850ac11a648c927fc4dc583550e61b7fb72f/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5fcf850ac11a648c927fc4dc583550e61b7fb72f/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "83ae31e9661819904d1e32fa8ef97450ab837435b60e9538792da754e5cf8f5d",
+          "release": "72eaa5ce6613963ea7ed13aa90b4d14ccef6febc2cd1093ad69e664e500cb004"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5fcf850ac11a648c927fc4dc583550e61b7fb72f/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5fcf850ac11a648c927fc4dc583550e61b7fb72f/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "98435e9a2df8f2a5368ab879e3a34c06314c23d9",
+        "dateadded": "2020-04-02T22:14:55.852950+00:00",
+        "description": "OpenRuntime: Introduce GetExecArea function",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/98435e9a2df8f2a5368ab879e3a34c06314c23d9/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/98435e9a2df8f2a5368ab879e3a34c06314c23d9/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "410ce752e32816fcdb3a056b50ff10420c680fadb4416b1357e399630ee77a75",
+          "release": "a0418cd77d0768168e9c51ad32a9b03a5360513adf5e6b984fdcf123889430d7"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/98435e9a2df8f2a5368ab879e3a34c06314c23d9/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/98435e9a2df8f2a5368ab879e3a34c06314c23d9/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "60fca487a3bde75d0f8bda08a0f0a94284e5af9d",
+        "dateadded": "2020-04-02T22:14:55.802716+00:00",
+        "description": "OpenCoreUefi: Introduced `SyncRuntimePermissions` to fix Linux booting on CFL+",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/60fca487a3bde75d0f8bda08a0f0a94284e5af9d/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/60fca487a3bde75d0f8bda08a0f0a94284e5af9d/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "e16da56e8536e2f6f62ea8964fbd6fed4f1a2cf281f712b9c36a256af159bbb1",
+          "release": "43cba6ff51d071974364467853d9ada9091f351157ff647a7d3bef0067a95651"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/60fca487a3bde75d0f8bda08a0f0a94284e5af9d/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/60fca487a3bde75d0f8bda08a0f0a94284e5af9d/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "72816f55b54d884cbce9d454ff7b64210974a411",
+        "dateadded": "2020-04-02T22:14:55.759634+00:00",
+        "description": "OcAppleBootCompatLib: Add improved debugging",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/72816f55b54d884cbce9d454ff7b64210974a411/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/72816f55b54d884cbce9d454ff7b64210974a411/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "f70737b216804f54ee2309b5a72683ea2044abd2a956684ba18f7793cfa60187",
+          "SSDT-PMC.aml": "1e1a131b97e2e875aaf5bfc97b0cbcd5672c7ef0e53f314888db8d5b0b4f4f37",
+          "debug": "5e2b27925a098c5ac272cb82c7dc25273c372f3c809800efafadfbf7dfef94a0",
+          "release": "51327c4e6e5e816b5e811b2a963d32c763d9646742c8c9180c2be497b817a3fe"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/72816f55b54d884cbce9d454ff7b64210974a411/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/72816f55b54d884cbce9d454ff7b64210974a411/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
       {
         "commit": "eab7f470a4de63d79baf63cce39f1b3bef61f565",
         "dateadded": "2020-04-01T21:37:56.807953+00:00",
