@@ -1235,6 +1235,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "7aedbf3c60f45ea4d6f9d483991d43e88e966b02",
+        "dateadded": "2020-04-04T22:00:56.213429+00:00",
+        "description": "OcMemoryLib: Actually fix OcExpandAttributesByMap",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7aedbf3c60f45ea4d6f9d483991d43e88e966b02/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7aedbf3c60f45ea4d6f9d483991d43e88e966b02/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d8c0aa4add11f60aa1e0a5d8a9ecc5765812dbaa20c571f40b23d4f0a0e26902",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "f359815bc7adcda0a19f5b19d012cc2617436af143b5b2e64550736e040ea265",
+          "release": "0e688534f81b7f1ec52d21ac354b9f8b9adea3ac97913234663e00e1e2301af7"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7aedbf3c60f45ea4d6f9d483991d43e88e966b02/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7aedbf3c60f45ea4d6f9d483991d43e88e966b02/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "9b848de3e2d9570efc7302f99c8f30eecf44df79",
+        "dateadded": "2020-04-04T22:00:56.171058+00:00",
+        "description": "OcAppleBootCompatLib: Introduce `ProtectMemoryRegions`\n\ncloses acidanthera/bugtracker#791",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9b848de3e2d9570efc7302f99c8f30eecf44df79/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9b848de3e2d9570efc7302f99c8f30eecf44df79/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d8c0aa4add11f60aa1e0a5d8a9ecc5765812dbaa20c571f40b23d4f0a0e26902",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "326a17488abd2e02f3aeb01469a80a16764199406d89b90021f1c66321f2a232",
+          "release": "17ad160601476034a3ee1ac545d6ab95339dc6e15b067e4b20b67bec05c631bb"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9b848de3e2d9570efc7302f99c8f30eecf44df79/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9b848de3e2d9570efc7302f99c8f30eecf44df79/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "6a86ea21487a06cfa5d5b528ad8f1264067f9761",
+        "dateadded": "2020-04-04T22:00:56.130862+00:00",
+        "description": "OcAfterBootCompatLib: Renamed from OcAppleBootCompatLib",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6a86ea21487a06cfa5d5b528ad8f1264067f9761/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6a86ea21487a06cfa5d5b528ad8f1264067f9761/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d8c0aa4add11f60aa1e0a5d8a9ecc5765812dbaa20c571f40b23d4f0a0e26902",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "62984a0851c9dedfe3659d97b31dd7d9f169cbdc35af3354e6ac756815683ec8",
+          "release": "0471929f0293f533e8f8d9b119ab215809ef402818c1e87ae3ff6d4914372c43"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6a86ea21487a06cfa5d5b528ad8f1264067f9761/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6a86ea21487a06cfa5d5b528ad8f1264067f9761/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "eff6598386a4b55d0c3fbb0afc66172b7de43aff",
+        "dateadded": "2020-04-04T22:00:56.083933+00:00",
+        "description": "Docs: Improve RebuildAppleMemoryMap description",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eff6598386a4b55d0c3fbb0afc66172b7de43aff/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eff6598386a4b55d0c3fbb0afc66172b7de43aff/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d8c0aa4add11f60aa1e0a5d8a9ecc5765812dbaa20c571f40b23d4f0a0e26902",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "53bdab6a4817287a735f697bd81d82a3f9c82cc5c06aa236e3ce46b85d637444",
+          "release": "150235ed9a86f5a1c218c5a2bdd8abed52280b0b75e0d9620ad1e3a662caa8d1"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eff6598386a4b55d0c3fbb0afc66172b7de43aff/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eff6598386a4b55d0c3fbb0afc66172b7de43aff/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
         "commit": "ee72a8b3346978ed5f679a15315714c097a28a4c",
         "dateadded": "2020-04-03T22:00:50.578156+00:00",
         "description": "OcMemoryLib: Improve memory shrinking to process RT areas",
