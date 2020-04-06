@@ -1235,6 +1235,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "96ad44ef399cf831b483f2ab9f7c728369c0a51e",
+        "dateadded": "2020-04-06T22:04:45.543943+00:00",
+        "description": "OpenCanopy: Support for custom background colour",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96ad44ef399cf831b483f2ab9f7c728369c0a51e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96ad44ef399cf831b483f2ab9f7c728369c0a51e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d8c0aa4add11f60aa1e0a5d8a9ecc5765812dbaa20c571f40b23d4f0a0e26902",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "0365af07e22fe1a927425697fa0d71396be322f37723626105a0fd69ea22bfe4",
+          "release": "e8316e8019bc196481b1071536a3341c27ddda8b19f18030e1a022347f49dc94"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96ad44ef399cf831b483f2ab9f7c728369c0a51e/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96ad44ef399cf831b483f2ab9f7c728369c0a51e/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "80a82ed86edc5a203389e9524d43dc3158ce760b",
+        "dateadded": "2020-04-06T22:04:45.477873+00:00",
+        "description": "OpenCanopy: Global variables are initialised with zeroes\n\ncloses acidanthera/bugtracker#805",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/80a82ed86edc5a203389e9524d43dc3158ce760b/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/80a82ed86edc5a203389e9524d43dc3158ce760b/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d8c0aa4add11f60aa1e0a5d8a9ecc5765812dbaa20c571f40b23d4f0a0e26902",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "502c9c8cb019aa891e53202daca36a03d00fd2769b40ce80c1a1931ab4a2488c",
+          "release": "4e58bdec04ea0a55b0471dc1c2f568bbec42543dba6a18572eab3055df1d9a99"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/80a82ed86edc5a203389e9524d43dc3158ce760b/Debug/OpenCore-0.5.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/80a82ed86edc5a203389e9524d43dc3158ce760b/Release/OpenCore-0.5.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.7"
+      },
+      {
+        "commit": "05e3b1434359f6dc1b53484f3d16a50e76e19e6c",
+        "dateadded": "2020-04-06T22:04:45.412643+00:00",
+        "description": "Bump version to 0.5.8",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/05e3b1434359f6dc1b53484f3d16a50e76e19e6c/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/05e3b1434359f6dc1b53484f3d16a50e76e19e6c/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d8c0aa4add11f60aa1e0a5d8a9ecc5765812dbaa20c571f40b23d4f0a0e26902",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "d0486afebd1663728055ae83b7e8fae4d2190c8671a94a358d894da7a5e7543b",
+          "release": "c4e585078578894303b9743d1159683e83b68da1d5bf3c16f7137e116b3a5564"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/05e3b1434359f6dc1b53484f3d16a50e76e19e6c/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/05e3b1434359f6dc1b53484f3d16a50e76e19e6c/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "13ab95b1e9b27af850afdf5fceb5631668631d24",
+        "dateadded": "2020-04-06T22:04:45.367655+00:00",
+        "description": "Build: Fixed Resources folder placement.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/13ab95b1e9b27af850afdf5fceb5631668631d24/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/13ab95b1e9b27af850afdf5fceb5631668631d24/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d8c0aa4add11f60aa1e0a5d8a9ecc5765812dbaa20c571f40b23d4f0a0e26902",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "03b4e14dfabdd11f0ff64ca16860e7cfd5bef292060a9526628feca8b5e7c32e",
+          "release": "a8fe4d1ad753f84339e1b35f2bd1f5cf43b97df3f343d84ab6d0360df7d67f35"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/13ab95b1e9b27af850afdf5fceb5631668631d24/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/13ab95b1e9b27af850afdf5fceb5631668631d24/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
         "commit": "7aedbf3c60f45ea4d6f9d483991d43e88e966b02",
         "dateadded": "2020-04-04T22:00:56.213429+00:00",
         "description": "OcMemoryLib: Actually fix OcExpandAttributesByMap",
@@ -3637,6 +3725,26 @@
   "VirtualSMC": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "cf8b8428e0ea59656e4b1517dd4ed5d6263cf6d4",
+        "dateadded": "2020-04-06T22:04:45.597392+00:00",
+        "description": "Disable modules as they break Coverity",
+        "hashes": {
+          "debug": {
+            "sha256": "f17276e98d43b97b12ae64cb2ab8eabd0d3ee37608a507abaec93fd21c2703eb"
+          },
+          "release": {
+            "sha256": "3c2f14cb78f115d23de85ad70f2bdff9d2d9bea72c6563734483945419a7cf10"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/cf8b8428e0ea59656e4b1517dd4ed5d6263cf6d4/Debug/VirtualSMC-1.1.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/cf8b8428e0ea59656e4b1517dd4ed5d6263cf6d4/Release/VirtualSMC-1.1.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.2"
+      },
       {
         "commit": "bd58d878b1ecf58907e93eae0ce820485e8c501e",
         "dateadded": "2020-03-28T21:39:42.477544+00:00",
