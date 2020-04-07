@@ -1235,6 +1235,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "079070a29fd57df3c15ff90e1a870ad6a79d2ada",
+        "dateadded": "2020-04-07T22:04:07.923505+00:00",
+        "description": "Fix several issues (Coverity, Clang)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/079070a29fd57df3c15ff90e1a870ad6a79d2ada/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/079070a29fd57df3c15ff90e1a870ad6a79d2ada/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "27c18dcf560ae1dc4ffedb95812184430e62ac5a16f2ad36e336f858a75c864a",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "3442f7da34ba5ed364e9043a93c2690e913bbd36291a71207035b8f78d2135d2",
+          "release": "74fb7916f957fff99932253ee164f908919d120697d7bbc9ef1c52ade284238e"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/079070a29fd57df3c15ff90e1a870ad6a79d2ada/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/079070a29fd57df3c15ff90e1a870ad6a79d2ada/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "5aa218729361a651787fdbf3a82cd3ef95db2052",
+        "dateadded": "2020-04-07T22:04:07.883929+00:00",
+        "description": "Build: Fix tool bundling",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5aa218729361a651787fdbf3a82cd3ef95db2052/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5aa218729361a651787fdbf3a82cd3ef95db2052/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "27c18dcf560ae1dc4ffedb95812184430e62ac5a16f2ad36e336f858a75c864a",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "9c9d65325afa7d19389d721a4d051fa09cf73c3c5f783c785a4afb9677a7ae95",
+          "release": "99a5d71f8dcfd2788e3476a652dc70853a5199ceba227dad7ebaa370ec7c0be4"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5aa218729361a651787fdbf3a82cd3ef95db2052/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5aa218729361a651787fdbf3a82cd3ef95db2052/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "ab8cda9574f3734bd831a83d3a5fa34290816d27",
+        "dateadded": "2020-04-07T22:04:07.835293+00:00",
+        "description": "Build: Try updating to Xcode 11 to speedup coverity",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ab8cda9574f3734bd831a83d3a5fa34290816d27/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ab8cda9574f3734bd831a83d3a5fa34290816d27/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "27c18dcf560ae1dc4ffedb95812184430e62ac5a16f2ad36e336f858a75c864a",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "ad61e033a1f6aaf26f6022d1d102951a1ab0c36e349064cb345ca8edc91ff26c",
+          "release": "ff775a101af098f11c06a26e3455967d438842495a18c576f139696a55318442"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ab8cda9574f3734bd831a83d3a5fa34290816d27/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ab8cda9574f3734bd831a83d3a5fa34290816d27/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "722e47c80a1bb645721368a1cfeca8ac5921acc4",
+        "dateadded": "2020-04-07T22:04:07.795124+00:00",
+        "description": "OcFileLib: Add missing error condition",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/722e47c80a1bb645721368a1cfeca8ac5921acc4/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/722e47c80a1bb645721368a1cfeca8ac5921acc4/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "27c18dcf560ae1dc4ffedb95812184430e62ac5a16f2ad36e336f858a75c864a",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "c866ee61b5dfca320e9f921e2df752a9a82757235cb39736ed50e088d3a146da",
+          "release": "7470816996cf19ec1c9346c6cb167423db0454fd9214bf9a14c7ca9a3d71c2f2"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/722e47c80a1bb645721368a1cfeca8ac5921acc4/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/722e47c80a1bb645721368a1cfeca8ac5921acc4/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
         "commit": "96ad44ef399cf831b483f2ab9f7c728369c0a51e",
         "dateadded": "2020-04-06T22:04:45.543943+00:00",
         "description": "OpenCanopy: Support for custom background colour",
