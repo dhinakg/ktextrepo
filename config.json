@@ -1235,6 +1235,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "29bd5732ad439c02aad11a45b2ee8b3fd02623d5",
+        "dateadded": "2020-04-09T22:04:27.660340+00:00",
+        "description": "Docs: Simplify SSDT-PLUG to improve readability (#32)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/29bd5732ad439c02aad11a45b2ee8b3fd02623d5/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/29bd5732ad439c02aad11a45b2ee8b3fd02623d5/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "8767740f50495bb0999a7ded946c648b8a90c03d3c8e7ff3635787ec0ff19557",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "d792293e0752ba6d5a3cb0bd2636bffbb838ca9a42261ab15673851f1963abda",
+          "release": "3e490510e11da177e92e5abcda42605dad9e19f2b876e8fb5ea1ab8b3c4147ee"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/29bd5732ad439c02aad11a45b2ee8b3fd02623d5/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/29bd5732ad439c02aad11a45b2ee8b3fd02623d5/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "82e8f5efb9ed2baaed68a1b864a4419d3fdf66d8",
+        "dateadded": "2020-04-09T22:04:27.612718+00:00",
+        "description": "OcSmbiosLib: Fixed `Custom` `UpdateSMBIOSMode` modifying SMBIOSv3 table",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/82e8f5efb9ed2baaed68a1b864a4419d3fdf66d8/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/82e8f5efb9ed2baaed68a1b864a4419d3fdf66d8/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "8767740f50495bb0999a7ded946c648b8a90c03d3c8e7ff3635787ec0ff19557",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "4b84a1ae32be8a815965aebe0b221e4edb1fc3891acb1b56c65df80635d098f1",
+          "release": "00d8b1e3d913c5ab4ad615a2a98ad5446bf6a25d24049151aad0ff87a7ba7a13"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/82e8f5efb9ed2baaed68a1b864a4419d3fdf66d8/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/82e8f5efb9ed2baaed68a1b864a4419d3fdf66d8/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "219fdc47c45abaf7dee93c002748a5b0f2fa8993",
+        "dateadded": "2020-04-09T22:04:27.562807+00:00",
+        "description": "OpenCanopy: Fixed rendering macOS installer icons",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/219fdc47c45abaf7dee93c002748a5b0f2fa8993/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/219fdc47c45abaf7dee93c002748a5b0f2fa8993/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "8767740f50495bb0999a7ded946c648b8a90c03d3c8e7ff3635787ec0ff19557",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "3f6f0e5ace353a8ebce8b959ad51a5da6c086d52e518c41be96b54007eb791b7",
+          "release": "5ddbd8639fce179c32765e563492a244f770156c215af6410f76deed1843b852"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/219fdc47c45abaf7dee93c002748a5b0f2fa8993/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/219fdc47c45abaf7dee93c002748a5b0f2fa8993/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "d3834d561ad54c5c0a5f31190d3c2a47a63381ff",
+        "dateadded": "2020-04-09T22:04:27.515197+00:00",
+        "description": "OcAppleUserInterfaceThemeLib: Fix tag",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d3834d561ad54c5c0a5f31190d3c2a47a63381ff/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d3834d561ad54c5c0a5f31190d3c2a47a63381ff/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "8767740f50495bb0999a7ded946c648b8a90c03d3c8e7ff3635787ec0ff19557",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "ab976d6c62a6b4fb69a4b8d43c97424f5cae6506ed159ce5ae8be59229233631",
+          "release": "106c3e689c05ac76de80d604f34330852123f904f98c9b8986fd351da18774f5"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d3834d561ad54c5c0a5f31190d3c2a47a63381ff/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d3834d561ad54c5c0a5f31190d3c2a47a63381ff/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
         "commit": "079070a29fd57df3c15ff90e1a870ad6a79d2ada",
         "dateadded": "2020-04-07T22:04:07.923505+00:00",
         "description": "Fix several issues (Coverity, Clang)",
