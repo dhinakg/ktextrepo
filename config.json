@@ -468,6 +468,54 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "c0c764eb55aafe42a80f3a240f91ae454171c4e0",
+        "dateadded": "2020-04-10T22:20:13.339394+00:00",
+        "description": "ApfsDriverLoader: Added unaligned and custom-size I/O support",
+        "hashes": {
+          "debug": "2e3e23aa75c92ea194a9225042077fb3eeb2c1cb8c70e9fae3b551b0e63bf344",
+          "release": "3e0b0609f146ef8041caa3408e83c83878a84c5db8cc5a0b6fb28072af989a22"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/c0c764eb55aafe42a80f3a240f91ae454171c4e0/Debug/AppleSupport-2.1.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/c0c764eb55aafe42a80f3a240f91ae454171c4e0/Release/AppleSupport-2.1.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.7"
+      },
+      {
+        "commit": "3cc0f65dc240d061fc2fb5636e432016cadfe64b",
+        "dateadded": "2020-04-10T22:20:13.313935+00:00",
+        "description": "ApfsDriverLoader: More cleanup",
+        "hashes": {
+          "debug": "b8f326682a2e9818f3b91928ca49d74196663901571638f5e6d4e6dbc985970f",
+          "release": "7a9f086b8d26d95c05f72e560cfe3ca885bdfde855d3f14001f144bf71256ffb"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/3cc0f65dc240d061fc2fb5636e432016cadfe64b/Debug/AppleSupport-2.1.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/3cc0f65dc240d061fc2fb5636e432016cadfe64b/Release/AppleSupport-2.1.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.7"
+      },
+      {
+        "commit": "57927e63c53bf30d75bbc4739bda0dbd7b247bdc",
+        "dateadded": "2020-04-10T22:20:13.288627+00:00",
+        "description": "Build: Fix reference to div intinsic",
+        "hashes": {
+          "debug": "7293b58c769a5dd1d47c758b23c1d3536a809eb37e0bc4677389f7bace71917b",
+          "release": "9f86adcaee2e16cda5b6765242b19d64615295f50cbf77c7aec1417d209a4e5d"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/57927e63c53bf30d75bbc4739bda0dbd7b247bdc/Debug/AppleSupport-2.1.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/57927e63c53bf30d75bbc4739bda0dbd7b247bdc/Release/AppleSupport-2.1.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.7"
+      },
+      {
         "commit": "9d351d96c68f544c5098b1eb462a95673c9aa3f1",
         "dateadded": "2020-03-23T21:54:57.582710+00:00",
         "description": "Revert \"Update CI configuration to dpl v2\"\n\nThis reverts commit 99d31192922da19263218ff776344e185e50ca2b.",
@@ -744,6 +792,26 @@
   "Lilu": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "3b51df3f33aaf08b959f48a9f8d503d0a96e2cea",
+        "dateadded": "2020-04-10T22:20:13.367930+00:00",
+        "description": "Update copyright year",
+        "hashes": {
+          "debug": {
+            "sha256": "fa5c72b2e7a137de8056f1e13b6e5f8a9d070ba6dbbc9659f63d9f7c45bb75b5"
+          },
+          "release": {
+            "sha256": "d75031ae8a5d986ce5a3597d6c21c80cd2c9b09b58747105ca9752bf401a6e14"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/3b51df3f33aaf08b959f48a9f8d503d0a96e2cea/Debug/Lilu-1.4.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/3b51df3f33aaf08b959f48a9f8d503d0a96e2cea/Release/Lilu-1.4.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.3"
+      },
       {
         "commit": "43ed5575413e422bcc14b73a032a943b332c344c",
         "dateadded": "2020-03-30T21:29:39.509441+00:00",
@@ -1234,6 +1302,94 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "fab87db9088bf86069342567a9953cf62d973f6d",
+        "dateadded": "2020-04-10T22:20:13.245213+00:00",
+        "description": "Docs: Enabled .VolumeIcon.icns",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fab87db9088bf86069342567a9953cf62d973f6d/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fab87db9088bf86069342567a9953cf62d973f6d/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "8767740f50495bb0999a7ded946c648b8a90c03d3c8e7ff3635787ec0ff19557",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "45328c95ae1a0f7f73a1bbc37265bf96edd0b77f3e46d227c53a0ac363c08a65",
+          "release": "86aac66882a07688914f00f19bfa2722f1298dcf4eebb196ff1ea748098a2acb"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fab87db9088bf86069342567a9953cf62d973f6d/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fab87db9088bf86069342567a9953cf62d973f6d/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "9eecf43c76b6cdcb72d4138a14375c0b5afbf276",
+        "dateadded": "2020-04-10T22:20:13.185662+00:00",
+        "description": "AlpsT4USB category change (#33)\n\nIt's a VoodooI2C companion that attaches to ALPS USB touchpads (found in HP Elite X2 G1/G2).",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9eecf43c76b6cdcb72d4138a14375c0b5afbf276/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9eecf43c76b6cdcb72d4138a14375c0b5afbf276/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "8767740f50495bb0999a7ded946c648b8a90c03d3c8e7ff3635787ec0ff19557",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "0588420e4a7250ac22c9353af1e29c370a6fe772b04c343fea1133004a355088",
+          "release": "7841491b0136495941ddcf4644f5a37fb4740a88b81306343e503027c5e8e4d4"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9eecf43c76b6cdcb72d4138a14375c0b5afbf276/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9eecf43c76b6cdcb72d4138a14375c0b5afbf276/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "944d1f3e9ab258860d8d743b25df53dbc5cf51a7",
+        "dateadded": "2020-04-10T22:20:13.123106+00:00",
+        "description": "OpenCanopy: Fix input handle usage",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/944d1f3e9ab258860d8d743b25df53dbc5cf51a7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/944d1f3e9ab258860d8d743b25df53dbc5cf51a7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "8767740f50495bb0999a7ded946c648b8a90c03d3c8e7ff3635787ec0ff19557",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "124e6b3a7df196c7735291d81cb7ccf7b7ce99349e9928bd07e1fbf053b3659b",
+          "release": "abc167afdbf323daf0bd5a7d5b90e0634d6d43ae6309f4651526017788d91d3a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/944d1f3e9ab258860d8d743b25df53dbc5cf51a7/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/944d1f3e9ab258860d8d743b25df53dbc5cf51a7/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "12b24dd8776afe8bf8f6fc6f230d77bbf0449674",
+        "dateadded": "2020-04-10T22:20:13.053832+00:00",
+        "description": "Docs/SSDT-PLUG: Fix incorrect indentation(#34)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/12b24dd8776afe8bf8f6fc6f230d77bbf0449674/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/12b24dd8776afe8bf8f6fc6f230d77bbf0449674/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "8767740f50495bb0999a7ded946c648b8a90c03d3c8e7ff3635787ec0ff19557",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "704a3de51619057fedfb9a14f8bced6fae389928465b2ae48b06312a9d6e0c74",
+          "release": "f646060ad082a02f72fc73e2f17a3d6b68537eb4da105dee371c5493bd257e9a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/12b24dd8776afe8bf8f6fc6f230d77bbf0449674/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/12b24dd8776afe8bf8f6fc6f230d77bbf0449674/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
       {
         "commit": "29bd5732ad439c02aad11a45b2ee8b3fd02623d5",
         "dateadded": "2020-04-09T22:04:27.660340+00:00",
@@ -4027,6 +4183,54 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "4f21f2cdb501ad890d61e7782102dcb32d1bf0c7",
+        "dateadded": "2020-04-10T22:20:13.423560+00:00",
+        "description": "Added `igfxdumpdelay` boot argument to delay `-igfxdump` in ms",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/4f21f2cdb501ad890d61e7782102dcb32d1bf0c7/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "d9484ec2b968108deb70f0e9a54720e690508920a0e7ebf9c27fa2a13ee3d97d",
+          "debug": {
+            "sha256": "cf21f828e633c5b274ae1e0113e15f70c1dcc5f3d6e7f1fba87f1857adaaff3a"
+          },
+          "release": {
+            "sha256": "6071bf0bcaf1a65d8eb2505d3e0b4b85e0b810967ef8c3a1ea0adf54160d3244"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/4f21f2cdb501ad890d61e7782102dcb32d1bf0c7/Debug/WhateverGreen-1.3.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/4f21f2cdb501ad890d61e7782102dcb32d1bf0c7/Release/WhateverGreen-1.3.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.9"
+      },
+      {
+        "commit": "b7e1e49a82fdf265960d5c66e8a0131955f7e3d5",
+        "dateadded": "2020-04-10T22:20:13.397145+00:00",
+        "description": "Partially fix ICL framebuffer patching",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/b7e1e49a82fdf265960d5c66e8a0131955f7e3d5/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "d9484ec2b968108deb70f0e9a54720e690508920a0e7ebf9c27fa2a13ee3d97d",
+          "debug": {
+            "sha256": "fe3aaf0a453df506c064e3a1078c35d41d87340f519e728d6edbfec6a49f9e66"
+          },
+          "release": {
+            "sha256": "470814b8662aec378c8e50430d4337605756cd5db84e3050e83e1ac7ae80a7cf"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/b7e1e49a82fdf265960d5c66e8a0131955f7e3d5/Debug/WhateverGreen-1.3.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/b7e1e49a82fdf265960d5c66e8a0131955f7e3d5/Release/WhateverGreen-1.3.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.9"
+      },
       {
         "commit": "f6127236f2075c44e94f8142389c8a6b5e4ec314",
         "dateadded": "2020-04-01T21:37:56.869464+00:00",
