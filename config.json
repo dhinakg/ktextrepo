@@ -468,6 +468,38 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "1e8b725c44be5d7a70dcc6f4ad883f1d1fd872df",
+        "dateadded": "2020-04-13T18:23:31.198306+00:00",
+        "description": "ApfsDriverLoader: Move to OpenCore",
+        "hashes": {
+          "debug": "510d7cf3a341a0617f763a485888e25a21807713c3a250c8c4b60b9ada615a17",
+          "release": "de2aa1612920dfd78477121cc59f77f58b2e1e2849743a45c1b5f61296ed24bb"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/1e8b725c44be5d7a70dcc6f4ad883f1d1fd872df/Debug/AppleSupport-2.1.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/1e8b725c44be5d7a70dcc6f4ad883f1d1fd872df/Release/AppleSupport-2.1.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.7"
+      },
+      {
+        "commit": "1f5720f9466a484b30af9b74450ca34777853c5b",
+        "dateadded": "2020-04-13T18:23:31.163523+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": "161a776b1702b96cbfcf35cecedecc110b9e49ed49db86bf7552d2a8deb7c080",
+          "release": "94b6c32a7a6faaa5f6a1ae0ac76cece9202bfbfe4449eb6f449137dbbc3b04b7"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/1f5720f9466a484b30af9b74450ca34777853c5b/Debug/AppleSupport-2.1.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/1f5720f9466a484b30af9b74450ca34777853c5b/Release/AppleSupport-2.1.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.7"
+      },
+      {
         "commit": "c0c764eb55aafe42a80f3a240f91ae454171c4e0",
         "dateadded": "2020-04-10T22:20:13.339394+00:00",
         "description": "ApfsDriverLoader: Added unaligned and custom-size I/O support",
@@ -1362,6 +1394,94 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "49931856637bb768b10a0662918999b022e6f3a1",
+        "dateadded": "2020-04-13T18:23:31.114068+00:00",
+        "description": "OcApfsLib: Provide clarification to apfs connection\n\ncloses acidanthera/bugtracker#298",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/49931856637bb768b10a0662918999b022e6f3a1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/49931856637bb768b10a0662918999b022e6f3a1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "daaaaddd857387aadd6a633f62c35ae33a9971a52a839a69467e912443f28bc6",
+          "release": "884f5edf228e9eea89713ab12c71b5dcbbd8f9f3652930d4db7575087f7e0997"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/49931856637bb768b10a0662918999b022e6f3a1/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/49931856637bb768b10a0662918999b022e6f3a1/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "efa9ff055c3d3b35d12f01d2b9bada7a5983c380",
+        "dateadded": "2020-04-13T18:23:31.054933+00:00",
+        "description": "OpenCanopy: Disable not fully implemented code\n\ncloses acidanthera/bugtracker#834",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/efa9ff055c3d3b35d12f01d2b9bada7a5983c380/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/efa9ff055c3d3b35d12f01d2b9bada7a5983c380/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "d83ffa2ffad13fd54ca36d68895fa6e6a06a089734cf1dd312993266a3a8ad76",
+          "release": "3934e8d7911dc993ab9dcc0b0f10a8333a4092ddf81331192346c360fa803455"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/efa9ff055c3d3b35d12f01d2b9bada7a5983c380/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/efa9ff055c3d3b35d12f01d2b9bada7a5983c380/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "ce11c4ce4eb74a75a3f5980c615a46922855f4f0",
+        "dateadded": "2020-04-13T18:23:30.983979+00:00",
+        "description": "OcCompressionLib: Fix signedness issues\n\ncloses acidanthera/bugtracker#833",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ce11c4ce4eb74a75a3f5980c615a46922855f4f0/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ce11c4ce4eb74a75a3f5980c615a46922855f4f0/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "d5e1449cc90790319c48cf1b5861ba3d15741d9259f1380cbd888b6cb57630bb",
+          "release": "23e04cbeecc6bfa390551af5547bfad8153966a92130a0cf2029838c3d9716a2"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ce11c4ce4eb74a75a3f5980c615a46922855f4f0/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ce11c4ce4eb74a75a3f5980c615a46922855f4f0/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "b4d52e44f622931aa44c4ca0ab2dce4227a94320",
+        "dateadded": "2020-04-13T18:23:30.914541+00:00",
+        "description": "Docs: Fix page numbering",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b4d52e44f622931aa44c4ca0ab2dce4227a94320/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b4d52e44f622931aa44c4ca0ab2dce4227a94320/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "73b6fcc2341aa543ff3371a8f77c5ecd8e55fa8a495bb84e25161dabf5bb8fee",
+          "release": "daab84716ad5ee1b0cad20d78bb9911054cac253e124b6873a05068a4c460548"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b4d52e44f622931aa44c4ca0ab2dce4227a94320/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b4d52e44f622931aa44c4ca0ab2dce4227a94320/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
       {
         "commit": "99b002b391fbe546130785c468acca60002fb958",
         "dateadded": "2020-04-12T18:44:29.629157+00:00",
