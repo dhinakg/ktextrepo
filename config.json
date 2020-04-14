@@ -825,6 +825,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "40e82029a59fd50156218188381f6a7916e959d3",
+        "dateadded": "2020-04-14T18:23:12.465842+00:00",
+        "description": "Fixed KDK support disrespecting file suffixes",
+        "hashes": {
+          "debug": {
+            "sha256": "f86bb35766f6a00e0dd7299e0c4f1842ac32bcb58076f27eb3067c0524c19c8c"
+          },
+          "release": {
+            "sha256": "88223a89e2b3f4f2d2f54ec84482b94e1a585279ecfded73c860d4a30c501054"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/40e82029a59fd50156218188381f6a7916e959d3/Debug/Lilu-1.4.4-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/40e82029a59fd50156218188381f6a7916e959d3/Release/Lilu-1.4.4-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.4"
+      },
+      {
         "commit": "c4dfcfdc92e2de8202ad0b3b05ce05106082907d",
         "dateadded": "2020-04-12T18:44:29.735913+00:00",
         "description": "Added new CFL connector-less framebuffers",
@@ -1394,6 +1414,94 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "02d3d698f547c7fc1763875d11c8a2ead518961c",
+        "dateadded": "2020-04-14T18:23:12.420440+00:00",
+        "description": "OpenCoreUefi: Load APFS after connecting drivers\n\ncloses acidanthera/bugtracker#842",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/02d3d698f547c7fc1763875d11c8a2ead518961c/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/02d3d698f547c7fc1763875d11c8a2ead518961c/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "880b83a5eae981bb5e7a321a4e3d5d94fc8f4f9dc26f3447b330834fa3728432",
+          "release": "7a40dd99687ce87b8cc4be7547b76d4d55650dae0e8f2d256f42914d84bb8f87"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/02d3d698f547c7fc1763875d11c8a2ead518961c/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/02d3d698f547c7fc1763875d11c8a2ead518961c/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "c8a50907b02f69ac1af44559eb34fe3bd2916eaf",
+        "dateadded": "2020-04-14T18:23:12.359445+00:00",
+        "description": "OcXmlLib: Fix parsing negative integers\n\nResolves issues with parsing MinVersion/MinDate in APFS section",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c8a50907b02f69ac1af44559eb34fe3bd2916eaf/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c8a50907b02f69ac1af44559eb34fe3bd2916eaf/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "6ed4a8c62ad2e30ecb4a9255984929279882fa6b89b3493f0e17f3abff9dfdb3",
+          "release": "349533ecd07ddf3fdd170ed795e1ef1f554117cf8704611c19a9308bef7051f2"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c8a50907b02f69ac1af44559eb34fe3bd2916eaf/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c8a50907b02f69ac1af44559eb34fe3bd2916eaf/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "e6acc72a50b312e677c5c2b47bb7e72a47b026a6",
+        "dateadded": "2020-04-14T18:23:12.310992+00:00",
+        "description": "OcApfsLib: Do not warn about ignored APFS drivers in release builds",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e6acc72a50b312e677c5c2b47bb7e72a47b026a6/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e6acc72a50b312e677c5c2b47bb7e72a47b026a6/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "2f45806786593c5511fd4ae1babc75a14b4ee97b2a2b1e4f36e486e5e2f23195",
+          "release": "93e1c8659ca0f39fb48c61d261626a64095c1d0078c704462e00e24c6363458c"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e6acc72a50b312e677c5c2b47bb7e72a47b026a6/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e6acc72a50b312e677c5c2b47bb7e72a47b026a6/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "1574b4b0adbd1d8cdf73c8dfb266d3c0ee58c229",
+        "dateadded": "2020-04-14T18:23:12.238052+00:00",
+        "description": "OcApfsLib: Fix warning found by coverity",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1574b4b0adbd1d8cdf73c8dfb266d3c0ee58c229/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1574b4b0adbd1d8cdf73c8dfb266d3c0ee58c229/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "538b80d3b2c67b96944d8d659b7dc76960c849bb885825f73d3de873f267bf9f",
+          "release": "75da3882a31f9b1e1af4382fa8fefad844f0278d00571338de8dd7fa46b536f4"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1574b4b0adbd1d8cdf73c8dfb266d3c0ee58c229/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1574b4b0adbd1d8cdf73c8dfb266d3c0ee58c229/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
       {
         "commit": "49931856637bb768b10a0662918999b022e6f3a1",
         "dateadded": "2020-04-13T18:23:31.114068+00:00",
