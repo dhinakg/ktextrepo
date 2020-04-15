@@ -1415,6 +1415,50 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "c85b332ac0bd73c0b23eaca730b1be98255824d6",
+        "dateadded": "2020-04-15T18:04:21.223232+00:00",
+        "description": "OpenCanopy: Improve mouse pointer performance",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c85b332ac0bd73c0b23eaca730b1be98255824d6/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c85b332ac0bd73c0b23eaca730b1be98255824d6/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "a9e5253278ba45c026ee966dafaa72e13bbdbe292f1015503854a3588bc2cc12",
+          "release": "fdca763ad035363b7399c2db0147eac7c30a1e02d33027cf85afd8d4c9b08e57"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c85b332ac0bd73c0b23eaca730b1be98255824d6/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c85b332ac0bd73c0b23eaca730b1be98255824d6/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "02414e60d5606ccb8b41346e1627b46cbc850c7e",
+        "dateadded": "2020-04-15T18:04:21.142782+00:00",
+        "description": "OcApfsLib: Fix comment",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/02414e60d5606ccb8b41346e1627b46cbc850c7e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/02414e60d5606ccb8b41346e1627b46cbc850c7e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "3bb2746bee2582a0c27e679d734316db88b4ddc4f95d2bbffccd7c8d64bbd61e",
+          "release": "5aefd9c5fb4a7579c395391ef315c7448f58d567c98e8a629345d4e56c8579b3"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/02414e60d5606ccb8b41346e1627b46cbc850c7e/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/02414e60d5606ccb8b41346e1627b46cbc850c7e/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
         "commit": "02d3d698f547c7fc1763875d11c8a2ead518961c",
         "dateadded": "2020-04-14T18:23:12.420440+00:00",
         "description": "OpenCoreUefi: Load APFS after connecting drivers\n\ncloses acidanthera/bugtracker#842",
