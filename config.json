@@ -1415,6 +1415,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "34b34db86860cba930777780979656ced77277c0",
+        "dateadded": "2020-04-17T21:04:57.541426+00:00",
+        "description": "OpenCorePkg/Library/OcCompressionLib: fix signed/unsigned compare",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/34b34db86860cba930777780979656ced77277c0/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/34b34db86860cba930777780979656ced77277c0/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "e3873e61dd9cb7d8b2b6a8e7fd4b3be5c3f2de785590ba92e7dad47656f3ba6d",
+          "release": "1775d48380566d224277dcf1fc3ea8188e691e50491d8bb8c798334bccc7fd82"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/34b34db86860cba930777780979656ced77277c0/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/34b34db86860cba930777780979656ced77277c0/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
         "commit": "eb0919a97b5c4f35b24d40aef989fdfe297459a4",
         "dateadded": "2020-04-16T18:05:01.340466+00:00",
         "description": "OcAppleEventLib: Remove accidentally committed file",
