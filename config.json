@@ -1415,6 +1415,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "3ec848da3dc17d6f34e3f53cb9d887552701c318",
+        "dateadded": "2020-04-18T21:30:08.708912+00:00",
+        "description": "Build: Replace RETURN_ macros with EFI_",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3ec848da3dc17d6f34e3f53cb9d887552701c318/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3ec848da3dc17d6f34e3f53cb9d887552701c318/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "7c1df9fba268093dfc51ca5bc3778c4930a73ec868626544d81ff5c367861556",
+          "release": "3734552a1771ef06b769c8a41517e074fb8e0957a39154095003ae5e80f3db18"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3ec848da3dc17d6f34e3f53cb9d887552701c318/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3ec848da3dc17d6f34e3f53cb9d887552701c318/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "b508b429052148ed108671172dab2d3d66204506",
+        "dateadded": "2020-04-18T21:30:08.660270+00:00",
+        "description": "OcRtcLib: Implement basic version of AppleRtcRam",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b508b429052148ed108671172dab2d3d66204506/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b508b429052148ed108671172dab2d3d66204506/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "bc982ed000b89746b5e6bace3266f576ff27bab6f91948367a1bd3eca82adb7e",
+          "release": "606cdaf8bc4c193070da4533f8c774334a59b399ac06848cd4dbc1f79f854f73"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b508b429052148ed108671172dab2d3d66204506/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b508b429052148ed108671172dab2d3d66204506/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "892f9fd10a573dd46651db37a7b0805876e8c021",
+        "dateadded": "2020-04-18T21:30:08.613574+00:00",
+        "description": "OpenCoreUefi: Added `AppleRtcRam` protocol implementation\n\ncloses acidanthera/bugtracker#765",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/892f9fd10a573dd46651db37a7b0805876e8c021/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/892f9fd10a573dd46651db37a7b0805876e8c021/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "a4823393e18758507c0d5f60f24fef41aba53da5fa1ae1ed93de01a634dabfdd",
+          "release": "5fcb64d43ea3dd39d8f24da9011ec8fe106a7606735b0f2f05fe099bfda5f424"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/892f9fd10a573dd46651db37a7b0805876e8c021/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/892f9fd10a573dd46651db37a7b0805876e8c021/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "e025d627782cc848d96ee357ab3ea3f7fb8594bb",
+        "dateadded": "2020-04-18T21:30:08.562721+00:00",
+        "description": "OpenCoreMisc: Debug watchdog status",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e025d627782cc848d96ee357ab3ea3f7fb8594bb/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e025d627782cc848d96ee357ab3ea3f7fb8594bb/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "93b6a668b841d5e66981b249f59825b2b77b46b9b42ba786ea8e374f94069f8c",
+          "release": "d4a930685950281461d7aeb2953b9d0b16d74322fd34586484dcf3cc1ff2e4b4"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e025d627782cc848d96ee357ab3ea3f7fb8594bb/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e025d627782cc848d96ee357ab3ea3f7fb8594bb/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
         "commit": "34b34db86860cba930777780979656ced77277c0",
         "dateadded": "2020-04-17T21:04:57.541426+00:00",
         "description": "OpenCorePkg/Library/OcCompressionLib: fix signed/unsigned compare",
@@ -4647,6 +4735,102 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "66547393fd2686b55bee00c543630e3a509b4a84",
+        "dateadded": "2020-04-18T21:30:08.896872+00:00",
+        "description": "Add Force_Load_FalconSMUFW translation and document some perf keys",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/66547393fd2686b55bee00c543630e3a509b4a84/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "d9484ec2b968108deb70f0e9a54720e690508920a0e7ebf9c27fa2a13ee3d97d",
+          "debug": {
+            "sha256": "6f076b3e19c70932c2cc2528e86babe197f064a5c467d1b6c205448e2e8dc0fe"
+          },
+          "release": {
+            "sha256": "032d3bf23f8ddda055b53722937ddc0b7d97305fa168c28b3a3cd1054e68bbfa"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/66547393fd2686b55bee00c543630e3a509b4a84/Debug/WhateverGreen-1.3.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/66547393fd2686b55bee00c543630e3a509b4a84/Release/WhateverGreen-1.3.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.9"
+      },
+      {
+        "commit": "dc2104a8f5a2729f30ad36127efd8ca50e7e5448",
+        "dateadded": "2020-04-18T21:30:08.863537+00:00",
+        "description": "Fix typo",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/dc2104a8f5a2729f30ad36127efd8ca50e7e5448/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "d9484ec2b968108deb70f0e9a54720e690508920a0e7ebf9c27fa2a13ee3d97d",
+          "debug": {
+            "sha256": "07ac16838a04e393b884f91bce14503c4ce8c3fee89d9821e13e1559130db818"
+          },
+          "release": {
+            "sha256": "7ccd7ae7504e9d18bc10103153f6c7ddddf9a86be1f6ff38e3f55da2947fd8d2"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/dc2104a8f5a2729f30ad36127efd8ca50e7e5448/Debug/WhateverGreen-1.3.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/dc2104a8f5a2729f30ad36127efd8ca50e7e5448/Release/WhateverGreen-1.3.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.9"
+      },
+      {
+        "commit": "4d5049b61982fce0f36db975a497f842f03b837e",
+        "dateadded": "2020-04-18T21:30:08.834743+00:00",
+        "description": "Fix typo x2",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/4d5049b61982fce0f36db975a497f842f03b837e/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "d9484ec2b968108deb70f0e9a54720e690508920a0e7ebf9c27fa2a13ee3d97d",
+          "debug": {
+            "sha256": "ff5b88cd0786d9385f84d877b332d629132479a2795fd58ed54e4d5b55a78c45"
+          },
+          "release": {
+            "sha256": "a7232cb14d5e49f5ed41e43b0de6825d87dea55d6d59e94d240e7540d923f026"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/4d5049b61982fce0f36db975a497f842f03b837e/Debug/WhateverGreen-1.3.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/4d5049b61982fce0f36db975a497f842f03b837e/Release/WhateverGreen-1.3.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.9"
+      },
+      {
+        "commit": "be25ad7c00fefb5f9321586ce37b8198d2a683f3",
+        "dateadded": "2020-04-18T21:30:08.801532+00:00",
+        "description": "Fix one more typo (starts to be come funny)",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/be25ad7c00fefb5f9321586ce37b8198d2a683f3/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "d9484ec2b968108deb70f0e9a54720e690508920a0e7ebf9c27fa2a13ee3d97d",
+          "debug": {
+            "sha256": "6c481e362e81cdafbfa032d016cfcedfcbe99f2918990cfe7ebe3c091ae7e79a"
+          },
+          "release": {
+            "sha256": "4998e0e50010286cd1b05c587c21ec366cf5b7a7d13e5452af5ea6afa4bbac89"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/be25ad7c00fefb5f9321586ce37b8198d2a683f3/Debug/WhateverGreen-1.3.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/be25ad7c00fefb5f9321586ce37b8198d2a683f3/Release/WhateverGreen-1.3.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.9"
+      },
       {
         "commit": "41c0ff63a5331aff5bbd04fb7313863dfa73455a",
         "dateadded": "2020-04-12T18:44:29.856722+00:00",
