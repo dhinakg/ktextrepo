@@ -1415,6 +1415,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "fb925246103d95e50b102751b8ead5cda0055cbf",
+        "dateadded": "2020-04-19T21:31:17.123735+00:00",
+        "description": "Docs: Update pdf",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fb925246103d95e50b102751b8ead5cda0055cbf/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fb925246103d95e50b102751b8ead5cda0055cbf/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "47a18e635dc20f845dfee93dd86c3e417dd2a6793c8b6cfec5688ca266a20a97",
+          "release": "df08ef3231b7ae00ed53b307e86457a705cdcbe925a323a0918b0175e3eaacbb"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fb925246103d95e50b102751b8ead5cda0055cbf/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fb925246103d95e50b102751b8ead5cda0055cbf/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "fff7ced6eec2bac218e9025a4b6410651ec0b028",
+        "dateadded": "2020-04-19T21:31:17.077724+00:00",
+        "description": "OpenCorePkg/Library/OcRtcLib: fix possible loss of data\n\nOpenCorePkg\\Library\\OcRtcLib\\AppleRtcRam.c(151): error C2220: the following warning is treated as an error\nOpenCorePkg\\Library\\OcRtcLib\\AppleRtcRam.c(151): warning C4244: 'function': conversion from 'UINTN' to 'UINT8', possible loss of data",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fff7ced6eec2bac218e9025a4b6410651ec0b028/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fff7ced6eec2bac218e9025a4b6410651ec0b028/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "f962a63921c50ac4fc8a68324e96cab1aae3d1b76cefe471604555ed7f89f79a",
+          "release": "dc45555902592db4a1b574f3e9e533e79dd7b32200cb154617120b2bec9ba514"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fff7ced6eec2bac218e9025a4b6410651ec0b028/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fff7ced6eec2bac218e9025a4b6410651ec0b028/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "38bdff0a055ea5529ea3761ce1841c95b3310d54",
+        "dateadded": "2020-04-19T21:31:17.032282+00:00",
+        "description": "OcRtcLib: Fix out of bounds access",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/38bdff0a055ea5529ea3761ce1841c95b3310d54/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/38bdff0a055ea5529ea3761ce1841c95b3310d54/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "34184ac4b1b9b2622e17259fc4b42897a5b8e0650c6bdf3990b3e30935404843",
+          "release": "e62aa8fc572ad39ef622067811cf175688e133e2aef91623a6d4918d20ad3feb"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/38bdff0a055ea5529ea3761ce1841c95b3310d54/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/38bdff0a055ea5529ea3761ce1841c95b3310d54/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "a7e5e78987650e6662707f2560e6f88bb3045f88",
+        "dateadded": "2020-04-19T21:31:16.984034+00:00",
+        "description": "OcConfigurationLib: Fixed size parsing in ReservedMemoryAreas",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a7e5e78987650e6662707f2560e6f88bb3045f88/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a7e5e78987650e6662707f2560e6f88bb3045f88/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "a815728742bc62f9b620e691663d57c840376cdb901733828d7876afbd0d3f91",
+          "release": "d280b02b6f930862cbd08288cb77ac5de7ecd811786c13575b213c5c8e2a1881"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a7e5e78987650e6662707f2560e6f88bb3045f88/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a7e5e78987650e6662707f2560e6f88bb3045f88/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
         "commit": "3ec848da3dc17d6f34e3f53cb9d887552701c318",
         "dateadded": "2020-04-18T21:30:08.708912+00:00",
         "description": "Build: Replace RETURN_ macros with EFI_",
@@ -4610,6 +4698,66 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "9927ee96e6e1b33fe069bde3d47d999926f9de48",
+        "dateadded": "2020-04-19T21:31:17.227010+00:00",
+        "description": "Fixed compatibility with 10.15 debug kernel with traptrace enabled\n\nTraptrace, introduced at some time after 10.15 release, requires\ninterrupts disabled prior to entering kernel_trap function.",
+        "hashes": {
+          "debug": {
+            "sha256": "8e3fc8dd4a46d0e522b51dd8307a453a49a252c023a1f2081aea9445810ceb7f"
+          },
+          "release": {
+            "sha256": "48f80140cf75d925a202cb97586ee1d7252daf7ffe8314db1b227edc2c2edccd"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/9927ee96e6e1b33fe069bde3d47d999926f9de48/Debug/VirtualSMC-1.1.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/9927ee96e6e1b33fe069bde3d47d999926f9de48/Release/VirtualSMC-1.1.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.3"
+      },
+      {
+        "commit": "b72dcd94cb03246a3ed5cf45a0e799ffd258042f",
+        "dateadded": "2020-04-19T21:31:17.198290+00:00",
+        "description": "Add a hint about sudo to rtcread",
+        "hashes": {
+          "debug": {
+            "sha256": "d0a16025246daee660de421acb7daa9ca7512b2b042f0f6ca9f858bf4c34cc4e"
+          },
+          "release": {
+            "sha256": "aefc063567ff5fabf358b1a7ac1b9f67b4d216457d62da2622155e6e5111160d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/b72dcd94cb03246a3ed5cf45a0e799ffd258042f/Debug/VirtualSMC-1.1.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/b72dcd94cb03246a3ed5cf45a0e799ffd258042f/Release/VirtualSMC-1.1.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.3"
+      },
+      {
+        "commit": "2d0436a25fc50f85a121400867e2b23d4388d075",
+        "dateadded": "2020-04-19T21:31:17.169213+00:00",
+        "description": "Enable interrupts during page-in\n\nFailing to do so will results in random kernel panics at least on 10.12:\n\npanic(cpu 2 caller 0xffffff80229fe255): Kernel trap at 0xfffffd0000091727, type 14=page fault, registers:\nCR0: 0x0000000080010033, CR2: 0x0000000000000000, CR3: 0x00000001aac520e2, CR4: 0x00000000001626e0\nRAX: 0x0000000000000990, RBX: 0xffffff8045128a60, RCX: 0xffffff9133313650, RDX: 0x0000000000000000\nRSP: 0xfffffd000004c7c0, RBP: 0xffffff9133313690, RSI: 0xffffff8044b6e000, RDI: 0xffffff80230b02b8\nR8:  0x0000000000000000, R9:  0x0000000000000000, R10: 0xffffff812968a000, R11: 0x0000000000000000\nR12: 0x0000000000000001, R13: 0xffffff8044b6e000, R14: 0x000000407d55e57c, R15: 0xffffff80230b02b8\nRFL: 0x0000000000010006, RIP: 0xfffffd0000091727, CS:  0x0000000000000008, SS:  0x0000000000000010\nFault CR2: 0x0000000000000000, Error code: 0x0000000000000000, Fault CPU: 0x2, PL: 1, VF: 0\n\nBacktrace (CPU 2), Frame : Return Address\n0xffffff802274c3b0 : 0xffffff80228e837c mach_kernel : _panic + 0xec\n0xffffff802274c430 : 0xffffff80229fe255 mach_kernel : _kernel_trap + 0x935\n0xffffff802274c610 : 0xffffff7fa556aabc as.vit9696.VirtualSMC : __ZN18VirtualSMCProvider10kernelTrapI22x86_saved_state_1010_tEEvPT_Pm + 0x44c\n0xffffff802274c6b0 : 0xffffff80228993b3 mach_kernel : _return_from_trap + 0xe3\n0xffffff802274c6d0 : 0xfffffd0000091727\n0xffffff9133313690 : 0xffffff80229f5413 mach_kernel : _usimple_lock + 0x43\n0xffffff91333136b0 : 0xffffff80229dc6d6 mach_kernel : _pmap_protect_options + 0x86\n0xffffff9133313740 : 0xffffff80229766b3 mach_kernel : _vm_map_protect + 0x383\n0xffffff91333137b0 : 0xffffff7fa556a94c as.vit9696.VirtualSMC : __ZN18VirtualSMCProvider10kernelTrapI22x86_saved_state_1010_tEEvPT_Pm + 0x2dc\n0xffffff9133313850 : 0xffffff80228993b3 mach_kernel : _return_from_trap + 0xe3\n0xffffff9133313870 : 0xffffff7fa4395623 com.apple.driver.AppleSMC : __ZN8AppleSMC16clearArbitrationEy + 0x7\n0xffffff91333139a0 : 0xffffff7fa4397ca7 com.apple.driver.AppleSMC : __ZN8AppleSMC23smcGetKeyInfoMMIOStaticEP8OSObjectPvS2_S2_S2_ + 0x47\n0xffffff91333139d0 : 0xffffff8022ebe07a mach_kernel : __ZN13IOCommandGate9runActionEPFiP8OSObjectPvS2_S2_S2_ES2_S2_S2_S2_ + 0x13a\n0xffffff9133313a40 : 0xffffff7fa4397bfa com.apple.driver.AppleSMC : __ZN8AppleSMC13smcGetKeyInfoEjP14SMCKeyInfoData + 0x4a\n0xffffff9133313a70 : 0xffffff7fa43991b3 com.apple.driver.AppleSMC : __ZN8AppleSMC17smcHandleYPCEventEP14SMCParamStructS1_jPy + 0x35f\n0xffffff9133313ac0 : 0xffffff8022ee5b99 mach_kernel : _shim_io_connect_method_structureI_structureO + 0x1c9\n0xffffff9133313b20 : 0xffffff8022ee3bc2 mach_kernel : __ZN12IOUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv + 0x332\n0xffffff9133313b80 : 0xffffff8022eecb43 mach_kernel : _is_io_connect_method + 0x223\n0xffffff9133313cc0 : 0xffffff80229bbf58 mach_kernel : _iokit_server_routine + 0x5e08\n0xffffff9133313dd0 : 0xffffff80228ed5fc mach_kernel : _ipc_kobject_server + 0x19c\n0xffffff9133313e30 : 0xffffff80228c9df1 mach_kernel : _ipc_kmsg_send + 0xe1\n0xffffff9133313e80 : 0xffffff80228de5b7 mach_kernel : _mach_msg_overwrite_trap + 0x147\n0xffffff9133313f10 : 0xffffff80229e94c8 mach_kernel : _mach_call_munger64 + 0x1c8\n0xffffff9133313fb0 : 0xffffff8022899bc6 mach_kernel : _hndl_mach_scall64 + 0x16\n      Kernel Extensions in backtrace:\n         as.vit9696.VirtualSMC(1.1.3)[EEE93905-156C-3137-8CCE-43A20A98139B]@0xffffff7fa555b000->0xffffff7fa5581fff\n            dependency: as.vit9696.Lilu(1.4.4)[66A0FB44-0ECC-3B85-8ED8-F1B2378D4E70]@0xffffff7fa54d7000\n            dependency: com.apple.iokit.IOACPIFamily(1.4)[4F7FB6AD-2498-3F71-827C-ED7AA4BF2511]@0xffffff7fa3525000\n         com.apple.driver.AppleSMC(3.1.9)[88026B2E-E18A-3463-97D4-05EE7DED9F06]@0xffffff7fa438e000->0xffffff7fa43a7fff\n            dependency: com.apple.iokit.IOACPIFamily(1.4)[4F7FB6AD-2498-3F71-827C-ED7AA4BF2511]@0xffffff7fa3525000\n            dependency: com.apple.iokit.IOPCIFamily(2.9)[D5DA7B81-DCD5-39AC-8DC9-796A4D1D6A20]@0xffffff7fa3131000",
+        "hashes": {
+          "debug": {
+            "sha256": "c33aba0c60094ed9f8fdb6ae7e1aef78bbe68b2d676cc6aa4588ebe7f3ac5488"
+          },
+          "release": {
+            "sha256": "90b0af39bf9e1e23671b350e60e75b2df4381951bfc89aa404e9ab9d4491519b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/2d0436a25fc50f85a121400867e2b23d4388d075/Debug/VirtualSMC-1.1.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/2d0436a25fc50f85a121400867e2b23d4388d075/Release/VirtualSMC-1.1.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.3"
+      },
+      {
         "commit": "cf8b8428e0ea59656e4b1517dd4ed5d6263cf6d4",
         "dateadded": "2020-04-06T22:04:45.597392+00:00",
         "description": "Disable modules as they break Coverity",
@@ -4735,6 +4883,54 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "ee92a5b99bd321a6405e1e1f8a2f42eafefe5a9a",
+        "dateadded": "2020-04-19T21:31:17.284983+00:00",
+        "description": "Disabled automatic enabling of GVA for Polaris on 10.13 and lower\n\nThis was reported to cause hangs on older operating systems",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/ee92a5b99bd321a6405e1e1f8a2f42eafefe5a9a/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "d9484ec2b968108deb70f0e9a54720e690508920a0e7ebf9c27fa2a13ee3d97d",
+          "debug": {
+            "sha256": "9c373d6eb1baf3e116a4b1329a274691d39943ab03460fc8a1b5bdc1385e8abc"
+          },
+          "release": {
+            "sha256": "478bec942d2d9cc104c1c638026ee581f29d6eb2e0a5f5d7516602a0cc1d8c89"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/ee92a5b99bd321a6405e1e1f8a2f42eafefe5a9a/Debug/WhateverGreen-1.3.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/ee92a5b99bd321a6405e1e1f8a2f42eafefe5a9a/Release/WhateverGreen-1.3.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.9"
+      },
+      {
+        "commit": "ad0d12d1334524df8457e412f3fb5f5e892fabee",
+        "dateadded": "2020-04-19T21:31:17.255901+00:00",
+        "description": "Replaced -radnogva argument with radgva=0/1 to force GVA for Polaris",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/ad0d12d1334524df8457e412f3fb5f5e892fabee/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "d9484ec2b968108deb70f0e9a54720e690508920a0e7ebf9c27fa2a13ee3d97d",
+          "debug": {
+            "sha256": "75df3575466f58f2547184a4a6d957de071be4564d47754077235237b493e52d"
+          },
+          "release": {
+            "sha256": "23a8588341baaf21713ab7a45592859621e69ee31122ddbb8d1caf9b3c4bf7d1"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/ad0d12d1334524df8457e412f3fb5f5e892fabee/Debug/WhateverGreen-1.3.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/ad0d12d1334524df8457e412f3fb5f5e892fabee/Release/WhateverGreen-1.3.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.9"
+      },
       {
         "commit": "66547393fd2686b55bee00c543630e3a509b4a84",
         "dateadded": "2020-04-18T21:30:08.896872+00:00",
