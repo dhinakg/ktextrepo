@@ -1415,6 +1415,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "19cae8046e332dac26fafd8abfd69e54f91c5be5",
+        "dateadded": "2020-04-20T21:30:41.320538+00:00",
+        "description": "OcConfigurationLib: Renamed `Protocols` to `ProtocolOverrides`\n\nPioneer salut to ugrobators",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/19cae8046e332dac26fafd8abfd69e54f91c5be5/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/19cae8046e332dac26fafd8abfd69e54f91c5be5/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "4d3f103f6465070fde4bfbd2d3d36c42ff9288c024d5d2e30b77386a10be4033",
+          "release": "aab888d0194837a34205143931d321c48bf46afbd37429f40518de55d8756c45"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/19cae8046e332dac26fafd8abfd69e54f91c5be5/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/19cae8046e332dac26fafd8abfd69e54f91c5be5/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "3cd9ace60cc0c3d2fcabefd6aec21bee5b8cddd2",
+        "dateadded": "2020-04-20T21:30:41.254779+00:00",
+        "description": "ResetSystem: Initial version\n\ncloses acidanthera/bugtracker#861",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3cd9ace60cc0c3d2fcabefd6aec21bee5b8cddd2/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3cd9ace60cc0c3d2fcabefd6aec21bee5b8cddd2/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "207a05f4c8dd58c69a4181e6598a61dff6663fc77a326fdaa2e720a24a403a54",
+          "release": "66ff2ec59de4f9f8fc8b496b61c39d65f8d565a0d7b78acd849634743ac8ac5d"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3cd9ace60cc0c3d2fcabefd6aec21bee5b8cddd2/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3cd9ace60cc0c3d2fcabefd6aec21bee5b8cddd2/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "c15042a9205e7081884267fa18d162f7b02cda33",
+        "dateadded": "2020-04-20T21:30:41.205632+00:00",
+        "description": "ResetSystem: Workaround argument parsing",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c15042a9205e7081884267fa18d162f7b02cda33/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c15042a9205e7081884267fa18d162f7b02cda33/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "8ab36f72d4e396b9e08be15d5325a5a09436e027c236894f29afebb7f40020c9",
+          "release": "0f56f82aa0da743edcb5e5816fc0701a9aa3fe3b4f5f30d8f938725951789fb1"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c15042a9205e7081884267fa18d162f7b02cda33/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c15042a9205e7081884267fa18d162f7b02cda33/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "5e5ca3fb8b81ce062b2dc2ea87481dda6cf4a8fb",
+        "dateadded": "2020-04-20T21:30:41.156139+00:00",
+        "description": "OcMiscLib: Introduce GetArguments function",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5e5ca3fb8b81ce062b2dc2ea87481dda6cf4a8fb/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5e5ca3fb8b81ce062b2dc2ea87481dda6cf4a8fb/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "abc1afd6eda7b36c6bdc6e11152ee02c379f114ad978513c3d1611a0a927bcf6",
+          "release": "e96a5ca572131092689db027cbc076cc0dcc508fad85286cd7cc982a0edb4269"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5e5ca3fb8b81ce062b2dc2ea87481dda6cf4a8fb/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5e5ca3fb8b81ce062b2dc2ea87481dda6cf4a8fb/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
         "commit": "fb925246103d95e50b102751b8ead5cda0055cbf",
         "dateadded": "2020-04-19T21:31:17.123735+00:00",
         "description": "Docs: Update pdf",
