@@ -468,6 +468,54 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "9ac05377be242582594ff8d93021941ef2719826",
+        "dateadded": "2020-04-23T21:24:41.669611+00:00",
+        "description": "AudioDxe: Reduce debug logging to fix crashes\n\ncloses acidanthera/bugtracker#865",
+        "hashes": {
+          "debug": "e79fd19868c888212543647fc9131856f5a1eb75fcf98e653f19ceb44b1b08a5",
+          "release": "927afc45b3798490a4d47f6ce2d0dd0e4d67fe48d9cbd45333a9ba33a19d55fe"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/9ac05377be242582594ff8d93021941ef2719826/Debug/AppleSupport-2.1.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/9ac05377be242582594ff8d93021941ef2719826/Release/AppleSupport-2.1.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.7"
+      },
+      {
+        "commit": "384e85f15db725dea16aac763752f2d747640543",
+        "dateadded": "2020-04-23T21:24:41.637098+00:00",
+        "description": "Docs: Fix README link",
+        "hashes": {
+          "debug": "5d6e9e83588f8d3389d815eefa1c30c316f2140476fcde58d5b00a0093e5515d",
+          "release": "1073069645a4e34b286de4bd8f914da51e0088ae713e3afc0ee56ad2fe326fe2"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/384e85f15db725dea16aac763752f2d747640543/Debug/AppleSupport-2.1.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/384e85f15db725dea16aac763752f2d747640543/Release/AppleSupport-2.1.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.7"
+      },
+      {
+        "commit": "45eed5556a8816b4c43a531794519c76b93a9683",
+        "dateadded": "2020-04-23T21:24:41.604361+00:00",
+        "description": "AudioDxe: Fix use after free on PCI timeout",
+        "hashes": {
+          "debug": "f445577cb3a7eb418fb267819edbd909c418e5af0574cc77bef1ad2e9673bd11",
+          "release": "aeaf1f29e56b41ae7bb663794243351d5b3199294f45238e494c39268cdc7381"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/45eed5556a8816b4c43a531794519c76b93a9683/Debug/AppleSupport-2.1.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/45eed5556a8816b4c43a531794519c76b93a9683/Release/AppleSupport-2.1.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.7"
+      },
+      {
         "commit": "1e8b725c44be5d7a70dcc6f4ad883f1d1fd872df",
         "dateadded": "2020-04-13T18:23:31.198306+00:00",
         "description": "ApfsDriverLoader: Move to OpenCore",
@@ -1414,6 +1462,50 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "4dab6b508a3e5fe5a1ff53324fba62cb12228e96",
+        "dateadded": "2020-04-23T21:24:41.548548+00:00",
+        "description": "OcAppleKernelLib: Avoid NULL 0-offset UB",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4dab6b508a3e5fe5a1ff53324fba62cb12228e96/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4dab6b508a3e5fe5a1ff53324fba62cb12228e96/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "6c17ba6cdda3fddb2aad47576efa52fa738bc916d52e3116d5cda7a11868ee65",
+          "release": "a41129ad549de520f0b52eb11a8af843fa3ea5d7219023bd808abc35053a8c1a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4dab6b508a3e5fe5a1ff53324fba62cb12228e96/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4dab6b508a3e5fe5a1ff53324fba62cb12228e96/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "cf05a42605568bb582d59736e80991277c6673eb",
+        "dateadded": "2020-04-23T21:24:41.471255+00:00",
+        "description": "OcAppleKernelLib: Relieve __LINKEDIT presence expectations\n\nKPIs in Mountain Lion expose symbols but do not have a __LINKEDIT segment.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cf05a42605568bb582d59736e80991277c6673eb/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cf05a42605568bb582d59736e80991277c6673eb/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "2124343e3f254a2a3a9b6f421e9781acb320115b1956ab34404c3101b96b5c47",
+          "release": "fe53ab574a453e0c9089a1d6fe92f4a8374ae1d73ac773d584ea565309d85c72"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cf05a42605568bb582d59736e80991277c6673eb/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cf05a42605568bb582d59736e80991277c6673eb/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
       {
         "commit": "165db12fa3edb53cfe47e5fcba64d5b67a3c457f",
         "dateadded": "2020-04-21T21:06:10.864307+00:00",
