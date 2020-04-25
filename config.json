@@ -1238,6 +1238,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "9ebd6c3de0182a1debb0f17f9b5bb5a05391f862",
+        "dateadded": "2020-04-25T21:15:28.195556+00:00",
+        "description": "Add \"jobs 1\" to build release configuration since dSYM file is not ready when archiving build phase is started",
+        "hashes": {
+          "debug": {
+            "sha256": "34d014e872c2241e074ffabda7911f1cce358110797435b66528c50aaa52fb73"
+          },
+          "release": {
+            "sha256": "28ce505c88f2c7d97848faf147a76080c59dba49d4a7705335852f571a533b80"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/9ebd6c3de0182a1debb0f17f9b5bb5a05391f862/Debug/NVMeFix-1.0.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/9ebd6c3de0182a1debb0f17f9b5bb5a05391f862/Release/NVMeFix-1.0.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.2"
+      },
+      {
         "commit": "9d72ff387bb194f9ea00f344382abe13bf5d1d44",
         "dateadded": "2020-04-24T21:33:12.596112+00:00",
         "description": "Add DEBUG logging for members",
@@ -1522,6 +1542,50 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "617180e9f7ed6f20b23247d919e28b3397c8e04a",
+        "dateadded": "2020-04-25T21:15:28.143916+00:00",
+        "description": "Utilities: Add Duet utilities",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/617180e9f7ed6f20b23247d919e28b3397c8e04a/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/617180e9f7ed6f20b23247d919e28b3397c8e04a/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "827dbd74a47c8f534d6dd34d56f21f042b38777d3145d1120b41a4fe8adebb1e",
+          "release": "b5c1a33d1609b575c3aae64fcc88203aa5837e20c1e90e74a4f6c7bd3f2bec2a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/617180e9f7ed6f20b23247d919e28b3397c8e04a/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/617180e9f7ed6f20b23247d919e28b3397c8e04a/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "580c71ea02736d1cd6aecdd484f3879c7b38db0b",
+        "dateadded": "2020-04-25T21:15:28.093217+00:00",
+        "description": "Utilities: Move Duet tools to DuetPkg repository",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/580c71ea02736d1cd6aecdd484f3879c7b38db0b/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/580c71ea02736d1cd6aecdd484f3879c7b38db0b/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "a3a85e96723d0b935f507931ba71bccd418fd77d8967449f6ee3fa5c9095bd17",
+          "release": "d459e80f3152789b397b2b5716bf10b0f4186f20eb7bb5eae5609164e034ce89"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/580c71ea02736d1cd6aecdd484f3879c7b38db0b/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/580c71ea02736d1cd6aecdd484f3879c7b38db0b/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
       {
         "commit": "198f551ecf989a5be6fff384fa00240bfec31134",
         "dateadded": "2020-04-24T21:33:12.478998+00:00",
