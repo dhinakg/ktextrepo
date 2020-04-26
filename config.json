@@ -1543,6 +1543,72 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "a0eaf1af053729ae5078a229fc1b711b9a9d1fbc",
+        "dateadded": "2020-04-26T21:25:04.306525+00:00",
+        "description": "Docs: Update Samples",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a0eaf1af053729ae5078a229fc1b711b9a9d1fbc/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a0eaf1af053729ae5078a229fc1b711b9a9d1fbc/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "5132acc2638b9f7d5a664a0b0f602884d0921b488f6d3d8440f142b28edb6efc",
+          "release": "29b711fb820abe21aa22b221fb5f8feaaefa4235e3a633d7663e0dc076cc5848"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a0eaf1af053729ae5078a229fc1b711b9a9d1fbc/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a0eaf1af053729ae5078a229fc1b711b9a9d1fbc/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "f21f3c329910f719e3e6378e998333057d544827",
+        "dateadded": "2020-04-26T21:25:04.254043+00:00",
+        "description": "BootInstall: New version",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f21f3c329910f719e3e6378e998333057d544827/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f21f3c329910f719e3e6378e998333057d544827/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "289bff87be88b52a063b6c6e4632ab3ce177543b6a9cb58449dede3c9ea1f2ea",
+          "release": "b092576ff0994927275f0f782f2b823e2f9ab0d5b96b447f592855a45cd97b45"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f21f3c329910f719e3e6378e998333057d544827/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f21f3c329910f719e3e6378e998333057d544827/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "cd302ebe50126ce5864a29aa92fc6b3585ab80b9",
+        "dateadded": "2020-04-26T21:25:04.202058+00:00",
+        "description": "BootInstall: No need in ACPI/SMBIOS protocols",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cd302ebe50126ce5864a29aa92fc6b3585ab80b9/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cd302ebe50126ce5864a29aa92fc6b3585ab80b9/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "2cfa6a8409017d82b0bdb430fdf6998d4b8a727ab42a51d9ba10441d276fccec",
+          "release": "c0dfa3072cda36440289cb467dbbca1d77c151ba40dda65cbb39db62765ff812"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cd302ebe50126ce5864a29aa92fc6b3585ab80b9/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cd302ebe50126ce5864a29aa92fc6b3585ab80b9/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
         "commit": "617180e9f7ed6f20b23247d919e28b3397c8e04a",
         "dateadded": "2020-04-25T21:15:28.143916+00:00",
         "description": "Utilities: Add Duet utilities",
