@@ -1543,6 +1543,50 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "1b76962a69ebea9ea4d61626a90c5cb41712aaba",
+        "dateadded": "2020-04-27T21:18:02.187400+00:00",
+        "description": "Docs: Update link",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1b76962a69ebea9ea4d61626a90c5cb41712aaba/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1b76962a69ebea9ea4d61626a90c5cb41712aaba/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "c0a5815534f0334c5e6bef0e575aa9316f3a14066d0bb2f16a82760292d110b3",
+          "release": "e5ef70183cc7e20c3d915104431cb47643b8c10dab700ec21dd2ee8cf3cabe3d"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1b76962a69ebea9ea4d61626a90c5cb41712aaba/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1b76962a69ebea9ea4d61626a90c5cb41712aaba/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "610a57f83f382b08588b7d3d5b7da893ac479af9",
+        "dateadded": "2020-04-27T21:18:02.133045+00:00",
+        "description": "OpenCanopy: Support HiDPI in fontless mode (#39)\n\nCo-authored-by: Michael Belyaev <usrsse2@me.com>",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/610a57f83f382b08588b7d3d5b7da893ac479af9/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/610a57f83f382b08588b7d3d5b7da893ac479af9/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "99d645a0a90756a40d694b11cec306fdea6d440602681dc5a70ddc005bcd543c",
+          "release": "6daab102e17771ec2ca9541297d28c0b9009a31416cbffead8b743d2eb88dd90"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/610a57f83f382b08588b7d3d5b7da893ac479af9/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/610a57f83f382b08588b7d3d5b7da893ac479af9/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
         "commit": "a0eaf1af053729ae5078a229fc1b711b9a9d1fbc",
         "dateadded": "2020-04-26T21:25:04.306525+00:00",
         "description": "Docs: Update Samples",
