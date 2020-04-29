@@ -1543,6 +1543,50 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "cbfbc3487f91adce014d11ffdc29051e95ccc0c4",
+        "dateadded": "2020-04-29T19:19:26.795395+00:00",
+        "description": "OpenCoreMisc: Fix excluded handled initialisation",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cbfbc3487f91adce014d11ffdc29051e95ccc0c4/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cbfbc3487f91adce014d11ffdc29051e95ccc0c4/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "f2f2978d37bab732b5735938e66583de6aa19a5b49c11aa7a3114e8e02ac9257",
+          "release": "c81c45540c889b4c09902b7738ab14cb9df5e1059fbcf8f698c0b3938cd6c4b2"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cbfbc3487f91adce014d11ffdc29051e95ccc0c4/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cbfbc3487f91adce014d11ffdc29051e95ccc0c4/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "bc61cb764d3acc3e9c2f538b625252a90c42c8bd",
+        "dateadded": "2020-04-29T19:19:26.739536+00:00",
+        "description": "OpenCanopy: Fix calling convention mismatch",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bc61cb764d3acc3e9c2f538b625252a90c42c8bd/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bc61cb764d3acc3e9c2f538b625252a90c42c8bd/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "74d85367d92ea534ab8179cd78e1bcf0429c54b1c7f72a1a4fa1ca23bbd2d9a4",
+          "SSDT-PMC.aml": "db23e16e6a625c5bf234a3c8cd71ee83275ba5d168e67bfd204517cbccd2899f",
+          "debug": "b3c0564af5ae4ce08e300f7cac75b54395aa3ae94f859da4cc4971e03f495fc9",
+          "release": "9fda9e752b40bf1dacd49a0fcc5269fe1eef50e289c9c3667a1e53870dd6423f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bc61cb764d3acc3e9c2f538b625252a90c42c8bd/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bc61cb764d3acc3e9c2f538b625252a90c42c8bd/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
         "commit": "9d12c2cfa7c4eaf9a7b9f2965b856ac13e0bf4aa",
         "dateadded": "2020-04-28T21:23:05.829965+00:00",
         "description": "Build: Fix mistake in BootLoader copying",
