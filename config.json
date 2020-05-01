@@ -1543,6 +1543,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "6f02d5945ed2f95c489aa5f4035298b82b8d5897",
+        "dateadded": "2020-05-01T21:11:27.916299+00:00",
+        "description": "Update SampleFull.plist",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f02d5945ed2f95c489aa5f4035298b82b8d5897/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f02d5945ed2f95c489aa5f4035298b82b8d5897/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "0ced3b7c3812284041636a7b634ec1ce10c2f94cdda59e581b848fce787f48b5",
+          "release": "eebf3649181a94d665d295e4f8976d3f577c81e501706fdaadacab23aece52a4"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f02d5945ed2f95c489aa5f4035298b82b8d5897/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f02d5945ed2f95c489aa5f4035298b82b8d5897/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
         "commit": "cbfbc3487f91adce014d11ffdc29051e95ccc0c4",
         "dateadded": "2020-04-29T19:19:26.795395+00:00",
         "description": "OpenCoreMisc: Fix excluded handled initialisation",
