@@ -1543,6 +1543,50 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "ec45b1d31b6511b512cfc207dc90656199261dfc",
+        "dateadded": "2020-05-02T21:20:00.133427+00:00",
+        "description": "Update SampleFull.plist",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ec45b1d31b6511b512cfc207dc90656199261dfc/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ec45b1d31b6511b512cfc207dc90656199261dfc/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "2ba9eb9fb741e00fe375dbc30396c6cda796b50a118e6601eece4f01501ea610",
+          "release": "55892373dc9bbbd6411a5ca8e29d05ae6629b669dd2736396377f13ad4a4f545"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ec45b1d31b6511b512cfc207dc90656199261dfc/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ec45b1d31b6511b512cfc207dc90656199261dfc/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
+        "commit": "7d4ab3c0cd0598d798acb5db61b62a09d5b123d8",
+        "dateadded": "2020-05-02T21:20:00.082491+00:00",
+        "description": "Update Changelog.md",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7d4ab3c0cd0598d798acb5db61b62a09d5b123d8/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7d4ab3c0cd0598d798acb5db61b62a09d5b123d8/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "0deafebfbfe4ff74bfae4277b3e7bcf42ca7e2158cf7801784620a33a2e2c190",
+          "release": "7ef812fa55bc0e92b9c50e812502806369fada785d86487b0e5c25ff821c18ec"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7d4ab3c0cd0598d798acb5db61b62a09d5b123d8/Debug/OpenCore-0.5.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7d4ab3c0cd0598d798acb5db61b62a09d5b123d8/Release/OpenCore-0.5.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.8"
+      },
+      {
         "commit": "6f02d5945ed2f95c489aa5f4035298b82b8d5897",
         "dateadded": "2020-05-01T21:11:27.916299+00:00",
         "description": "Update SampleFull.plist",
