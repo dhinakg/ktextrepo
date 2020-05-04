@@ -3,6 +3,86 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "cca9fff249e94bc3c25fdd9cf24f09717bfb9d0e",
+        "dateadded": "2020-05-04T21:53:23.878864+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "7bb1e97d5a33a79b7d2963301449c221ed02f36c1cd6ec0097206aae2e621cd7"
+          },
+          "release": {
+            "sha256": "c4603a2d8a3f249bffa1c31ba85f536b4f2275a68f9b6e3ec9b478e94e9a46cb"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/cca9fff249e94bc3c25fdd9cf24f09717bfb9d0e/Debug/AppleALC-1.4.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/cca9fff249e94bc3c25fdd9cf24f09717bfb9d0e/Release/AppleALC-1.4.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.9"
+      },
+      {
+        "commit": "6cbaf80e9fe2351be384b103779faa5fb6d5865e",
+        "dateadded": "2020-05-04T21:53:23.839601+00:00",
+        "description": "Rename 400 series LP controller, add 400 series PCH-H controller (#548)",
+        "hashes": {
+          "debug": {
+            "sha256": "458190cd83ebbb7240977458fa266900f16ebd0ca8e9e332b8bba3d174f55d69"
+          },
+          "release": {
+            "sha256": "099fc346ffac3e082620648713fb60e505b7fb38cf3d9de90ac5956a562a77f7"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/6cbaf80e9fe2351be384b103779faa5fb6d5865e/Debug/AppleALC-1.4.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/6cbaf80e9fe2351be384b103779faa5fb6d5865e/Release/AppleALC-1.4.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.9"
+      },
+      {
+        "commit": "b69843c2d94f414d4cfb7bfa2dd27e86df0cc937",
+        "dateadded": "2020-05-04T21:53:23.802370+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "ae581b8457d482b8dfce82a2b5f7492bba9e7f3251d83961ca9ba2e9c38da307"
+          },
+          "release": {
+            "sha256": "58dc4ac8e7921520f70718365e75c49acb54c6761ec997d46713f0b64db9604a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/b69843c2d94f414d4cfb7bfa2dd27e86df0cc937/Debug/AppleALC-1.4.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/b69843c2d94f414d4cfb7bfa2dd27e86df0cc937/Release/AppleALC-1.4.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.9"
+      },
+      {
+        "commit": "0b0ef114df0ae72a876618131a561c0591a6042e",
+        "dateadded": "2020-05-04T21:53:23.765144+00:00",
+        "description": "Bump version",
+        "hashes": {
+          "debug": {
+            "sha256": "4a6d70d63ba9e58b1c1960cd1af549ac62b01c91b4a8e7304a1d9cc58b9df15b"
+          },
+          "release": {
+            "sha256": "8ef73c6e70c7cbfbb626bd6925b6411a0d4de98d4a5ccc5108120ade9f349115"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/0b0ef114df0ae72a876618131a561c0591a6042e/Debug/AppleALC-1.5.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/0b0ef114df0ae72a876618131a561c0591a6042e/Release/AppleALC-1.5.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.0"
+      },
+      {
         "commit": "94f9d58311242e1eb1cc231d050d70b2902b38f1",
         "dateadded": "2020-04-02T22:14:56.028960+00:00",
         "description": "Adding Layout-7 for Realtek ALC255/ALC3234 for Dell 7348 (#524)\n\n* ALC255 support for Dell 7348\r\n\r\nan attempt to add layout 7 to the 7325 alc255\r\n\r\n* Update Platforms7.xml\r\n\r\nremoving unused pathmaps\r\n\r\n* Adding PinConfigs\r\n\r\n* Revert \"Update Platforms7.xml\"\r\n\r\nThis reverts commit 02d2d09f2f3119d14301214a89bda5531508207c.\r\n\r\n* Update Platforms7.xml\r\n\r\n* Revert \"Adding PinConfigs\"\r\n\r\nThis reverts commit 199ff9da36b2d950ba0c56ee3ffea85f774d4010.\r\n\r\n* Adding PinConfigs\r\n\r\n* Final PinConfigs\r\n\r\n01271c10 01271d01 01271ea6 01271f90\r\n01471c20 01471d01 01471e17 01471f90 01470c02\r\n01771cf0 01771d00 01771e00 01771f00\r\n01871cf0 01871d00 01871e00 01871f00\r\n01971cf0 01971d00 01971e00 01971f00\r\n01a71cf0 01a71d00 01a71e00 01a71f00\r\n01b71cf0 01b71d00 01b71e00 01b71f00\r\n01d71cf0 01d71d00 01d71e00 01d71f00\r\n01e71cf0 01e71d00 01e71e00 01e71f00\r\n02171ca0 02171d10 02171e21 02171f02\r\n\r\n* Tests\r\n\r\n* Fixing pathmap and Cleanup code\r\n\r\n* finally, without audio crackling on headphone\r\n\r\n* Update Info.plist\r\n\r\n* Update Platforms7.xml\r\n\r\n* Update layout7.xml\r\n\r\n* Update Platforms7.xml\r\n\r\n* maximum clean as possible\r\n\r\n* Update PinConfigs\r\n\r\n<01271C60 01271D00 01271EA0 01271F90 01471C20 01471D00 01471E17 01471F90 01470C02 01971C30 01971D10 01971E8B 01971F01 01A71C30 01A71D10 01A71E8B 01A71F01 02171C30 02171D10 02171E2B 02171F01 02170C02>\r\n\r\n<\r\n01271C60 01271D00 01271EA0 01271F90          # Mic\r\n01471C20 01471D00 01471E17 01471F90 01470C02 # Speaker\r\n01971C30 01971D10 01971E8B 01971F01          # Line In <- Does not work, but when it is mapped, the noise from the headset disappears\r\n01A71C30 01A71D10 01A71E8B 01A71F01          # Line In <- Works, but is not enabled so there is no conflict in the combined jack\r\n02171C30 02171D10 02171E2B 02171F01 02170C02 # Headphone\r\n>\r\n\r\n* final version (maybe)\r\n\r\nNovo patch (0x10134206 from layout7) em Info.plist\r\nFixing colors of the connectors in PinConfigs\r\nAdding DspFunctions on the microphone\r\ncode cleanup / typo",
@@ -1542,6 +1622,94 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "17990ae1f86fadd525972afbdaefb46ae0de9044",
+        "dateadded": "2020-05-04T21:53:23.715901+00:00",
+        "description": "Bump version to 0.5.9",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/17990ae1f86fadd525972afbdaefb46ae0de9044/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/17990ae1f86fadd525972afbdaefb46ae0de9044/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "3719188c64b71641ac5461033405762c79b35387888a99fd6760bcac50b96d19",
+          "release": "6f45f826038c8e03f2334dc408d506e4d4d0eb15c3308f1eab55e15ea218dbf7"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/17990ae1f86fadd525972afbdaefb46ae0de9044/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/17990ae1f86fadd525972afbdaefb46ae0de9044/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "7aef9de4571377df9f2f22389992cfbc78f70e70",
+        "dateadded": "2020-05-04T21:53:23.662655+00:00",
+        "description": "OcAppleImageConversionLib: Conform to the latest protocol discoveries",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7aef9de4571377df9f2f22389992cfbc78f70e70/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7aef9de4571377df9f2f22389992cfbc78f70e70/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "1cb5745ecbff05058380cb370f2f5fe79b10bf6a76b7c6998c0b6e4eb948062d",
+          "release": "9b77995baa835e511622bf12be54d137c2745b2b8a89553c6f7212312f44c68b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7aef9de4571377df9f2f22389992cfbc78f70e70/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7aef9de4571377df9f2f22389992cfbc78f70e70/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "72a9157c5e305e0374f2bb95b9dfa7482fe37e1f",
+        "dateadded": "2020-05-04T21:53:23.607102+00:00",
+        "description": "disklabel: Fix alpha decoding and add BGRA support",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/72a9157c5e305e0374f2bb95b9dfa7482fe37e1f/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/72a9157c5e305e0374f2bb95b9dfa7482fe37e1f/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "e47c4d115b516e99f183bd243dc9cbc491777035f4b57abe889d071b92c80490",
+          "release": "9e7fff1119c97274bbf483607b3fb401c90afa2d7b57249e3712e5ea84fe3ada"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/72a9157c5e305e0374f2bb95b9dfa7482fe37e1f/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/72a9157c5e305e0374f2bb95b9dfa7482fe37e1f/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "cd516120cb2d0b38dc549ff8dd236d6b12c71b8e",
+        "dateadded": "2020-05-04T21:53:23.546916+00:00",
+        "description": "Build: Fix warnings found by ShellCheck in macbuild (#41)\n\nCo-authored-by: Dayo <dayo@Dayos-Mac-Pro.local>",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cd516120cb2d0b38dc549ff8dd236d6b12c71b8e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cd516120cb2d0b38dc549ff8dd236d6b12c71b8e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "f02be545799d5641dcc84a0cccf6288b52f2d5d3c804f87393b89c232a74b7ca",
+          "release": "18ee128ee92e1b26dc22535c4ea08054626b6d166e13d52abe436ce159f656da"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cd516120cb2d0b38dc549ff8dd236d6b12c71b8e/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cd516120cb2d0b38dc549ff8dd236d6b12c71b8e/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
       {
         "commit": "ec45b1d31b6511b512cfc207dc90656199261dfc",
         "dateadded": "2020-05-02T21:20:00.133427+00:00",
@@ -5539,6 +5707,30 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "278137d076e0945d3ce704fcebb0003a942a5ca2",
+        "dateadded": "2020-05-04T21:53:23.919648+00:00",
+        "description": "Update FAQ.IntelHD.en.md",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/278137d076e0945d3ce704fcebb0003a942a5ca2/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "e36341b9493ab97a8505af0f2fd984b0c40c36ff99b7e5f742d6d4a854295448",
+          "debug": {
+            "sha256": "0ed41948623d04b265c818e83324a202f7423b717e9115c205fd815ed9f43d27"
+          },
+          "release": {
+            "sha256": "4b02f8bff55eb0f90c1dc8584584091c653572de5ef6a97c40c3ae626bdf987a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/278137d076e0945d3ce704fcebb0003a942a5ca2/Debug/WhateverGreen-1.3.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/278137d076e0945d3ce704fcebb0003a942a5ca2/Release/WhateverGreen-1.3.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.9"
+      },
       {
         "commit": "b0f72ffb00b8e5f6adc9376c0e5e8b4381b2ba55",
         "dateadded": "2020-04-24T21:33:12.627371+00:00",
