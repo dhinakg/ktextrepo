@@ -1623,6 +1623,72 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "fa58fa0063b423298d8185273a49808e73bc66c5",
+        "dateadded": "2020-05-05T21:33:17.466801+00:00",
+        "description": "Docs: Enable Bootstrap",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fa58fa0063b423298d8185273a49808e73bc66c5/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fa58fa0063b423298d8185273a49808e73bc66c5/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "8fe0e82976b2cc62ee53492acc2add190e320648cf9d22fd64ccefdd73e0e1df",
+          "release": "21f119c5d87e8bd4957344310af5cfacbd5796c33d7ecb2a082b90ea01c9875b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fa58fa0063b423298d8185273a49808e73bc66c5/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fa58fa0063b423298d8185273a49808e73bc66c5/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "d7e47bed07e10e9ababfa9e08d104b2b3cac7a99",
+        "dateadded": "2020-05-05T21:33:17.413806+00:00",
+        "description": "Docs: Fix Doxygen comments (#46)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d7e47bed07e10e9ababfa9e08d104b2b3cac7a99/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d7e47bed07e10e9ababfa9e08d104b2b3cac7a99/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "cb03b282a8d69866fd66cea36c78cd75d5e0d2f3da59d9853ffa174c6273883a",
+          "release": "f492d09950186b0a897ca595a4bfabff6cc4565646470cd60f31c8db36a6447a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d7e47bed07e10e9ababfa9e08d104b2b3cac7a99/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d7e47bed07e10e9ababfa9e08d104b2b3cac7a99/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "6336f034ca24eb5065707c1b2147e0eb790c0482",
+        "dateadded": "2020-05-05T21:33:17.359374+00:00",
+        "description": "OcBootManagementLib: Fix the use of uninitialised value",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6336f034ca24eb5065707c1b2147e0eb790c0482/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6336f034ca24eb5065707c1b2147e0eb790c0482/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "3448e8db2aadf343ea4a7d8066f45ff8f1a3434cf3c172fa55e0d294bb4dab90",
+          "release": "bc619edd6e31c14bef0ebce9d4e607f6f2332446ecb9656a5b1268f2776ba418"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6336f034ca24eb5065707c1b2147e0eb790c0482/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6336f034ca24eb5065707c1b2147e0eb790c0482/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "17990ae1f86fadd525972afbdaefb46ae0de9044",
         "dateadded": "2020-05-04T21:53:23.715901+00:00",
         "description": "Bump version to 0.5.9",
