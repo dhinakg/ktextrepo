@@ -548,6 +548,22 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "b0fd9471c9a1a3967875f3260631e91e6fc860c0",
+        "dateadded": "2020-05-06T21:45:26.867788+00:00",
+        "description": "Build: Add building with GCC5/CLANGPDB/CLANG38",
+        "hashes": {
+          "debug": "a61791c284b640dfeb0275fbdac9daa80d5e55451ab6aa95364d2ebf153a0cb4",
+          "release": "ef63c9c44d2055577d512921b87295b189119c7fe56f8d7f88f2ef132e048365"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/b0fd9471c9a1a3967875f3260631e91e6fc860c0/Debug/AppleSupport-2.1.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/b0fd9471c9a1a3967875f3260631e91e6fc860c0/Release/AppleSupport-2.1.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.7"
+      },
+      {
         "commit": "9ac05377be242582594ff8d93021941ef2719826",
         "dateadded": "2020-04-23T21:24:41.669611+00:00",
         "description": "AudioDxe: Reduce debug logging to fix crashes\n\ncloses acidanthera/bugtracker#865",
@@ -952,6 +968,26 @@
   "Lilu": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "497abf01cfa49a7b4d2bc215e1ce77a77477489a",
+        "dateadded": "2020-05-06T21:45:26.903361+00:00",
+        "description": "Update KnownPlugins.md",
+        "hashes": {
+          "debug": {
+            "sha256": "cb6f8801c8bfccb391dd9160a22f1defa8ee354c784cd9132ba73ba3531a7b8b"
+          },
+          "release": {
+            "sha256": "81872e611746f07aa31bb45a67ae67c5e79825b8f2a1b917abe02c2253f6bc3a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/497abf01cfa49a7b4d2bc215e1ce77a77477489a/Debug/Lilu-1.4.4-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/497abf01cfa49a7b4d2bc215e1ce77a77477489a/Release/Lilu-1.4.4-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.4"
+      },
       {
         "commit": "40e82029a59fd50156218188381f6a7916e959d3",
         "dateadded": "2020-04-14T18:23:12.465842+00:00",
@@ -1622,6 +1658,94 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "e4f182ee9f102e672ec670fd6bd451dbf8dd825a",
+        "dateadded": "2020-05-06T21:45:26.813737+00:00",
+        "description": "Build: Fix doxygen issues",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e4f182ee9f102e672ec670fd6bd451dbf8dd825a/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e4f182ee9f102e672ec670fd6bd451dbf8dd825a/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "cacf3c93c9edfba56e6a8ed1ebcab6c1da4d53a64fa4096898368996776a6bd9",
+          "release": "4c866239bd804879454bd232e770b5bd9a5d0929dc240d71fdfaf0ccc16a16dc"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e4f182ee9f102e672ec670fd6bd451dbf8dd825a/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e4f182ee9f102e672ec670fd6bd451dbf8dd825a/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "1d2d53e13c195291a571b05a074b423e28d73449",
+        "dateadded": "2020-05-06T21:45:26.743233+00:00",
+        "description": "Docs: Add some really basic doxygen conf",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d2d53e13c195291a571b05a074b423e28d73449/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d2d53e13c195291a571b05a074b423e28d73449/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "9998a0a5561904c64f513f5ace01b74bc9e6ae6f582f1d4e953043f3d92f11c8",
+          "release": "44d1309902687a32f548a78c4df75a43bcbf25fbd6d0e228a45fc589485f2a15"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d2d53e13c195291a571b05a074b423e28d73449/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d2d53e13c195291a571b05a074b423e28d73449/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "35f8f69ddb00714d7ba8251c0a6ab2696104ae1e",
+        "dateadded": "2020-05-06T21:45:26.676278+00:00",
+        "description": "Build: Attempt to fix CI",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/35f8f69ddb00714d7ba8251c0a6ab2696104ae1e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/35f8f69ddb00714d7ba8251c0a6ab2696104ae1e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "8e4ed89bf107dc0a431473d0bf4e6c964d81838d02f119c75988512e5dc793b7",
+          "release": "d93a30ad1b35d82cdd23731bcf0881683942446d20cbe2b22d7cbe1ebbf5e869"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/35f8f69ddb00714d7ba8251c0a6ab2696104ae1e/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/35f8f69ddb00714d7ba8251c0a6ab2696104ae1e/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "d11b9f8ad358bf426e9ccef12260585cb7873404",
+        "dateadded": "2020-05-06T21:45:26.605581+00:00",
+        "description": "Build: Attempt to fix CI x2",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d11b9f8ad358bf426e9ccef12260585cb7873404/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d11b9f8ad358bf426e9ccef12260585cb7873404/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "c6cc85a0f17d1936ebd3c17fa5337acfeab99df87216077520718d35ff93a9d5",
+          "release": "3efd88857a93396367ca24bff21b415c870ddfe89f9df6156e5c7e8f258f8460"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d11b9f8ad358bf426e9ccef12260585cb7873404/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d11b9f8ad358bf426e9ccef12260585cb7873404/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
       {
         "commit": "fa58fa0063b423298d8185273a49808e73bc66c5",
         "dateadded": "2020-05-05T21:33:17.466801+00:00",
