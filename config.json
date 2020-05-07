@@ -1659,6 +1659,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "b7bb88473fcdd23232f345cd8b91f1cdad2d8d37",
+        "dateadded": "2020-05-07T21:40:34.103744+00:00",
+        "description": "OcAppleBootPolicyLib: Do not return unused APFS handle by OC API\n\nThe handle is unused by all calls within OC and finding it has a considerable overhead considering scanning many partitions, hence limit it to Apple protocol API.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b7bb88473fcdd23232f345cd8b91f1cdad2d8d37/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b7bb88473fcdd23232f345cd8b91f1cdad2d8d37/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "2ffbb1bfd3517518e58ca7c14ff389f86e9b4b0ab31a5cc6bd789d5a71346a44",
+          "release": "6fcf13addb1e27bb4ffd64cf25e0369be96ca1544151d23ec61d7e5fa408168f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b7bb88473fcdd23232f345cd8b91f1cdad2d8d37/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b7bb88473fcdd23232f345cd8b91f1cdad2d8d37/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "913fb12a3f32ac862199ec2a917958c941081097",
+        "dateadded": "2020-05-07T21:40:34.050454+00:00",
+        "description": "OcAppleBootPolicyLib: Introduce concept of \"Core\" paths",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/913fb12a3f32ac862199ec2a917958c941081097/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/913fb12a3f32ac862199ec2a917958c941081097/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "6afcdf34eb36967e0f4db3ff5d49a58a34689aef4c5544677cbc099d7434e392",
+          "release": "a017621d9c9e848196cadfca25398dcfef1e9e9b3672889255355060b0b0d3c3"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/913fb12a3f32ac862199ec2a917958c941081097/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/913fb12a3f32ac862199ec2a917958c941081097/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "9440cd057bf05614b1cebd3daaa4c2e377d2fae7",
+        "dateadded": "2020-05-07T21:40:33.995892+00:00",
+        "description": "OcBootManagementLib: Use static functions for Boot Policy\n\nIncludes fixing an issue where generic booters were added for file systems that already had a primary booter by the use of \"core\" Apple Boot Policy predefined paths.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9440cd057bf05614b1cebd3daaa4c2e377d2fae7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9440cd057bf05614b1cebd3daaa4c2e377d2fae7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "575d285ff0e9f345d6418cdcfa863bf0c97d45d8664d018af115b2fe7c42cca1",
+          "release": "954016b19ca66dd767248f94ff71dd7e61a5f415b76cc7bcf58d20c134fbb2cd"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9440cd057bf05614b1cebd3daaa4c2e377d2fae7/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9440cd057bf05614b1cebd3daaa4c2e377d2fae7/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "e02ff28d527b1a450b8e10ecc8d06f51098b46a0",
+        "dateadded": "2020-05-07T21:40:33.941139+00:00",
+        "description": "Docs: Update Configuration",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e02ff28d527b1a450b8e10ecc8d06f51098b46a0/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e02ff28d527b1a450b8e10ecc8d06f51098b46a0/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "3243a0e1e506dc50abc8a3c1307074e9e98ba9c41e144b013110b57878be3f1f",
+          "release": "6bf9ee7fea018f7a8c0f5ac16fa848da94ea593dca84e93bbe8042113aaea49b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e02ff28d527b1a450b8e10ecc8d06f51098b46a0/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e02ff28d527b1a450b8e10ecc8d06f51098b46a0/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "e4f182ee9f102e672ec670fd6bd451dbf8dd825a",
         "dateadded": "2020-05-06T21:45:26.813737+00:00",
         "description": "Build: Fix doxygen issues",
