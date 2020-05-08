@@ -3,6 +3,46 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "7b90bf5a56d952af4f7046c7fded37168149bce2",
+        "dateadded": "2020-05-08T21:48:45.219431+00:00",
+        "description": "DELL3437 id:88 for xiaoleGun(zoran) (#549)\n\n* DELL3437 id:88 for xiaoleGun(zoran)\r\n\r\n* DELL3437 id:88 for xiaoleGun(zoran)\r\n\r\n* DELL3437 id:88 for xiaoleGun(zoran)",
+        "hashes": {
+          "debug": {
+            "sha256": "49384cae8fb2d24a7dd44488a54b28952cc474cc1752cb125b25241016bd30b2"
+          },
+          "release": {
+            "sha256": "83f26155bc47a1460e0297267c4c26ca6aa66e9bb4f5db327369efd0141e2851"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/7b90bf5a56d952af4f7046c7fded37168149bce2/Debug/AppleALC-1.5.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/7b90bf5a56d952af4f7046c7fded37168149bce2/Release/AppleALC-1.5.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.0"
+      },
+      {
+        "commit": "6b05062c7c9b97059922f7e517028733bdb9cf4e",
+        "dateadded": "2020-05-08T21:48:45.179479+00:00",
+        "description": "Sync changelog and fix XML structure",
+        "hashes": {
+          "debug": {
+            "sha256": "818f9d7d48a47220b291f4493051703e93d7aef9a61430620f9c7b82834b7cd1"
+          },
+          "release": {
+            "sha256": "0fa9586979f82daa952d18fbc8d164ccd35e3476ffc93ebc5b172a74269c8352"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/6b05062c7c9b97059922f7e517028733bdb9cf4e/Debug/AppleALC-1.5.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/6b05062c7c9b97059922f7e517028733bdb9cf4e/Release/AppleALC-1.5.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.0"
+      },
+      {
         "commit": "cca9fff249e94bc3c25fdd9cf24f09717bfb9d0e",
         "dateadded": "2020-05-04T21:53:23.878864+00:00",
         "description": "Sync changelog",
@@ -1658,6 +1698,94 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "2b4c491282dedd6d0d7ced0f2ee8fedde389e03f",
+        "dateadded": "2020-05-08T21:48:45.125508+00:00",
+        "description": "Docs: Fixed Configuration",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2b4c491282dedd6d0d7ced0f2ee8fedde389e03f/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2b4c491282dedd6d0d7ced0f2ee8fedde389e03f/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "cfd29d678ba463162e57b7f7f30729e1ab115afa693a186c074418c7a76a7325",
+          "release": "e90e6fee0ea0ed7b6b8abac9074b2f2c97ec2d48865d0e8c1655a53a21f32fdd"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2b4c491282dedd6d0d7ced0f2ee8fedde389e03f/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2b4c491282dedd6d0d7ced0f2ee8fedde389e03f/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "def8866ef33c29c7a259261f952f93f8c2b642b0",
+        "dateadded": "2020-05-08T21:48:45.071720+00:00",
+        "description": "OcBootManagementLib: Fix locating default Windows with DuetPkg",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/def8866ef33c29c7a259261f952f93f8c2b642b0/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/def8866ef33c29c7a259261f952f93f8c2b642b0/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "8b5636aba6465590ca293caf5bd992694f05405ff11d0330d12d54b769e8beb5",
+          "release": "2077cecf28beb92e8f8d962ad0e74f8929e4e855c1c197161402dd77ab69547f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/def8866ef33c29c7a259261f952f93f8c2b642b0/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/def8866ef33c29c7a259261f952f93f8c2b642b0/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "0dfa2fe9b3a5869d6765e308d35c8ad7f10df8cb",
+        "dateadded": "2020-05-08T21:48:44.965530+00:00",
+        "description": "Update Kexts.md",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0dfa2fe9b3a5869d6765e308d35c8ad7f10df8cb/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0dfa2fe9b3a5869d6765e308d35c8ad7f10df8cb/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "d0703f7e5e90cbe1eb2c50e0ffef86d501b071b431125e3a6868564cdf4da568",
+          "release": "b683728f114a4cde44ec8e9c82a28996b9a1c8d5f5e83326f985022bd57fc0a6"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0dfa2fe9b3a5869d6765e308d35c8ad7f10df8cb/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0dfa2fe9b3a5869d6765e308d35c8ad7f10df8cb/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "7eaa0717ce05f4992c2524b4650bb4de865a718e",
+        "dateadded": "2020-05-08T21:48:44.900005+00:00",
+        "description": "Update Kexts.md",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7eaa0717ce05f4992c2524b4650bb4de865a718e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7eaa0717ce05f4992c2524b4650bb4de865a718e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "43e7686786e5e3a87ac7ebdf3f9fd0431161c12f6c1d66e81d08fc68b64c4aea",
+          "release": "053d35b5fdfbeb7e30210bad30462573bccc672208f7450be1138f0291398d35"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7eaa0717ce05f4992c2524b4650bb4de865a718e/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7eaa0717ce05f4992c2524b4650bb4de865a718e/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
       {
         "commit": "b7bb88473fcdd23232f345cd8b91f1cdad2d8d37",
         "dateadded": "2020-05-07T21:40:34.103744+00:00",
