@@ -1009,6 +1009,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "c019c9c982f4235f6fcfbf582ca825689286cd6b",
+        "dateadded": "2020-05-09T21:41:19.063928+00:00",
+        "description": "Fix prefixed version matching for kexts (e.g. 1 and 1.0)",
+        "hashes": {
+          "debug": {
+            "sha256": "196574f8281e0dd685b1f40aa23f222c2a0ae2cf81abae7c9b9a250ca5d8160f"
+          },
+          "release": {
+            "sha256": "0beeaf856b3ad9efe695934be3e99a11d90d70b865c76cf497bae7bb644df0f2"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/c019c9c982f4235f6fcfbf582ca825689286cd6b/Debug/Lilu-1.4.4-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/c019c9c982f4235f6fcfbf582ca825689286cd6b/Release/Lilu-1.4.4-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.4"
+      },
+      {
         "commit": "497abf01cfa49a7b4d2bc215e1ce77a77477489a",
         "dateadded": "2020-05-06T21:45:26.903361+00:00",
         "description": "Update KnownPlugins.md",
@@ -1698,6 +1718,94 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "1d68511a6a835b8b4005d90d0d16e0f0d899f496",
+        "dateadded": "2020-05-09T21:41:19.001455+00:00",
+        "description": "Build: Fix CI configuration",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d68511a6a835b8b4005d90d0d16e0f0d899f496/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d68511a6a835b8b4005d90d0d16e0f0d899f496/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "b93cd0d372b2691870084dc634610661121da29bca06726130db68cd14448bf8",
+          "release": "3c13f68c9acfb978e25525de62eeffd888dba663e827617589230118d97913f4"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d68511a6a835b8b4005d90d0d16e0f0d899f496/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d68511a6a835b8b4005d90d0d16e0f0d899f496/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "ed841679e80cff774b2b61e2252d964b07ff4483",
+        "dateadded": "2020-05-09T21:41:18.940587+00:00",
+        "description": "Build: Install shellcheck manually",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ed841679e80cff774b2b61e2252d964b07ff4483/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ed841679e80cff774b2b61e2252d964b07ff4483/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "070d1439aac5ad178c5fed3a1d5a583c2cde8d453cb305770547ffa8c32c4fe1",
+          "release": "eb77236dc0510468c940ef211f43868a12abe094f0fd06e5d7f05fc2a240cf27"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ed841679e80cff774b2b61e2252d964b07ff4483/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ed841679e80cff774b2b61e2252d964b07ff4483/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "080a661513b7e81f057775ecbee32cd0f66f5df9",
+        "dateadded": "2020-05-09T21:41:18.880955+00:00",
+        "description": "Docs: Update samples",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/080a661513b7e81f057775ecbee32cd0f66f5df9/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/080a661513b7e81f057775ecbee32cd0f66f5df9/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "3b688e3d9e81d76a59d9acdbca3c50defd57459f97c7e2c321e7c455ffd03286",
+          "release": "21d19be7f9a3a953b45f7e283e39f036be295798347e63c6dfad74236a09ef48"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/080a661513b7e81f057775ecbee32cd0f66f5df9/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/080a661513b7e81f057775ecbee32cd0f66f5df9/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "c2228cb25cb27fdd7f5eb0a68804c58ad4eb1ebd",
+        "dateadded": "2020-05-09T21:41:18.822314+00:00",
+        "description": "Build: Update ShellCheck CI (#49)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c2228cb25cb27fdd7f5eb0a68804c58ad4eb1ebd/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c2228cb25cb27fdd7f5eb0a68804c58ad4eb1ebd/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "8fdf95cc984fc9974e6904646a230126e157789ae0f5c4e36c8c6c1c8f7e2f12",
+          "release": "82a439ead23c0957aba7f988c52f3028c299089454ed5abe69599403837e83b0"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c2228cb25cb27fdd7f5eb0a68804c58ad4eb1ebd/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c2228cb25cb27fdd7f5eb0a68804c58ad4eb1ebd/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
       {
         "commit": "2b4c491282dedd6d0d7ced0f2ee8fedde389e03f",
         "dateadded": "2020-05-08T21:48:45.125508+00:00",
@@ -5927,6 +6035,26 @@
   "VirtualSMC": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "ba08a626b06fe7c921f87892d07b2f467847e378",
+        "dateadded": "2020-05-09T21:41:19.105012+00:00",
+        "description": "Fixed incorrect revision reporting on T2 models (e.g. Macmini8,1)",
+        "hashes": {
+          "debug": {
+            "sha256": "c7800c3a18be8a17a9e2a04bf96327add4e7d8046cc082ad8267f6ec5393f51c"
+          },
+          "release": {
+            "sha256": "bdae07bda1f2f68126adc0127fa5d405df7fd185477dd762e879e85798562eaa"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/ba08a626b06fe7c921f87892d07b2f467847e378/Debug/VirtualSMC-1.1.4-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/ba08a626b06fe7c921f87892d07b2f467847e378/Release/VirtualSMC-1.1.4-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.4"
+      },
       {
         "commit": "9927ee96e6e1b33fe069bde3d47d999926f9de48",
         "dateadded": "2020-04-19T21:31:17.227010+00:00",
