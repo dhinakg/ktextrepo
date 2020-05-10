@@ -588,6 +588,38 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "4225cc346914d0292f219da83bba027fdf2a8db0",
+        "dateadded": "2020-05-10T21:46:27.341208+00:00",
+        "description": "AudioDxe: Rewrite ring buffer handling",
+        "hashes": {
+          "debug": "bd95c78f935d8e6ae4960ff2da84290f56b042673d60c1e1940c36bff488f358",
+          "release": "b283e8e3344d2129817dc51c42af8c271522ae899bdb9966c203270adb1a179f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/4225cc346914d0292f219da83bba027fdf2a8db0/Debug/AppleSupport-2.1.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/4225cc346914d0292f219da83bba027fdf2a8db0/Release/AppleSupport-2.1.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.7"
+      },
+      {
+        "commit": "401a0d66b7447a5ef46e18e9cdad5fcbe77f48dc",
+        "dateadded": "2020-05-10T21:46:27.305866+00:00",
+        "description": "Update Changelog",
+        "hashes": {
+          "debug": "508a0b7b5f639cab3036d892383b3e4bf4ce8288b383e613720cb3e4d9efe796",
+          "release": "f4ed6e7a3759894e5ba3f066e83bbb683cfe57643065c325572b294f5f37f72f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/401a0d66b7447a5ef46e18e9cdad5fcbe77f48dc/Debug/AppleSupport-2.1.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/401a0d66b7447a5ef46e18e9cdad5fcbe77f48dc/Release/AppleSupport-2.1.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.8"
+      },
+      {
         "commit": "b0fd9471c9a1a3967875f3260631e91e6fc860c0",
         "dateadded": "2020-05-06T21:45:26.867788+00:00",
         "description": "Build: Add building with GCC5/CLANGPDB/CLANG38",
@@ -1718,6 +1750,94 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "da8302f3b9c0659f082d5bb98ea11108272cf87d",
+        "dateadded": "2020-05-10T21:46:27.257096+00:00",
+        "description": "OcBootManagementLib: Fix memory leak in ApplePanic handling",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/da8302f3b9c0659f082d5bb98ea11108272cf87d/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/da8302f3b9c0659f082d5bb98ea11108272cf87d/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "5eca618da731e4c0beefb04dc3e0ccf214745d1426358e4c42719f950bf92ece",
+          "release": "4d552998e139f22a34fb2b921c43600894b441d5312f9174eeb11966e08d7731"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/da8302f3b9c0659f082d5bb98ea11108272cf87d/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/da8302f3b9c0659f082d5bb98ea11108272cf87d/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "8b5099bf1f7b81d6d3b8a57bb1a7aae7322372fa",
+        "dateadded": "2020-05-10T21:46:27.185814+00:00",
+        "description": "Docs: Fixed launching Shell with text over it",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8b5099bf1f7b81d6d3b8a57bb1a7aae7322372fa/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8b5099bf1f7b81d6d3b8a57bb1a7aae7322372fa/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "1914253152d90908ac285da957756a8221781793dce04cc903b7eea049c3702c",
+          "release": "6756485ff2a6d4b8c29ce81c49aafcd3f6ecbb0485f4c29faa5385a8d36512de"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8b5099bf1f7b81d6d3b8a57bb1a7aae7322372fa/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8b5099bf1f7b81d6d3b8a57bb1a7aae7322372fa/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "76e889f89af7ecdec0a8de191d7ded5856b338fb",
+        "dateadded": "2020-05-10T21:46:27.116135+00:00",
+        "description": "OpenCanopy: Fix black splash with non-black bg",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/76e889f89af7ecdec0a8de191d7ded5856b338fb/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/76e889f89af7ecdec0a8de191d7ded5856b338fb/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "03e21c39c4926d7771d1ff884f52a8bbd2d86a44fa92c6ae22672da37a78ec87",
+          "release": "d3f54a67f1ac38f5ce7b4061274ad48b08a99b404947da22781357ec0f9ac210"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/76e889f89af7ecdec0a8de191d7ded5856b338fb/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/76e889f89af7ecdec0a8de191d7ded5856b338fb/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "c04980f391cb0dbfaa3c832cbdbae25ddda76e77",
+        "dateadded": "2020-05-10T21:46:27.047157+00:00",
+        "description": "Build: Speed up HomeBrew Deployment (#51)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c04980f391cb0dbfaa3c832cbdbae25ddda76e77/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c04980f391cb0dbfaa3c832cbdbae25ddda76e77/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "2a11aa2cd493c2ed42dae7da336a1d629ca987170091a1617a286409b12d4cff",
+          "release": "acfa21f4c0627132477a48800c59d7aa93307eaf924940eee5dd7ec9d9127d0c"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c04980f391cb0dbfaa3c832cbdbae25ddda76e77/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c04980f391cb0dbfaa3c832cbdbae25ddda76e77/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
       {
         "commit": "1d68511a6a835b8b4005d90d0d16e0f0d899f496",
         "dateadded": "2020-05-09T21:41:19.001455+00:00",
@@ -6035,6 +6155,26 @@
   "VirtualSMC": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "83f6edc7b066f8f921aabf5ef05a380550a7a431",
+        "dateadded": "2020-05-10T21:46:27.376104+00:00",
+        "description": "Create Transition from zprood's cycle count hack.md (#24)",
+        "hashes": {
+          "debug": {
+            "sha256": "ecd59014e8004c765a3435d59068713fbebb909243916db1d1adcb3da5342e18"
+          },
+          "release": {
+            "sha256": "8ecd001a5d6ca06aa10b63c350e378b1112522d2315f4aa9c0a50145f232b2f1"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/83f6edc7b066f8f921aabf5ef05a380550a7a431/Debug/VirtualSMC-1.1.4-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/83f6edc7b066f8f921aabf5ef05a380550a7a431/Release/VirtualSMC-1.1.4-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.4"
+      },
       {
         "commit": "ba08a626b06fe7c921f87892d07b2f467847e378",
         "dateadded": "2020-05-09T21:41:19.105012+00:00",
