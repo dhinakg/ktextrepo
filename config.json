@@ -1751,6 +1751,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "bd0cc2f54ffb415dc6e26810787dfdcee083f209",
+        "dateadded": "2020-05-11T21:43:08.176905+00:00",
+        "description": "OpenCanopy: Added partial hotkey support (e.g. Ctrl+Enter)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bd0cc2f54ffb415dc6e26810787dfdcee083f209/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bd0cc2f54ffb415dc6e26810787dfdcee083f209/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "2772019d616d9061ced5d06a24f27909ca68a4a89979d92a60eed826ad7a04f3",
+          "release": "c25e7a77b7098d56b8e646fc6b11d27672d118df0dded9b3acef5b80f3ae0304"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bd0cc2f54ffb415dc6e26810787dfdcee083f209/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bd0cc2f54ffb415dc6e26810787dfdcee083f209/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "4433c92895467376725a61dc31cc080fabaa8a70",
+        "dateadded": "2020-05-11T21:43:08.120916+00:00",
+        "description": "OcConsoleLib: Added builtin text renderer compatibility with Shell page mode\n\nFor some reason UEFI Shell trashes Cursor positions of the TextOut protocol\neven though the spec explicitly forbids this.\n\ncloses acidanthera/bugtracker#837",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4433c92895467376725a61dc31cc080fabaa8a70/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4433c92895467376725a61dc31cc080fabaa8a70/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "4072750fc071daaa606fa6d957fbcadc0a0e520a597ca62a7f709c769e702f43",
+          "release": "3d470f4d878867ea009dc87328f1269d8786e2b64454713088abe8459e29ff6f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4433c92895467376725a61dc31cc080fabaa8a70/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4433c92895467376725a61dc31cc080fabaa8a70/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "5055be90ead8d54ea196385d8c37f91d781c1cd1",
+        "dateadded": "2020-05-11T21:43:08.063290+00:00",
+        "description": "OcBootManagementLib: Fixed incorrect entry order with 2 OS in container",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5055be90ead8d54ea196385d8c37f91d781c1cd1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5055be90ead8d54ea196385d8c37f91d781c1cd1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "f5b5194477d44d7921352b56a869c0e84a29dd6fc57965a2b7da4a8fd7c2c3d2",
+          "release": "7e2e1a8f2a678830279543f65dac8e6180f38afb022899c47d7a7a52b71d229d"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5055be90ead8d54ea196385d8c37f91d781c1cd1/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5055be90ead8d54ea196385d8c37f91d781c1cd1/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "41b207c242d092482ba3263a530beb30bdd49033",
+        "dateadded": "2020-05-11T21:43:08.002208+00:00",
+        "description": "OcBootManagementLib: Fix audio playback in builtin picker",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/41b207c242d092482ba3263a530beb30bdd49033/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/41b207c242d092482ba3263a530beb30bdd49033/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "affbe9325494646cfa7a5372a29e6bb404867204e0505cb3ee20385637a5d10c",
+          "release": "c52ac50cfadf6ffa45cf2739a20ad2e7a630d7577cb0f898d5b561ace2d7d76b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/41b207c242d092482ba3263a530beb30bdd49033/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/41b207c242d092482ba3263a530beb30bdd49033/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "da8302f3b9c0659f082d5bb98ea11108272cf87d",
         "dateadded": "2020-05-10T21:46:27.257096+00:00",
         "description": "OcBootManagementLib: Fix memory leak in ApplePanic handling",
