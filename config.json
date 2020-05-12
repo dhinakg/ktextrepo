@@ -588,6 +588,22 @@
     "type": "Other",
     "versions": [
       {
+        "commit": "5a698b8cb8a876c916c933f876477a5e75e97c98",
+        "dateadded": "2020-05-12T21:40:26.307023+00:00",
+        "description": "Platfom/AudioDxe: fix (im?)possible loss of data in conversion",
+        "hashes": {
+          "debug": "389c796ec3cf1bcacee6c2fab8451c65f01e4c2ba6729ad706147cc382ccfe44",
+          "release": "17f9c057a937b5545522764879ef4624977e2a03319310dd24791ff215bb6c0f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/5a698b8cb8a876c916c933f876477a5e75e97c98/Debug/AppleSupport-2.1.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Others/AppleSupportPkg/5a698b8cb8a876c916c933f876477a5e75e97c98/Release/AppleSupport-2.1.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.8"
+      },
+      {
         "commit": "4225cc346914d0292f219da83bba027fdf2a8db0",
         "dateadded": "2020-05-10T21:46:27.341208+00:00",
         "description": "AudioDxe: Rewrite ring buffer handling",
@@ -1750,6 +1766,72 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "09cbfb9d0bdb1d14b5923b35e7871786092028a8",
+        "dateadded": "2020-05-12T21:40:26.233187+00:00",
+        "description": "Library/OcBootManagementLib: fix (im?)possible loss of data in PanicUnpack()",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/09cbfb9d0bdb1d14b5923b35e7871786092028a8/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/09cbfb9d0bdb1d14b5923b35e7871786092028a8/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "8d93d188ba4191e743bd9cb6681aa4c9b3419bd2d3baab4e4445bb0dea3e7c63",
+          "release": "05aaecabfd7786919694edf99faca185e41124482bd2847ccdd22e995ffdc407"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/09cbfb9d0bdb1d14b5923b35e7871786092028a8/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/09cbfb9d0bdb1d14b5923b35e7871786092028a8/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "26d8862b9b6f8dc11f335b548d5022118f924709",
+        "dateadded": "2020-05-12T21:40:26.152598+00:00",
+        "description": "Build: Fix ShellCheck CI (#52)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26d8862b9b6f8dc11f335b548d5022118f924709/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26d8862b9b6f8dc11f335b548d5022118f924709/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "fe39e648d759bed2d2c165f46cab8520b061edf846c760fbfa127495e57eb0e8",
+          "release": "26fab1c99335c75fee33fdfdbd3951c492f9b3e02556c563045288621a731da3"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26d8862b9b6f8dc11f335b548d5022118f924709/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26d8862b9b6f8dc11f335b548d5022118f924709/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "30aad505f12dc4f0d894eac24cd7983e5b87938c",
+        "dateadded": "2020-05-12T21:40:26.068963+00:00",
+        "description": "OcBootManagementLib: Fix hiding Time Machine entries with HideAuxiliary",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/30aad505f12dc4f0d894eac24cd7983e5b87938c/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/30aad505f12dc4f0d894eac24cd7983e5b87938c/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "6366b23baba503b81c4f2bf51819857eb841e91d9f87777e7dbea4c175e634ea",
+          "release": "8dd95335bef2b457dd258216aca2f0d096b77ed6d6df02172e46897cb1e5c796"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/30aad505f12dc4f0d894eac24cd7983e5b87938c/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/30aad505f12dc4f0d894eac24cd7983e5b87938c/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
       {
         "commit": "bd0cc2f54ffb415dc6e26810787dfdcee083f209",
         "dateadded": "2020-05-11T21:43:08.176905+00:00",
