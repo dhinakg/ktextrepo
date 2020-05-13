@@ -1767,6 +1767,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "2690e584952a90244890ada61b955d702b9657d1",
+        "dateadded": "2020-05-13T21:20:09.318895+00:00",
+        "description": "Docs: Fixed assertions on log exhaustion causing boot failures\n\ncloses acidanthera/bugtracker#445",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2690e584952a90244890ada61b955d702b9657d1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2690e584952a90244890ada61b955d702b9657d1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "c56e99320eabbe98ad2745009393d0e8748aa5e7067ea4df01f11a2c4199264f",
+          "release": "3ada63333c69d0853763a1f6cbd1101df4c21a8f1ea747c1fa3962de6adfd31f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2690e584952a90244890ada61b955d702b9657d1/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2690e584952a90244890ada61b955d702b9657d1/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "52c7579cd1843866287516c7163adc9c7d5f765b",
         "dateadded": "2020-05-13T18:05:23.165435+00:00",
         "description": "Fix documentation comments",
