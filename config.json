@@ -1767,6 +1767,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "f750d5b7bd7447086bb2592ef2ffa82749500545",
+        "dateadded": "2020-05-13T16:57:13.368091+00:00",
+        "description": "OcCpuLib: Add CFG lock debugging",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f750d5b7bd7447086bb2592ef2ffa82749500545/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f750d5b7bd7447086bb2592ef2ffa82749500545/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "23ec96952c97d701a9a5d4bdeb53c4e1f1d2b659b37bafad98d8435449258ea4",
+          "release": "ff8e640753fae92a21db6b86a991c5392a314e88c4029311b147f98a73f9f165"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f750d5b7bd7447086bb2592ef2ffa82749500545/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f750d5b7bd7447086bb2592ef2ffa82749500545/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "86a49fb2f3571a977261ff5b42b48cda65898087",
+        "dateadded": "2020-05-13T16:57:13.332728+00:00",
+        "description": "OpenRuntime: Replaced `RequestBootVarFallback` with `DeduplicateBootOrder` due to bugs",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/86a49fb2f3571a977261ff5b42b48cda65898087/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/86a49fb2f3571a977261ff5b42b48cda65898087/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "169323c44034d72439178461f8f52b60f2f1873125592596e548c4949c5ce3f1",
+          "release": "717309bcc5b29de98e5efddb75b57cfcd26401ab2f34ce56b0bddd74759dccec"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/86a49fb2f3571a977261ff5b42b48cda65898087/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/86a49fb2f3571a977261ff5b42b48cda65898087/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "15fdaf63761037942729d1e372f37f89921e22f3",
+        "dateadded": "2020-05-13T16:57:13.294731+00:00",
+        "description": "OpenCoreUefiInOut: Removed `DirectGopCacheMode` due to being ineffective",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/15fdaf63761037942729d1e372f37f89921e22f3/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/15fdaf63761037942729d1e372f37f89921e22f3/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "96dc59983e4cd3a52c98664fa634e410ae7e1b30360a93fa8bcb000c055388e0",
+          "release": "e950074181bf2b9882d7ca552ab11a6323afe97e240a2654dca0eabd75e30114"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/15fdaf63761037942729d1e372f37f89921e22f3/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/15fdaf63761037942729d1e372f37f89921e22f3/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "0adcb2c74d98fbcc058a05bd8086501d8ef56e40",
+        "dateadded": "2020-05-13T16:57:13.254352+00:00",
+        "description": "Docs: Sync docs",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0adcb2c74d98fbcc058a05bd8086501d8ef56e40/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0adcb2c74d98fbcc058a05bd8086501d8ef56e40/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "26d578f9f09251267e72225a6d2e7b54da7752049e144141a9f967becf4b6ef3",
+          "release": "674a8c50b5917d971102ad996a7b6ef779caf62327f288f67cbf5db9287c9d4e"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0adcb2c74d98fbcc058a05bd8086501d8ef56e40/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0adcb2c74d98fbcc058a05bd8086501d8ef56e40/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "09cbfb9d0bdb1d14b5923b35e7871786092028a8",
         "dateadded": "2020-05-12T21:40:26.233187+00:00",
         "description": "Library/OcBootManagementLib: fix (im?)possible loss of data in PanicUnpack()",
