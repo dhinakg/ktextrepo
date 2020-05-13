@@ -1767,6 +1767,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "52c7579cd1843866287516c7163adc9c7d5f765b",
+        "dateadded": "2020-05-13T18:02:46.165738+00:00",
+        "description": "Fix documentation comments",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/52c7579cd1843866287516c7163adc9c7d5f765b/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/52c7579cd1843866287516c7163adc9c7d5f765b/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "2e706630aa10dadf5a23a0e27dfa2a60ee049fed62be5e1761d52907c0f39001",
+          "release": "49f6132ddde1a8b7cb9c0a0ae45959368e83bf3c7df035dbfeda359738d66dc9"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/52c7579cd1843866287516c7163adc9c7d5f765b/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/52c7579cd1843866287516c7163adc9c7d5f765b/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "f750d5b7bd7447086bb2592ef2ffa82749500545",
         "dateadded": "2020-05-13T16:57:13.368091+00:00",
         "description": "OcCpuLib: Add CFG lock debugging",
