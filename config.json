@@ -1768,7 +1768,7 @@
     "versions": [
       {
         "commit": "52c7579cd1843866287516c7163adc9c7d5f765b",
-        "dateadded": "2020-05-13T18:02:46.165738+00:00",
+        "dateadded": "2020-05-13T18:05:23.165435+00:00",
         "description": "Fix documentation comments",
         "extras": {
           "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/52c7579cd1843866287516c7163adc9c7d5f765b/Release/SSDT-PLUG.aml",
@@ -1777,8 +1777,8 @@
         "hashes": {
           "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
           "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
-          "debug": "2e706630aa10dadf5a23a0e27dfa2a60ee049fed62be5e1761d52907c0f39001",
-          "release": "49f6132ddde1a8b7cb9c0a0ae45959368e83bf3c7df035dbfeda359738d66dc9"
+          "debug": "5671659ed601f2dfe792aa0976d0a54f503fbde89b8ef6bc99d3630ee3a759ce",
+          "release": "054df22de569c372f60e9a9db0a4db74d8908c6c3ca49a5d80c97c7faf20c26d"
         },
         "knowngood": false,
         "links": {
