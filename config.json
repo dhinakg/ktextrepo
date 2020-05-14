@@ -1767,6 +1767,72 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "b4ade4794215adecd29e35e920633eb323a5b040",
+        "dateadded": "2020-05-14T13:11:55.867920+00:00",
+        "description": "OcMiscLib: Fix possible assert during USB ownership release",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b4ade4794215adecd29e35e920633eb323a5b040/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b4ade4794215adecd29e35e920633eb323a5b040/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "0a183e2bd5a92b22b12ef2c5eb98574d3ae3a1f6d06fbe6bcf2b25df8f106600",
+          "release": "4e4c7ea65fce963bd8f24b0b75c76590d399a61a2858d5822e90d79e1f8c0c60"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b4ade4794215adecd29e35e920633eb323a5b040/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b4ade4794215adecd29e35e920633eb323a5b040/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "0ee57bdef168412a42569b459130ba52cccf04b2",
+        "dateadded": "2020-05-14T13:11:55.832829+00:00",
+        "description": "OcConsoleLib: Fixed builtin text renderer failing to provide ConsoleControl",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ee57bdef168412a42569b459130ba52cccf04b2/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ee57bdef168412a42569b459130ba52cccf04b2/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "c609336612907546407b5f0cf1bd917d7704a8af62faebc461eabde18ab73be5",
+          "release": "f937e05cb0a8bbabe02b604444f4391c0ac64ca6b989e404fe38d6fc1b23b3ac"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ee57bdef168412a42569b459130ba52cccf04b2/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ee57bdef168412a42569b459130ba52cccf04b2/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "86b69367df99cffc37803068dacd9e68f1c9701a",
+        "dateadded": "2020-05-14T13:11:55.795498+00:00",
+        "description": "OcConsoleLib: Fixed compatibility with blit-only GOP (e.g. OVMF Bochs)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/86b69367df99cffc37803068dacd9e68f1c9701a/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/86b69367df99cffc37803068dacd9e68f1c9701a/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "32141726af7dcb075cb9c4cd4b920a4f951b2c53ec0820926219856c0c83b45b",
+          "release": "1a37dc20e32ad39f2aafb5d77af549d414cf5d45a781bdaf2e1d40dbf2852e29"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/86b69367df99cffc37803068dacd9e68f1c9701a/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/86b69367df99cffc37803068dacd9e68f1c9701a/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "2690e584952a90244890ada61b955d702b9657d1",
         "dateadded": "2020-05-13T21:20:09.318895+00:00",
         "description": "Docs: Fixed assertions on log exhaustion causing boot failures\n\ncloses acidanthera/bugtracker#445",
