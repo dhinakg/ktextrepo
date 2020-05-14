@@ -1767,6 +1767,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "e1a2b9929936ebe5a287c63d91c9d6b0b09d5dfd",
+        "dateadded": "2020-05-14T15:44:18.256957+00:00",
+        "description": "OpenCoreDevProps: Fixed ignoring `#` in DeviceProperty `Add` and `Block`",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e1a2b9929936ebe5a287c63d91c9d6b0b09d5dfd/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e1a2b9929936ebe5a287c63d91c9d6b0b09d5dfd/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "faeb4da0c45d77f561dbe9fa32bf235109370febc4f54419ad96c09687d27e20",
+          "release": "12d1d50eeebd81244a262651d83dd6a3662dbef4427dfa51b789b0360810b73f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e1a2b9929936ebe5a287c63d91c9d6b0b09d5dfd/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e1a2b9929936ebe5a287c63d91c9d6b0b09d5dfd/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "b4ade4794215adecd29e35e920633eb323a5b040",
         "dateadded": "2020-05-14T13:11:55.867920+00:00",
         "description": "OcMiscLib: Fix possible assert during USB ownership release",
