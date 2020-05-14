@@ -1767,6 +1767,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "681046881bb54315c5d32671249af553de419dce",
+        "dateadded": "2020-05-14T15:55:29.940287+00:00",
+        "description": "OpenCore: Fix previous commit",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/681046881bb54315c5d32671249af553de419dce/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/681046881bb54315c5d32671249af553de419dce/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "2041caf0a325a591d5fa59f60cc5cebc2d38d75f5a1694d85608f030d83e8ed2",
+          "release": "8eaa17b84f609663d44709bf2523b4e71ab1891039d585d94fb77842999ebe3b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/681046881bb54315c5d32671249af553de419dce/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/681046881bb54315c5d32671249af553de419dce/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "e1a2b9929936ebe5a287c63d91c9d6b0b09d5dfd",
         "dateadded": "2020-05-14T15:44:18.256957+00:00",
         "description": "OpenCoreDevProps: Fixed ignoring `#` in DeviceProperty `Add` and `Block`",
