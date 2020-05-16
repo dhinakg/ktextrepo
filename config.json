@@ -6970,6 +6970,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "bceedcdc2c31fdb3ecf4f4ae3bf0fbeb3657ea17",
+        "dateadded": "2020-05-16T20:40:45.734391+00:00",
+        "description": "Update Changelog",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/bceedcdc2c31fdb3ecf4f4ae3bf0fbeb3657ea17/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "e36341b9493ab97a8505af0f2fd984b0c40c36ff99b7e5f742d6d4a854295448",
+          "debug": {
+            "sha256": "45a832cd749c614519dfcbd1d999825a6bdbc66768679586ec93d5bb112bf45d"
+          },
+          "release": {
+            "sha256": "af7380e00366c11b6c122b0c54721eb9dcf8633bf8cc92853f6ace20efbfc7ac"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/bceedcdc2c31fdb3ecf4f4ae3bf0fbeb3657ea17/Debug/WhateverGreen-1.4.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/bceedcdc2c31fdb3ecf4f4ae3bf0fbeb3657ea17/Release/WhateverGreen-1.4.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.0"
+      },
+      {
         "commit": "b09fe9a7e7514ce3c76715111e815837d4fbb039",
         "dateadded": "2020-05-16T19:38:38.054142+00:00",
         "description": "Added IGPU device-id",
