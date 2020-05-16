@@ -6970,6 +6970,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "b09fe9a7e7514ce3c76715111e815837d4fbb039",
+        "dateadded": "2020-05-16T19:38:38.054142+00:00",
+        "description": "Added IGPU device-id",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/b09fe9a7e7514ce3c76715111e815837d4fbb039/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "e36341b9493ab97a8505af0f2fd984b0c40c36ff99b7e5f742d6d4a854295448",
+          "debug": {
+            "sha256": "88141851b0e904ca01b5f94ab097c532897ed823f69e6cc9aeacab1aa9814424"
+          },
+          "release": {
+            "sha256": "7da1e92660629bf6fad86a2eb7eb3dd67ce63e3c1503ce632c0409a5c37b791a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/b09fe9a7e7514ce3c76715111e815837d4fbb039/Debug/WhateverGreen-1.3.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/b09fe9a7e7514ce3c76715111e815837d4fbb039/Release/WhateverGreen-1.3.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.9"
+      },
+      {
         "commit": "278137d076e0945d3ce704fcebb0003a942a5ca2",
         "dateadded": "2020-05-04T21:53:23.919648+00:00",
         "description": "Update FAQ.IntelHD.en.md",
