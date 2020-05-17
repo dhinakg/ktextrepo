@@ -1767,6 +1767,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "2d49357e3dbe36781d9c893feaed07e7f0480adf",
+        "dateadded": "2020-05-17T07:47:25.777620+00:00",
+        "description": "Replace forgotten `DeviceProperties:Block` with `DeviceProperties:Delete` in SampleFull.plist (#53)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2d49357e3dbe36781d9c893feaed07e7f0480adf/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2d49357e3dbe36781d9c893feaed07e7f0480adf/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "d52df5f82ddf8dada7b1dd9970b02e233a882724150f759fd41bdd0e46861012",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "8d3114240f67848c25fdddf1410468ddcfd4bd3eac774c1a53a69ef6c6d2f9aa",
+          "release": "c25dc6df3506aaaa42c7ee9951086a6983fe50d4d5f204e585b4b30ad0b9e5ff"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2d49357e3dbe36781d9c893feaed07e7f0480adf/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2d49357e3dbe36781d9c893feaed07e7f0480adf/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "7bd3c46b14574b77f479a7a1de41959aaa6d94f0",
         "dateadded": "2020-05-16T23:38:22.122770+00:00",
         "description": "Tests: Fix build failure",
