@@ -1767,6 +1767,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "1e5e9fb5e9b811ccc96e66d62ffb57d0e05001c9",
+        "dateadded": "2020-05-18T18:10:20.683837+00:00",
+        "description": "Utilities: Add Windows binaries for BaseTools",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1e5e9fb5e9b811ccc96e66d62ffb57d0e05001c9/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1e5e9fb5e9b811ccc96e66d62ffb57d0e05001c9/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "9572bdf347a3a3d03a067b25d60d9d7ae2dadd1dfbad97c2e396e334dd2bc5c4",
+          "release": "9cdb212b8b8878d802e57b71786729c1bd39ca23e3e98f7fbe1b3450eb01c2b1"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1e5e9fb5e9b811ccc96e66d62ffb57d0e05001c9/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1e5e9fb5e9b811ccc96e66d62ffb57d0e05001c9/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "4be5c3d64b2e9e9df2286406c47e0b9752db5322",
+        "dateadded": "2020-05-18T18:10:20.644647+00:00",
+        "description": "Build: Try testing duet on Windows",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4be5c3d64b2e9e9df2286406c47e0b9752db5322/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4be5c3d64b2e9e9df2286406c47e0b9752db5322/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "5c426e83dc635315bc3f1d7ec1b0579fd2ec8377a6f690d8f0a3e725ae90259e",
+          "release": "be8cedc5ace24983910220242e80ca161306c2840d4beb522dbddb1cfbea6dd6"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4be5c3d64b2e9e9df2286406c47e0b9752db5322/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4be5c3d64b2e9e9df2286406c47e0b9752db5322/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "74a5326b4a680e034fdc9df424e190b6924b80a7",
+        "dateadded": "2020-05-18T18:10:20.592345+00:00",
+        "description": "Build: Add missing make command in Windows",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74a5326b4a680e034fdc9df424e190b6924b80a7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74a5326b4a680e034fdc9df424e190b6924b80a7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "9e4ed002635371a8d92cfc940a89fcc30fac8f09d19d0c506f2be708ad76b9e4",
+          "release": "27a586762f004fdc4acf3239c85eb9292686ad7746dcedc093329ef1f26010c5"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74a5326b4a680e034fdc9df424e190b6924b80a7/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74a5326b4a680e034fdc9df424e190b6924b80a7/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "e7989ef64fee773a90291325fd46dceda35d400d",
+        "dateadded": "2020-05-18T18:10:20.547364+00:00",
+        "description": "OcCpuLib: Fix trashing EBX register in AsmReadIntelMicrocodeRevision\n\nThis register is callee-preserved in MSABI.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e7989ef64fee773a90291325fd46dceda35d400d/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e7989ef64fee773a90291325fd46dceda35d400d/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "cde09270db3c627edffcb95d5b65267ba09465692ac94612f02e33e92a889b6d",
+          "release": "e62cc87da60a13a85a93314f4263770ff37c3d180a85405318d8412e2e2f3637"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e7989ef64fee773a90291325fd46dceda35d400d/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e7989ef64fee773a90291325fd46dceda35d400d/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "2d49357e3dbe36781d9c893feaed07e7f0480adf",
         "dateadded": "2020-05-17T07:47:25.777620+00:00",
         "description": "Replace forgotten `DeviceProperties:Block` with `DeviceProperties:Delete` in SampleFull.plist (#53)",
