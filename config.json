@@ -7014,6 +7014,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "f07137a548151a2957fe12f36d3049e103b6f557",
+        "dateadded": "2020-05-18T13:13:38.488172+00:00",
+        "description": "Fixed `framebuffer-conX-alldata` patching regression",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/f07137a548151a2957fe12f36d3049e103b6f557/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "e36341b9493ab97a8505af0f2fd984b0c40c36ff99b7e5f742d6d4a854295448",
+          "debug": {
+            "sha256": "1e934ae081703db2e9e0ba9e6d51d58f71002ed7c4124c3c02facea01b6aff01"
+          },
+          "release": {
+            "sha256": "238cb20070dd7fe52a0570c4fb95fc18ba3c69ad1f84e1a7eb8a39e326e36323"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/f07137a548151a2957fe12f36d3049e103b6f557/Debug/WhateverGreen-1.4.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/f07137a548151a2957fe12f36d3049e103b6f557/Release/WhateverGreen-1.4.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.0"
+      },
+      {
         "commit": "bceedcdc2c31fdb3ecf4f4ae3bf0fbeb3657ea17",
         "dateadded": "2020-05-16T20:40:45.734391+00:00",
         "description": "Update Changelog",
