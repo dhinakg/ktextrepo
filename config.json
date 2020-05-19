@@ -1767,6 +1767,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "ddb9862b34190e72449ac705fb2be60ffde29855",
+        "dateadded": "2020-05-19T14:47:50.109107+00:00",
+        "description": "Build: Make packaging less strict to missing macserial",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ddb9862b34190e72449ac705fb2be60ffde29855/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ddb9862b34190e72449ac705fb2be60ffde29855/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "1ae13b7212e849b346fdbbf74367581d57cc4a74a133d62d8820e52faf036769",
+          "release": "b0908499955bf5812b07f3b061a36359d09f329b9d1240fc47ee46e4afc7403c"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ddb9862b34190e72449ac705fb2be60ffde29855/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ddb9862b34190e72449ac705fb2be60ffde29855/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "28dbc7a09fa7a251d7de3b21adc01f83bdbb2323",
         "dateadded": "2020-05-19T11:46:38.492539+00:00",
         "description": "OcBootManagementLib: Add VIRTIO support to ScanPolicy",
