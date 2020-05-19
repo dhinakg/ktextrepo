@@ -1767,6 +1767,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "28dbc7a09fa7a251d7de3b21adc01f83bdbb2323",
+        "dateadded": "2020-05-19T11:46:38.492539+00:00",
+        "description": "OcBootManagementLib: Add VIRTIO support to ScanPolicy",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/28dbc7a09fa7a251d7de3b21adc01f83bdbb2323/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/28dbc7a09fa7a251d7de3b21adc01f83bdbb2323/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "8d20fc4a11d0703a44dd2db7c69fe825b4653e8dac72dee76a515dcc710516ed",
+          "release": "e76a62bb9cb75bbb5721d9281b2b2dce38b788b80628730c5ca268cc91a93113"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/28dbc7a09fa7a251d7de3b21adc01f83bdbb2323/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/28dbc7a09fa7a251d7de3b21adc01f83bdbb2323/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "1e5e9fb5e9b811ccc96e66d62ffb57d0e05001c9",
         "dateadded": "2020-05-18T18:10:20.683837+00:00",
         "description": "Utilities: Add Windows binaries for BaseTools",
