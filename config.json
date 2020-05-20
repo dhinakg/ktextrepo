@@ -1767,6 +1767,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "46e8b4b4d3376742b9f54a02460df2ff23b0d2ac",
+        "dateadded": "2020-05-20T07:35:49.914809+00:00",
+        "description": "Build: Fix some svace analysis issues",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/46e8b4b4d3376742b9f54a02460df2ff23b0d2ac/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/46e8b4b4d3376742b9f54a02460df2ff23b0d2ac/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "0fec19b8b5a78646b665a90d3259a8d322e6f2971e74c9a02c684c6216fe6a65",
+          "release": "7b53b4afa7515f090a66d70ffbd8fd1d653b8499a2c218e2e0bc17af5dc47450"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/46e8b4b4d3376742b9f54a02460df2ff23b0d2ac/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/46e8b4b4d3376742b9f54a02460df2ff23b0d2ac/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "ddb9862b34190e72449ac705fb2be60ffde29855",
         "dateadded": "2020-05-19T14:47:50.109107+00:00",
         "description": "Build: Make packaging less strict to missing macserial",
