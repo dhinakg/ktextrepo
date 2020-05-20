@@ -1767,6 +1767,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "3b051a797a60b79627437206fa6eec3238e68350",
+        "dateadded": "2020-05-20T08:06:23.831271+00:00",
+        "description": "AudioDxe: Import commits missed from AppleSupportPkg\n\nhttps://github.com/acidanthera/AppleSupportPkg/commit/4225cc346914d0292f219da83bba027fdf2a8db0\nhttps://github.com/acidanthera/AppleSupportPkg/commit/5a698b8cb8a876c916c933f876477a5e75e97c98",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3b051a797a60b79627437206fa6eec3238e68350/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3b051a797a60b79627437206fa6eec3238e68350/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "03be526875e4807672e018a28e1cdf30a59acdf061f453509040ef1e99dd2236",
+          "release": "a67a231efd18b9a64a944b69177759afc5bf7b366789b4b06c00033795e5a644"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3b051a797a60b79627437206fa6eec3238e68350/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3b051a797a60b79627437206fa6eec3238e68350/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "46e8b4b4d3376742b9f54a02460df2ff23b0d2ac",
         "dateadded": "2020-05-20T07:35:49.914809+00:00",
         "description": "Build: Fix some svace analysis issues",
