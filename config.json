@@ -1767,6 +1767,50 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "35e93f05eeba71eb8c20792bd3efc8926975d912",
+        "dateadded": "2020-05-21T16:20:33.392288+00:00",
+        "description": "OcAcpiLib: Fix SLP_BUTTON and PWR_BUTTON bits in FADT (#57)\n\nCo-authored-by: lvs1974 <lvs1974@users.noreply.github.com>\r\nCo-authored-by: vit9696 <vit9696@users.noreply.github.com>",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/35e93f05eeba71eb8c20792bd3efc8926975d912/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/35e93f05eeba71eb8c20792bd3efc8926975d912/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "1df61bbe080d5f06b34dc4fdd3220b99bba1d61cd942180456550fcf3ca8e8d5",
+          "release": "eb7693426540aeb2bcd1146b98c970c00fd74370d1ca96be704ec76b62b32d4a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/35e93f05eeba71eb8c20792bd3efc8926975d912/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/35e93f05eeba71eb8c20792bd3efc8926975d912/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "0721e4207167b4bdf062075c6e22e14eaa210ce3",
+        "dateadded": "2020-05-21T16:20:33.350971+00:00",
+        "description": "Docs: Sync docs",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0721e4207167b4bdf062075c6e22e14eaa210ce3/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0721e4207167b4bdf062075c6e22e14eaa210ce3/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "a0ce9e7adf6d4cc9e895b00dc753077c0552d989c8c998529c545b56221e3654",
+          "release": "b49eb8f09e2f7fa5876475c2b218e8604c4996b7339b05337132a5c85761800f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0721e4207167b4bdf062075c6e22e14eaa210ce3/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0721e4207167b4bdf062075c6e22e14eaa210ce3/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "e3eccbfe510c4d7eef8ca99a1deda29179945463",
         "dateadded": "2020-05-21T15:58:15.031174+00:00",
         "description": "Docs: Update Configuration",
