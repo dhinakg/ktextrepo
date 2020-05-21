@@ -1767,6 +1767,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "ad1d3e9827c936c8334477ab0ec99ec713187f28",
+        "dateadded": "2020-05-21T05:26:06.188293+00:00",
+        "description": "Docs: Fix utilities/tools term usage",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ad1d3e9827c936c8334477ab0ec99ec713187f28/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ad1d3e9827c936c8334477ab0ec99ec713187f28/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "afae9f7ba6a7e84cfba9ff34dbad1c252e63cc0457bf7b69e4e6fff0af58bc36",
+          "release": "4857332152b534778ee98f76636784e3918be3703f7bed351891b3dce7e80808"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ad1d3e9827c936c8334477ab0ec99ec713187f28/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ad1d3e9827c936c8334477ab0ec99ec713187f28/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "3b051a797a60b79627437206fa6eec3238e68350",
         "dateadded": "2020-05-20T08:06:23.831271+00:00",
         "description": "AudioDxe: Import commits missed from AppleSupportPkg\n\nhttps://github.com/acidanthera/AppleSupportPkg/commit/4225cc346914d0292f219da83bba027fdf2a8db0\nhttps://github.com/acidanthera/AppleSupportPkg/commit/5a698b8cb8a876c916c933f876477a5e75e97c98",
