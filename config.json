@@ -7300,6 +7300,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "60c7285ea0f5f034563b9eb5944e64e5d675e51b",
+        "dateadded": "2020-05-24T13:19:20.182225+00:00",
+        "description": "Update kern_model.cpp",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/60c7285ea0f5f034563b9eb5944e64e5d675e51b/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "e36341b9493ab97a8505af0f2fd984b0c40c36ff99b7e5f742d6d4a854295448",
+          "debug": {
+            "sha256": "a4f37c31c3f7e1a861cfc27452e1e7f21a256947394ceb2219dcd38d97aad2e2"
+          },
+          "release": {
+            "sha256": "b1252553b602301048faab1b21576e302b6ef4ab81894580888048c8e15f0aa9"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/60c7285ea0f5f034563b9eb5944e64e5d675e51b/Debug/WhateverGreen-1.4.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/60c7285ea0f5f034563b9eb5944e64e5d675e51b/Release/WhateverGreen-1.4.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.0"
+      },
+      {
         "commit": "a98b6c317f32786ff96aed24ac92daa01a409e00",
         "dateadded": "2020-05-24T11:56:09.339459+00:00",
         "description": "Added Comet Lake",
