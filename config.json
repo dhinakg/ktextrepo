@@ -7300,6 +7300,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "a98b6c317f32786ff96aed24ac92daa01a409e00",
+        "dateadded": "2020-05-24T11:56:09.339459+00:00",
+        "description": "Added Comet Lake",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/a98b6c317f32786ff96aed24ac92daa01a409e00/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "e36341b9493ab97a8505af0f2fd984b0c40c36ff99b7e5f742d6d4a854295448",
+          "debug": {
+            "sha256": "667259551eccd739b6e015d18f102937598f7f67b59e019804f89bbf1df96c42"
+          },
+          "release": {
+            "sha256": "b17afe102cae00d48d5468fd01fa7868213370c12cc158ee9781849d7bba4137"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/a98b6c317f32786ff96aed24ac92daa01a409e00/Debug/WhateverGreen-1.4.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/a98b6c317f32786ff96aed24ac92daa01a409e00/Release/WhateverGreen-1.4.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.0"
+      },
+      {
         "commit": "e4822f80f8319c679fe3209d7ca56c12f9e4415a",
         "dateadded": "2020-05-20T21:52:50.979138+00:00",
         "description": "Update FAQ.IntelHD.en.md",
