@@ -1767,6 +1767,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "7be43bd72623cb41aedef6437fd6cdaad588d7ef",
+        "dateadded": "2020-05-25T22:47:02.164408+00:00",
+        "description": "AudioDxe: Playback performance improvements",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7be43bd72623cb41aedef6437fd6cdaad588d7ef/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7be43bd72623cb41aedef6437fd6cdaad588d7ef/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "175ea25f9a1ae7db52ce309b7da7404c59fc4ca6b7917cbe2cff78f1aec29c33",
+          "release": "1c3b84b097a0a5aeb75c85915d5ce4cb071e10c11928df068392164cb6fdd3fa"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7be43bd72623cb41aedef6437fd6cdaad588d7ef/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7be43bd72623cb41aedef6437fd6cdaad588d7ef/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "7c74fe79b84736b75930f3b12b46ced2d794fac7",
         "dateadded": "2020-05-25T21:57:54.684616+00:00",
         "description": "Docs: DeduplicateBootOrder=Yes",
