@@ -1767,6 +1767,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "7c74fe79b84736b75930f3b12b46ced2d794fac7",
+        "dateadded": "2020-05-25T21:57:54.684616+00:00",
+        "description": "Docs: DeduplicateBootOrder=Yes",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7c74fe79b84736b75930f3b12b46ced2d794fac7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7c74fe79b84736b75930f3b12b46ced2d794fac7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "157057e28ea82d308382388b5bcec860e6c244dccbabff0406e8f3d534ab46e0",
+          "release": "2df7769a1d09f9adf873ef72b1b1ca27322fcf6a699153aac03b92881e7a47d6"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7c74fe79b84736b75930f3b12b46ced2d794fac7/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7c74fe79b84736b75930f3b12b46ced2d794fac7/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "2f41d2abd1b2c71ae910163f63b8de1db1474e5b",
         "dateadded": "2020-05-24T16:47:48.042823+00:00",
         "description": "OcBootManagementLib: Add change forgotten from last commit",
