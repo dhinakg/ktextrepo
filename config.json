@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "d6cf2f004bc9032d59e9c2c96d8adb89f62a2426",
+        "dateadded": "2020-05-26T14:43:22.161657+00:00",
+        "description": "Fixed accidental reading of  on non-Apple firmwares",
+        "hashes": {
+          "debug": {
+            "sha256": "6cccfd9a2b09f5bf216a0fa669b8751db6e3ca3c1769da5aa04bd8a2303c3bf6"
+          },
+          "release": {
+            "sha256": "095f913f8848e0ed8d1707f17f175a67176afe4383265956c583d41540af50e5"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/d6cf2f004bc9032d59e9c2c96d8adb89f62a2426/Debug/AppleALC-1.5.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/d6cf2f004bc9032d59e9c2c96d8adb89f62a2426/Release/AppleALC-1.5.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.0"
+      },
+      {
         "commit": "7b90bf5a56d952af4f7046c7fded37168149bce2",
         "dateadded": "2020-05-08T21:48:45.219431+00:00",
         "description": "DELL3437 id:88 for xiaoleGun(zoran) (#549)\n\n* DELL3437 id:88 for xiaoleGun(zoran)\r\n\r\n* DELL3437 id:88 for xiaoleGun(zoran)\r\n\r\n* DELL3437 id:88 for xiaoleGun(zoran)",
