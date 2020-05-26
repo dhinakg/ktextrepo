@@ -1787,6 +1787,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "26d36023f42dc2ca75663e1644a86bb5f8308aaf",
+        "dateadded": "2020-05-26T17:59:30.238764+00:00",
+        "description": "DataBase: Update MP61",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26d36023f42dc2ca75663e1644a86bb5f8308aaf/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26d36023f42dc2ca75663e1644a86bb5f8308aaf/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "0ede7e162e273e22e187adb7865ed4d5f92d700fd0c36883d9323e83cd705f2a",
+          "release": "3204deea1fbf92d634f655aa0af4fc4a89ec866e7dc3f7ad104e91d19cac7470"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26d36023f42dc2ca75663e1644a86bb5f8308aaf/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26d36023f42dc2ca75663e1644a86bb5f8308aaf/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "8ff5935dde6b1528498e4f5b2a2d939bc1e338ca",
         "dateadded": "2020-05-26T00:18:10.899898+00:00",
         "description": "AudioDxe: Fix compilation",
