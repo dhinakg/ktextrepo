@@ -1787,6 +1787,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "601a94cd26a77634d5e9aaaa53fbf3584718cd08",
+        "dateadded": "2020-05-27T19:04:31.334685+00:00",
+        "description": "Utilities: Compile dummy variant of EfiResTool on WIN32",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/601a94cd26a77634d5e9aaaa53fbf3584718cd08/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/601a94cd26a77634d5e9aaaa53fbf3584718cd08/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "349c24b2ca0e0841a1106511626b1d0392f58796be6578b71fee319792a8a7c3",
+          "release": "f75bbb8425b40a8ddcb830da8d518791498714224ee7d4d130cb84330266c156"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/601a94cd26a77634d5e9aaaa53fbf3584718cd08/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/601a94cd26a77634d5e9aaaa53fbf3584718cd08/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "1624cf601799fd087512279cc44e54b1e972ed42",
         "dateadded": "2020-05-26T23:24:55.648398+00:00",
         "description": "Update Changelog.md",
