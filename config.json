@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "efe95c869ad080ef55d112c2cc3d27c1f9d7a3d1",
+        "dateadded": "2020-05-28T21:43:20.602697+00:00",
+        "description": "Added improved CPU type detection for newer CPU types",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/efe95c869ad080ef55d112c2cc3d27c1f9d7a3d1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/efe95c869ad080ef55d112c2cc3d27c1f9d7a3d1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "9c1811d73381fdc1a56f1cd7ad00517eeedaf987a957c76e7dd5666e8520dea1",
+          "release": "a51018d12290bee8c0baeea5405f9cdba30ba947a4caac88cf3b84da740c1f5f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/efe95c869ad080ef55d112c2cc3d27c1f9d7a3d1/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/efe95c869ad080ef55d112c2cc3d27c1f9d7a3d1/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "a6f7af89b517b3215e74a21af4a6dc5e3f917199",
         "dateadded": "2020-05-28T00:30:15.593067+00:00",
         "description": "Update SampleFull.plist",
