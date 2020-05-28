@@ -1077,6 +1077,46 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "5bd095bd0c4a1c2b768a070443c4f1a15647adce",
+        "dateadded": "2020-05-28T19:32:24.022766+00:00",
+        "description": "Fixed newer CPU generation detection",
+        "hashes": {
+          "debug": {
+            "sha256": "a64d72e19ddcc68a07ecf5d7c4d76ee23393059905fb6b9fe4b6e8da47d61b81"
+          },
+          "release": {
+            "sha256": "01fb9abb48e97358fa3a903b22db13bd0a1ba631cf4641a7de9bc994b1a0ef22"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/5bd095bd0c4a1c2b768a070443c4f1a15647adce/Debug/Lilu-1.4.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/5bd095bd0c4a1c2b768a070443c4f1a15647adce/Release/Lilu-1.4.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.5"
+      },
+      {
+        "commit": "3ec7dca352038b309a79f54226314fcd02fe7417",
+        "dateadded": "2020-05-28T19:32:23.985905+00:00",
+        "description": "Added failsafe versions of CML framebuffers",
+        "hashes": {
+          "debug": {
+            "sha256": "ab0753c4f473ba928b635642296891ec24acbb7428d15e9aa4d0651581608bc3"
+          },
+          "release": {
+            "sha256": "714dc8dc85b274644f7452e15b8c4563d82442013d48e747c1178f05bcef7153"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/3ec7dca352038b309a79f54226314fcd02fe7417/Debug/Lilu-1.4.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/3ec7dca352038b309a79f54226314fcd02fe7417/Release/Lilu-1.4.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.5"
+      },
+      {
         "commit": "c019c9c982f4235f6fcfbf582ca825689286cd6b",
         "dateadded": "2020-05-09T21:41:19.063928+00:00",
         "description": "Fix prefixed version matching for kexts (e.g. 1 and 1.0)",
