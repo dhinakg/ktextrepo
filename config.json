@@ -7580,6 +7580,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "1f732bf92b56e3b48c7f243b1fd5ef3086577457",
+        "dateadded": "2020-05-28T21:51:02.129698+00:00",
+        "description": "Update FAQ.IntelHD.en.md",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/1f732bf92b56e3b48c7f243b1fd5ef3086577457/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "e36341b9493ab97a8505af0f2fd984b0c40c36ff99b7e5f742d6d4a854295448",
+          "debug": {
+            "sha256": "2943186e77f00169dce7797b4282a9f80a90183e476dd977d14f88b876ed05a5"
+          },
+          "release": {
+            "sha256": "20a3b58d056dd71b4126df0089a6e4219e2ef741eae3c245fb34e926485c0cd3"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/1f732bf92b56e3b48c7f243b1fd5ef3086577457/Debug/WhateverGreen-1.4.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/1f732bf92b56e3b48c7f243b1fd5ef3086577457/Release/WhateverGreen-1.4.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.0"
+      },
+      {
         "commit": "9394b16a95c09ac58b9fe5475c56483df2b4cd3c",
         "dateadded": "2020-05-28T21:15:50.509880+00:00",
         "description": "Added `disable-hdmi-patches` device property alias to `-igfxnohdmi`",
