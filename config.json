@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "87ab56e4b5bba2ec1cdf43b3036c5ce70d8fdc47",
+        "dateadded": "2020-05-28T23:32:54.410472+00:00",
+        "description": "Update Changelog.md",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/87ab56e4b5bba2ec1cdf43b3036c5ce70d8fdc47/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/87ab56e4b5bba2ec1cdf43b3036c5ce70d8fdc47/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "d712e6e33cf212cafaa636d44089d9820fb3d31c0779f62c7eb1a26b715d0181",
+          "release": "1f31a9a4151a5ebcba1f746682af4cab526aed0849431a1a772b992738f85c53"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/87ab56e4b5bba2ec1cdf43b3036c5ce70d8fdc47/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/87ab56e4b5bba2ec1cdf43b3036c5ce70d8fdc47/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "1fffdef964b34333e2b59594a4c6f19a866f5897",
         "dateadded": "2020-05-28T22:39:57.442581+00:00",
         "description": "Utilities: Introduce ConfigValidity and refactor utility compilation (#59)",
