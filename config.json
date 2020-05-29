@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "507f4f296177a3197e354312e1478254464f2e1e",
+        "dateadded": "2020-05-29T22:49:47.932327+00:00",
+        "description": "Docs: Provide information on ConfigValidity\n\ncloses acidanthera/bugtracker#656",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/507f4f296177a3197e354312e1478254464f2e1e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/507f4f296177a3197e354312e1478254464f2e1e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "7878c048bc6ea29a1ee91f065954017e191d110c7e1d29ed0889c299c92b075f",
+          "release": "858906a54ccbb7831e02162a12d7b85cd7fe37488386ddfab43fd7751411322b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/507f4f296177a3197e354312e1478254464f2e1e/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/507f4f296177a3197e354312e1478254464f2e1e/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "bf8e36b7f4e22c9c728f827497e729732f4150fe",
         "dateadded": "2020-05-29T22:38:49.224479+00:00",
         "description": "OcCpuLib: Provide basic implementation for `TscSyncTimeout`",
