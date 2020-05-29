@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "bf8e36b7f4e22c9c728f827497e729732f4150fe",
+        "dateadded": "2020-05-29T22:38:49.224479+00:00",
+        "description": "OcCpuLib: Provide basic implementation for `TscSyncTimeout`",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bf8e36b7f4e22c9c728f827497e729732f4150fe/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bf8e36b7f4e22c9c728f827497e729732f4150fe/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "e588095e5f01979667e7a4091642cdaf4f98b1ded695931c747d12babe7561ea",
+          "release": "10c0d5ca54434ea26bcf3c0793f5da1444d24d6c40dc74e12cdcc5fa4b183f5a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bf8e36b7f4e22c9c728f827497e729732f4150fe/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bf8e36b7f4e22c9c728f827497e729732f4150fe/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "26868e93417576837575f46f4bb2228b5ead15c9",
         "dateadded": "2020-05-29T21:14:56.648197+00:00",
         "description": "OcDebugLogLib: Improve serial and file logging\n\ncloses acidanthera/bugtracker#482",
