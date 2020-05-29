@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "26868e93417576837575f46f4bb2228b5ead15c9",
+        "dateadded": "2020-05-29T21:14:56.648197+00:00",
+        "description": "OcDebugLogLib: Improve serial and file logging\n\ncloses acidanthera/bugtracker#482",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26868e93417576837575f46f4bb2228b5ead15c9/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26868e93417576837575f46f4bb2228b5ead15c9/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "9680a289fee6a5a90aa618439054dc2aee72a695afdd68b6e281769a3c9ede21",
+          "release": "af2242ec364969e6b1c2c8ffc2bc2b462a044891bcb09f84ec851448f09b58e9"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26868e93417576837575f46f4bb2228b5ead15c9/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26868e93417576837575f46f4bb2228b5ead15c9/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "47c43affdd413a7a4f185d7d42b52a6c252fe314",
         "dateadded": "2020-05-29T12:58:48.228104+00:00",
         "description": "Build: Ignore utility binary files",
