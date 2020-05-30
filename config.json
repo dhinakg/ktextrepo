@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "02602c8aa163891bdbc8959dcc458af3e76f168e",
+        "dateadded": "2020-05-30T13:35:25.902583+00:00",
+        "description": "OcAppleBootPolicyLib: Added first-class Windows support to bless model",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/02602c8aa163891bdbc8959dcc458af3e76f168e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/02602c8aa163891bdbc8959dcc458af3e76f168e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "fc2d50fdc13daad89df440c15d981e2115081e85b8b7b91213a6016824d38d52",
+          "release": "47e6c320efc8601c6e24eeffa83201d2a1af9cf1d1e6db8ccc4ebce178c3b760"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/02602c8aa163891bdbc8959dcc458af3e76f168e/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/02602c8aa163891bdbc8959dcc458af3e76f168e/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "507f4f296177a3197e354312e1478254464f2e1e",
         "dateadded": "2020-05-29T22:49:47.932327+00:00",
         "description": "Docs: Provide information on ConfigValidity\n\ncloses acidanthera/bugtracker#656",
