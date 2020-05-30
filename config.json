@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "cf33f6ff2a84db39dd2bccbc385c78dae0aa2e88",
+        "dateadded": "2020-05-30T22:53:43.730665+00:00",
+        "description": "Docs: Provide links to PartitionDxe for 10.9 DMG recovery",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cf33f6ff2a84db39dd2bccbc385c78dae0aa2e88/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cf33f6ff2a84db39dd2bccbc385c78dae0aa2e88/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "ba30f45eeb4146e9598fb123ae42120fe3c4edb44564f5043c7fbdbea384109b",
+          "release": "7482b8df5f1e7fd8b770d2a24866b6953a64967b8b1db9bd242db32f29058151"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cf33f6ff2a84db39dd2bccbc385c78dae0aa2e88/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cf33f6ff2a84db39dd2bccbc385c78dae0aa2e88/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "6f25d6c9f17d823331d1920a431df29036f2f4d4",
         "dateadded": "2020-05-30T14:58:48.824019+00:00",
         "description": "Utilities: Port DiskImage to utilities",
