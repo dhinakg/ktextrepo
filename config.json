@@ -1827,6 +1827,50 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "6f25d6c9f17d823331d1920a431df29036f2f4d4",
+        "dateadded": "2020-05-30T14:58:48.824019+00:00",
+        "description": "Utilities: Port DiskImage to utilities",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f25d6c9f17d823331d1920a431df29036f2f4d4/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f25d6c9f17d823331d1920a431df29036f2f4d4/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "ad98887a2c25f0d8006cf09ceea6f3896522143e5188acede6639b021a36dbd1",
+          "release": "e52d55dec40f25cc5b2129211e845f5a50087c9eff75f741f0147b2bbb1ca073"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f25d6c9f17d823331d1920a431df29036f2f4d4/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f25d6c9f17d823331d1920a431df29036f2f4d4/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "224f6236412f17716cc2874f2cd32c694b6d2a1a",
+        "dateadded": "2020-05-30T14:58:48.783160+00:00",
+        "description": "Utilities: Delete accidental binary commit for DiskImage",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/224f6236412f17716cc2874f2cd32c694b6d2a1a/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/224f6236412f17716cc2874f2cd32c694b6d2a1a/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "b951e0f5ee8c7218d64f56603ae379f3f2128f1ea4659c602dfc7164cacc0406",
+          "release": "39c1ce484a440fdf581039566fc0ea2663977e096a77328f72588c817a9758c6"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/224f6236412f17716cc2874f2cd32c694b6d2a1a/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/224f6236412f17716cc2874f2cd32c694b6d2a1a/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "98ac7e10da6d5a3482b7de2c3719bbb0a1df9891",
         "dateadded": "2020-05-30T14:08:59.535473+00:00",
         "description": "Docs: Improve XCPM documentation",
