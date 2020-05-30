@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "98ac7e10da6d5a3482b7de2c3719bbb0a1df9891",
+        "dateadded": "2020-05-30T14:08:59.535473+00:00",
+        "description": "Docs: Improve XCPM documentation",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/98ac7e10da6d5a3482b7de2c3719bbb0a1df9891/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/98ac7e10da6d5a3482b7de2c3719bbb0a1df9891/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "c216e80de698fb09aa256fadafc6b0a839a84ce75490d9893788002d91061201",
+          "release": "b408c26153efeefdfe93387b303aaa0ad04e744a747be8c44234da27c430f55f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/98ac7e10da6d5a3482b7de2c3719bbb0a1df9891/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/98ac7e10da6d5a3482b7de2c3719bbb0a1df9891/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "02602c8aa163891bdbc8959dcc458af3e76f168e",
         "dateadded": "2020-05-30T13:35:25.902583+00:00",
         "description": "OcAppleBootPolicyLib: Added first-class Windows support to bless model",
