@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "6d67a12106705efa63f3193ee882b7dec633dee4",
+        "dateadded": "2020-05-30T23:44:38.098522+00:00",
+        "description": "Docs: update Sample",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6d67a12106705efa63f3193ee882b7dec633dee4/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6d67a12106705efa63f3193ee882b7dec633dee4/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "30c9b6ae95a0ba1209873f19227ca9313aa942642326c9846e95d0991cd12a95",
+          "release": "46207106b06f97a5d9cf231daf5064b4284297753824a5b63986c9ca4293555d"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6d67a12106705efa63f3193ee882b7dec633dee4/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6d67a12106705efa63f3193ee882b7dec633dee4/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "cf33f6ff2a84db39dd2bccbc385c78dae0aa2e88",
         "dateadded": "2020-05-30T22:53:43.730665+00:00",
         "description": "Docs: Provide links to PartitionDxe for 10.9 DMG recovery",
