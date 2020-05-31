@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "6e1ad1c8f30ec6979f127c436759a22d3b9681e7",
+        "dateadded": "2020-05-31T03:25:06.714204+00:00",
+        "description": "OpenCore: Refine loading order to ease driver compatibility",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6e1ad1c8f30ec6979f127c436759a22d3b9681e7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6e1ad1c8f30ec6979f127c436759a22d3b9681e7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "f4c19664940a65fe9ce9974c77f7343e50583b9b6ebe342ed30308b7e8b6ba3d",
+          "release": "1ac30392ec5f6973bf05ff317ad2bdf6cf62c6d4c7504b0e3ee31fb3024b8945"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6e1ad1c8f30ec6979f127c436759a22d3b9681e7/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6e1ad1c8f30ec6979f127c436759a22d3b9681e7/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "6601945dc3358443c5ce3af3bb519024721c75b0",
         "dateadded": "2020-05-31T03:01:42.653480+00:00",
         "description": "Docs:Update Sample",
