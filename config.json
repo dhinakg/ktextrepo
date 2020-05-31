@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "6601945dc3358443c5ce3af3bb519024721c75b0",
+        "dateadded": "2020-05-31T03:01:42.653480+00:00",
+        "description": "Docs:Update Sample",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6601945dc3358443c5ce3af3bb519024721c75b0/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6601945dc3358443c5ce3af3bb519024721c75b0/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "2afb3dcf82822603c0b160e05d4200f95351376e6d1dc88d7910e6c294f8f7c8",
+          "release": "66c4aa23ea18dcfaa38021958216b4e5145a0dabc1fa943b82a1fb0b2384925b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6601945dc3358443c5ce3af3bb519024721c75b0/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6601945dc3358443c5ce3af3bb519024721c75b0/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "bf5cea16f83f3318a9d9c28d3a4e51b1c863cac4",
         "dateadded": "2020-05-31T02:39:57.640678+00:00",
         "description": "Build: Fix IA32 -> Ia32 naming to conform UDK",
