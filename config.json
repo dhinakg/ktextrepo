@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "13d019baba28e7e51ad4a47d316dbae425f7b41a",
+        "dateadded": "2020-05-31T02:28:38.141781+00:00",
+        "description": "Docs: Mention Hyper-V fixes by Goldfish",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/13d019baba28e7e51ad4a47d316dbae425f7b41a/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/13d019baba28e7e51ad4a47d316dbae425f7b41a/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "432137c8bbc886794a63ff74fa48127d80632331f3863e0a6a2bc445c9585e2d",
+          "release": "2df14581f4335620c348cec01419197228699ec76aade6317b2df8fe0591c34d"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/13d019baba28e7e51ad4a47d316dbae425f7b41a/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/13d019baba28e7e51ad4a47d316dbae425f7b41a/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "16448b964eea648efbabac3d3702fffe1fdc3b3e",
         "dateadded": "2020-05-31T02:19:16.059197+00:00",
         "description": "CrScreenshotDxe: Improve compatibility and provide docs",
