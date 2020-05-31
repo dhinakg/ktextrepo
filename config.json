@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "bf5cea16f83f3318a9d9c28d3a4e51b1c863cac4",
+        "dateadded": "2020-05-31T02:39:57.640678+00:00",
+        "description": "Build: Fix IA32 -> Ia32 naming to conform UDK",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bf5cea16f83f3318a9d9c28d3a4e51b1c863cac4/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bf5cea16f83f3318a9d9c28d3a4e51b1c863cac4/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "219153a79ba1bd09a314bf9662f9e6ad1f7ee21de7e9cb89ed14c687aa29175b",
+          "release": "5025d0b00541f5228d7d09896f32be806f1f25fb1a8581d423f4ea863eaf6f56"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bf5cea16f83f3318a9d9c28d3a4e51b1c863cac4/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bf5cea16f83f3318a9d9c28d3a4e51b1c863cac4/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "13d019baba28e7e51ad4a47d316dbae425f7b41a",
         "dateadded": "2020-05-31T02:28:38.141781+00:00",
         "description": "Docs: Mention Hyper-V fixes by Goldfish",
