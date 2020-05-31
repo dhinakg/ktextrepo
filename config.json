@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "16448b964eea648efbabac3d3702fffe1fdc3b3e",
+        "dateadded": "2020-05-31T02:19:16.059197+00:00",
+        "description": "CrScreenshotDxe: Improve compatibility and provide docs",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/16448b964eea648efbabac3d3702fffe1fdc3b3e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/16448b964eea648efbabac3d3702fffe1fdc3b3e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "a3d5980a012209f3843480f3831a6c8b3d868af2d3113114f9594ed8e8992e8e",
+          "release": "dca0fa4f84b392d24a6a0c3fc17076aa58d9f94c29e489dadcf7be10d919e16e"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/16448b964eea648efbabac3d3702fffe1fdc3b3e/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/16448b964eea648efbabac3d3702fffe1fdc3b3e/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "4505831e1b4464d3a6299115c64d5525db2e55d3",
         "dateadded": "2020-05-31T01:39:34.861157+00:00",
         "description": "OcCpuLib: Provide TSC frequency under Hyper-V",
