@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "bef9bfd7043319957ae162b685266a055cdc4fce",
+        "dateadded": "2020-05-31T00:50:32.365296+00:00",
+        "description": "CrScreenshotDxe: Initial import from LongSoft with compatibility edits",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bef9bfd7043319957ae162b685266a055cdc4fce/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bef9bfd7043319957ae162b685266a055cdc4fce/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "92eec027e02d8dd4c93628c3201e3d65b980605fbd33acd1aec9566f3ca11827",
+          "release": "9bb0326def8ef9def0fb62b542fadaaf4dc283d9853494ee496577fea39859f9"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bef9bfd7043319957ae162b685266a055cdc4fce/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bef9bfd7043319957ae162b685266a055cdc4fce/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "6d67a12106705efa63f3193ee882b7dec633dee4",
         "dateadded": "2020-05-30T23:44:38.098522+00:00",
         "description": "Docs: update Sample",
