@@ -1827,6 +1827,50 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "0c70319eb0c5fef9997b19a91cb7aa3358a884bf",
+        "dateadded": "2020-05-31T17:50:21.099101+00:00",
+        "description": "OcAcpiLib: Fix SSDT dumping",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c70319eb0c5fef9997b19a91cb7aa3358a884bf/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c70319eb0c5fef9997b19a91cb7aa3358a884bf/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "30b9c8570daf89608c6620b9c68161c204d33ff1723cc260db58d298a49dbf74",
+          "release": "2ea929aee9afcc31505a5f5dbbc380f7018a486190f06725e5e24f873e0bf957"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c70319eb0c5fef9997b19a91cb7aa3358a884bf/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c70319eb0c5fef9997b19a91cb7aa3358a884bf/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
+        "commit": "05aeb6d573ea6e9ba5ae13068b0e35a925f9028f",
+        "dateadded": "2020-05-31T17:50:21.047637+00:00",
+        "description": "Build: Add Windows binaries and cleanup buildscripts (#65)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/05aeb6d573ea6e9ba5ae13068b0e35a925f9028f/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/05aeb6d573ea6e9ba5ae13068b0e35a925f9028f/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "599a872729a37bc3102edcadec4e866ecb0a409f97994d86d9d3cbbd19c0d428",
+          "release": "7b7245fbd4aaa5640919033c168a74fb34ae4bc62dd629f5f37ff075180c73b0"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/05aeb6d573ea6e9ba5ae13068b0e35a925f9028f/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/05aeb6d573ea6e9ba5ae13068b0e35a925f9028f/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "8d1e36909868c398f10fd5ab43a296b7178713d9",
         "dateadded": "2020-05-31T17:31:05.420862+00:00",
         "description": "OcSmbiosLib: Fix typo introduced by the previous commit",
