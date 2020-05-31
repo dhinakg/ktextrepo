@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "4505831e1b4464d3a6299115c64d5525db2e55d3",
+        "dateadded": "2020-05-31T01:39:34.861157+00:00",
+        "description": "OcCpuLib: Provide TSC frequency under Hyper-V",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4505831e1b4464d3a6299115c64d5525db2e55d3/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4505831e1b4464d3a6299115c64d5525db2e55d3/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "71bea1e4fe6bb0fca561fe5066b796aae5c0575a231751420034ee3a7add2f47",
+          "release": "422b60a071ff83c6eb72afb29d583ab8a8e97c2073c70823151cdd1095b4112c"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4505831e1b4464d3a6299115c64d5525db2e55d3/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4505831e1b4464d3a6299115c64d5525db2e55d3/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "bef9bfd7043319957ae162b685266a055cdc4fce",
         "dateadded": "2020-05-31T00:50:32.365296+00:00",
         "description": "CrScreenshotDxe: Initial import from LongSoft with compatibility edits",
