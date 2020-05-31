@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "ae5e1f400eaca880dfbd2ef09dc515e968be3c02",
+        "dateadded": "2020-05-31T18:46:53.205615+00:00",
+        "description": "OcAcpiLib: Actually fix SSDT dumping",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ae5e1f400eaca880dfbd2ef09dc515e968be3c02/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ae5e1f400eaca880dfbd2ef09dc515e968be3c02/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "016d4c83e09f51131c23bceb7cf15d910fca0b71cbb36527a64f059ad1fd07ed",
+          "release": "1c465aed8d760b9db606030afc12d9e6b07fefbc4656716be1f2faa4fa00fbea"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ae5e1f400eaca880dfbd2ef09dc515e968be3c02/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ae5e1f400eaca880dfbd2ef09dc515e968be3c02/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "0c70319eb0c5fef9997b19a91cb7aa3358a884bf",
         "dateadded": "2020-05-31T17:50:21.099101+00:00",
         "description": "OcAcpiLib: Fix SSDT dumping",
