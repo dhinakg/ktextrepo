@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "4982d8c5526362d0ae5f3bca5cec25bc588e8515",
+        "dateadded": "2020-05-31T22:24:59.049603+00:00",
+        "description": "Utilities: Rebuild LegacyBoot with new BaseMemoryLib",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4982d8c5526362d0ae5f3bca5cec25bc588e8515/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4982d8c5526362d0ae5f3bca5cec25bc588e8515/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "f97c4c5c0e927dd6ce83624272df2c5a1ffbcf7939d550d19d831f503ac63cdf",
+          "release": "eb1e5e80ec1821173e5c2e8bf001cee3455d7d9092c0ba38dc91c1249d9b8cc0"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4982d8c5526362d0ae5f3bca5cec25bc588e8515/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4982d8c5526362d0ae5f3bca5cec25bc588e8515/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "0fdae4322d85a068cdb2408be2aa49225418f605",
         "dateadded": "2020-05-31T22:05:16.810107+00:00",
         "description": "Build: Switch to BaseMemoryLibRepStr for optimised memory routines\n\nWe cannot use BaseMemoryLibOptDxe since it uses SSE instructions,\nand some firmwares fail to properly maintain MMX register contexts\nacross the timers. This results in exceptions when trying to execute\nprimitives like CopyMem in timers (e.g. AIKDataWriteEntry).\nReproduced on ASUS M5A97 with AMD FX8320 CPU.\n\ncloses acidanthera/bugtracker#754",
