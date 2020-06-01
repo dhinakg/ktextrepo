@@ -1682,6 +1682,46 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "009a13233f04484907dcac348bd6bfe1ee1db2a0",
+        "dateadded": "2020-06-01T18:12:18.117408+00:00",
+        "description": "Fix re-enabling APST without active PM on",
+        "hashes": {
+          "debug": {
+            "sha256": "0745829581966d017bea46f42cdc3c25d41b4b9e12defe8dea819789e1f834fb"
+          },
+          "release": {
+            "sha256": "d74792530bcd94e8400ab5bdd0d133130fe2764357394113b8577b50c1b723aa"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/009a13233f04484907dcac348bd6bfe1ee1db2a0/Debug/NVMeFix-1.0.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/009a13233f04484907dcac348bd6bfe1ee1db2a0/Release/NVMeFix-1.0.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.2"
+      },
+      {
+        "commit": "bf0cb123c0b47dda744232abbc4a627c305b00cd",
+        "dateadded": "2020-06-01T18:12:18.088958+00:00",
+        "description": "Merge remote-tracking branch 'origin/master'\n\n* origin/master:\n  Add \"jobs 1\" to build release configuration since dSYM file is not ready when archiving build phase is started",
+        "hashes": {
+          "debug": {
+            "sha256": "6ecbb6e7bbd6c2ec4b8692fa36dae376506f635c63812431dde2f101e1780891"
+          },
+          "release": {
+            "sha256": "d7c4e1f78d1321b8032ef17b62c5ad7c79f524069d1cb742c0b0f633db3e2611"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/bf0cb123c0b47dda744232abbc4a627c305b00cd/Debug/NVMeFix-1.0.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/bf0cb123c0b47dda744232abbc4a627c305b00cd/Release/NVMeFix-1.0.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.2"
+      },
+      {
         "commit": "9ebd6c3de0182a1debb0f17f9b5bb5a05391f862",
         "dateadded": "2020-04-25T21:15:28.195556+00:00",
         "description": "Add \"jobs 1\" to build release configuration since dSYM file is not ready when archiving build phase is started",
