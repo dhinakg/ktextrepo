@@ -3,6 +3,46 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "f0cf54d18900c30a3bc9fb09bc8c9b7e83cd27a0",
+        "dateadded": "2020-06-01T11:17:04.191582+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "e269e7b89c7f8cc54673062160dcd2631c7b5c3641219362e23314ca035b948a"
+          },
+          "release": {
+            "sha256": "cb70010b5c4de2b830ebde15ad246492257f733518aafa3f0385c42860bc1d64"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/f0cf54d18900c30a3bc9fb09bc8c9b7e83cd27a0/Debug/AppleALC-1.5.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/f0cf54d18900c30a3bc9fb09bc8c9b7e83cd27a0/Release/AppleALC-1.5.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.0"
+      },
+      {
+        "commit": "e669a96a12140de61d137ce9bad3821ff214bd1a",
+        "dateadded": "2020-06-01T11:17:04.157528+00:00",
+        "description": "Moving arm\u00eanio ALC255 Layout ID 7 to 86, and add ALC257 Layout ID 86 (#552)\n\n* Moving arm\u00eanio ALC255 Layout ID 7 to 86\r\n\r\nTo avoid confusion with Layout ID 7 already reserved\r\n\r\nAlso:\r\n- DspFunctions (unknown) removed\r\n- Removed unnecessary patch\r\n\r\n* Adding Layout-86 for Realtek ALC257 for Lenovo T480\r\n\r\n* Revert \"Adding Layout-86 for Realtek ALC257 for Lenovo T480\"\r\n\r\nThis reverts commit 92988c094de30c0e248a65e16b387b7e306724c1.\r\n\r\n* Revert \"Revert \"Adding Layout-86 for Realtek ALC257 for Lenovo T480\"\"\r\n\r\nThis reverts commit d9840b6cb7cf0c23a0b748f902d7ca15ca57f3cc.",
+        "hashes": {
+          "debug": {
+            "sha256": "f5b85a2eea02baf63c3451a94a6ce1822162256f5b7c2ba45079e5051d09793e"
+          },
+          "release": {
+            "sha256": "f1415263f52f5ba6b3cddaa827349c770908a1c00279fbe57a51a3ddc9a47f48"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/e669a96a12140de61d137ce9bad3821ff214bd1a/Debug/AppleALC-1.5.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/e669a96a12140de61d137ce9bad3821ff214bd1a/Release/AppleALC-1.5.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.0"
+      },
+      {
         "commit": "e34d0a5b650cb4831628b0388a8eb49cb4ab5f53",
         "dateadded": "2020-06-01T11:04:54.232813+00:00",
         "description": "Add patch to fix internal mic gain adjustment (#550)",
