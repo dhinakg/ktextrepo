@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "97c69af4d5f9e24d9cdb56712df131fa538801f3",
+        "dateadded": "2020-06-01T00:08:05.194179+00:00",
+        "description": "ConfigValidity: Fix printing format",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/97c69af4d5f9e24d9cdb56712df131fa538801f3/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/97c69af4d5f9e24d9cdb56712df131fa538801f3/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "e372bc3bf6cf8b691a00b11b1a81cffda88634a2fc67bd3135f2964d6c024880",
+          "release": "681c810a4cf45d57dae0eb5c3eaba51ccea6d29e48a52b8bf6a36653de6a7d73"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/97c69af4d5f9e24d9cdb56712df131fa538801f3/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/97c69af4d5f9e24d9cdb56712df131fa538801f3/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "d9d4fdbe0bf0118de4befd3b0869139bf3dbc555",
         "dateadded": "2020-05-31T23:17:28.238500+00:00",
         "description": "OcCpuLib: Remove SyncrhonizationLib dependency\n\nSyncrhonizationLib requires TimerLib, and our TimerLib requires\nOcCpuLib, which results in OcTimerLib constructors being called before\nUefiRuntimeServicesTableLib constructors leading to NULL gRT dereference\nin OcTimerLibConstructor causing UEFI Shell crashes.",
