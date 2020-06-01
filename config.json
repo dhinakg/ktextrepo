@@ -1987,6 +1987,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "52d5f1486bfdd6a106e97a61a6848ac2f3df0d28",
+        "dateadded": "2020-06-01T17:28:16.955226+00:00",
+        "description": "Bump version to 0.6.0",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/52d5f1486bfdd6a106e97a61a6848ac2f3df0d28/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/52d5f1486bfdd6a106e97a61a6848ac2f3df0d28/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "477a99e7e57bea8475a573eef6ee150ca499ce99c358acf7c17881034cd87ab3",
+          "release": "8af80bf5ee4ec6be2b6b0e7025539e10566e94f9123a672e2adbc05e723ca219"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/52d5f1486bfdd6a106e97a61a6848ac2f3df0d28/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/52d5f1486bfdd6a106e97a61a6848ac2f3df0d28/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "64396aebdcf82ed281d1bc945ae1cbfb9a460a93",
         "dateadded": "2020-06-01T14:59:49.058156+00:00",
         "description": "Build: Fix binary publishing",
