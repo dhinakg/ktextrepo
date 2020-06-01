@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "116051c02c9f5253225e57d5ff01903cf21d17f1",
+        "dateadded": "2020-06-01T11:41:54.958408+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "fece108c3a4d4915cc881d94d0b32bec3f52e2f29b5168e2f0d2657a67a4e2fe"
+          },
+          "release": {
+            "sha256": "c1a7067782fb06101a2bc640a694cf7c3bb573741b5c34a0fd9acce21a1cc654"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/116051c02c9f5253225e57d5ff01903cf21d17f1/Debug/AppleALC-1.5.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/116051c02c9f5253225e57d5ff01903cf21d17f1/Release/AppleALC-1.5.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.0"
+      },
+      {
         "commit": "9fd6d3fe3620bc9dc5bef47ba660384e0540d5c8",
         "dateadded": "2020-06-01T11:32:19.095248+00:00",
         "description": "Sync changelog",
