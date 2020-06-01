@@ -3,6 +3,86 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "9fd6d3fe3620bc9dc5bef47ba660384e0540d5c8",
+        "dateadded": "2020-06-01T11:32:19.095248+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "e3d718a1fc9d2ba880e8bac9ed42cd37b06e3c2f333eaaabe6a164536c33bf9e"
+          },
+          "release": {
+            "sha256": "564b8518e855194a9ae2559c8bb67edab37fcfd55288ad8910613d586b7c3b35"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9fd6d3fe3620bc9dc5bef47ba660384e0540d5c8/Debug/AppleALC-1.5.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9fd6d3fe3620bc9dc5bef47ba660384e0540d5c8/Release/AppleALC-1.5.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.0"
+      },
+      {
+        "commit": "e4e566d4677ca87930c1c0595ec55040192f59fa",
+        "dateadded": "2020-06-01T11:32:19.063278+00:00",
+        "description": "Added ALC662 layout-id 18 for MP67-DI/ESPRIMO Q900 (#561)\n\n* Added ALC662 layout-id 18 for MP67-DI/ESPRIMO Q900\r\n\r\n* Fix Amps, NodeIDs and PinConfigs\r\n\r\nPinConfigs were changed for better recognition of the Jacks when connected, the connection of the Microphone audio mixer was changed too, the option to mute the headphones was fixed and it's working",
+        "hashes": {
+          "debug": {
+            "sha256": "2579487374479e95e28bbfd55c2be7e2d03cd43beb07f7f847573bb3e2e14853"
+          },
+          "release": {
+            "sha256": "139e89f9741cede17de9504005cc5a6a656f36428c35cf76decee2530ddc51f3"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/e4e566d4677ca87930c1c0595ec55040192f59fa/Debug/AppleALC-1.5.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/e4e566d4677ca87930c1c0595ec55040192f59fa/Release/AppleALC-1.5.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.0"
+      },
+      {
+        "commit": "9a9141689dea6cc9a743c76966c955934e62467b",
+        "dateadded": "2020-06-01T11:32:19.032989+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "6384b87687c6852567425ece3c010f88fd5a60789a96fe94d00da34f6806f274"
+          },
+          "release": {
+            "sha256": "e922ce3f41dcf4dddd7417358088dc8c36932783a6d2bb28f1e7b7821e38ad7d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9a9141689dea6cc9a743c76966c955934e62467b/Debug/AppleALC-1.5.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9a9141689dea6cc9a743c76966c955934e62467b/Release/AppleALC-1.5.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.0"
+      },
+      {
+        "commit": "33c5e47fa11c1ca5a9256255b2d44df3893188d5",
+        "dateadded": "2020-06-01T11:32:19.001855+00:00",
+        "description": "Add layout19 and layout76 for ALC256 (#562)\n\n* Add files via upload\r\n\r\nAdd layout19 for Matebook X Pro 2019\r\n\r\n* Add layout76 for Matebook X Pro 2019 \uff084CH\uff09\r\n\r\nAdd layout76 for Matebook X Pro 2019 \uff084CH\uff09\r\nAdd Platforms76 for Matebook X Pro 2019 \uff084CH\uff09\r\n\r\n* Add layout19 and layout76 for ALC256\r\n\r\nAdd layout19 for Matebook X Pro 2019\r\nAdd layout76 for Matebook X Pro 2019\uff084CH\uff09\r\n\r\n* Add layout19 and layout76 For ALC256\r\n\r\nAdd layout19 For Matebook X Pro 2019\r\nAdd layout76 For Matebook X Pro 2019 \uff084CH\uff09\r\n\r\n* Fix some issues\r\n\r\nFix the HP out is no sound and change the Order of equipment\r\n\r\n* Restore last edited state\r\n\r\n* Update Platforms19.xml\r\n\r\n* Update Platforms19.xml\r\n\r\n* Update Platforms76.xml\r\n\r\n* Update Info.plist",
+        "hashes": {
+          "debug": {
+            "sha256": "73218d1f89768e1985ed50f9323425a432d45ca686dac1f52b1df0e3dbd35ab4"
+          },
+          "release": {
+            "sha256": "337dfddec02725aa05936f08da10ac50a2d181b35e051a1d6db63c2317fe6d13"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/33c5e47fa11c1ca5a9256255b2d44df3893188d5/Debug/AppleALC-1.5.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/33c5e47fa11c1ca5a9256255b2d44df3893188d5/Release/AppleALC-1.5.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.0"
+      },
+      {
         "commit": "f0cf54d18900c30a3bc9fb09bc8c9b7e83cd27a0",
         "dateadded": "2020-06-01T11:17:04.191582+00:00",
         "description": "Sync changelog",
