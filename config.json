@@ -2027,6 +2027,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "c047d6101a81b3219147829208ed484339f49411",
+        "dateadded": "2020-06-01T23:50:38.731333+00:00",
+        "description": "AudioDxe: Fix issue with playback ending early",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c047d6101a81b3219147829208ed484339f49411/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c047d6101a81b3219147829208ed484339f49411/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "194d7587eaf3970b52bc0c088b059a4c1c7cc2366e4c68ca529b164c4c1e21dd",
+          "release": "0e6eca72dfe8408054cfa337a50f5a8f758f153c49df5dba06d26f3c5316aa50"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c047d6101a81b3219147829208ed484339f49411/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c047d6101a81b3219147829208ed484339f49411/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "52d5f1486bfdd6a106e97a61a6848ac2f3df0d28",
         "dateadded": "2020-06-01T17:28:16.955226+00:00",
         "description": "Bump version to 0.6.0",
