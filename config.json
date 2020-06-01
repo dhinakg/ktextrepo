@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "e34d0a5b650cb4831628b0388a8eb49cb4ab5f53",
+        "dateadded": "2020-06-01T11:04:54.232813+00:00",
+        "description": "Add patch to fix internal mic gain adjustment (#550)",
+        "hashes": {
+          "debug": {
+            "sha256": "5750c499bf0145357ad5fc216f1b75e4bc9089af60d5af2bb1a002188457fda2"
+          },
+          "release": {
+            "sha256": "83778c043fe8abd1a471ea7e17c6ed940ecaa12ffb2315de1b07116764acf1fe"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/e34d0a5b650cb4831628b0388a8eb49cb4ab5f53/Debug/AppleALC-1.5.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/e34d0a5b650cb4831628b0388a8eb49cb4ab5f53/Release/AppleALC-1.5.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.0"
+      },
+      {
         "commit": "d6cf2f004bc9032d59e9c2c96d8adb89f62a2426",
         "dateadded": "2020-05-26T14:43:22.161657+00:00",
         "description": "Fixed accidental reading of  on non-Apple firmwares",
