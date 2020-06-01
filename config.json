@@ -1827,6 +1827,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "d818c6012a128584cfb9149ebeab07c8d2e87b85",
+        "dateadded": "2020-06-01T00:36:01.942700+00:00",
+        "description": "Docs: Provide some ACPI links",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d818c6012a128584cfb9149ebeab07c8d2e87b85/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d818c6012a128584cfb9149ebeab07c8d2e87b85/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "17d4f97877f57fc0eb97e1f4f3b81d9a6826fedf40a78976e8cb167bdcc76d1d",
+          "release": "31b98ab68b90d5c56b8c34000df93bbb2c8963b157210a280b12ce9d4f8339b3"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d818c6012a128584cfb9149ebeab07c8d2e87b85/Debug/OpenCore-0.5.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d818c6012a128584cfb9149ebeab07c8d2e87b85/Release/OpenCore-0.5.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.5.9"
+      },
+      {
         "commit": "97c69af4d5f9e24d9cdb56712df131fa538801f3",
         "dateadded": "2020-06-01T00:08:05.194179+00:00",
         "description": "ConfigValidity: Fix printing format",
