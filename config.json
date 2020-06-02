@@ -2027,6 +2027,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "9d5aa267a9133fd9390b62012c21428fc77681f2",
+        "dateadded": "2020-06-02T01:18:37.184529+00:00",
+        "description": "OpenCanopy: Fixed icon choice for Apple FW update",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9d5aa267a9133fd9390b62012c21428fc77681f2/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9d5aa267a9133fd9390b62012c21428fc77681f2/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "99a4a0fa28f44a5c601914431c403b4e85dd1c2157824c2a981248a6eb0c6fa0",
+          "release": "427c7860ebae2a6c3d0c6cdc178747a714468700df8414f7e398f4db5a458398"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9d5aa267a9133fd9390b62012c21428fc77681f2/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9d5aa267a9133fd9390b62012c21428fc77681f2/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "c047d6101a81b3219147829208ed484339f49411",
         "dateadded": "2020-06-01T23:50:38.731333+00:00",
         "description": "AudioDxe: Fix issue with playback ending early",
