@@ -2027,6 +2027,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "aba560093113688add2fb01df27bd7ecb44a660c",
+        "dateadded": "2020-06-02T05:10:11.392296+00:00",
+        "description": "OcCryptoLib: Use more performant bignum multiplication for X64",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/aba560093113688add2fb01df27bd7ecb44a660c/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/aba560093113688add2fb01df27bd7ecb44a660c/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "53ba12671c363897ae9356842c74994a18d1977f5f8c3908b06281d2bbff89f0",
+          "release": "44aae19295f786e542645207c34797177c1dc52442d28d3e54e1daeb4dd20d56"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/aba560093113688add2fb01df27bd7ecb44a660c/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/aba560093113688add2fb01df27bd7ecb44a660c/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "9d5aa267a9133fd9390b62012c21428fc77681f2",
         "dateadded": "2020-06-02T01:18:37.184529+00:00",
         "description": "OpenCanopy: Fixed icon choice for Apple FW update",
