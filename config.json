@@ -2027,6 +2027,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "edaf3553a1c18322ee5c76f2beee6234cad6f5d1",
+        "dateadded": "2020-06-02T05:25:07.317165+00:00",
+        "description": "Docs: Add errata",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/edaf3553a1c18322ee5c76f2beee6234cad6f5d1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/edaf3553a1c18322ee5c76f2beee6234cad6f5d1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "8b071507bae99a32d78f5c4164af7ca317ef1da212ae026faa48a115a4c597f0",
+          "release": "5381439ba94d47865d29ff4eee2df6581f6d34898edcf0ffe3efbbc4f57e08a0"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/edaf3553a1c18322ee5c76f2beee6234cad6f5d1/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/edaf3553a1c18322ee5c76f2beee6234cad6f5d1/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "aba560093113688add2fb01df27bd7ecb44a660c",
         "dateadded": "2020-06-02T05:10:11.392296+00:00",
         "description": "OcCryptoLib: Use more performant bignum multiplication for X64",
