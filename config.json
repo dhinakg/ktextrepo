@@ -1682,6 +1682,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "eb2419558a733c8256163611cd4cdfe1c4519a60",
+        "dateadded": "2020-06-03T09:33:43.300074+00:00",
+        "description": "Update changelog for 1.0.3",
+        "hashes": {
+          "debug": {
+            "sha256": "9256358d39f61addc554c50e04df3b4a5c31027366c1a9cbbb08a222e36b0929"
+          },
+          "release": {
+            "sha256": "920e761a49010bbcfd6793bd753283a2145ee6d6d3ccce3709b50857d212d994"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/eb2419558a733c8256163611cd4cdfe1c4519a60/Debug/NVMeFix-1.0.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/eb2419558a733c8256163611cd4cdfe1c4519a60/Release/NVMeFix-1.0.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.3"
+      },
+      {
         "commit": "009a13233f04484907dcac348bd6bfe1ee1db2a0",
         "dateadded": "2020-06-01T18:12:18.117408+00:00",
         "description": "Fix re-enabling APST without active PM on",
