@@ -2047,6 +2047,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "784a085b0af4f8cbe0db1e1fc7dbf93b951f061a",
+        "dateadded": "2020-06-04T02:53:20.609426+00:00",
+        "description": "AudioDxe: Stream code fixes and rewrite",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/784a085b0af4f8cbe0db1e1fc7dbf93b951f061a/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/784a085b0af4f8cbe0db1e1fc7dbf93b951f061a/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "7f04ba0e807a1974c651ff4806b108a072f76e0718e934a2529c2b600680ace8",
+          "SSDT-PMC.aml": "86843df493e9b7bfdbb7f8be649de23dae4512d8bc121a5dfb630ff688796667",
+          "debug": "c71ecaa4b5e7959411baf7ac9878110047bb58c255a56b448bd8cc896f412756",
+          "release": "ab4c37188e6c26684519720123d522285eb09819e1b8d03e01a5886eddae0500"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/784a085b0af4f8cbe0db1e1fc7dbf93b951f061a/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/784a085b0af4f8cbe0db1e1fc7dbf93b951f061a/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "edaf3553a1c18322ee5c76f2beee6234cad6f5d1",
         "dateadded": "2020-06-02T05:25:07.317165+00:00",
         "description": "Docs: Add errata",
