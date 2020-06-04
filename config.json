@@ -2047,6 +2047,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "97cfaa4e3b9e9607723e4e0a1ed3715cd33b2a16",
+        "dateadded": "2020-06-04T23:15:37.776830+00:00",
+        "description": "AcpiSamples: Fix SSDT-SBUS-MCHC.dsl compilation (#68)\n\nFix compilation with older versions of iASL.\r\n\r\nREF: https://www.reddit.com/r/hackintosh/comments/gw4ij7/ssdtsbusmchcdsl_compiles_with_an_error/",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/97cfaa4e3b9e9607723e4e0a1ed3715cd33b2a16/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/97cfaa4e3b9e9607723e4e0a1ed3715cd33b2a16/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "6ec4fa0c5c528b9434aa260a6ae83f7f793200343e8cc875543d8d17f1c266c4",
+          "release": "fc235e8486ddf11aec6f44513b2fc9b19cb91e45b3ab9448d6df805b5fe730f5"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/97cfaa4e3b9e9607723e4e0a1ed3715cd33b2a16/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/97cfaa4e3b9e9607723e4e0a1ed3715cd33b2a16/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "784a085b0af4f8cbe0db1e1fc7dbf93b951f061a",
         "dateadded": "2020-06-04T02:53:20.609426+00:00",
         "description": "AudioDxe: Stream code fixes and rewrite",
