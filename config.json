@@ -2047,6 +2047,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "c904ab671cefc0d11f5870d41b360169b4715117",
+        "dateadded": "2020-06-05T12:20:50.355953+00:00",
+        "description": "Buid: Migrate all tools to Utilities (#69)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c904ab671cefc0d11f5870d41b360169b4715117/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c904ab671cefc0d11f5870d41b360169b4715117/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "ac5eeecd5f4655d9aaa335655c9b525c51795d056855630c4b37fa0d141080d2",
+          "release": "74f3c48a70513ba0aecf8a4d5e2357acbc5e0a79275983c2c69d39dbbb85b1f6"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c904ab671cefc0d11f5870d41b360169b4715117/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c904ab671cefc0d11f5870d41b360169b4715117/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "ecea50a23eeb12ce6f7aa7da70ba2f9ce881477f",
         "dateadded": "2020-06-05T11:00:49.650664+00:00",
         "description": "OcApfsLib: Always print i/o for first block",
