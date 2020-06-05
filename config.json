@@ -2047,6 +2047,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "47ae021b43eb5ac1b096f1a6aecdf7ae0b7ca6e4",
+        "dateadded": "2020-06-05T15:19:42.796393+00:00",
+        "description": "OcApfsLib: Fix the fusion master choice elsewhere",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/47ae021b43eb5ac1b096f1a6aecdf7ae0b7ca6e4/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/47ae021b43eb5ac1b096f1a6aecdf7ae0b7ca6e4/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "9cbdbf0ae7c44f6c02abd47008cb6b1a79e0b8106307bc05112c2b633f3dfc20",
+          "release": "cbf43efb68ed43f805038c94e10deea3701310d3623f10541a20d44b93ffbb73"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/47ae021b43eb5ac1b096f1a6aecdf7ae0b7ca6e4/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/47ae021b43eb5ac1b096f1a6aecdf7ae0b7ca6e4/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "b5b178ab1530cc936e63acbe8b83328d3a831357",
         "dateadded": "2020-06-05T14:30:22.620696+00:00",
         "description": "OcApfsLib: Try to fix master/slave fusion detect",
