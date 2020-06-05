@@ -2047,6 +2047,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "b5b178ab1530cc936e63acbe8b83328d3a831357",
+        "dateadded": "2020-06-05T14:30:22.620696+00:00",
+        "description": "OcApfsLib: Try to fix master/slave fusion detect",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b5b178ab1530cc936e63acbe8b83328d3a831357/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b5b178ab1530cc936e63acbe8b83328d3a831357/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "620ad9b9af43c0bf4961c94c2f266ada3bdae0c86eb575af658423742fde8a6c",
+          "release": "95a6c369fcabbdd4555b46c4e9e204c45f4389274c165a37cfa0a7e82fa63bc9"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b5b178ab1530cc936e63acbe8b83328d3a831357/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b5b178ab1530cc936e63acbe8b83328d3a831357/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "c904ab671cefc0d11f5870d41b360169b4715117",
         "dateadded": "2020-06-05T12:20:50.355953+00:00",
         "description": "Buid: Migrate all tools to Utilities (#69)",
