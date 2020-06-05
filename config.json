@@ -2047,6 +2047,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "ecea50a23eeb12ce6f7aa7da70ba2f9ce881477f",
+        "dateadded": "2020-06-05T11:00:49.650664+00:00",
+        "description": "OcApfsLib: Always print i/o for first block",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ecea50a23eeb12ce6f7aa7da70ba2f9ce881477f/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ecea50a23eeb12ce6f7aa7da70ba2f9ce881477f/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "a94e099021c01212f4ceeea1c89ce503f10da340374c780cf9da70c821f40988",
+          "release": "b47288e168455808eca0a9ff480adbfdb6903edf2d5052a8208e7e4b57710d8e"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ecea50a23eeb12ce6f7aa7da70ba2f9ce881477f/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ecea50a23eeb12ce6f7aa7da70ba2f9ce881477f/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "c63ecf5dde704af45504440d5973798dbb369c00",
         "dateadded": "2020-06-05T09:50:16.017790+00:00",
         "description": "OcApfsLib: Improve logging",
