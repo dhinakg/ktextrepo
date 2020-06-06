@@ -2047,6 +2047,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "97ff59925046206c4c5276a8b94338114451a45e",
+        "dateadded": "2020-06-06T04:40:33.819738+00:00",
+        "description": "AudioDxe: Fix incorrect DMA positions buffer size",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/97ff59925046206c4c5276a8b94338114451a45e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/97ff59925046206c4c5276a8b94338114451a45e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "232253651a1799f7a1c1520fe5be1e167d9aac39889077b1819153cd5f312be6",
+          "release": "0783be9ecc8dd87fe9e80e492718a0b66215032d33060549fb7571d853ee951e"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/97ff59925046206c4c5276a8b94338114451a45e/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/97ff59925046206c4c5276a8b94338114451a45e/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "26e58f6c5bed91b13cbe12c9b1a3e95b24a8510a",
         "dateadded": "2020-06-05T16:08:45.405215+00:00",
         "description": "Docs: Sync changelog about Fusion Drive\n\nREF: https://github.com/acidanthera/bugtracker/issues/954",
