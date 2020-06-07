@@ -2047,6 +2047,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "be5a7e241fc0418ec1ea26af959d58cb57f85d7f",
+        "dateadded": "2020-06-07T18:27:03.418906+00:00",
+        "description": "AudioDxe: Disable LPIB by default",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/be5a7e241fc0418ec1ea26af959d58cb57f85d7f/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/be5a7e241fc0418ec1ea26af959d58cb57f85d7f/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "ad09fee3256f00255f873e558e763fb887f8475e808306c719231e7d1e8e03b1",
+          "release": "b7bfcaf524d407e92b6fe7bdf1f42da04e1b70333407b903d5db6d691a526b1c"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/be5a7e241fc0418ec1ea26af959d58cb57f85d7f/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/be5a7e241fc0418ec1ea26af959d58cb57f85d7f/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "06a093aac6c09c02fd785ebdff692af77aa1ddae",
         "dateadded": "2020-06-07T17:46:35.401479+00:00",
         "description": "OcHdaDevicesLib: Add Intel 400 series",
