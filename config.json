@@ -2047,6 +2047,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "b0087a6b9af5a35d96caa9acc3685f2c986c82b0",
+        "dateadded": "2020-06-07T01:43:08.493213+00:00",
+        "description": "AudioDxe: Fallback to LPIB register when DMA positions buffer is unusable",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b0087a6b9af5a35d96caa9acc3685f2c986c82b0/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b0087a6b9af5a35d96caa9acc3685f2c986c82b0/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "ad98f18981cad664825b879744c1c6cc90740b5bc4bd66b3e71f6bc7ce5118fa",
+          "release": "9459175c2cd15c22ec7a4e3d92819ca85a4b6037d4adc348d782104374c47cea"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b0087a6b9af5a35d96caa9acc3685f2c986c82b0/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b0087a6b9af5a35d96caa9acc3685f2c986c82b0/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "97ff59925046206c4c5276a8b94338114451a45e",
         "dateadded": "2020-06-06T04:40:33.819738+00:00",
         "description": "AudioDxe: Fix incorrect DMA positions buffer size",
