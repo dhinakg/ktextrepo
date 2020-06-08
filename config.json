@@ -8784,6 +8784,66 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "0bec15b65d98fd62999a19ba2bcf999ec89ee339",
+        "dateadded": "2020-06-08T22:50:39.633047+00:00",
+        "description": "Fix battery stats update",
+        "hashes": {
+          "debug": {
+            "sha256": "470e28864ab5e138ee15dab3f414d91e9dbdeaa1104dab71a438389d0b505102"
+          },
+          "release": {
+            "sha256": "7fd4bdbfd22443fe9035ca1ae2ee7abb783e46fbdb0185275c759241050dce78"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/0bec15b65d98fd62999a19ba2bcf999ec89ee339/Debug/VirtualSMC-1.1.4-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/0bec15b65d98fd62999a19ba2bcf999ec89ee339/Release/VirtualSMC-1.1.4-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.4"
+      },
+      {
+        "commit": "9b272b65a1c20b4e3db227ad3bca87d7edd4d663",
+        "dateadded": "2020-06-08T22:50:39.603665+00:00",
+        "description": "Add battery id, thank @pmheart for advice",
+        "hashes": {
+          "debug": {
+            "sha256": "d2ac7ae057194cf644d1c3b1ab6359dc0c135972249220318cc7f479206e782e"
+          },
+          "release": {
+            "sha256": "b27ce82aae9e63c5aa76545696ca104351f543add2d92d9d8117ec2a44ee1bb8"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/9b272b65a1c20b4e3db227ad3bca87d7edd4d663/Debug/VirtualSMC-1.1.4-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/9b272b65a1c20b4e3db227ad3bca87d7edd4d663/Release/VirtualSMC-1.1.4-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.4"
+      },
+      {
+        "commit": "7663c7485dc18b662eaa2771cc0c85f007a35c46",
+        "dateadded": "2020-06-08T22:50:39.574442+00:00",
+        "description": "Another hack to update stats when battery is full\n\nSet batteryIsFull to true for fallback\n\nAdd a missing battery id for binfo, fix an invalid statement\n\nUse DBGLOG and correct format",
+        "hashes": {
+          "debug": {
+            "sha256": "8d2ef708334478b22caec7ccd10e759becc0e87f34f193ba20bde4bff169695b"
+          },
+          "release": {
+            "sha256": "546f85157137fe42870bbc3a99c39080c00895d9db7cd9311d67a4906d11ee74"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/7663c7485dc18b662eaa2771cc0c85f007a35c46/Debug/VirtualSMC-1.1.4-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/7663c7485dc18b662eaa2771cc0c85f007a35c46/Release/VirtualSMC-1.1.4-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.4"
+      },
+      {
         "commit": "e84f166d416c595941071513896f5ddaa43b5eee",
         "dateadded": "2020-06-08T20:50:40.391901+00:00",
         "description": "[SMCBatteryManager] Correct key size to fix #961",
