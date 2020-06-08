@@ -8784,6 +8784,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "e84f166d416c595941071513896f5ddaa43b5eee",
+        "dateadded": "2020-06-08T20:50:40.391901+00:00",
+        "description": "[SMCBatteryManager] Correct key size to fix #961",
+        "hashes": {
+          "debug": {
+            "sha256": "2895185ff13c40ff22f3c579ca664d6ca5ed045b5bc8a5b8933e28c5fda25969"
+          },
+          "release": {
+            "sha256": "60bfacc5b1041c850546d7f33fa26cd855dde3a62c96f57f7cb50b58bfe56dd9"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/e84f166d416c595941071513896f5ddaa43b5eee/Debug/VirtualSMC-1.1.4-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/e84f166d416c595941071513896f5ddaa43b5eee/Release/VirtualSMC-1.1.4-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.4"
+      },
+      {
         "commit": "9bcdd4cd1140ff9206cd0868238c31aab050fe50",
         "dateadded": "2020-06-08T15:47:20.544775+00:00",
         "description": "Implement CHLC key",
