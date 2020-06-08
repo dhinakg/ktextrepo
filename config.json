@@ -8784,6 +8784,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "9bcdd4cd1140ff9206cd0868238c31aab050fe50",
+        "dateadded": "2020-06-08T15:47:20.544775+00:00",
+        "description": "Implement CHLC key",
+        "hashes": {
+          "debug": {
+            "sha256": "2584ac0fd1de528a0adb418ce2fd124dba835c156089fd783d065a2efc54a8cc"
+          },
+          "release": {
+            "sha256": "4d537b5e57383f26508291d3baf767a158e38244a0753d65e0207129e32dfabe"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/9bcdd4cd1140ff9206cd0868238c31aab050fe50/Debug/VirtualSMC-1.1.4-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/9bcdd4cd1140ff9206cd0868238c31aab050fe50/Release/VirtualSMC-1.1.4-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.4"
+      },
+      {
         "commit": "83f6edc7b066f8f921aabf5ef05a380550a7a431",
         "dateadded": "2020-05-10T21:46:27.376104+00:00",
         "description": "Create Transition from zprood's cycle count hack.md (#24)",
