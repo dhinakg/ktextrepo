@@ -8784,6 +8784,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "b21387efbc737dd6c5a2c62abd788ddebfa987df",
+        "dateadded": "2020-06-09T07:23:32.827051+00:00",
+        "description": "Bump version and update changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "5b03823ac96f75bc17dfaa8d124543a892c96afc0cc72e9ce35c83f43b40489e"
+          },
+          "release": {
+            "sha256": "3eb0b69bec90c42039b8db856c7440f87874121a04b95a75799c1c571119d65a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/b21387efbc737dd6c5a2c62abd788ddebfa987df/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/b21387efbc737dd6c5a2c62abd788ddebfa987df/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "0bec15b65d98fd62999a19ba2bcf999ec89ee339",
         "dateadded": "2020-06-08T22:50:39.633047+00:00",
         "description": "Fix battery stats update",
