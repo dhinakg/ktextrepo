@@ -8784,6 +8784,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "62883a1d4bddf896f5a6a368fc5dd378d2352c1c",
+        "dateadded": "2020-06-09T12:35:27.572221+00:00",
+        "description": "Added workaround for kBRemainingCapacityCmd exceeding kBFullChargeCapacityCmd\n\ncloses acidanthera/bugtracker#565",
+        "hashes": {
+          "debug": {
+            "sha256": "74d34a8eec0efcf9b07e8ce63a73ea12cc0b67c7b90decb5e8c419a093c04cf9"
+          },
+          "release": {
+            "sha256": "07b8176728e443d9c6ef78b4a3b50a60f6e35947c53dfe2a92296c706a075e50"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/62883a1d4bddf896f5a6a368fc5dd378d2352c1c/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/62883a1d4bddf896f5a6a368fc5dd378d2352c1c/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "b21387efbc737dd6c5a2c62abd788ddebfa987df",
         "dateadded": "2020-06-09T07:23:32.827051+00:00",
         "description": "Bump version and update changelog",
