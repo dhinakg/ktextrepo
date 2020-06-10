@@ -2047,6 +2047,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "92c9212446ace90237b10af5b5d928bdb8e6c5df",
+        "dateadded": "2020-06-10T16:48:41.193006+00:00",
+        "description": "Skip Apple EFI updates https://github.com/osy86/HaC-Mini/commit/f657c3b557abdd841de773b68a1e3f7538872d48",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/92c9212446ace90237b10af5b5d928bdb8e6c5df/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/92c9212446ace90237b10af5b5d928bdb8e6c5df/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "bd16fc116e04c565646e348f6ed1283f57fc27cd4607eb6cf44b5f938cef7d01",
+          "release": "1e12d0356ab7007203230fced6c40c2678952724cc62f93f63570810abe97ddd"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/92c9212446ace90237b10af5b5d928bdb8e6c5df/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/92c9212446ace90237b10af5b5d928bdb8e6c5df/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "5cc68857cab39043c8003e6b5c982f10b869d53d",
         "dateadded": "2020-06-08T04:29:58.596128+00:00",
         "description": "AudioDxe: Add additional logging",
