@@ -9172,6 +9172,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "e36f7325fbbf662cb43807d284d1a9a28ce0289e",
+        "dateadded": "2020-06-10T18:23:58.676318+00:00",
+        "description": "Added SSDT-PNLFCFL.dsl",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e36f7325fbbf662cb43807d284d1a9a28ce0289e/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "383f9af2838b242d0ff1969e2d5a05453bc59f0e223942db2f6845160ceb42d4"
+          },
+          "release": {
+            "sha256": "5049f83d897db9b31d50bc651602f535d3b50ba185bdf9fed85a8020ba073da6"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e36f7325fbbf662cb43807d284d1a9a28ce0289e/Debug/WhateverGreen-1.4.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e36f7325fbbf662cb43807d284d1a9a28ce0289e/Release/WhateverGreen-1.4.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.0"
+      },
+      {
         "commit": "031f166d4a5adf6c9320c1f5a52c7a4a383ad1e1",
         "dateadded": "2020-05-30T23:55:32.737911+00:00",
         "description": "Update FAQ.IntelHD.en.md",
