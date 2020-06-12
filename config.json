@@ -2047,6 +2047,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "d6e191d0e93beac884a2d42901e9c17d839ccb97",
+        "dateadded": "2020-06-12T08:46:55.169485+00:00",
+        "description": "OpenCoreUefiAudio: Fix another potential assertion in audio code",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d6e191d0e93beac884a2d42901e9c17d839ccb97/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d6e191d0e93beac884a2d42901e9c17d839ccb97/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "3f0bd57957f6be4f235a60f735feede101a2c9c970b231d2e62e3bcf7a3ba7d5",
+          "release": "e913ecd0e3abdace52c3cca210c9b23efa9d648cd1e1a91722608cb16c3308c8"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d6e191d0e93beac884a2d42901e9c17d839ccb97/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d6e191d0e93beac884a2d42901e9c17d839ccb97/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "96d42d388445f90aa4195c9ef6104fd8e4baff12",
         "dateadded": "2020-06-12T02:21:19.183675+00:00",
         "description": "OpenCoreUefiAudio: Avoid assertion on NULL free",
