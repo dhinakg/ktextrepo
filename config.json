@@ -2047,6 +2047,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "96d42d388445f90aa4195c9ef6104fd8e4baff12",
+        "dateadded": "2020-06-12T02:21:19.183675+00:00",
+        "description": "OpenCoreUefiAudio: Avoid assertion on NULL free",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96d42d388445f90aa4195c9ef6104fd8e4baff12/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96d42d388445f90aa4195c9ef6104fd8e4baff12/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "c9b5761c043e57b8432e98ab57f2ed0ef237699b5f93494d46093823e87efba2",
+          "release": "8856b76a00717b51b9ed83223a2a576ca42a682fa912f93469f6a534c5b983c5"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96d42d388445f90aa4195c9ef6104fd8e4baff12/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96d42d388445f90aa4195c9ef6104fd8e4baff12/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "92c9212446ace90237b10af5b5d928bdb8e6c5df",
         "dateadded": "2020-06-10T16:48:41.193006+00:00",
         "description": "Skip Apple EFI updates https://github.com/osy86/HaC-Mini/commit/f657c3b557abdd841de773b68a1e3f7538872d48",
