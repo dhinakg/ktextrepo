@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "7115d13452c546b5c02aecd3b2813a6a597f9e08",
+        "dateadded": "2020-06-15T18:53:21.000985+00:00",
+        "description": "Set MinKernel Catalina for 400 Series",
+        "hashes": {
+          "debug": {
+            "sha256": "fe5996a355392d584e9282b67469d9416dcd0371b7e2063a9d25e4e0ed754f7c"
+          },
+          "release": {
+            "sha256": "a755a0d5a26c8b134358f7caee09eea943a0e934780b44f4e69aa8ec10245729"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/7115d13452c546b5c02aecd3b2813a6a597f9e08/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/7115d13452c546b5c02aecd3b2813a6a597f9e08/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
         "commit": "116051c02c9f5253225e57d5ff01903cf21d17f1",
         "dateadded": "2020-06-01T11:41:54.958408+00:00",
         "description": "Sync changelog",
@@ -2046,6 +2066,50 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "a55d147273986b45ed5092dcc100200e69d66f43",
+        "dateadded": "2020-06-15T18:53:20.953482+00:00",
+        "description": "AudioDxe: Fix controller cleanup",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a55d147273986b45ed5092dcc100200e69d66f43/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a55d147273986b45ed5092dcc100200e69d66f43/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "c2f6f7bea7a7b24d47c50e4ea2b63ebae5faf1db6fb2a062236035502ef02e38",
+          "release": "9fed5fae87af3c1936b80ce3fe5a7e0dd3006611e1b296d25e9e3336d055f924"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a55d147273986b45ed5092dcc100200e69d66f43/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a55d147273986b45ed5092dcc100200e69d66f43/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "2fe4794464e3f6a0000b474395f5687e582df24a",
+        "dateadded": "2020-06-15T18:53:20.906002+00:00",
+        "description": "AudioDxe: Fix use after free",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2fe4794464e3f6a0000b474395f5687e582df24a/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2fe4794464e3f6a0000b474395f5687e582df24a/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "17953c2b6754df6de7c76a717e66097f73a944fdbadd415a47ec48a91a8700ed",
+          "release": "fb9fc2e9fc6f7f16be1f79db8bfcab52be29cd34edd430ab7750b9d3fd1c342e"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2fe4794464e3f6a0000b474395f5687e582df24a/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2fe4794464e3f6a0000b474395f5687e582df24a/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
       {
         "commit": "d6e191d0e93beac884a2d42901e9c17d839ccb97",
         "dateadded": "2020-06-12T08:46:55.169485+00:00",
@@ -8849,6 +8913,26 @@
   "VirtualSMC": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "e1506877f584b941456723ece3303ff907a9573a",
+        "dateadded": "2020-06-15T18:53:21.034215+00:00",
+        "description": "Add SSDT-BATC.dsl with combined data collection from two batteries (#27)",
+        "hashes": {
+          "debug": {
+            "sha256": "26f6ca4a3216e9dad302a8392232b1ce6f4ea426c7d3b55619431e723c788606"
+          },
+          "release": {
+            "sha256": "4e5fde9cc9a2d3ec059a30b0988b04bc78e6d03311f5368890e37963b4b0f99b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/e1506877f584b941456723ece3303ff907a9573a/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/e1506877f584b941456723ece3303ff907a9573a/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
       {
         "commit": "62883a1d4bddf896f5a6a368fc5dd378d2352c1c",
         "dateadded": "2020-06-09T12:35:27.572221+00:00",
