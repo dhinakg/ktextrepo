@@ -2067,6 +2067,50 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "c33977ca6329d96bdfb6bd3716d94e2d16afb8eb",
+        "dateadded": "2020-06-16T18:28:20.332154+00:00",
+        "description": "Docs: Sync with the latest changes",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c33977ca6329d96bdfb6bd3716d94e2d16afb8eb/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c33977ca6329d96bdfb6bd3716d94e2d16afb8eb/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "80ab05caf1330794896e9a6b0a7637d983d61a3b3721921a888240e6370c4366",
+          "release": "86b69f7338f1fa9870f72f91c217fc114f5d1a21165c91fabc6857856976affc"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c33977ca6329d96bdfb6bd3716d94e2d16afb8eb/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c33977ca6329d96bdfb6bd3716d94e2d16afb8eb/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "670d4e0c4f8538268367d16fc3ddef9b2ed13d46",
+        "dateadded": "2020-06-16T18:28:20.288034+00:00",
+        "description": "OcBootManagementLib: Drop BlacklistAppleUpdate",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/670d4e0c4f8538268367d16fc3ddef9b2ed13d46/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/670d4e0c4f8538268367d16fc3ddef9b2ed13d46/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "ae7fa01bfa20aa768a520a1d09f4c837dda3361d91df4406460c0892d6626ceb",
+          "release": "c844d9685847775c435ef692c6e860668806e5429238304653919c480434b071"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/670d4e0c4f8538268367d16fc3ddef9b2ed13d46/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/670d4e0c4f8538268367d16fc3ddef9b2ed13d46/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "d6c5c5c762c1922cee950171a1d896f4b78185d7",
         "dateadded": "2020-06-16T17:57:30.389921+00:00",
         "description": "ResetSystem: Support reboot into firmware (#73)",
