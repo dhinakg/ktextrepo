@@ -2067,6 +2067,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "a820bf1d465a3640290ca6d75f1b21e38c36b640",
+        "dateadded": "2020-06-17T18:58:58.093389+00:00",
+        "description": "Build: Migrate to edk2-stable202005",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a820bf1d465a3640290ca6d75f1b21e38c36b640/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a820bf1d465a3640290ca6d75f1b21e38c36b640/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "f8c0646be8d85b6e26ab7ed47c862b87c313d246e96dc14bd5b82ea5de786f19",
+          "release": "fa449bbcca355ba8b1183a8c97871719fa2ac7c7ad86c8410d515a81545eb67a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a820bf1d465a3640290ca6d75f1b21e38c36b640/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a820bf1d465a3640290ca6d75f1b21e38c36b640/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "28c316fc944da2b395df11648a44ceadadd10ca3",
         "dateadded": "2020-06-17T18:25:06.889932+00:00",
         "description": "OcDevicePathLib: Fix freezes during boot option expansion with PXE",
