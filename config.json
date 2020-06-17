@@ -9432,6 +9432,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "a5abdbd7dffc85ebbddbac19a1820873b280b214",
+        "dateadded": "2020-06-17T11:55:16.425389+00:00",
+        "description": "Bump version",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/a5abdbd7dffc85ebbddbac19a1820873b280b214/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "027c60930e03f70365a08773ae98e5e61bd60318387d53fcea385642aa4155da"
+          },
+          "release": {
+            "sha256": "45772623c4c1ebe7b698dbd49808d7fdf3a219a828a85b9b84cde6721799bc79"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/a5abdbd7dffc85ebbddbac19a1820873b280b214/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/a5abdbd7dffc85ebbddbac19a1820873b280b214/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
         "commit": "e226532717679470584bba77277d7955711b61ec",
         "dateadded": "2020-06-17T10:12:51.866109+00:00",
         "description": "Add option to force enable Metal for offline iGPU (#45)\n\nBy default, `IntelAccelerator::start` will remove the property `MetalPluginName` if the number of\r\nframebuffers is 0. On Macs and Hackintoshes alike, this means that an iGPU with no connectors cannot\r\nbe used for Metal's compute APIs.\r\n\r\nThis new option will re-add `MetalPluginName` in order to allow Metal to be used.",
