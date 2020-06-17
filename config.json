@@ -9046,6 +9046,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "9e86110827de10ae1a64a73c47505c18cd5ff022",
+        "dateadded": "2020-06-17T16:17:16.223957+00:00",
+        "description": "Fix Fully Charged status",
+        "hashes": {
+          "debug": {
+            "sha256": "21a4e00fbb6930652d42653d4c7ada2e1319912c527a9fa10afa7a7e796a171d"
+          },
+          "release": {
+            "sha256": "5c32c9cdc785f79b7801f6d624bb8d66a06e81ebcf5b58265b8a1444bddad667"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/9e86110827de10ae1a64a73c47505c18cd5ff022/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/9e86110827de10ae1a64a73c47505c18cd5ff022/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "96a686464c4cb0b9c121ad2229d88773c005ed35",
         "dateadded": "2020-06-17T15:55:01.120523+00:00",
         "description": "Don't ignore notification when adaptersConnected and batteriesConnected don't change: ACPI may notify about start of charging (which happens about 1 second after connecting AC adapter on a Dell laptop)",
