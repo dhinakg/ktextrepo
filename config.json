@@ -2067,6 +2067,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "28c316fc944da2b395df11648a44ceadadd10ca3",
+        "dateadded": "2020-06-17T18:25:06.889932+00:00",
+        "description": "OcDevicePathLib: Fix freezes during boot option expansion with PXE",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/28c316fc944da2b395df11648a44ceadadd10ca3/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/28c316fc944da2b395df11648a44ceadadd10ca3/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "780e81f8a9dd82a399b8b225660627b14dbd9ec5e3fcb560ae99a9cfd39f76a4",
+          "release": "8b28c17ac3570a4e42f9a8bb81e96cc9d9add2968c50c62364f98b9d0a360334"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/28c316fc944da2b395df11648a44ceadadd10ca3/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/28c316fc944da2b395df11648a44ceadadd10ca3/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "ddfe2b823ada170cd74794e7d5c49fb3cde1b467",
         "dateadded": "2020-06-17T10:09:29.966937+00:00",
         "description": "OcAcpiLib: Fix reset value in FadtEnableReset quirk\n\ncloses acidanthera/bugtracker#897",
