@@ -2067,6 +2067,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "ddfe2b823ada170cd74794e7d5c49fb3cde1b467",
+        "dateadded": "2020-06-17T10:09:29.966937+00:00",
+        "description": "OcAcpiLib: Fix reset value in FadtEnableReset quirk\n\ncloses acidanthera/bugtracker#897",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ddfe2b823ada170cd74794e7d5c49fb3cde1b467/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ddfe2b823ada170cd74794e7d5c49fb3cde1b467/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "866076520a7e431f58c1d5b775a0dae50e40ce73f9f09c8209476085ebcb455d",
+          "release": "0cfb5be9af78ca390a4a7a41df8f554c674591b0d55ef392dbac61cc135e17d3"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ddfe2b823ada170cd74794e7d5c49fb3cde1b467/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ddfe2b823ada170cd74794e7d5c49fb3cde1b467/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "26be1a9be163629cc99d7ed697309e1cec6b3193",
         "dateadded": "2020-06-17T09:25:55.625284+00:00",
         "description": "OcAppleBootPolicyLib: Fixed uninitialised warning",
