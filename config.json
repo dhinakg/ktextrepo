@@ -9046,6 +9046,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "96a686464c4cb0b9c121ad2229d88773c005ed35",
+        "dateadded": "2020-06-17T15:55:01.120523+00:00",
+        "description": "Don't ignore notification when adaptersConnected and batteriesConnected don't change: ACPI may notify about start of charging (which happens about 1 second after connecting AC adapter on a Dell laptop)",
+        "hashes": {
+          "debug": {
+            "sha256": "dbd02f3d54d2de47d22843a16f3e136a3207bd3247adfc612b3f8201538a1a36"
+          },
+          "release": {
+            "sha256": "f0f934fa9888b8299faaffde29746eb49345f1a2140b35c2276c771bbf471db0"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/96a686464c4cb0b9c121ad2229d88773c005ed35/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/96a686464c4cb0b9c121ad2229d88773c005ed35/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "e1506877f584b941456723ece3303ff907a9573a",
         "dateadded": "2020-06-15T18:53:21.034215+00:00",
         "description": "Add SSDT-BATC.dsl with combined data collection from two batteries (#27)",
