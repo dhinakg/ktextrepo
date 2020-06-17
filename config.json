@@ -9432,6 +9432,78 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "e226532717679470584bba77277d7955711b61ec",
+        "dateadded": "2020-06-17T10:12:51.866109+00:00",
+        "description": "Add option to force enable Metal for offline iGPU (#45)\n\nBy default, `IntelAccelerator::start` will remove the property `MetalPluginName` if the number of\r\nframebuffers is 0. On Macs and Hackintoshes alike, this means that an iGPU with no connectors cannot\r\nbe used for Metal's compute APIs.\r\n\r\nThis new option will re-add `MetalPluginName` in order to allow Metal to be used.",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e226532717679470584bba77277d7955711b61ec/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "e5be90ea8df64f05e54deeba5d8cceb33c7a98025f2c5ce3ee3ac746fb6da84d"
+          },
+          "release": {
+            "sha256": "b21147221322b1daddc839e67325f00ad7b78f63569b3c158c2c87e982c67c6b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e226532717679470584bba77277d7955711b61ec/Debug/WhateverGreen-1.4.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e226532717679470584bba77277d7955711b61ec/Release/WhateverGreen-1.4.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.0"
+      },
+      {
+        "commit": "f156f89f09ece2ebfeb09085f65256062ed46296",
+        "dateadded": "2020-06-17T10:12:51.825925+00:00",
+        "description": "Update for Comet Lake to properly apply patches (#46)\n\nFixes kernel panics experienced on Comet Lake H, specifically i7 10875H (UHD630, 0x9BC4) but likely others",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/f156f89f09ece2ebfeb09085f65256062ed46296/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "19e98e4a68ac319c5edcae44e456b30150b097804e5fe97718c39767d560ebca"
+          },
+          "release": {
+            "sha256": "e748b2517051f017b109b4ef684885db888b2b6f84da6255e524410aad3fa8b7"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/f156f89f09ece2ebfeb09085f65256062ed46296/Debug/WhateverGreen-1.4.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/f156f89f09ece2ebfeb09085f65256062ed46296/Release/WhateverGreen-1.4.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.0"
+      },
+      {
+        "commit": "19669f1395180e69465d0e196e60dc73ef198bbe",
+        "dateadded": "2020-06-17T10:12:51.785229+00:00",
+        "description": "Sync changelog",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/19669f1395180e69465d0e196e60dc73ef198bbe/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "9925180747440e9f42b37bab8a4252f50048ef044072b1d6681ef7c0cdb4f388"
+          },
+          "release": {
+            "sha256": "52705d5eab9299c2470da4ffbfa18204feb213f3ca561a9c3dbb33b3cea9f1dd"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/19669f1395180e69465d0e196e60dc73ef198bbe/Debug/WhateverGreen-1.4.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/19669f1395180e69465d0e196e60dc73ef198bbe/Release/WhateverGreen-1.4.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.0"
+      },
+      {
         "commit": "e36f7325fbbf662cb43807d284d1a9a28ce0289e",
         "dateadded": "2020-06-10T18:23:58.676318+00:00",
         "description": "Added SSDT-PNLFCFL.dsl",
