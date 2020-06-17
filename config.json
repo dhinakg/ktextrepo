@@ -2067,6 +2067,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "26be1a9be163629cc99d7ed697309e1cec6b3193",
+        "dateadded": "2020-06-17T09:25:55.625284+00:00",
+        "description": "OcAppleBootPolicyLib: Fixed uninitialised warning",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26be1a9be163629cc99d7ed697309e1cec6b3193/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26be1a9be163629cc99d7ed697309e1cec6b3193/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "90c31d42cb16d14ceb21bf992a21fde7652d7afe8c0c63dcbb0f025e1333e6dc",
+          "release": "aca077d51f89273e5ad18239b98ca583a20b079b6c665745b5191d5e0c65445a"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26be1a9be163629cc99d7ed697309e1cec6b3193/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/26be1a9be163629cc99d7ed697309e1cec6b3193/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "142678d08a8abff2c3f02bf4f1598bf65bf19b88",
         "dateadded": "2020-06-16T18:42:47.105342+00:00",
         "description": "Docs: Update errata information about run-efi-updater\n\ncloses acidanthera/bugtracker#948",
