@@ -2067,6 +2067,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "af461bf28bc5675b2633f9891054ef25220bac82",
+        "dateadded": "2020-06-18T17:04:28.357098+00:00",
+        "description": "Docs: Update Configuration",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/af461bf28bc5675b2633f9891054ef25220bac82/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/af461bf28bc5675b2633f9891054ef25220bac82/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "a6ad40ef68bddd0761a94aa7cebe15d18940a6953219a92f4876ec38b6f8a0fb",
+          "release": "c64f73214aa9aceb9cf1dbe34d1f2859e65269a038a9ee7faa59b954d39aa946"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/af461bf28bc5675b2633f9891054ef25220bac82/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/af461bf28bc5675b2633f9891054ef25220bac82/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "43c8439d1741dccd05da50636d5b4f0400c43ea0",
         "dateadded": "2020-06-18T00:37:49.400479+00:00",
         "description": "AudioDxe: Fallback to LPIB during stream startup",
