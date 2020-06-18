@@ -2067,6 +2067,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "43c8439d1741dccd05da50636d5b4f0400c43ea0",
+        "dateadded": "2020-06-18T00:37:49.400479+00:00",
+        "description": "AudioDxe: Fallback to LPIB during stream startup",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/43c8439d1741dccd05da50636d5b4f0400c43ea0/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/43c8439d1741dccd05da50636d5b4f0400c43ea0/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "9457a1e8f64ab1c0b91f35c10b24c46485003d9203cf356b8cc84a462b9de258",
+          "release": "d610c6caf44e074dd702fa6989d66037762c3d3e20259adcf0cf66162b504796"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/43c8439d1741dccd05da50636d5b4f0400c43ea0/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/43c8439d1741dccd05da50636d5b4f0400c43ea0/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "a820bf1d465a3640290ca6d75f1b21e38c36b640",
         "dateadded": "2020-06-17T18:58:58.093389+00:00",
         "description": "Build: Migrate to edk2-stable202005",
