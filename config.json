@@ -2067,6 +2067,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "5d4567c71474374e0230efb7a2f87b7d38e97ff6",
+        "dateadded": "2020-06-19T11:47:25.989810+00:00",
+        "description": "Build: -Werror support for Utilities (#75)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5d4567c71474374e0230efb7a2f87b7d38e97ff6/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5d4567c71474374e0230efb7a2f87b7d38e97ff6/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "deeda666c4ebeb895707a7281912632b2596e792e39a5e45909520e9e987b935",
+          "release": "a865addbce0fea20f5b8de5e1d596bcd17ef9425c0b56249ddfc54ba0b9116c5"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5d4567c71474374e0230efb7a2f87b7d38e97ff6/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5d4567c71474374e0230efb7a2f87b7d38e97ff6/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "a3d346368f8f47570f0af9137c7f79c9d5b24810",
         "dateadded": "2020-06-18T21:31:18.779678+00:00",
         "description": "Docs: Improve USB flash wear when using logging",
