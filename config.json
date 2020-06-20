@@ -2067,6 +2067,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "d8c59684fc242919b1d4cc9cfb44a551873a6b91",
+        "dateadded": "2020-06-20T04:54:39.231170+00:00",
+        "description": "OcAfterBootCompatLib: Allow specification of max slide for unavailable range (#76)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d8c59684fc242919b1d4cc9cfb44a551873a6b91/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d8c59684fc242919b1d4cc9cfb44a551873a6b91/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "2a4eb41eda9c5e458b5f4f905db841961c031e4465838afb11205b93e884259b",
+          "release": "7cbfcaa6ab21c9e308302b40f4f4f1b2069fff6019e3a40bc523b53bbacc52c6"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d8c59684fc242919b1d4cc9cfb44a551873a6b91/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d8c59684fc242919b1d4cc9cfb44a551873a6b91/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "5d4567c71474374e0230efb7a2f87b7d38e97ff6",
         "dateadded": "2020-06-19T11:47:25.989810+00:00",
         "description": "Build: -Werror support for Utilities (#75)",
