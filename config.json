@@ -2107,6 +2107,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "e1b7844d19dc09260e6b4ffcd62d1b4cbeb7acaa",
+        "dateadded": "2020-06-21T15:39:31.623751+00:00",
+        "description": "Docs: Sync errata with the latest changes",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e1b7844d19dc09260e6b4ffcd62d1b4cbeb7acaa/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e1b7844d19dc09260e6b4ffcd62d1b4cbeb7acaa/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "9decaa0543ad4020d0a530ae445e321c85c0a1abdf2278ad6731c1e739501abc",
+          "release": "3c819b48941086d8b9cee31eb5e2308742dcb9d7810319875aafdf287ca965ea"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e1b7844d19dc09260e6b4ffcd62d1b4cbeb7acaa/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e1b7844d19dc09260e6b4ffcd62d1b4cbeb7acaa/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "2449e47cb2d110a288d491beee0b5b168d2bb480",
         "dateadded": "2020-06-21T15:25:44.061000+00:00",
         "description": "OcBootManagementLib: Fixed unaligned file path access\n\ncloses acidanthera/bugtacker#951",
