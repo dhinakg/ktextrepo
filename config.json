@@ -2107,6 +2107,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "48f95b659b70f7d8148d647e5419edacdd38eef1",
+        "dateadded": "2020-06-21T21:20:41.594536+00:00",
+        "description": "OcApfsLib: Add `GlobalConnect` mode for device handle connection\n\ncloses acidanthera/bugtracker#960",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/48f95b659b70f7d8148d647e5419edacdd38eef1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/48f95b659b70f7d8148d647e5419edacdd38eef1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "7d4b45774e9401b98c85842dbbaf2d1c01d02591f69f45576394f067d7e40d83",
+          "release": "76c076fe2ac7c8fcd3e036632df928e86c256fa5e65d35c864cb2dae385c6111"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/48f95b659b70f7d8148d647e5419edacdd38eef1/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/48f95b659b70f7d8148d647e5419edacdd38eef1/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "e1b7844d19dc09260e6b4ffcd62d1b4cbeb7acaa",
         "dateadded": "2020-06-21T15:39:31.623751+00:00",
         "description": "Docs: Sync errata with the latest changes",
