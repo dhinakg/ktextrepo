@@ -1257,6 +1257,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "389808900221c73f24822da8b06dc64064bed1fc",
+        "dateadded": "2020-06-21T13:28:32.468361+00:00",
+        "description": "Update KnownPlugins.md",
+        "hashes": {
+          "debug": {
+            "sha256": "af03494620b4ad7dfeb760f355a229447c47192aae0a30a8644d46ce1f95e671"
+          },
+          "release": {
+            "sha256": "0457f4e292cc9c095038a97660640083e1790ad3a7efe6675023eebd54e1a242"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/389808900221c73f24822da8b06dc64064bed1fc/Debug/Lilu-1.4.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/389808900221c73f24822da8b06dc64064bed1fc/Release/Lilu-1.4.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.5"
+      },
+      {
         "commit": "5bd095bd0c4a1c2b768a070443c4f1a15647adce",
         "dateadded": "2020-05-28T19:32:24.022766+00:00",
         "description": "Fixed newer CPU generation detection",
