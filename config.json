@@ -2107,6 +2107,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "a9d58f825766e6dacfc07f1afdcbf4c30f420ef3",
+        "dateadded": "2020-06-22T15:08:00.130829+00:00",
+        "description": "OcDevicePathLib: Add more PCIRoot mappings\n\nFixes https://github.com/acidanthera/bugtracker/issues/664 (again)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a9d58f825766e6dacfc07f1afdcbf4c30f420ef3/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a9d58f825766e6dacfc07f1afdcbf4c30f420ef3/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "6f99f369cdac8d9ea4ddae434d03acd0d2afffc479f2446a36afb599ab44a063",
+          "release": "e89527a0cf9e93553394e461dcb0027789b21b089e2f4a2b8c1c0feab49a6412"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a9d58f825766e6dacfc07f1afdcbf4c30f420ef3/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a9d58f825766e6dacfc07f1afdcbf4c30f420ef3/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "eaed14ffe55838d3e9432a3b4b9c8b03387f7ab3",
         "dateadded": "2020-06-22T04:06:13.603384+00:00",
         "description": "Docs: Update Configuration",
