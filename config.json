@@ -2107,6 +2107,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "5126895cf53758f85f345311b4293cff9a434b23",
+        "dateadded": "2020-06-22T16:13:03.967266+00:00",
+        "description": "OcDevicePathLib: Correct DP fix return code",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5126895cf53758f85f345311b4293cff9a434b23/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5126895cf53758f85f345311b4293cff9a434b23/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "007e026cacb55f01daa1f06341e3d88ed1c08a4669b1125c7f4e1684342d317c",
+          "release": "b6ceab1b269ec2bc087a16ec862e814af79668d50ded4e2d129a365cae3cde1b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5126895cf53758f85f345311b4293cff9a434b23/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5126895cf53758f85f345311b4293cff9a434b23/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "a9d58f825766e6dacfc07f1afdcbf4c30f420ef3",
         "dateadded": "2020-06-22T15:08:00.130829+00:00",
         "description": "OcDevicePathLib: Add more PCIRoot mappings\n\nFixes https://github.com/acidanthera/bugtracker/issues/664 (again)",
