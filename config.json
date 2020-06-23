@@ -2107,6 +2107,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "3e5b593819ebb5b275f0ef051c8ea6ad75946255",
+        "dateadded": "2020-06-23T03:39:20.852075+00:00",
+        "description": "Include: Improve headers for 11.0",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3e5b593819ebb5b275f0ef051c8ea6ad75946255/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3e5b593819ebb5b275f0ef051c8ea6ad75946255/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "b96387f5520095a652fb5e81a53dcdd173d4d16286e1dea543d2ddc28639e6d1",
+          "release": "9553fd6e3bab372773cb724bc61698ea35c8795674150139762f0a89e8eb31c8"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3e5b593819ebb5b275f0ef051c8ea6ad75946255/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3e5b593819ebb5b275f0ef051c8ea6ad75946255/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "c7a2961bde675d9fef6a338513b5985dc228eb6b",
         "dateadded": "2020-06-23T01:04:55.587888+00:00",
         "description": "Updated DataBase",
