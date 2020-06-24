@@ -2107,6 +2107,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "bb12f5fe525abe36c25d8b2bb9b05865b437ff7f",
+        "dateadded": "2020-06-24T12:56:52.998941+00:00",
+        "description": "Docs: Add information about NVRAM cleanup and input tuning",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bb12f5fe525abe36c25d8b2bb9b05865b437ff7f/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bb12f5fe525abe36c25d8b2bb9b05865b437ff7f/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "c48f2e2c426110a61c880022717d1732a807181bf50417f0c3f94568906bb3d8",
+          "release": "001242f0c16e0e52e7eb962de9e36fece8ebd5bec8b2f133f377102a5ca0d55d"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bb12f5fe525abe36c25d8b2bb9b05865b437ff7f/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bb12f5fe525abe36c25d8b2bb9b05865b437ff7f/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "32b4772c144be1d7fd80e75030836b60927646f3",
         "dateadded": "2020-06-23T19:04:54.057885+00:00",
         "description": "DataBase: Updated MBP14x",
