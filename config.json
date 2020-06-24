@@ -9592,6 +9592,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "d1c884c6efeda9728a14b1e50a5acac540ae0dcd",
+        "dateadded": "2020-06-24T06:14:00.605431+00:00",
+        "description": "Add Dual Battery instructions (#28)",
+        "hashes": {
+          "debug": {
+            "sha256": "e48d1d90e76b8e2ba0e3f54cfc919779afd5071d7e79a52533d108c2c7148c9f"
+          },
+          "release": {
+            "sha256": "25e40e90090e1394ed4dd97c68f4ce182c4a6a5ae33a739ce9df0f4751c3d4cf"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/d1c884c6efeda9728a14b1e50a5acac540ae0dcd/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/d1c884c6efeda9728a14b1e50a5acac540ae0dcd/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "9e86110827de10ae1a64a73c47505c18cd5ff022",
         "dateadded": "2020-06-17T16:17:16.223957+00:00",
         "description": "Fix Fully Charged status",
