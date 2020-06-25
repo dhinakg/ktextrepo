@@ -2107,6 +2107,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "d8eba2d1a1743fe1a6030521ea83e295107d8a72",
+        "dateadded": "2020-06-25T06:54:59.177901+00:00",
+        "description": "Docs: Optimise recommended clone cmd (#78)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d8eba2d1a1743fe1a6030521ea83e295107d8a72/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d8eba2d1a1743fe1a6030521ea83e295107d8a72/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "406ef8b614a024d037dc4935c5dbb6b805e443f855d8f32ee41889e94cbef0c2",
+          "release": "ac8001c2b190560f0cd5113ea94b257ab29515ddf8068ff0839ed66b9c90b72b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d8eba2d1a1743fe1a6030521ea83e295107d8a72/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d8eba2d1a1743fe1a6030521ea83e295107d8a72/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "bb12f5fe525abe36c25d8b2bb9b05865b437ff7f",
         "dateadded": "2020-06-24T12:56:52.998941+00:00",
         "description": "Docs: Add information about NVRAM cleanup and input tuning",
