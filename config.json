@@ -2107,6 +2107,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "830f90da82f5fa4e19057cc85d04d7b3c6e27a5c",
+        "dateadded": "2020-06-25T09:34:01.276100+00:00",
+        "description": "Docs: Fixed long strings.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/830f90da82f5fa4e19057cc85d04d7b3c6e27a5c/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/830f90da82f5fa4e19057cc85d04d7b3c6e27a5c/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "af057e26b66a8da62eb58a2b3a3369acf85835775c7a5ab15bf75ae156551913",
+          "release": "30cad6524aca805b6f84bd36c278639a2beba62715fd290b00ca351a04277e0c"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/830f90da82f5fa4e19057cc85d04d7b3c6e27a5c/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/830f90da82f5fa4e19057cc85d04d7b3c6e27a5c/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "9ec30b774dfa907db9d1aaee905d6df8da0d88bd",
         "dateadded": "2020-06-25T08:45:27.193057+00:00",
         "description": "Docs: Generate pdf",
