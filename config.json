@@ -2127,6 +2127,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "7dc93fc811f174350c7566690ca7803e78c74612",
+        "dateadded": "2020-06-26T21:43:01.481624+00:00",
+        "description": "DataBase: Update builtin firmware versions T2 models for Big Sur",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7dc93fc811f174350c7566690ca7803e78c74612/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7dc93fc811f174350c7566690ca7803e78c74612/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "5308c2249e28d0af14984ab38bb2ffd2eaf345bbb749480fb0c8683381387254",
+          "release": "9617c8da84e0d5342fe0e063e5bb67b56fc3af42c1c17ff807ad27f28d1831ba"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7dc93fc811f174350c7566690ca7803e78c74612/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7dc93fc811f174350c7566690ca7803e78c74612/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "1d22a5966e5acca1c0eccb0411015297eda544e2",
         "dateadded": "2020-06-26T18:21:08.492894+00:00",
         "description": "Utilities - LogoutHook- fixed DefaultBackgroundColor",
