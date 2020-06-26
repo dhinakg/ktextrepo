@@ -2127,6 +2127,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "b2a1dadd72f990cd3c2d354eef3e1365fe50bab6",
+        "dateadded": "2020-06-26T17:34:48.977069+00:00",
+        "description": "Improved boot selection scripts for macOS without NVRAM",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b2a1dadd72f990cd3c2d354eef3e1365fe50bab6/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b2a1dadd72f990cd3c2d354eef3e1365fe50bab6/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "9db08999fcb17248ac4fbf4103527474557dfdc5415619938703bc6b1c8fb3e9",
+          "release": "54718cb1d22e564f950e5f06db13f0968b558f2bd9ae62c0a0bc5b2b5d5791c8"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b2a1dadd72f990cd3c2d354eef3e1365fe50bab6/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b2a1dadd72f990cd3c2d354eef3e1365fe50bab6/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "533a9693b7e51583262c6449133e2f82d2b9b566",
         "dateadded": "2020-06-26T16:21:47.076695+00:00",
         "description": "Docs: Improve Errata.",
