@@ -2127,6 +2127,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "1d22a5966e5acca1c0eccb0411015297eda544e2",
+        "dateadded": "2020-06-26T18:21:08.492894+00:00",
+        "description": "Utilities - LogoutHook- fixed DefaultBackgroundColor",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d22a5966e5acca1c0eccb0411015297eda544e2/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d22a5966e5acca1c0eccb0411015297eda544e2/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "39e0d4cf5aea0590b2e7d3a55e73d260396d84efefc68518354589b7e6dce40a",
+          "release": "32a88c5bb32ad18b8eb174a1d41d4770465478e6407e21f2336c7b05a667ff69"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d22a5966e5acca1c0eccb0411015297eda544e2/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d22a5966e5acca1c0eccb0411015297eda544e2/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "b2a1dadd72f990cd3c2d354eef3e1365fe50bab6",
         "dateadded": "2020-06-26T17:34:48.977069+00:00",
         "description": "Improved boot selection scripts for macOS without NVRAM",
