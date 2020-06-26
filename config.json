@@ -1257,6 +1257,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "3e9672965ad29d997680edf54b220c73d8485c58",
+        "dateadded": "2020-06-26T11:15:25.807976+00:00",
+        "description": "Update KnownPlugins.md",
+        "hashes": {
+          "debug": {
+            "sha256": "793372af5407a474776c8cbe210edaa771a2462b5355db06c52dbe86f81ec944"
+          },
+          "release": {
+            "sha256": "7ad170f02f228838e279577279ee18ff270fa71b1be2939ba21e84fc9c370f4c"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/3e9672965ad29d997680edf54b220c73d8485c58/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/3e9672965ad29d997680edf54b220c73d8485c58/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "13c3cb95235a7d7b58cd7cb7a879b13b074c2693",
         "dateadded": "2020-06-21T13:40:11.074085+00:00",
         "description": "Update KnownPlugins.md",
