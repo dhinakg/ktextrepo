@@ -9918,6 +9918,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "6c5cf92522078830b77fe2127f830790aea7cdec",
+        "dateadded": "2020-06-27T21:19:51.820030+00:00",
+        "description": "Move new doc files to Docs subdir",
+        "hashes": {
+          "debug": {
+            "sha256": "7daadae5ce49942c62b47756cc916ed489aaec8ec21358eeb9fbd7470b896514"
+          },
+          "release": {
+            "sha256": "d054927cdcbff7ece4d02c2fdc3c76541fc60d408babfc6d7efd3eeb7e1c7209"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/6c5cf92522078830b77fe2127f830790aea7cdec/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/6c5cf92522078830b77fe2127f830790aea7cdec/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "d1c884c6efeda9728a14b1e50a5acac540ae0dcd",
         "dateadded": "2020-06-24T06:14:00.605431+00:00",
         "description": "Add Dual Battery instructions (#28)",
