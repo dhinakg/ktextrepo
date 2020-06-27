@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "1cff9124b60a64cd7d7eb252a6500d33fabe263f",
+        "dateadded": "2020-06-27T21:27:17.242890+00:00",
+        "description": "Added constants for 11.0 support",
+        "hashes": {
+          "debug": {
+            "sha256": "76ae19e2975248036e7d4150550a0d47ae099dff1be812cfe3a7e0bdc16d0a05"
+          },
+          "release": {
+            "sha256": "1f5858bca62c3d972e9dcc37f27d0c696a2e2a37ab6ca3e5ec9bb05c8c28716c"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/1cff9124b60a64cd7d7eb252a6500d33fabe263f/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/1cff9124b60a64cd7d7eb252a6500d33fabe263f/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
         "commit": "7115d13452c546b5c02aecd3b2813a6a597f9e08",
         "dateadded": "2020-06-15T18:53:21.000985+00:00",
         "description": "Set MinKernel Catalina for 400 Series",
@@ -1256,6 +1276,26 @@
   "Lilu": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "8b40ec8077e5f583d6b6d287fa559ad05d71a0b6",
+        "dateadded": "2020-06-27T21:27:17.277586+00:00",
+        "description": "Added preliminary definitions for 11.0 support",
+        "hashes": {
+          "debug": {
+            "sha256": "ba4628b6796176daa8fc71f0825a237e97fcc5b8b20812e64736bbac0008f93b"
+          },
+          "release": {
+            "sha256": "5755de501eb1789bd369934344380a5449041a10ea458ce12a83e809c9ffc928"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/8b40ec8077e5f583d6b6d287fa559ad05d71a0b6/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/8b40ec8077e5f583d6b6d287fa559ad05d71a0b6/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
       {
         "commit": "137b4d9deb7022bb97fa9899303934534ff20ec7",
         "dateadded": "2020-06-27T10:23:27.969504+00:00",
@@ -9918,6 +9958,46 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "98b5ce1bc2449e46afb5042b5cf0e3f5391bf54d",
+        "dateadded": "2020-06-27T21:27:17.340890+00:00",
+        "description": "Added preliminary 11.0 support",
+        "hashes": {
+          "debug": {
+            "sha256": "65000d85610977bc197f6c221c3e3805cfa81cc0a94cc9a50533539f970d1d1e"
+          },
+          "release": {
+            "sha256": "18cea91fa342c72af12ccc35df360c58eaec2859e7b96bed0e3749427e4978b7"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/98b5ce1bc2449e46afb5042b5cf0e3f5391bf54d/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/98b5ce1bc2449e46afb5042b5cf0e3f5391bf54d/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
+        "commit": "45575abb31b1c2c694d0e6d74a3fdd630491fd20",
+        "dateadded": "2020-06-27T21:27:17.309432+00:00",
+        "description": "Fixed SMCProcessor model detection warning",
+        "hashes": {
+          "debug": {
+            "sha256": "fd8c431ef7f10f1d9cb062e7f93a6dea8137d8e789923596d3632e6a5bc7d706"
+          },
+          "release": {
+            "sha256": "02a6e8adc35adea08928508bbe194b0f0d648e1297b09f8e7391ac725c2568e3"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/45575abb31b1c2c694d0e6d74a3fdd630491fd20/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/45575abb31b1c2c694d0e6d74a3fdd630491fd20/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "6c5cf92522078830b77fe2127f830790aea7cdec",
         "dateadded": "2020-06-27T21:19:51.820030+00:00",
         "description": "Move new doc files to Docs subdir",
@@ -10383,6 +10463,30 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "fee20a9db39467131d550e4e664c29bd859eabf0",
+        "dateadded": "2020-06-27T21:27:17.374104+00:00",
+        "description": "Added constants required for 11.0 update",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/fee20a9db39467131d550e4e664c29bd859eabf0/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "5f73039d3fada2f6fa3c0a091fa9e29b09c7c223c4ec5835658582677ead8286"
+          },
+          "release": {
+            "sha256": "69dc414d895f5998936c3a8deb8fdc0513b04e3252eee31b7280c14782a37a73"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/fee20a9db39467131d550e4e664c29bd859eabf0/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/fee20a9db39467131d550e4e664c29bd859eabf0/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
       {
         "commit": "8ebb2716c6efa24ad8088166f1b4c768a2f73130",
         "dateadded": "2020-06-20T17:11:40.866682+00:00",
