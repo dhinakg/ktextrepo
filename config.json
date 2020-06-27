@@ -1257,6 +1257,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "137b4d9deb7022bb97fa9899303934534ff20ec7",
+        "dateadded": "2020-06-27T10:23:27.969504+00:00",
+        "description": "Added `external-audio` property to ignore PCI audio cards\n\ncloses acidanthera/bugtracker#1000",
+        "hashes": {
+          "debug": {
+            "sha256": "e3cb7bd2d8c5e4b2f86e99fb839cd8948179a2436f5832a57c0b2928fc468707"
+          },
+          "release": {
+            "sha256": "e51a3b680b952faa5685abe7c704a0dfa82ce9d2fc500e909004945b249f9e5c"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/137b4d9deb7022bb97fa9899303934534ff20ec7/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/137b4d9deb7022bb97fa9899303934534ff20ec7/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "3e9672965ad29d997680edf54b220c73d8485c58",
         "dateadded": "2020-06-26T11:15:25.807976+00:00",
         "description": "Update KnownPlugins.md",
