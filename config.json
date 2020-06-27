@@ -2147,6 +2147,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "62e6ab1ec56628e1ea26c12042ca6c6f2fa7662d",
+        "dateadded": "2020-06-27T17:32:12.931063+00:00",
+        "description": "Add RTC ACPI sample for X299",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/62e6ab1ec56628e1ea26c12042ca6c6f2fa7662d/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/62e6ab1ec56628e1ea26c12042ca6c6f2fa7662d/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "44b6e8791f4636aed4f029f29649fb91d74c055acd4a733b0391602a66ee5053",
+          "release": "f7ae0a8ea53b032bee5c72848e1e1bb06426cf1d22bb23b373c5856a0ba77478"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/62e6ab1ec56628e1ea26c12042ca6c6f2fa7662d/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/62e6ab1ec56628e1ea26c12042ca6c6f2fa7662d/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "0aad659b8f70c722b97d259955f106f46d36ced7",
         "dateadded": "2020-06-27T00:50:11.659972+00:00",
         "description": "Docs: Added notes about LogoutHook upgrade by Rodion",
