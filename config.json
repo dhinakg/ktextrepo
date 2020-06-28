@@ -10552,6 +10552,54 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "6a1990e5413f5323d24df4ed2a4c6a9ed5b41836",
+        "dateadded": "2020-06-28T08:14:01.663520+00:00",
+        "description": "igfx: use RPS control for all the command streamers (#47)",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/6a1990e5413f5323d24df4ed2a4c6a9ed5b41836/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "fc7dc87a7d227e363e6a51befd9fcda5364c77b59c2bf8fdebef804bd8ac234b"
+          },
+          "release": {
+            "sha256": "1ac79933f45dadc0f65155704e7f4db7ff83739cc3cca9d37a2d9222482a64f0"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/6a1990e5413f5323d24df4ed2a4c6a9ed5b41836/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/6a1990e5413f5323d24df4ed2a4c6a9ed5b41836/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
+        "commit": "d5e8e1085be4ec55b25c5b617b5a5eb68c2b9639",
+        "dateadded": "2020-06-28T08:14:01.629301+00:00",
+        "description": "Sync changelog",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/d5e8e1085be4ec55b25c5b617b5a5eb68c2b9639/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "b33857c809398f3aa7a3f63d65fb20906434ba3768f7c75e04374b5062398468"
+          },
+          "release": {
+            "sha256": "98b429b9b8631a2cc246890f97a344eadf8a95de01a427ed5e6733116e964ccc"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/d5e8e1085be4ec55b25c5b617b5a5eb68c2b9639/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/d5e8e1085be4ec55b25c5b617b5a5eb68c2b9639/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
         "commit": "fee20a9db39467131d550e4e664c29bd859eabf0",
         "dateadded": "2020-06-27T21:27:17.374104+00:00",
         "description": "Added constants required for 11.0 update",
