@@ -2187,6 +2187,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "de272bf210b5574754886fc321eae84973106df5",
+        "dateadded": "2020-06-28T09:14:39.492065+00:00",
+        "description": "OcMachoLib: Fix KC init and segment merging",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/de272bf210b5574754886fc321eae84973106df5/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/de272bf210b5574754886fc321eae84973106df5/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "2f832a116c8ccf4bb04e1ac6866bebbd67f6c6da2e170e7145d8edf5db6cd04a",
+          "release": "2b286d461782adc7a68ede23d57fedd9cb27d15b8905ff019f8e6e1de3182696"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/de272bf210b5574754886fc321eae84973106df5/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/de272bf210b5574754886fc321eae84973106df5/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "badcd125bdb8043d4bc6d800a0fbf16716b7359d",
         "dateadded": "2020-06-28T08:08:54.257104+00:00",
         "description": "OcConsoleLib: Added UGA protocol compatibility in `ProvideConsoleGop` quirk\n\nThis is required by 10.4 EfiBoot",
