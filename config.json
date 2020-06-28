@@ -2187,6 +2187,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "0ad48de5b4238633d6d2300320afffcfc0cb3c73",
+        "dateadded": "2020-06-28T17:37:58.497578+00:00",
+        "description": "OcMachoLib: Make the LC retrieval API public",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ad48de5b4238633d6d2300320afffcfc0cb3c73/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ad48de5b4238633d6d2300320afffcfc0cb3c73/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "638490cbb33565b4b6c4268aae1cd62b1ce0ef5af50f6cfa1976c239bb6e285b",
+          "release": "43ea1d9bb7e1456efad4a4f265272fe264d966e865f389f566348df5af35340c"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ad48de5b4238633d6d2300320afffcfc0cb3c73/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ad48de5b4238633d6d2300320afffcfc0cb3c73/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "95421ebbd73bf440d3fcc9bce0b786764a13c2f6",
+        "dateadded": "2020-06-28T17:37:58.446280+00:00",
+        "description": "OcAppleKernelLib/Kc: Import generation of DYLD fixups for KEXTs",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/95421ebbd73bf440d3fcc9bce0b786764a13c2f6/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/95421ebbd73bf440d3fcc9bce0b786764a13c2f6/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "222668e1f5ddc20bd218b627d4793b177d447dc695de2474c0b8e98372706671",
+          "release": "45167db5819efc696c90b6d1c24511a372bf30b2c122ef6dadcf3ca0cd79aaa6"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/95421ebbd73bf440d3fcc9bce0b786764a13c2f6/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/95421ebbd73bf440d3fcc9bce0b786764a13c2f6/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "0e1c134261200387d5ad298adf951e595576bd77",
+        "dateadded": "2020-06-28T17:37:58.394435+00:00",
+        "description": "OcCpuLib: Fixed FSBFrequency reporting on Meron and similar CPUs",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0e1c134261200387d5ad298adf951e595576bd77/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0e1c134261200387d5ad298adf951e595576bd77/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "4033b1d2dfc78f9f6aaff37bba0d8dd30fcb09292ce019e05a7fdd7bb2f3c1dd",
+          "release": "b709d42764812c1c7c62d6a90461834c832135b6150c6c9abb0f551cc5e937ec"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0e1c134261200387d5ad298adf951e595576bd77/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0e1c134261200387d5ad298adf951e595576bd77/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "83b77fff56c6d98e218fb536fb66b86a496fdbc7",
+        "dateadded": "2020-06-28T17:37:58.337162+00:00",
+        "description": "OcMachoLib: Fix MSVC warning",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/83b77fff56c6d98e218fb536fb66b86a496fdbc7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/83b77fff56c6d98e218fb536fb66b86a496fdbc7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "37b9ffe4f11ad658053bf6581cbfa63ddddbaa0b7a0bf58deddc0fd1256c625d",
+          "release": "91d16c46043b0b7384fd1c4141fd5261e84ab0a2ccffca35b70ef9b011765b42"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/83b77fff56c6d98e218fb536fb66b86a496fdbc7/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/83b77fff56c6d98e218fb536fb66b86a496fdbc7/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "9f7634a790978e1e681a7cded0623e7595a044cc",
         "dateadded": "2020-06-28T15:22:08.263494+00:00",
         "description": "OcAppleKernelLib/Kc: Import DYLD fixup chain converion",
