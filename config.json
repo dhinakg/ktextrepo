@@ -10220,6 +10220,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "90b1f45475c82566fe6533c03f4938594f17bb49",
+        "dateadded": "2020-06-28T23:40:00.669425+00:00",
+        "description": "Update Dual Battery Support.md",
+        "hashes": {
+          "debug": {
+            "sha256": "53a7f3f16c896cedc232999939df6668b012a1c619287086a383d7fbbca30bb1"
+          },
+          "release": {
+            "sha256": "9cbd08b97a49bd57e806b9bbe3fffaf28a5e63753479b7cd462300dd1e351493"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/90b1f45475c82566fe6533c03f4938594f17bb49/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/90b1f45475c82566fe6533c03f4938594f17bb49/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "98b5ce1bc2449e46afb5042b5cf0e3f5391bf54d",
         "dateadded": "2020-06-27T21:27:17.340890+00:00",
         "description": "Added preliminary 11.0 support",
