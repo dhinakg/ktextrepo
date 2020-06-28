@@ -2187,6 +2187,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "44081eb08b379e3be082df89e4490f3bb89ad23c",
+        "dateadded": "2020-06-28T22:05:03.620411+00:00",
+        "description": "OcAppleKernelLib: Make more progress with KC context init",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/44081eb08b379e3be082df89e4490f3bb89ad23c/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/44081eb08b379e3be082df89e4490f3bb89ad23c/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "fd0f72079cc04c9c2fa2cb4afb21fa016d7a4a401cc90838daf68de6d309d83b",
+          "release": "d386f743f99de14935a8b0e66ef7b67a3fc867eb78517213b1bb932a5446b3cc"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/44081eb08b379e3be082df89e4490f3bb89ad23c/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/44081eb08b379e3be082df89e4490f3bb89ad23c/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "0ad48de5b4238633d6d2300320afffcfc0cb3c73",
         "dateadded": "2020-06-28T17:37:58.497578+00:00",
         "description": "OcMachoLib: Make the LC retrieval API public",
