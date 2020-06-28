@@ -1822,6 +1822,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "48a0fda97650fd6a7563d65e479421524685bcee",
+        "dateadded": "2020-06-28T22:33:49.961516+00:00",
+        "description": "Added constants for 11.0 support.",
+        "hashes": {
+          "debug": {
+            "sha256": "51c4386b871a061480e40af3270a92d2ccaadc8f7e04de0132814bb2612d5d05"
+          },
+          "release": {
+            "sha256": "797840888e145776f5d5a980dfd665e30671828d704764eee446b8fb58c78191"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/48a0fda97650fd6a7563d65e479421524685bcee/Debug/NVMeFix-1.0.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/48a0fda97650fd6a7563d65e479421524685bcee/Release/NVMeFix-1.0.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.3"
+      },
+      {
         "commit": "eb2419558a733c8256163611cd4cdfe1c4519a60",
         "dateadded": "2020-06-03T09:33:43.300074+00:00",
         "description": "Update changelog for 1.0.3",
