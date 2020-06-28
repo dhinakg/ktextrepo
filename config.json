@@ -2187,6 +2187,94 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "badcd125bdb8043d4bc6d800a0fbf16716b7359d",
+        "dateadded": "2020-06-28T08:08:54.257104+00:00",
+        "description": "OcConsoleLib: Added UGA protocol compatibility in `ProvideConsoleGop` quirk\n\nThis is required by 10.4 EfiBoot",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/badcd125bdb8043d4bc6d800a0fbf16716b7359d/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/badcd125bdb8043d4bc6d800a0fbf16716b7359d/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "312389ab7fc9b829ec35b123545eeb23c00c74611c0e4bfefcc98a3036719da7",
+          "release": "da5653673bc3e612e4e75b74cb99dffe516053bad86d964de4b624cc28ab6384"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/badcd125bdb8043d4bc6d800a0fbf16716b7359d/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/badcd125bdb8043d4bc6d800a0fbf16716b7359d/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "1d1b1cc12c03a8b2074b1c83a97c1ef728683b42",
+        "dateadded": "2020-06-28T08:08:54.205723+00:00",
+        "description": "OpenCoreUefiInOut: Added `UgaPassThrough` option to support UGA protocol over GOP",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d1b1cc12c03a8b2074b1c83a97c1ef728683b42/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d1b1cc12c03a8b2074b1c83a97c1ef728683b42/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "30273409da5833fde357526f3178734bc06f790859e144ab168dfb09775eebe8",
+          "release": "1e9c9e50a2b6acac1d56ce75cc887a8367fe26cd177325db1392a654fbbf59b9"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d1b1cc12c03a8b2074b1c83a97c1ef728683b42/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d1b1cc12c03a8b2074b1c83a97c1ef728683b42/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "51a1dd4ef4625665a08c7bf70be59621736555ee",
+        "dateadded": "2020-06-28T08:08:54.155195+00:00",
+        "description": "OcConsoleLib: Added `AppleFramebufferInfo` protocol",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/51a1dd4ef4625665a08c7bf70be59621736555ee/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/51a1dd4ef4625665a08c7bf70be59621736555ee/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "84a183e67bef1fff607e755caa1312c2b6334c409bd51b66f283376f7c8a897f",
+          "release": "2aef0f0074c20c86e4991d2339e39d2c84f49dc731bed7452cf44f8726a36038"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/51a1dd4ef4625665a08c7bf70be59621736555ee/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/51a1dd4ef4625665a08c7bf70be59621736555ee/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "f3d604b509329096ed7da7e28bc3b1b2ccf21c65",
+        "dateadded": "2020-06-28T08:08:54.101718+00:00",
+        "description": "OcDebugLogLib: Fixed serial initialisation when file logging is disabled",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f3d604b509329096ed7da7e28bc3b1b2ccf21c65/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f3d604b509329096ed7da7e28bc3b1b2ccf21c65/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "bf2a1041367308423fef8c1f8fddfabc2fbd3d76a9e3631e501210835eb09a03",
+          "release": "428dfe74235858a4979d5bcbffdc9cd6ca64514f99885c15f3bf1c1fcbbcad70"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f3d604b509329096ed7da7e28bc3b1b2ccf21c65/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f3d604b509329096ed7da7e28bc3b1b2ccf21c65/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "62e6ab1ec56628e1ea26c12042ca6c6f2fa7662d",
         "dateadded": "2020-06-27T17:32:12.931063+00:00",
         "description": "Add RTC ACPI sample for X299",
