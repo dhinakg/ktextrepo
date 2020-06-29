@@ -2207,6 +2207,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "f5528850aca4ef4c34bc805dd061e047f9b44ee5",
+        "dateadded": "2020-06-29T04:55:32.700888+00:00",
+        "description": "OpenCanopy: Fixed incorrect volume icon dimension requirements\n\ncloses acidanthera/bugtracker#1011",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f5528850aca4ef4c34bc805dd061e047f9b44ee5/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f5528850aca4ef4c34bc805dd061e047f9b44ee5/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "a9469142d38ef6903568ad7060eb6e90f5e45c4c3f66b36420c7b722e301d4bf",
+          "release": "1af5a9b4eedb936a682f2680f5bd02220c903325ae6cdc3f888fdcf378224113"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f5528850aca4ef4c34bc805dd061e047f9b44ee5/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f5528850aca4ef4c34bc805dd061e047f9b44ee5/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "69954a61057dfcab13b739c8d66d0ca9286754c0",
         "dateadded": "2020-06-29T04:43:23.156613+00:00",
         "description": "OcAppleKernelLib: Fix regression in the previous commit\n\ncloses acidanthera/bugtracker#1013",
