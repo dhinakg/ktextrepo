@@ -2207,6 +2207,72 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "69954a61057dfcab13b739c8d66d0ca9286754c0",
+        "dateadded": "2020-06-29T04:43:23.156613+00:00",
+        "description": "OcAppleKernelLib: Fix regression in the previous commit\n\ncloses acidanthera/bugtracker#1013",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/69954a61057dfcab13b739c8d66d0ca9286754c0/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/69954a61057dfcab13b739c8d66d0ca9286754c0/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "fcdd14fb1660c7fed096c8fefc1c592b12b80d51b657c5e39f378c6b9326cfe5",
+          "release": "fb1a4ea4f52aa9aefe3bfc3d025519b905d9084ba3ddb9dbb8bf7860d2b26cad"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/69954a61057dfcab13b739c8d66d0ca9286754c0/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/69954a61057dfcab13b739c8d66d0ca9286754c0/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "50cf6148c9daae80c9f55594a6757fd7a46ac433",
+        "dateadded": "2020-06-29T04:43:23.104542+00:00",
+        "description": "OcAppleKernelLib: Fix compiler warning in MSVC",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/50cf6148c9daae80c9f55594a6757fd7a46ac433/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/50cf6148c9daae80c9f55594a6757fd7a46ac433/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "c9fa043ff6944303e6e5b036129bad0e3860abcc87d3dc54282c0faec5d5b013",
+          "release": "10a618777371dc7dd23c97326e436fc256772de3a99fc78b3a238bd3666f4fec"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/50cf6148c9daae80c9f55594a6757fd7a46ac433/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/50cf6148c9daae80c9f55594a6757fd7a46ac433/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "c7cfb84e48041808afb083b55441254f6a26f5bd",
+        "dateadded": "2020-06-29T04:43:23.045578+00:00",
+        "description": "OcFileLib: Reset position to 0 after reading\n\nThis resolves the crash in EfiBoot due to returning unsupported kernel\nimage as is from OcKernelFileOpen with position set to non-0 value in\n10.4. Thx Goldfish for the discovery!",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c7cfb84e48041808afb083b55441254f6a26f5bd/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c7cfb84e48041808afb083b55441254f6a26f5bd/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "0271d07a601b056b0bdb1fc116b338996026fb302b18103b563f987c8b0274b5",
+          "release": "a12f163f954859a9019f51749792824388ad252ee1a972c072ca06ee93cfe577"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c7cfb84e48041808afb083b55441254f6a26f5bd/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c7cfb84e48041808afb083b55441254f6a26f5bd/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "44081eb08b379e3be082df89e4490f3bb89ad23c",
         "dateadded": "2020-06-28T22:05:03.620411+00:00",
         "description": "OcAppleKernelLib: Make more progress with KC context init",
