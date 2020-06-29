@@ -10856,6 +10856,54 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "3f5624bdacddd7afc8069ef4277d3d78d6a9dff8",
+        "dateadded": "2020-06-29T13:58:17.894364+00:00",
+        "description": "linting and style corrections (#48)\n\n* linting and style corrections\r\n\r\n* minor correction",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/3f5624bdacddd7afc8069ef4277d3d78d6a9dff8/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "894ad8b5610f3b379d78c1022a9cf8d53ebca6474e775dd92b24a14b9a8d6692"
+          },
+          "release": {
+            "sha256": "5c41d5061e58558f3cbf681acd859b54ac4e3939bc5ef193d96962e3befd6ef8"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/3f5624bdacddd7afc8069ef4277d3d78d6a9dff8/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/3f5624bdacddd7afc8069ef4277d3d78d6a9dff8/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
+        "commit": "c5f3ba6e46af2353f66d81f1f9a03bef76648c7d",
+        "dateadded": "2020-06-29T13:58:17.856842+00:00",
+        "description": "Fixed previous",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/c5f3ba6e46af2353f66d81f1f9a03bef76648c7d/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "030813f59c5b26269f41859ff24ed347bd429c27cfbbb248af4caaa2d72e3dcd"
+          },
+          "release": {
+            "sha256": "e54439f34c9516a7e228e9a0b352ce955f4d3b14d271f4d3fb76f4f3b72d73bb"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/c5f3ba6e46af2353f66d81f1f9a03bef76648c7d/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/c5f3ba6e46af2353f66d81f1f9a03bef76648c7d/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
         "commit": "6a1990e5413f5323d24df4ed2a4c6a9ed5b41836",
         "dateadded": "2020-06-28T08:14:01.663520+00:00",
         "description": "igfx: use RPS control for all the command streamers (#47)",
