@@ -2207,6 +2207,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "764c5c227757c1615e59e887a1198601ed6ab927",
+        "dateadded": "2020-06-29T06:28:58.009973+00:00",
+        "description": "OcAppleKernelLib: Continue working on KC prelinking",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/764c5c227757c1615e59e887a1198601ed6ab927/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/764c5c227757c1615e59e887a1198601ed6ab927/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "08998aa5f9bcfa5beacdb2712938536f4d442c6e197c1c669b5c2b2fac2be4e8",
+          "release": "5367d40d8560f9b3eeeaf7f2f38ddfa63b8250627249ac31a5177f4887928293"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/764c5c227757c1615e59e887a1198601ed6ab927/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/764c5c227757c1615e59e887a1198601ed6ab927/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "f5528850aca4ef4c34bc805dd061e047f9b44ee5",
         "dateadded": "2020-06-29T04:55:32.700888+00:00",
         "description": "OpenCanopy: Fixed incorrect volume icon dimension requirements\n\ncloses acidanthera/bugtracker#1011",
