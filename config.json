@@ -10856,6 +10856,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "f60eae89934978df36d3f7bf313442913ee5aa63",
+        "dateadded": "2020-06-29T16:56:32.695857+00:00",
+        "description": "Docs: Fixed transition of a line.",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/f60eae89934978df36d3f7bf313442913ee5aa63/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "28aff0978164b1e6426835e50a6748491cdb73734151d766a26a34a5a123284c"
+          },
+          "release": {
+            "sha256": "4c18ca7ca0b32b14161bf907d660ed09df83eeb93698f11505885951a9b0f045"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/f60eae89934978df36d3f7bf313442913ee5aa63/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/f60eae89934978df36d3f7bf313442913ee5aa63/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
         "commit": "3f5624bdacddd7afc8069ef4277d3d78d6a9dff8",
         "dateadded": "2020-06-29T13:58:17.894364+00:00",
         "description": "linting and style corrections (#48)\n\n* linting and style corrections\r\n\r\n* minor correction",
