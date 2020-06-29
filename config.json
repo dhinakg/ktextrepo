@@ -2207,6 +2207,72 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "5d0b9f483260b08ca4fb6fe86fed96029f032cf1",
+        "dateadded": "2020-06-29T19:06:39.898971+00:00",
+        "description": "OcMachoLib: Remove redundant alignment checks",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5d0b9f483260b08ca4fb6fe86fed96029f032cf1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5d0b9f483260b08ca4fb6fe86fed96029f032cf1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "aa92f6b081972be891b03b2a75ad6bda0983bbf5105e1c3254f8fded8505e7bf",
+          "release": "2826c3a5b11e6504b3266b2b906ab02c93c6ab7ff11dca2fbc6cf8b0eb8c8b02"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5d0b9f483260b08ca4fb6fe86fed96029f032cf1/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5d0b9f483260b08ca4fb6fe86fed96029f032cf1/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "275c78bbd791c8ae66733e179dd751457adb80f7",
+        "dateadded": "2020-06-29T19:06:39.846201+00:00",
+        "description": "OcMachoLib: Add API to externally retrieve symbols",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/275c78bbd791c8ae66733e179dd751457adb80f7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/275c78bbd791c8ae66733e179dd751457adb80f7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "f100915a57843835aaad3838cc0a528201d2f9500a79fb83b36c745671181362",
+          "release": "87affa56baef022c8603de755af1ff9784518ea0ffc87ff8cdb1b7b00eab2a14"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/275c78bbd791c8ae66733e179dd751457adb80f7/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/275c78bbd791c8ae66733e179dd751457adb80f7/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "2ae43ab055cbe8d9b161215fc9c6c83e945fcb13",
+        "dateadded": "2020-06-29T19:06:39.790057+00:00",
+        "description": "OcAppleKernelLib: Support KC kernel symbols and fix PLIST",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2ae43ab055cbe8d9b161215fc9c6c83e945fcb13/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2ae43ab055cbe8d9b161215fc9c6c83e945fcb13/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "43122e263f7ab3b2cfc2e86e237739966f206d1bda8da01d2dc26df0049810c5",
+          "release": "117f4803f902efcdcfa6468e51555e7bc3f68a6121bca2b6d1390e94b0669a4c"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2ae43ab055cbe8d9b161215fc9c6c83e945fcb13/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2ae43ab055cbe8d9b161215fc9c6c83e945fcb13/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "764c5c227757c1615e59e887a1198601ed6ab927",
         "dateadded": "2020-06-29T06:28:58.009973+00:00",
         "description": "OcAppleKernelLib: Continue working on KC prelinking",
