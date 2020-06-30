@@ -2207,6 +2207,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "a9a1589ef53283e908ced3b46ce29cccc8680ded",
+        "dateadded": "2020-06-30T04:03:22.307401+00:00",
+        "description": "Add note for AWAC users",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a9a1589ef53283e908ced3b46ce29cccc8680ded/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a9a1589ef53283e908ced3b46ce29cccc8680ded/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "279b87d8df9715b216e3ce9ec94231d1cb91222664a69fb4a1e2dc2bbde83d84",
+          "release": "8c74ef126add7df967cd0db5726e915ff3c5c80f7c544fbb919a8dcf8b5d5397"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a9a1589ef53283e908ced3b46ce29cccc8680ded/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a9a1589ef53283e908ced3b46ce29cccc8680ded/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "5d0b9f483260b08ca4fb6fe86fed96029f032cf1",
         "dateadded": "2020-06-29T19:06:39.898971+00:00",
         "description": "OcMachoLib: Remove redundant alignment checks",
