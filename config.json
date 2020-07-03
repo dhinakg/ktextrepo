@@ -2207,6 +2207,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "96161ab0f8097f37a58ce709ffeadc70ecb381c1",
+        "dateadded": "2020-07-03T10:09:07.291795+00:00",
+        "description": "Build: Attempt to fix DuetPkg compilation\n\ncloses acidanthera/bugtracker#915",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96161ab0f8097f37a58ce709ffeadc70ecb381c1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96161ab0f8097f37a58ce709ffeadc70ecb381c1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "df560a64de1fd3921252f4bdeef5d65347a56d3f4c2ace3b3d487db77ec22cf8",
+          "release": "f542b907e37be96c2553977ba92089eb071cfe3d6a134a66750b18b744cac50f"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96161ab0f8097f37a58ce709ffeadc70ecb381c1/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96161ab0f8097f37a58ce709ffeadc70ecb381c1/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "a9a1589ef53283e908ced3b46ce29cccc8680ded",
         "dateadded": "2020-06-30T04:03:22.307401+00:00",
         "description": "Add note for AWAC users",
