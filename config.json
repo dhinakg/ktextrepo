@@ -2207,6 +2207,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "aa57c57e7b420eb6d4561bd2c729049bd7cefc0e",
+        "dateadded": "2020-07-03T10:25:58.485984+00:00",
+        "description": "OcAcpiLib: Improve the detection of reset fix requirements\n\ncloses acidanthera/bugtracker#1017",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/aa57c57e7b420eb6d4561bd2c729049bd7cefc0e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/aa57c57e7b420eb6d4561bd2c729049bd7cefc0e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "8601a6ccbf32cc0fe2051aeb8564e30ef5ebe95c0acf5e089e7f7658d8b44959",
+          "release": "f65a805286bcf372933690c0d93d9426be33e92764fcb34f22584f1ea0146c77"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/aa57c57e7b420eb6d4561bd2c729049bd7cefc0e/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/aa57c57e7b420eb6d4561bd2c729049bd7cefc0e/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "96161ab0f8097f37a58ce709ffeadc70ecb381c1",
         "dateadded": "2020-07-03T10:09:07.291795+00:00",
         "description": "Build: Attempt to fix DuetPkg compilation\n\ncloses acidanthera/bugtracker#915",
