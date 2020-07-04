@@ -2207,6 +2207,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "605878e57acaa2084e1a6f1b570fa40c0263e2a4",
+        "dateadded": "2020-07-04T14:45:40.850947+00:00",
+        "description": "OcAppleKernelLib: Partially fix symbol resolution from kexts",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/605878e57acaa2084e1a6f1b570fa40c0263e2a4/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/605878e57acaa2084e1a6f1b570fa40c0263e2a4/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "2893accb3018e38f7be593649f121929202a12e91c36351282251eb05019850f",
+          "release": "cc5e4d67301bd391c11bbd45e3f85f9a91b429694a57d6f6d4b365452ea3f9d3"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/605878e57acaa2084e1a6f1b570fa40c0263e2a4/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/605878e57acaa2084e1a6f1b570fa40c0263e2a4/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "12e66757b9d5e225293e34572c0dac532bc66558",
         "dateadded": "2020-07-04T14:30:44.868988+00:00",
         "description": "Build: Fix compilation",
