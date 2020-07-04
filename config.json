@@ -2207,6 +2207,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "1ef945991ab4728711c84846011e5b140b94a222",
+        "dateadded": "2020-07-04T17:26:21.907295+00:00",
+        "description": "OcAppleKernelLib: Fix __LINKEDIT handling in KC mode",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1ef945991ab4728711c84846011e5b140b94a222/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1ef945991ab4728711c84846011e5b140b94a222/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "67b196a2619acb14993edb93c609718cadd6f28e55cec28e9bf3ecf615a8f7a9",
+          "release": "0bad41e4efe8966fea3784fea35a690ea6bcfdbe74b382ca463dda7cb3731ae5"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1ef945991ab4728711c84846011e5b140b94a222/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1ef945991ab4728711c84846011e5b140b94a222/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "605878e57acaa2084e1a6f1b570fa40c0263e2a4",
         "dateadded": "2020-07-04T14:45:40.850947+00:00",
         "description": "OcAppleKernelLib: Partially fix symbol resolution from kexts",
@@ -11097,6 +11119,54 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "04461057d7c3ffd8366c323b55442c04ca6ab113",
+        "dateadded": "2020-07-04T17:26:21.998916+00:00",
+        "description": "Port -igfxvesa",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/04461057d7c3ffd8366c323b55442c04ca6ab113/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "5acf86e8925aa43f0585d174efceabaffa195ece77a9e8387eea4507def91597"
+          },
+          "release": {
+            "sha256": "c717268c6064f364d8cd13f54cf4e4461feae9996eb17a544223e52b91504762"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/04461057d7c3ffd8366c323b55442c04ca6ab113/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/04461057d7c3ffd8366c323b55442c04ca6ab113/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
+        "commit": "983d277402398c23f5bd6d0e6c8441cb8ee35933",
+        "dateadded": "2020-07-04T17:26:21.964166+00:00",
+        "description": "Add disableAccel to requiresGraphicsPatches",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/983d277402398c23f5bd6d0e6c8441cb8ee35933/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "16756df8e4cec44ef9b1509aba0d339d12f6684f8c7e01cd403a13d3b28ad144"
+          },
+          "release": {
+            "sha256": "dadea0796d841d12a6b2b52f4d271e707b124faee7e46fc2e40945cf6a060347"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/983d277402398c23f5bd6d0e6c8441cb8ee35933/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/983d277402398c23f5bd6d0e6c8441cb8ee35933/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
       {
         "commit": "3437961df41d811f29919ff791525f5698ffa5ba",
         "dateadded": "2020-06-29T19:12:38.920531+00:00",
