@@ -2207,6 +2207,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "0ff97ad01ce58e40a858ffe34d07f0e738f32db1",
+        "dateadded": "2020-07-04T19:16:15.869328+00:00",
+        "description": "DataBase: Added MBP164",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ff97ad01ce58e40a858ffe34d07f0e738f32db1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ff97ad01ce58e40a858ffe34d07f0e738f32db1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "b183c774f394cc0bc1843223fb7ffbbc43f2a56bad7a6f9b9112141ac86be4a3",
+          "release": "49a644ae4bfaf8f4f84361ed587a1f3db5b73dbfcbc9015fc95ace15080dab04"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ff97ad01ce58e40a858ffe34d07f0e738f32db1/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0ff97ad01ce58e40a858ffe34d07f0e738f32db1/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "0b3dcf4f7ec581215d5cb87d55d518b678315f0e",
         "dateadded": "2020-07-04T17:53:17.609844+00:00",
         "description": "OcAppleKernelLib: Improve handling of KC DySymtab",
