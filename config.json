@@ -1277,6 +1277,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "3d6876e2e6c16737e018d8d943b22cf28a1a8014",
+        "dateadded": "2020-07-04T23:47:52.726887+00:00",
+        "description": "Added in-memory symbol solving for 11.0",
+        "hashes": {
+          "debug": {
+            "sha256": "91bbf21cdbec029f9714d28916a19064f32d15b54a15224a1170a87f86592bba"
+          },
+          "release": {
+            "sha256": "09879bc8fba5d2c24a2bc911e5b90eec6ea256faf0192d8bf7d540f5f1acbed4"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/3d6876e2e6c16737e018d8d943b22cf28a1a8014/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/3d6876e2e6c16737e018d8d943b22cf28a1a8014/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "8b40ec8077e5f583d6b6d287fa559ad05d71a0b6",
         "dateadded": "2020-06-27T21:27:17.277586+00:00",
         "description": "Added preliminary definitions for 11.0 support",
