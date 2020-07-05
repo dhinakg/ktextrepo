@@ -11312,6 +11312,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "677b48631a5c904c4b74bcc40ec6e12cb27e2179",
+        "dateadded": "2020-07-05T15:48:07.462105+00:00",
+        "description": "Fix black screen on igfx since 10.15.5\n\n Apparently, platforms with (ig-platform-id & 0xf != 0) have only Type C\n connectivity.\n Framebuffer kext uses this fact to sanitise connector type, forcing it\n to DP.\n This breaks many systems, so we undo this check.\n Affected drivers: KBL and newer?",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/677b48631a5c904c4b74bcc40ec6e12cb27e2179/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "dddaf6133f7f03bd5e3af02768802104cbee26198c8c2eac08c30b7c4ff9ed83"
+          },
+          "release": {
+            "sha256": "0bedb678ff486948d3a9855fd5413e73a6dfc00043ad98fdabe92e9828f3bf51"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/677b48631a5c904c4b74bcc40ec6e12cb27e2179/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/677b48631a5c904c4b74bcc40ec6e12cb27e2179/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
         "commit": "04461057d7c3ffd8366c323b55442c04ca6ab113",
         "dateadded": "2020-07-04T17:26:21.998916+00:00",
         "description": "Port -igfxvesa",
