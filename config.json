@@ -2227,6 +2227,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "1a719736175e8a535a36ed5acc3d2284a0ec5971",
+        "dateadded": "2020-07-05T12:34:32.229292+00:00",
+        "description": "Build: Attempt to workaround windows build failures",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1a719736175e8a535a36ed5acc3d2284a0ec5971/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1a719736175e8a535a36ed5acc3d2284a0ec5971/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "ae5da50e61a6dccc5f08ac692972176a2a06b4c54d53c047f008d9275158565b",
+          "release": "225813daad9726fcc49848286cc11c7ff0830a21523bfab045ee7d2cce5acffe"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1a719736175e8a535a36ed5acc3d2284a0ec5971/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1a719736175e8a535a36ed5acc3d2284a0ec5971/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "ef8fdce8cd7e76bbc9c5490fc6e24f0c76b8bbd1",
         "dateadded": "2020-07-05T01:42:37.945316+00:00",
         "description": "OcAppleKernelLib: Fix linking against injected kexts",
