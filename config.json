@@ -2267,6 +2267,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "27053778bc15af4663e7e9c6a774b83dd62cf816",
+        "dateadded": "2020-07-05T16:06:12.151967+00:00",
+        "description": "OcAppleKernelLib: Fix relocation support for EfiBoot in KC mode",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/27053778bc15af4663e7e9c6a774b83dd62cf816/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/27053778bc15af4663e7e9c6a774b83dd62cf816/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "235c59d41b76eee121b08ff66f168660e04bb67b3b55d41f8bc59fe869e2de02",
+          "release": "f8e98915466e6a2bf2b77fea5feb0edd51e67a2f2c750e4a59e6d4d2520bc062"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/27053778bc15af4663e7e9c6a774b83dd62cf816/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/27053778bc15af4663e7e9c6a774b83dd62cf816/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "1a719736175e8a535a36ed5acc3d2284a0ec5971",
         "dateadded": "2020-07-05T12:34:32.229292+00:00",
         "description": "Build: Attempt to workaround windows build failures",
