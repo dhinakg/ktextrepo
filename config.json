@@ -2267,6 +2267,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "57f4824a8e4d0f8bfcadff310c58f1be6c5ea330",
+        "dateadded": "2020-07-05T21:44:34.217457+00:00",
+        "description": "OcAppleKernelLib: Older kernel kext base is lower",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/57f4824a8e4d0f8bfcadff310c58f1be6c5ea330/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/57f4824a8e4d0f8bfcadff310c58f1be6c5ea330/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "a2c1aef7d6b8b7113ef84846b7d0f4632710e6182cf802b673f5aa14b90ed2dd",
+          "release": "8a87cb0ac732770bde77db4d29c206df5715a491e88dfc205b8f0e3ffc6ab603"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/57f4824a8e4d0f8bfcadff310c58f1be6c5ea330/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/57f4824a8e4d0f8bfcadff310c58f1be6c5ea330/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "365e6ad5691d670af2f18a5dd3d9f219ecebad9e",
         "dateadded": "2020-07-05T20:58:44.733165+00:00",
         "description": "OcMachoLib: Fix compiler warning",
