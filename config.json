@@ -1277,6 +1277,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "caf1fa2585762e644f69e1e6e337237a28613dbe",
+        "dateadded": "2020-07-05T14:42:23.582254+00:00",
+        "description": "Even better generic patch workaround to avoid __LINKEDIT issues",
+        "hashes": {
+          "debug": {
+            "sha256": "ec726e33d3c26d43847d28304ae16785e13ff16af82c650ba3ab408d31ff13c1"
+          },
+          "release": {
+            "sha256": "529823f7e008c2da2cb0a2b9e414a4a39f578a8a30cdcfd98445d8377ea39d25"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/caf1fa2585762e644f69e1e6e337237a28613dbe/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/caf1fa2585762e644f69e1e6e337237a28613dbe/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "644d72eb97afb6e3f897266f130e16a80148464c",
         "dateadded": "2020-07-05T12:52:15.603890+00:00",
         "description": "Fix generic patch issues in 11.0 introduced in the previous commit",
