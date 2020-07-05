@@ -2227,6 +2227,50 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "ef8fdce8cd7e76bbc9c5490fc6e24f0c76b8bbd1",
+        "dateadded": "2020-07-05T01:42:37.945316+00:00",
+        "description": "OcAppleKernelLib: Fix linking against injected kexts",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ef8fdce8cd7e76bbc9c5490fc6e24f0c76b8bbd1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ef8fdce8cd7e76bbc9c5490fc6e24f0c76b8bbd1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "e7f508efe5d7b491dae597c18eddb828589b94323e41fc3a1349606f2f933400",
+          "release": "2d88b71f4da2e93dbfcd5b4fbfaaca05481f970143871266c19fe3923826a587"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ef8fdce8cd7e76bbc9c5490fc6e24f0c76b8bbd1/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ef8fdce8cd7e76bbc9c5490fc6e24f0c76b8bbd1/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "995924032cc2e70d7649ddf922d3604e2137079b",
+        "dateadded": "2020-07-05T01:42:37.892082+00:00",
+        "description": "OcAppleKernelLib: Get kernel patcher work (mostly)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/995924032cc2e70d7649ddf922d3604e2137079b/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/995924032cc2e70d7649ddf922d3604e2137079b/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "9120574aec2e51e227953c1a63dca579d487ff4d27b55e498f6eb8fdaf10c797",
+          "release": "4c18dd96d455fdbfacd443cf3d97f826e9b250df386ecda7ab3cb01a4aa8a92d"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/995924032cc2e70d7649ddf922d3604e2137079b/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/995924032cc2e70d7649ddf922d3604e2137079b/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "0ff97ad01ce58e40a858ffe34d07f0e738f32db1",
         "dateadded": "2020-07-04T19:16:15.869328+00:00",
         "description": "DataBase: Added MBP164",
