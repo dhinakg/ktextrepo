@@ -1277,6 +1277,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "644d72eb97afb6e3f897266f130e16a80148464c",
+        "dateadded": "2020-07-05T12:52:15.603890+00:00",
+        "description": "Fix generic patch issues in 11.0 introduced in the previous commit",
+        "hashes": {
+          "debug": {
+            "sha256": "6baf241084c45bf4d482f9d0a129a75b1a79cc3787a251736985694c7375ad54"
+          },
+          "release": {
+            "sha256": "f826c5ceb120e292f6981d61f16f7254cb6e78ab7aca870f74e039bcf9e307f7"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/644d72eb97afb6e3f897266f130e16a80148464c/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/644d72eb97afb6e3f897266f130e16a80148464c/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "3d6876e2e6c16737e018d8d943b22cf28a1a8014",
         "dateadded": "2020-07-04T23:47:52.726887+00:00",
         "description": "Added in-memory symbol solving for 11.0",
