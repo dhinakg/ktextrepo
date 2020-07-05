@@ -11334,6 +11334,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "119867c2cc8764727ad687af1c94499a4796735f",
+        "dateadded": "2020-07-05T16:54:53.942255+00:00",
+        "description": "Port i915 force wake workaround (#49)\n\nPort of i915 force wake. The difference with Apple code is as follows:\r\n1. 50 ms ACK timeouts, see https://patchwork.kernel.org/patch/7057561/\r\nApple code uses 90 ms.\r\n2. Use reserve bit as a fallback at primary ACK timeout, see https://patchwork.kernel.org/patch/10029821/",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/119867c2cc8764727ad687af1c94499a4796735f/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "cc5716508ecda7d4da62ce360b32b34401c84053d38e25152033638b043aed42"
+          },
+          "release": {
+            "sha256": "1865557491cf96a25c74fe3fc4d92ac9e5eda1ea2f34c7fd7c19ced00db81e57"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/119867c2cc8764727ad687af1c94499a4796735f/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/119867c2cc8764727ad687af1c94499a4796735f/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
         "commit": "26d0277d10a4b68b954fd417ad329fda4ea98ccc",
         "dateadded": "2020-07-05T16:15:52.642697+00:00",
         "description": "Sync changelog",
