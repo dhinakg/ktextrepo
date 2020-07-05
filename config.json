@@ -2267,6 +2267,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "9e166de9ac662d5d8d42b2c79a4414d72ef70307",
+        "dateadded": "2020-07-05T18:12:26.104468+00:00",
+        "description": "Utilities: Drop separate KC utility and unify with KextInject",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9e166de9ac662d5d8d42b2c79a4414d72ef70307/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9e166de9ac662d5d8d42b2c79a4414d72ef70307/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "12184ce799952e3eed14155fc64acf67ca04deef9f0cb9653dd02b2aa92d08bf",
+          "release": "fc63ce48f760cc198752814865c482d08a9767b7b213a8b6a86133c80a40100c"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9e166de9ac662d5d8d42b2c79a4414d72ef70307/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9e166de9ac662d5d8d42b2c79a4414d72ef70307/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "27053778bc15af4663e7e9c6a774b83dd62cf816",
         "dateadded": "2020-07-05T16:06:12.151967+00:00",
         "description": "OcAppleKernelLib: Fix relocation support for EfiBoot in KC mode",
