@@ -2267,6 +2267,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "365e6ad5691d670af2f18a5dd3d9f219ecebad9e",
+        "dateadded": "2020-07-05T20:58:44.733165+00:00",
+        "description": "OcMachoLib: Fix compiler warning",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/365e6ad5691d670af2f18a5dd3d9f219ecebad9e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/365e6ad5691d670af2f18a5dd3d9f219ecebad9e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "4e4d99c27f2e699ccedf0a928b2e82dd875d0cda9f1f83107fe9a3602ac94f97",
+          "release": "967ec8e8a8b849c18899b4fa05c943d78250a259e2427fe82a922f0562c28d76"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/365e6ad5691d670af2f18a5dd3d9f219ecebad9e/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/365e6ad5691d670af2f18a5dd3d9f219ecebad9e/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "fe51f24d90a2a2c183f0bc50b858f86359345c6e",
         "dateadded": "2020-07-05T20:43:02.349300+00:00",
         "description": "Docs: Sync changelog and errata",
