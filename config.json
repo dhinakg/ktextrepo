@@ -1277,6 +1277,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "04dd7093177090331b50f29271ce1b7cf8f501d1",
+        "dateadded": "2020-07-06T12:12:57.524393+00:00",
+        "description": "Fix kext size calculation for 11.0 for symbol solving",
+        "hashes": {
+          "debug": {
+            "sha256": "de4f39ee367d37e358ad529b6de60878d6f7b4cb98c11ccced335cfe73e3ed69"
+          },
+          "release": {
+            "sha256": "9982d1bf7cac8e867278ec469de4a3ce4ca485ef946c77846aa3b1772737790b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/04dd7093177090331b50f29271ce1b7cf8f501d1/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/04dd7093177090331b50f29271ce1b7cf8f501d1/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "ae476537e401e15233bd5bf723752eaf907f93c4",
         "dateadded": "2020-07-06T10:57:42.616947+00:00",
         "description": "Fixed accidentally solving stabs instead of normal symbols",
