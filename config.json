@@ -1,4 +1,49 @@
 {
+  "AirportBrcmFixup": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": "b249b1e0f88305dedcf9227753135aefbc268c69",
+        "dateadded": "2020-07-06T15:35:55.496515+00:00",
+        "description": "Property 'pci-aspm-default' with value 0 is not required for Broadcom BCM4350 chipset (with non-apple subsystem-vendor-id),\nsince now it is injected/corrected and method IOPCIFamily::setASPMState called for provider to disable ASPM immediately.",
+        "hashes": {
+          "debug": {
+            "sha256": "30a57badb8c7b13f38c6804ef1f60b7fde143cc8a7d20380157bac10fbb9ff45"
+          },
+          "release": {
+            "sha256": "99208c273ce25905ef61286015bb602f464e9a242da4f0dafe4ec3b220a4b085"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/b249b1e0f88305dedcf9227753135aefbc268c69/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/b249b1e0f88305dedcf9227753135aefbc268c69/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
+        "commit": "cd91965a20492bc235d4876b87930694f18199ed",
+        "dateadded": "2020-07-06T15:35:55.454868+00:00",
+        "description": "Fix warning 'Value stored to 'subSystemDeviceID' during its initialization is never read'",
+        "hashes": {
+          "debug": {
+            "sha256": "d81d86165d25405085a6976737bbc64e125744ea16b16b60402d7414c17f4602"
+          },
+          "release": {
+            "sha256": "5656603301ea344075ddffde33675ee9d0b278749c001f8d04e71d0d501c1a03"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/cd91965a20492bc235d4876b87930694f18199ed/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/cd91965a20492bc235d4876b87930694f18199ed/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      }
+    ]
+  },
   "AppleALC": {
     "type": "Kext",
     "versions": [
