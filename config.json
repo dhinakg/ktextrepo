@@ -1318,6 +1318,106 @@
       }
     ]
   },
+  "BT4LEContinuityFixup": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": "74675aa478cd6d46b4807ec3eff7b9305ac3e32e",
+        "dateadded": "2020-07-06T15:39:19.623063+00:00",
+        "description": "Added constants for 11.0 support",
+        "hashes": {
+          "debug": {
+            "sha256": "c6209049771966961bb5f2ea9099a82fd0dffe031a3c875291d51da85b9aed56"
+          },
+          "release": {
+            "sha256": "3c7699ff4cd6f58081f7fbff437015904eea5532ddd24e4fc51cdbe71405e0e1"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/BT4LEContinuityFixup/74675aa478cd6d46b4807ec3eff7b9305ac3e32e/Debug/BT4LEContinuityFixup-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/BT4LEContinuityFixup/74675aa478cd6d46b4807ec3eff7b9305ac3e32e/Release/BT4LEContinuityFixup-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      }
+    ]
+  },
+  "CPUFriend": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": "2ca43058c9ade32ebbb46ad5d4012f1d81378c1e",
+        "dateadded": "2020-07-06T15:39:19.587335+00:00",
+        "description": "Added constants for 11.0 support",
+        "hashes": {
+          "debug": {
+            "sha256": "59c5c9e445a69e434cb82dfd13a5a99b9c8cf0b6ce6f2ba47814813788de752d"
+          },
+          "release": {
+            "sha256": "d932ce80e975ac0be8d5202948abd6c0166e931fca83558291be9cdba8766863"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/CPUFriend/2ca43058c9ade32ebbb46ad5d4012f1d81378c1e/Debug/CPUFriend-1.2.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/CPUFriend/2ca43058c9ade32ebbb46ad5d4012f1d81378c1e/Release/CPUFriend-1.2.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.2.1"
+      }
+    ]
+  },
+  "HibernationFixup": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": "bb49d28c7dd5d379f8729121c92bd9ad98509245",
+        "dateadded": "2020-07-06T15:39:19.659293+00:00",
+        "description": "Added constants for 11.0 support",
+        "hashes": {
+          "debug": {
+            "sha256": "527319461b9b99e1e079f4869cdabb07049cd727d8fe756a90d678f5e5133d3f"
+          },
+          "release": {
+            "sha256": "d67ac75a1136fa8691911abcaec22afee56264eb7a31c9cc6853cccacb7a6db9"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/HibernationFixup/bb49d28c7dd5d379f8729121c92bd9ad98509245/Debug/HibernationFixup-1.3.4-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/HibernationFixup/bb49d28c7dd5d379f8729121c92bd9ad98509245/Release/HibernationFixup-1.3.4-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.4"
+      }
+    ]
+  },
+  "IntelMausi": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": "179a3b305f4df017db7847d28cbd189d40089980",
+        "dateadded": "2020-07-06T15:39:19.738582+00:00",
+        "description": "Merged changes from 2.5.1d1 for CML support",
+        "hashes": {
+          "debug": {
+            "sha256": "f96dd0dc84a7975fbca3edab8be3ca8c2dd85245fcda0b831f5fe5226ba8911c"
+          },
+          "release": {
+            "sha256": "c11b06287a579cc99a6b8158a01f0b3d86cdaa553a6d6428e340b0656cec9865"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/IntelMausi/179a3b305f4df017db7847d28cbd189d40089980/Debug/IntelMausi-1.0.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/IntelMausi/179a3b305f4df017db7847d28cbd189d40089980/Release/IntelMausi-1.0.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.3"
+      }
+    ]
+  },
   "Lilu": {
     "type": "Kext",
     "versions": [
@@ -11501,6 +11601,31 @@
         },
         "source": "built",
         "version": "1.1.1"
+      }
+    ]
+  },
+  "VoodooInput": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": "3668651b43246a4d275dfa0da51d83f02cde73ec",
+        "dateadded": "2020-07-06T15:39:19.699688+00:00",
+        "description": "Update Changelog.md",
+        "hashes": {
+          "debug": {
+            "sha256": "d7b63ebf5a876fe55fe97003c9a47a6db023a8aa048e406cf8f13c932d712a96"
+          },
+          "release": {
+            "sha256": "22edeea5fff9fe6ea0d36c27b6ba9151e6ecabbe69407ad67228edfd6cddce49"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VoodooInput/3668651b43246a4d275dfa0da51d83f02cde73ec/Debug/VoodooInput-1.0.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VoodooInput/3668651b43246a4d275dfa0da51d83f02cde73ec/Release/VoodooInput-1.0.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.6"
       }
     ]
   },
