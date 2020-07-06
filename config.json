@@ -11464,6 +11464,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "139e2360282b9c9f5403601d7491786eb7861c34",
+        "dateadded": "2020-07-06T11:05:22.195182+00:00",
+        "description": "Fixed crash in ATIController::start on 11.0",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/139e2360282b9c9f5403601d7491786eb7861c34/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "9323f656ef75d46499133c86bd4508d0a27ffcad5df4b49e01ad67605d4eaeec"
+          },
+          "release": {
+            "sha256": "8af74390d8795b66ac5e0e5508e16c96a3b3125b728aab7c7651ebde36e28afd"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/139e2360282b9c9f5403601d7491786eb7861c34/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/139e2360282b9c9f5403601d7491786eb7861c34/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
         "commit": "119867c2cc8764727ad687af1c94499a4796735f",
         "dateadded": "2020-07-05T16:54:53.942255+00:00",
         "description": "Port i915 force wake workaround (#49)\n\nPort of i915 force wake. The difference with Apple code is as follows:\r\n1. 50 ms ACK timeouts, see https://patchwork.kernel.org/patch/7057561/\r\nApple code uses 90 ms.\r\n2. Use reserve bit as a fallback at primary ACK timeout, see https://patchwork.kernel.org/patch/10029821/",
