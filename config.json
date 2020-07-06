@@ -2452,6 +2452,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "6aac3a2c595a49851fd1edf1edff784c0d229c8f",
+        "dateadded": "2020-07-06T20:14:04.933691+00:00",
+        "description": "OcAcpiLib: Check for invalid reset register width",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6aac3a2c595a49851fd1edf1edff784c0d229c8f/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6aac3a2c595a49851fd1edf1edff784c0d229c8f/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "70a40c22c3a4549d4e3c931eced7e61187980dc3641d949964af8e914fe2c1b8",
+          "release": "b7ccdc69819147453907bde2aca9756f3da090d973d80b9111cfe50aa62493c8"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6aac3a2c595a49851fd1edf1edff784c0d229c8f/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6aac3a2c595a49851fd1edf1edff784c0d229c8f/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "57f4824a8e4d0f8bfcadff310c58f1be6c5ea330",
         "dateadded": "2020-07-05T21:44:34.217457+00:00",
         "description": "OcAppleKernelLib: Older kernel kext base is lower",
