@@ -2452,6 +2452,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "802dcdbf199afc0a5a9fe6dc0604e8a8571edcfa",
+        "dateadded": "2020-07-06T21:27:48.244027+00:00",
+        "description": "OcAppleKernelLib: Fix arg order for OcKernelLoadKextsAndReserve",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/802dcdbf199afc0a5a9fe6dc0604e8a8571edcfa/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/802dcdbf199afc0a5a9fe6dc0604e8a8571edcfa/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "56f3eedc90b73492eba7cb95dde6b085dce7f37fb06fecdedaefc9163378608e",
+          "release": "ee7468963dda4a1d38793556d00f3719113065f8280ef473273de3ad7fc4e2eb"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/802dcdbf199afc0a5a9fe6dc0604e8a8571edcfa/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/802dcdbf199afc0a5a9fe6dc0604e8a8571edcfa/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "6aac3a2c595a49851fd1edf1edff784c0d229c8f",
         "dateadded": "2020-07-06T20:14:04.933691+00:00",
         "description": "OcAcpiLib: Check for invalid reset register width",
