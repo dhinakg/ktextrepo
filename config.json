@@ -1277,6 +1277,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "ae476537e401e15233bd5bf723752eaf907f93c4",
+        "dateadded": "2020-07-06T10:57:42.616947+00:00",
+        "description": "Fixed accidentally solving stabs instead of normal symbols",
+        "hashes": {
+          "debug": {
+            "sha256": "f47f265aa1f08ba933e31969f2882e13a0d0a1d19f19cd2fca55db8439e41d76"
+          },
+          "release": {
+            "sha256": "14d579acb28a34a7ab9aaf1d2fe7b786ef3fe87bcd57769d6e25aef65eb6120b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/ae476537e401e15233bd5bf723752eaf907f93c4/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/ae476537e401e15233bd5bf723752eaf907f93c4/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "caf1fa2585762e644f69e1e6e337237a28613dbe",
         "dateadded": "2020-07-05T14:42:23.582254+00:00",
         "description": "Even better generic patch workaround to avoid __LINKEDIT issues",
