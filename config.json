@@ -11720,6 +11720,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "330a8eddec1b66c568d293475425ecb11d081bba",
+        "dateadded": "2020-07-07T13:57:04.838776+00:00",
+        "description": "update FAQ.Radeon.en.md (#50)",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/330a8eddec1b66c568d293475425ecb11d081bba/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "3b148d2588c448fe58643435f00c5b0b73b778d7d4fcc26594dd256eb3c98bf7"
+          },
+          "release": {
+            "sha256": "d1d57d51d33975d23ddde6ecbada701fd46d0b50a570f74ba3469ab835ad4767"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/330a8eddec1b66c568d293475425ecb11d081bba/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/330a8eddec1b66c568d293475425ecb11d081bba/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
         "commit": "139e2360282b9c9f5403601d7491786eb7861c34",
         "dateadded": "2020-07-06T11:05:22.195182+00:00",
         "description": "Fixed crash in ATIController::start on 11.0",
