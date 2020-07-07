@@ -48,6 +48,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "9c84c655f86b4c46e077538f85c19459dcdad8de",
+        "dateadded": "2020-07-07T14:29:37.108779+00:00",
+        "description": "Added 400 series 0x6c8 controller patch (thanks @lvs1974)",
+        "hashes": {
+          "debug": {
+            "sha256": "648bfd6870e106ff6dd8f5fb0079ff01b18ce3fc07a9d9e3f563a1ec578e1ade"
+          },
+          "release": {
+            "sha256": "fa766de2c4686acdab23c232a3f41dc625697c4ef2f4e2105706f4b60113dfc9"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9c84c655f86b4c46e077538f85c19459dcdad8de/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9c84c655f86b4c46e077538f85c19459dcdad8de/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
         "commit": "1cff9124b60a64cd7d7eb252a6500d33fabe263f",
         "dateadded": "2020-06-27T21:27:17.242890+00:00",
         "description": "Added constants for 11.0 support",
