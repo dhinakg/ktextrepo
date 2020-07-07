@@ -48,6 +48,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "281c2b7aedbe67a61ef100765120157340bfe656",
+        "dateadded": "2020-07-07T14:34:34.539276+00:00",
+        "description": "Remove previous nonworking patches",
+        "hashes": {
+          "debug": {
+            "sha256": "c39ab8ca4e5e57ce736378e4cf01cd6e6736a6051991f8a34bb215d3b473cc65"
+          },
+          "release": {
+            "sha256": "c0da1764516f1e1669ffe9ddeb30e6cee60f25be36aeaad75f826868f7a7efca"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/281c2b7aedbe67a61ef100765120157340bfe656/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/281c2b7aedbe67a61ef100765120157340bfe656/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
         "commit": "9c84c655f86b4c46e077538f85c19459dcdad8de",
         "dateadded": "2020-07-07T14:29:37.108779+00:00",
         "description": "Added 400 series 0x6c8 controller patch (thanks @lvs1974)",
