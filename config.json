@@ -11720,6 +11720,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "5ec6e0ede1cc201fb96be8bf09758c2b55fb4bb5",
+        "dateadded": "2020-07-07T14:13:48.858986+00:00",
+        "description": "Also update RU Radeon FAQ",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/5ec6e0ede1cc201fb96be8bf09758c2b55fb4bb5/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "47ff2db4a5df8ba408d7409d8a5192e164b5ad1528880a87dee1db7850467df7"
+          },
+          "release": {
+            "sha256": "07bdb54380eb433f323af57d4c414b0ca22bc9f0e23fa8733b99c26a8ae7d31d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/5ec6e0ede1cc201fb96be8bf09758c2b55fb4bb5/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/5ec6e0ede1cc201fb96be8bf09758c2b55fb4bb5/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
         "commit": "330a8eddec1b66c568d293475425ecb11d081bba",
         "dateadded": "2020-07-07T13:57:04.838776+00:00",
         "description": "update FAQ.Radeon.en.md (#50)",
