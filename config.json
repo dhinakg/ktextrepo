@@ -48,6 +48,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "f58036299d2212e1594f32a4962c050e180d47ea",
+        "dateadded": "2020-07-07T17:14:00.204434+00:00",
+        "description": "Update Changelog.md",
+        "hashes": {
+          "debug": {
+            "sha256": "adc0625eaad5f91deed29815a3531b822f4b41a7f614110ed25e20ff50413ff9"
+          },
+          "release": {
+            "sha256": "19cbedfeda1e800a5f5d81d5c658607e730c0c24e40caf003ac456c9ea42bdb6"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/f58036299d2212e1594f32a4962c050e180d47ea/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/f58036299d2212e1594f32a4962c050e180d47ea/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
         "commit": "37981f569a9ac61bd9b93089684ed1aefa5713bd",
         "dateadded": "2020-07-07T17:01:43.489756+00:00",
         "description": "Corrects 400 series PCH-LP based on the 400 series PCH HD patch by @lvs1974 (9c84c655f86b4c46e077538f85c19459dcdad8de) (#581)",
