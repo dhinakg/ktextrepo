@@ -48,6 +48,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "37981f569a9ac61bd9b93089684ed1aefa5713bd",
+        "dateadded": "2020-07-07T17:01:43.489756+00:00",
+        "description": "Corrects 400 series PCH-LP based on the 400 series PCH HD patch by @lvs1974 (9c84c655f86b4c46e077538f85c19459dcdad8de) (#581)",
+        "hashes": {
+          "debug": {
+            "sha256": "408a258b7ac937cecf1c70f28d162a532aee960b89e6b734d9c62ee22bc07f5b"
+          },
+          "release": {
+            "sha256": "168381cedb0d449d0eca2dada31a25577fdc905f1cf57d9a397801b957f0b7f7"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/37981f569a9ac61bd9b93089684ed1aefa5713bd/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/37981f569a9ac61bd9b93089684ed1aefa5713bd/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
         "commit": "281c2b7aedbe67a61ef100765120157340bfe656",
         "dateadded": "2020-07-07T14:34:34.539276+00:00",
         "description": "Remove previous nonworking patches",
