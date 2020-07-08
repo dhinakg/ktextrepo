@@ -11800,6 +11800,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "9d7b23cf990ecd9b3c9c5fec8e0eb76c79d95321",
+        "dateadded": "2020-07-08T16:06:08.300959+00:00",
+        "description": "Fix -igfxtypec overriding (reported by goldfish)",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/9d7b23cf990ecd9b3c9c5fec8e0eb76c79d95321/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "7ccfa7ffb2070b9637c3631a6be0e4d0d32477b28b9b1ed89d44b4acc53188bc"
+          },
+          "release": {
+            "sha256": "9db2201c14dc36152abd7e2fbbf978bf4fad7730f470925c225e16d7c8798891"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/9d7b23cf990ecd9b3c9c5fec8e0eb76c79d95321/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/9d7b23cf990ecd9b3c9c5fec8e0eb76c79d95321/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
         "commit": "5ec6e0ede1cc201fb96be8bf09758c2b55fb4bb5",
         "dateadded": "2020-07-07T14:13:48.858986+00:00",
         "description": "Also update RU Radeon FAQ",
