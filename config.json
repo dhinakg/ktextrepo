@@ -1502,6 +1502,46 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "6161e5d2539fbe767142a291409bb4195e6194c4",
+        "dateadded": "2020-07-08T18:20:55.922212+00:00",
+        "description": "Initialise on BigSur via BSD init\n\nDoing this earlier may result in kext monitor not triggering at all\nin installer resulting in VirtualSMC not loading at all.",
+        "hashes": {
+          "debug": {
+            "sha256": "50b48e588380e129fcdce065d8da5d8536ae21f8e693238ddd63c9ef3d9a6e0e"
+          },
+          "release": {
+            "sha256": "e747c36d2ccd376aa992922dd61c48ba79dce6722460e11096a8ace2d19b6eb6"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/6161e5d2539fbe767142a291409bb4195e6194c4/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/6161e5d2539fbe767142a291409bb4195e6194c4/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": "b68bbd309312c7556a8e045799f82c01952dbf42",
+        "dateadded": "2020-07-08T18:20:55.882653+00:00",
+        "description": "Added device publishing API to monitor device startup",
+        "hashes": {
+          "debug": {
+            "sha256": "dc788a63a9aafead03f3375909ec022468d8f49d8e9b04e15ba2e5ebb5351554"
+          },
+          "release": {
+            "sha256": "9e037a531ef2d059ba2c78c6b24b4060712118614693747f69592a0298db84a5"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/b68bbd309312c7556a8e045799f82c01952dbf42/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/b68bbd309312c7556a8e045799f82c01952dbf42/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "04dd7093177090331b50f29271ce1b7cf8f501d1",
         "dateadded": "2020-07-06T12:12:57.524393+00:00",
         "description": "Fix kext size calculation for 11.0 for symbol solving",
