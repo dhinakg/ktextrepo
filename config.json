@@ -48,6 +48,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "9e1166c37b71e0ea286ca924c834adb33673723b",
+        "dateadded": "2020-07-08T18:27:57.123397+00:00",
+        "description": "Use new device publishing API for 11.0 syncing",
+        "hashes": {
+          "debug": {
+            "sha256": "136d76855bdcd407dc9c389853832e0fb6847196b40b5f9000a547be8a1d2b58"
+          },
+          "release": {
+            "sha256": "3e6b7d88ff48b1345cb8e1c4d05fb777cfcd1b3e6be64a471b1e991c0be63845"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9e1166c37b71e0ea286ca924c834adb33673723b/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/9e1166c37b71e0ea286ca924c834adb33673723b/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
         "commit": "f58036299d2212e1594f32a4962c050e180d47ea",
         "dateadded": "2020-07-07T17:14:00.204434+00:00",
         "description": "Update Changelog.md",
