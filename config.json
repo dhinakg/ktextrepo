@@ -11900,6 +11900,30 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "c5d44800edc0d6f2001bca82a87f481b97f2be0e",
+        "dateadded": "2020-07-09T09:42:25.160058+00:00",
+        "description": "Add first generation Intel HD Graphics support (#51)\n\n* Add Arrandale first-gen HD Graphics support\r\n\r\n* Fix dictionaries not being released\r\n\r\n* Update docs for first gen HD Graphics\r\n\r\n* Fix spacing\r\n\r\n* Set AAPL00,DualLink instead of patch; other fixes",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/c5d44800edc0d6f2001bca82a87f481b97f2be0e/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "c352584d0e11cf639a38e823ea2cae20dfd061804fc224b8e60aca17df8dcb9a"
+          },
+          "release": {
+            "sha256": "7b2c93f4047b7ce24a9b02af5843efed6ba833345e82fb06584092e863fbfd69"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/c5d44800edc0d6f2001bca82a87f481b97f2be0e/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/c5d44800edc0d6f2001bca82a87f481b97f2be0e/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
         "commit": "9d7b23cf990ecd9b3c9c5fec8e0eb76c79d95321",
         "dateadded": "2020-07-08T16:06:08.300959+00:00",
         "description": "Fix -igfxtypec overriding (reported by goldfish)",
