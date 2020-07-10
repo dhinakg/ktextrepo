@@ -1542,6 +1542,46 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "bba464272a3599f064b11ef197b4d769ce00df92",
+        "dateadded": "2020-07-10T15:59:14.352440+00:00",
+        "description": "Added implicit slotted (medium) patches in KC mode to reduce patch size\n\nThis resolves the problem of routing shorter prologues on 11.0",
+        "hashes": {
+          "debug": {
+            "sha256": "83445775cea03c84f571892eb37c31b4aaab76249d91b6f17a6587d04992048b"
+          },
+          "release": {
+            "sha256": "8bf242446f3ae8d2db01585392c1ec4ff5dfd878a3c18338fcc0f499c6c2e719"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/bba464272a3599f064b11ef197b4d769ce00df92/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/bba464272a3599f064b11ef197b4d769ce00df92/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": "8a81e92f5641f9eee333d348d39add4ecaef0b37",
+        "dateadded": "2020-07-10T15:59:14.314104+00:00",
+        "description": "Silence stupid clang analyzer",
+        "hashes": {
+          "debug": {
+            "sha256": "d8d1dd07ed127e6bd135b9a0de10af1a06ced8ab54c5e23267a82d063c251f53"
+          },
+          "release": {
+            "sha256": "42694446b88ed544bf75002a20ab04815d5d22aa609935c0ca98f8f9ae4a0490"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/8a81e92f5641f9eee333d348d39add4ecaef0b37/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/8a81e92f5641f9eee333d348d39add4ecaef0b37/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "6161e5d2539fbe767142a291409bb4195e6194c4",
         "dateadded": "2020-07-08T18:20:55.922212+00:00",
         "description": "Initialise on BigSur via BSD init\n\nDoing this earlier may result in kext monitor not triggering at all\nin installer resulting in VirtualSMC not loading at all.",
@@ -11943,6 +11983,30 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "39e3b557fb55dcb0e38e6ecd05d217c780ba8a2c",
+        "dateadded": "2020-07-10T15:59:14.390749+00:00",
+        "description": "Revert workaround for ATIController::start on 11.0\n\nThis is now handled by slot patches on Lilu side",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/39e3b557fb55dcb0e38e6ecd05d217c780ba8a2c/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "7c00794c321151b1b52ae89a69e55d9379b5562d0cc5ddc9afc1051c9f828b2b"
+          },
+          "release": {
+            "sha256": "5b462f10ea5e85778b9aa0fb62615fe97e06e78b95fa566a8c530371ef578b78"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/39e3b557fb55dcb0e38e6ecd05d217c780ba8a2c/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/39e3b557fb55dcb0e38e6ecd05d217c780ba8a2c/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
       {
         "commit": "6246cee2949bbe5d4e90733da028a4328649b829",
         "dateadded": "2020-07-09T15:14:57.327631+00:00",
