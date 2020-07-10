@@ -2612,6 +2612,50 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "f6ceca9c723bb9e91e71e666b73beefa95494a3b",
+        "dateadded": "2020-07-10T01:55:28.631570+00:00",
+        "description": "DxeIpl: Fix ACPI reset register detection",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f6ceca9c723bb9e91e71e666b73beefa95494a3b/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f6ceca9c723bb9e91e71e666b73beefa95494a3b/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "4a5782b15c1da7b7c3646a80b39a629cec334203feaed5665f82e2f250713d03",
+          "release": "af1020de4ce01849d556f32472b7f24b47d17b8dfbdfb7a714b34d6f172bac21"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f6ceca9c723bb9e91e71e666b73beefa95494a3b/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f6ceca9c723bb9e91e71e666b73beefa95494a3b/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "99651ed3f0c3645f6c98c26a0ab7b5c3b84b6276",
+        "dateadded": "2020-07-10T01:55:28.576025+00:00",
+        "description": "Sync changelog",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/99651ed3f0c3645f6c98c26a0ab7b5c3b84b6276/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/99651ed3f0c3645f6c98c26a0ab7b5c3b84b6276/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "824c8bdb6052077df7370b5cd652357e2838e573ca3ee664fc9c1532b2ec2b9a",
+          "release": "5ac4a7dad4b37e40190007b4faaded41c6b7f4b301ff91aeff6cabcef7d2cded"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/99651ed3f0c3645f6c98c26a0ab7b5c3b84b6276/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/99651ed3f0c3645f6c98c26a0ab7b5c3b84b6276/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "748b0ea20e8d8dc8556a8901d2b99f86a1229b5d",
         "dateadded": "2020-07-07T09:24:12.259527+00:00",
         "description": "OcAppleKernelLib: Fix incorrect assertion on zero relocations",
