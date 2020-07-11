@@ -3,6 +3,46 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "e940bb06ced0db8295daaa941240991950331fad",
+        "dateadded": "2020-07-11T20:45:47.581817+00:00",
+        "description": "Fix wrong base class IOService for FakeBrcm, now it works in older osx (checked in 10.12)",
+        "hashes": {
+          "debug": {
+            "sha256": "183463fad9c2841dfb5532dc3286c87c0caf4f86d645eb977ab2743e8c871f07"
+          },
+          "release": {
+            "sha256": "d3ddec51403d5ee0f41ecc1523a51485aff960249e5eac5d6e4c64b4b1a338c7"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/e940bb06ced0db8295daaa941240991950331fad/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/e940bb06ced0db8295daaa941240991950331fad/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
+        "commit": "5abad827f969ed33d7f62d1a383cd6938016817d",
+        "dateadded": "2020-07-11T20:45:47.537865+00:00",
+        "description": "Merge remote-tracking branch 'refs/remotes/origin/master'",
+        "hashes": {
+          "debug": {
+            "sha256": "ee65e4c419ad4a256a5290130e924e492c62603061e4d805a7867f3a1962ea88"
+          },
+          "release": {
+            "sha256": "f93904439f28b6e27260b30f284a923dcceea0baef0e5e816532775cdfac32b4"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/5abad827f969ed33d7f62d1a383cd6938016817d/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/5abad827f969ed33d7f62d1a383cd6938016817d/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
         "commit": "2e9f4f9984f5e903162037db928c75fef5a94e72",
         "dateadded": "2020-07-11T18:07:28.155147+00:00",
         "description": "Update README.md",
