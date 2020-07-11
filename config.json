@@ -3,6 +3,46 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "08b7f79d723ef8cfca8798916746c25829ac0655",
+        "dateadded": "2020-07-11T17:25:48.780863+00:00",
+        "description": "Remove injectors for AirPortBrcm4360 and AirPortBrcmNIC from main Info.plist and move them into separate plugins AirPortBrcm4360_Injector and\nAirPortBrcmNIC_Injector (kexts with plist only).",
+        "hashes": {
+          "debug": {
+            "sha256": "a1454d09ce09693c68aa965d179c2834d1cdf0436ed6b6b553b08e18d08a4ecd"
+          },
+          "release": {
+            "sha256": "beef806f723e012df7fedad541b3d654969c57e0d308525d2bd014f43fa26df4"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/08b7f79d723ef8cfca8798916746c25829ac0655/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/08b7f79d723ef8cfca8798916746c25829ac0655/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
+        "commit": "8bf3df0468c3c9b2f5ce2288d239e898523be930",
+        "dateadded": "2020-07-11T17:25:48.741972+00:00",
+        "description": "Commit required files for previous commit",
+        "hashes": {
+          "debug": {
+            "sha256": "bfd1a67b4da37ed5f680a33755717a889583d73ade7e9c91cc9a23a35bf85fd8"
+          },
+          "release": {
+            "sha256": "e26ee800ebf0c524c507be66517425c3a749ce56d70d844854eb05b684cb9bcc"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/8bf3df0468c3c9b2f5ce2288d239e898523be930/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/8bf3df0468c3c9b2f5ce2288d239e898523be930/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
         "commit": "b249b1e0f88305dedcf9227753135aefbc268c69",
         "dateadded": "2020-07-06T15:35:55.496515+00:00",
         "description": "Property 'pci-aspm-default' with value 0 is not required for Broadcom BCM4350 chipset (with non-apple subsystem-vendor-id),\nsince now it is injected/corrected and method IOPCIFamily::setASPMState called for provider to disable ASPM immediately.",
