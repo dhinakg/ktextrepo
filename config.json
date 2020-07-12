@@ -2852,6 +2852,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "92168dd3a6f884aa280ee3f555d8ad86513f7c60",
+        "dateadded": "2020-07-12T21:23:29.967734+00:00",
+        "description": "Docs: Added links to customised icons.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/92168dd3a6f884aa280ee3f555d8ad86513f7c60/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/92168dd3a6f884aa280ee3f555d8ad86513f7c60/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "3760c47c8a01d981a632f49604ed9bebe33a5fa28a527dfadf6c5cf49c12843b",
+          "release": "e67b7464762f6f859447c740946206f1dcb339fb29e888b95fd13f32811c6bd1"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/92168dd3a6f884aa280ee3f555d8ad86513f7c60/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/92168dd3a6f884aa280ee3f555d8ad86513f7c60/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "bbcd4ac2e0cec1cc20c8a92eca718be5c540175d",
         "dateadded": "2020-07-12T20:11:17.535285+00:00",
         "description": "Docs: Update SampleLegacy",
