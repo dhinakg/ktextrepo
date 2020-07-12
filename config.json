@@ -3,6 +3,66 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "eefabfa1167e1def2692cbb335746aba9c8af2aa",
+        "dateadded": "2020-07-12T12:19:40.101985+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "15acacc13ce76da29c63caeded59a5507dd330bfa8073c3b406593cdaf5b80ff"
+          },
+          "release": {
+            "sha256": "0a9623e2820f909f919bdc8fc9592858cb653004e59e0f4a8eaa22cd92322280"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/eefabfa1167e1def2692cbb335746aba9c8af2aa/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/eefabfa1167e1def2692cbb335746aba9c8af2aa/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
+        "commit": "b56d5b0fc02811e3f8282c3175d5c8cd30249ec7",
+        "dateadded": "2020-07-12T12:19:40.055662+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "5728e5c3778d1168bf3769814c83eae9fa492a1d99963d5f4c1e928a0d177e74"
+          },
+          "release": {
+            "sha256": "1fba2b3b437f45b64b78a5bab7ec4af499f153bc1c631315002d6e25b97d6d07"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/b56d5b0fc02811e3f8282c3175d5c8cd30249ec7/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/b56d5b0fc02811e3f8282c3175d5c8cd30249ec7/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
+        "commit": "00a4507e31e4d2f4e1bca62a6d1fccca1c99b654",
+        "dateadded": "2020-07-12T12:19:40.016484+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "753f91fc1c1ac1eb6e17e609d2fa5c36859f2717928d2f30108693a5dd7a316e"
+          },
+          "release": {
+            "sha256": "b2460d8accfac1d7bfc90c3068dd6aedcd11b4c75ece77503c72583a5a90f089"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/00a4507e31e4d2f4e1bca62a6d1fccca1c99b654/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/00a4507e31e4d2f4e1bca62a6d1fccca1c99b654/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
         "commit": "0b0491faee73a2dd987dda4d9555c0df57690704",
         "dateadded": "2020-07-12T11:56:31.544516+00:00",
         "description": "Check and fix incorrect value brcmfx-driver (if specified value is unsupported in current osx system)",
