@@ -11723,6 +11723,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "893968688e9374fc3e364bbbc3beda0808afcdb2",
+        "dateadded": "2020-07-12T19:19:01.374477+00:00",
+        "description": "Fix sign issues in legacy smc tool\n\ncloses #29",
+        "hashes": {
+          "debug": {
+            "sha256": "356459e6768d529e246ce0ff6bae20ce74282c18b00dd0efea99e6f397e96b13"
+          },
+          "release": {
+            "sha256": "3ec85d5e025c29674c93e8b8477c72cade37fc6fa82b6f899ce68a056f660d11"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/893968688e9374fc3e364bbbc3beda0808afcdb2/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/893968688e9374fc3e364bbbc3beda0808afcdb2/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "90b1f45475c82566fe6533c03f4938594f17bb49",
         "dateadded": "2020-06-28T23:40:00.669425+00:00",
         "description": "Update Dual Battery Support.md",
