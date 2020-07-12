@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "0b0491faee73a2dd987dda4d9555c0df57690704",
+        "dateadded": "2020-07-12T11:56:31.544516+00:00",
+        "description": "Check and fix incorrect value brcmfx-driver (if specified value is unsupported in current osx system)",
+        "hashes": {
+          "debug": {
+            "sha256": "3efbd5525abdc27122f4630de20cb774c4cfcb00a67ec8644df4a66bba400082"
+          },
+          "release": {
+            "sha256": "008eb5408da972ab55c79790f7dfd6814eb37acac8dcf0037d88bbb4e701fadb"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/0b0491faee73a2dd987dda4d9555c0df57690704/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/0b0491faee73a2dd987dda4d9555c0df57690704/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
         "commit": "e940bb06ced0db8295daaa941240991950331fad",
         "dateadded": "2020-07-11T20:45:47.581817+00:00",
         "description": "Fix wrong base class IOService for FakeBrcm, now it works in older osx (checked in 10.12)",
