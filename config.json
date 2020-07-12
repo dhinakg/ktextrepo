@@ -2852,6 +2852,50 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "c6f8ef6043a01de26a58839a2637300c054df52f",
+        "dateadded": "2020-07-12T14:30:00.395594+00:00",
+        "description": "Docs: Rename SampleFull to SampleLegacy and fix typos\n\n\"Full\" plist is not useful for modern systems and its use\nhas always been discouraged outside of Macs and old systems.\nRename it to \"Legacy\" to avoid confusion.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c6f8ef6043a01de26a58839a2637300c054df52f/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c6f8ef6043a01de26a58839a2637300c054df52f/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "cf1d01139f0293c9acc55b60f2401d4a49f99033a5e5650a2deddaeaf1e38ea3",
+          "release": "8336b691093953dfd48b6be1cab47b2fc6371b808cada657be92f3cb9ec384ac"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c6f8ef6043a01de26a58839a2637300c054df52f/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c6f8ef6043a01de26a58839a2637300c054df52f/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "56949bcd560be1dd7cd0ccdc80cae742882703b7",
+        "dateadded": "2020-07-12T14:30:00.338810+00:00",
+        "description": "Docs: Drop Generic key as it is unused from Legacy",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/56949bcd560be1dd7cd0ccdc80cae742882703b7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/56949bcd560be1dd7cd0ccdc80cae742882703b7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "be3477ea7235122c70622926ffd3bb7765925f04b63c9e3d1c9e0f189b8ca580",
+          "release": "32d40047d7a7915933b7730728f46c49ff40a0c5d26366e09b34fa43a14db68b"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/56949bcd560be1dd7cd0ccdc80cae742882703b7/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/56949bcd560be1dd7cd0ccdc80cae742882703b7/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "b4f5644edf405428c94326d80968cda06f7f9f35",
         "dateadded": "2020-07-11T09:38:41.811279+00:00",
         "description": "Docs: Fix jumplinks in UEFI section (#86)",
