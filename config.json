@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "936935d74826eebe8dfcffa5743774499ba424ed",
+        "dateadded": "2020-07-12T12:25:00.772083+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "d2332afa9860796aada225fb2cf8ab41d55fb130e2460a6de37b3aab15c303e1"
+          },
+          "release": {
+            "sha256": "2b0b8d5b23c775aa21616dc4f3a522b1bcbcf1561fae8bfd8a1ebc81db444c31"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/936935d74826eebe8dfcffa5743774499ba424ed/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/936935d74826eebe8dfcffa5743774499ba424ed/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
         "commit": "eefabfa1167e1def2692cbb335746aba9c8af2aa",
         "dateadded": "2020-07-12T12:19:40.101985+00:00",
         "description": "Update README.md",
