@@ -248,6 +248,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "f07c1f8c65270f58a50f96bac2588710d0ff7683",
+        "dateadded": "2020-07-13T14:23:54.643928+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "5c1b728d5fb86b361200d94a8737f12fac30e7d2a2f0b000cfbd9464ddab2474"
+          },
+          "release": {
+            "sha256": "c5e0651e736fb628d1500273e05513eea9ff4dc2ef501f2df4a52532db2b2581"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/f07c1f8c65270f58a50f96bac2588710d0ff7683/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/f07c1f8c65270f58a50f96bac2588710d0ff7683/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
         "commit": "df23c409d832449867263d4a5eb32aaa570935f3",
         "dateadded": "2020-07-09T01:29:53.039963+00:00",
         "description": "Update Changelog.md",
@@ -1741,6 +1761,26 @@
   "Lilu": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "28122d0084dc5fe1b486bd52945160cf5be64d49",
+        "dateadded": "2020-07-13T14:23:54.695475+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "c0fdd38c4d1e8a5ee07e1cf3b7e363edc5f3038c0172c1200f34911e44ccd3d3"
+          },
+          "release": {
+            "sha256": "c5d63b42a45b52fbc7e071693f9f590fe209f0151734b51ab38810774a35475b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/28122d0084dc5fe1b486bd52945160cf5be64d49/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/28122d0084dc5fe1b486bd52945160cf5be64d49/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
       {
         "commit": "bba464272a3599f064b11ef197b4d769ce00df92",
         "dateadded": "2020-07-10T15:59:14.352440+00:00",
@@ -11811,6 +11851,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "4386d25bda2d8fd6696c1c9ed2d44f421a8f303e",
+        "dateadded": "2020-07-13T14:23:54.738579+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "6f806706162193c52f29ed435660e8de228ce3c9fcfb9a65248b50b7c7033932"
+          },
+          "release": {
+            "sha256": "589dbc8fa53ae19c3785af8a67aeca9e9f3ff3ac138277fedba23b6148060956"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/4386d25bda2d8fd6696c1c9ed2d44f421a8f303e/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/4386d25bda2d8fd6696c1c9ed2d44f421a8f303e/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "893968688e9374fc3e364bbbc3beda0808afcdb2",
         "dateadded": "2020-07-12T19:19:01.374477+00:00",
         "description": "Fix sign issues in legacy smc tool\n\ncloses #29",
@@ -12401,6 +12461,30 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "b97c692aee9672786a181423dd476a05782ba7e9",
+        "dateadded": "2020-07-13T14:23:54.784290+00:00",
+        "description": "Update README.md",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/b97c692aee9672786a181423dd476a05782ba7e9/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "09fdbdde2fe90f176f099c9bfe80b7dd0ac5b0ff07c49d212a437e4e0bfea90d"
+          },
+          "release": {
+            "sha256": "d33454c8f2198246580d7af928861d56847d75af40db4674d8b204ead74e522f"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/b97c692aee9672786a181423dd476a05782ba7e9/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/b97c692aee9672786a181423dd476a05782ba7e9/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
       {
         "commit": "39e3b557fb55dcb0e38e6ecd05d217c780ba8a2c",
         "dateadded": "2020-07-10T15:59:14.390749+00:00",
