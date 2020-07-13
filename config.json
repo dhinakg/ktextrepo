@@ -2852,6 +2852,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "354c040e92feb958a5f56ce66a8d8f482efda4f4",
+        "dateadded": "2020-07-13T00:46:06.955667+00:00",
+        "description": "Delete OpenCore_with_text_Right.png",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/354c040e92feb958a5f56ce66a8d8f482efda4f4/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/354c040e92feb958a5f56ce66a8d8f482efda4f4/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "00e3d38066b59d183ee4a824565a0f920e6adb3845d0bc3e0ccdbdd6bb260418",
+          "release": "86900e60e11dec72a40eb8676d937dd7beac75c86b85942aae7577b93e7d2ae9"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/354c040e92feb958a5f56ce66a8d8f482efda4f4/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/354c040e92feb958a5f56ce66a8d8f482efda4f4/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "e6aa88c5c30a8d535bf0d3fbd6efce0c3647e088",
         "dateadded": "2020-07-12T21:44:14.224682+00:00",
         "description": "Docs: Fixed previous",
