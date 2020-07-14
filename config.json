@@ -11895,6 +11895,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "39dfcfbe395c9667c4869f0cb02de02519beb35e",
+        "dateadded": "2020-07-14T11:49:02.152488+00:00",
+        "description": "Fixed running smcread on 11.0 without IOKit framework",
+        "hashes": {
+          "debug": {
+            "sha256": "19f3eb9652ba97ce18689b3ae3b8b029b42e15421cf44497f25c980ac939e953"
+          },
+          "release": {
+            "sha256": "1d0e1c2f68d88815aaf7724fd859415edd569691acb44f596610c545ea3b0f95"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/39dfcfbe395c9667c4869f0cb02de02519beb35e/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/39dfcfbe395c9667c4869f0cb02de02519beb35e/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "4386d25bda2d8fd6696c1c9ed2d44f421a8f303e",
         "dateadded": "2020-07-13T14:23:54.738579+00:00",
         "description": "Update README.md",
