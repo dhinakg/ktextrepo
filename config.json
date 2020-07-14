@@ -2892,6 +2892,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "0616c10d35fbcbf43c748142f28a9995f394437c",
+        "dateadded": "2020-07-14T02:56:03.685452+00:00",
+        "description": "DataBase: Updeted MBP164",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0616c10d35fbcbf43c748142f28a9995f394437c/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0616c10d35fbcbf43c748142f28a9995f394437c/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "dbdabcee20120e079b73f5a2462a234743a61d953e2b5a5dbb555ce207fc3a10",
+          "release": "2663ee071c23cf8f7e91b0a29cff98f9dc131a727922cf0b57d585f5b7c34e73"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0616c10d35fbcbf43c748142f28a9995f394437c/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0616c10d35fbcbf43c748142f28a9995f394437c/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "354c040e92feb958a5f56ce66a8d8f482efda4f4",
         "dateadded": "2020-07-13T00:46:06.955667+00:00",
         "description": "Delete OpenCore_with_text_Right.png",
