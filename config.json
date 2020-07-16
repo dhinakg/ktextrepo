@@ -2892,6 +2892,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "2cefb2b88ac17cb538ffad9755b15ace64b51ac7",
+        "dateadded": "2020-07-16T00:45:00.254360+00:00",
+        "description": "Includes: AppleKeyMapAggregator revision is UINT64",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2cefb2b88ac17cb538ffad9755b15ace64b51ac7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2cefb2b88ac17cb538ffad9755b15ace64b51ac7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "4f7209eb48fb12cb920a0187b40eb40ea4030fb30131ad6ca09fe29f3aaefffc",
+          "release": "83be1cc177e592dbdc4b594940893aa703ae52b6c8807ac60c722d519b3b9146"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2cefb2b88ac17cb538ffad9755b15ace64b51ac7/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2cefb2b88ac17cb538ffad9755b15ace64b51ac7/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "ac66026583ed28d5d6ec8e39306fe2573afed2b3",
         "dateadded": "2020-07-14T13:07:21.646955+00:00",
         "description": "Docs: Fixed typo",
