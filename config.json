@@ -2912,6 +2912,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "50abfc2f28c44dec77e2724aacdabb537f6ae2fa",
+        "dateadded": "2020-07-16T23:49:45.815966+00:00",
+        "description": "OcMemoryLib: Fix typo",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/50abfc2f28c44dec77e2724aacdabb537f6ae2fa/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/50abfc2f28c44dec77e2724aacdabb537f6ae2fa/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "14bb33587cec165470fe61aac17fbdc992c68223fda14eb86909bdf787acdca9",
+          "release": "bbd0c04e51cf614a4de05ebc836b9ee6c35cdbd22a765fbc3df92d1cd4ff1343"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/50abfc2f28c44dec77e2724aacdabb537f6ae2fa/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/50abfc2f28c44dec77e2724aacdabb537f6ae2fa/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "a3d191e4f400cf0dc7b902366bd427df0ff1c5bd",
         "dateadded": "2020-07-16T14:13:53.739235+00:00",
         "description": "OcBootManagementLib: Load icons for custom boot entries (#91)\n\ncloses acidanthera/bugtracker#1042",
@@ -12112,6 +12134,26 @@
   "VirtualSMC": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "1d83a31e172a1b6ee221f440c1a1d1386855506e",
+        "dateadded": "2020-07-16T23:49:45.872284+00:00",
+        "description": "Include SMCDellSensors in package (#33)",
+        "hashes": {
+          "debug": {
+            "sha256": "09c37372caf148eac1f1956b1c07f8488888ae135ed36090cef3413fb42461d5"
+          },
+          "release": {
+            "sha256": "1c2d9c9b1967e947aa3b00a560c60037000ef757cc591cc2ae8e8c954ba1c1c3"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/1d83a31e172a1b6ee221f440c1a1d1386855506e/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/1d83a31e172a1b6ee221f440c1a1d1386855506e/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
       {
         "commit": "220548774a1d95356d321c7761eaabb718b419d8",
         "dateadded": "2020-07-16T14:13:54.055041+00:00",
