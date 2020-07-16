@@ -2912,6 +2912,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "a3d191e4f400cf0dc7b902366bd427df0ff1c5bd",
+        "dateadded": "2020-07-16T14:13:53.739235+00:00",
+        "description": "OcBootManagementLib: Load icons for custom boot entries (#91)\n\ncloses acidanthera/bugtracker#1042",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a3d191e4f400cf0dc7b902366bd427df0ff1c5bd/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a3d191e4f400cf0dc7b902366bd427df0ff1c5bd/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "b2e406d545eaf653c11049bfab336355de2e070aff25e1bb742eae42299a1327",
+          "release": "66bb28ae0b2e18086a5927120b15eb875b506b8c0f0272f8f10204a99eddf4d8"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a3d191e4f400cf0dc7b902366bd427df0ff1c5bd/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a3d191e4f400cf0dc7b902366bd427df0ff1c5bd/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "20e60b0cbb273ea91a567440f0b7e230ecae3ec8",
         "dateadded": "2020-07-16T07:41:43.616075+00:00",
         "description": "Update Changelog.md",
@@ -12090,6 +12112,46 @@
   "VirtualSMC": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "220548774a1d95356d321c7761eaabb718b419d8",
+        "dateadded": "2020-07-16T14:13:54.055041+00:00",
+        "description": "Compatibility fixes in SMCBatteryManager for 10.16 (#32)",
+        "hashes": {
+          "debug": {
+            "sha256": "8c70816fb9614ef050f1f47a34a01d48b1fe36af91c047aeac711f6ce02ccd54"
+          },
+          "release": {
+            "sha256": "1d4f6f89ee271cc2ef23c1807516dd277c861ff50d8ba8778a96d2eabffc620d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/220548774a1d95356d321c7761eaabb718b419d8/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/220548774a1d95356d321c7761eaabb718b419d8/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
+        "commit": "fab53dc600eef3b559c9a99b6cfd598c5f24927e",
+        "dateadded": "2020-07-16T14:13:53.934807+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "3241b4191c17c3a3c75e24843d60c57419fac614670e08bf1446a8fb503ee593"
+          },
+          "release": {
+            "sha256": "da4288b0d7285e8a9cac81d77ee38a7cd995dba8ad0dc169831096dce73c35cc"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/fab53dc600eef3b559c9a99b6cfd598c5f24927e/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/fab53dc600eef3b559c9a99b6cfd598c5f24927e/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
       {
         "commit": "088ac5863f27132e425ef1e76109dfbad9cf399e",
         "dateadded": "2020-07-16T10:53:14.786381+00:00",
