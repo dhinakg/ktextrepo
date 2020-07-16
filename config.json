@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "904b7122c18abc672ff9d601d1704d8a54bf97b1",
+        "dateadded": "2020-07-16T09:44:58.473087+00:00",
+        "description": "Fix critical issue introduced in previous 2 commits (getting of brcmfx-driver index)",
+        "hashes": {
+          "debug": {
+            "sha256": "b6f73303d3be6f755ba153eb76c1ef14e53daa3edb94910a2e67c54ab3dd8829"
+          },
+          "release": {
+            "sha256": "9573b0d7d41b4404e3b178d82cd2ab8a7ce05edfd614a1684b2fe705a80fa523"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/904b7122c18abc672ff9d601d1704d8a54bf97b1/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/904b7122c18abc672ff9d601d1704d8a54bf97b1/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
         "commit": "936935d74826eebe8dfcffa5743774499ba424ed",
         "dateadded": "2020-07-12T12:25:00.772083+00:00",
         "description": "Update README.md",
