@@ -12844,6 +12844,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "c28c0db2cfc034af9b6b9900572b7df49bb00a34",
+        "dateadded": "2020-07-17T20:15:36.945042+00:00",
+        "description": "Update Changelog.md",
+        "hashes": {
+          "debug": {
+            "sha256": "6cc80fff0bd74583f18d0fdd783f8abe612c2ca1d1ff7f5e3dbe118dddc14977"
+          },
+          "release": {
+            "sha256": "bf44c31a89089316cde2144cf1c8715725dab42ba94023f35fed624440851c82"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VoodooInput/c28c0db2cfc034af9b6b9900572b7df49bb00a34/Debug/VoodooInput-1.0.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VoodooInput/c28c0db2cfc034af9b6b9900572b7df49bb00a34/Release/VoodooInput-1.0.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.6"
+      },
+      {
         "commit": "46a01f90c4c81cc193b57d523156cc035321e8ea",
         "dateadded": "2020-07-09T08:52:31.009829+00:00",
         "description": "Add message to update properties (#17)",
