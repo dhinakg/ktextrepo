@@ -2912,6 +2912,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "7b5b145ad50909aab381aca60902c4749b762bd4",
+        "dateadded": "2020-07-18T20:30:03.326337+00:00",
+        "description": "Patches: Add AtaAtapiPassThru patches for G33",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7b5b145ad50909aab381aca60902c4749b762bd4/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7b5b145ad50909aab381aca60902c4749b762bd4/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "3a84a0240ad2256f6b48487f54ff54ed38cea8f354b9f07fe6d6c9db04da1fca",
+          "release": "307186bee4d33d20d04caee874e7d9be881302e009f5432d74d5401168223a11"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7b5b145ad50909aab381aca60902c4749b762bd4/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7b5b145ad50909aab381aca60902c4749b762bd4/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "0537f9ff46ff70ce38ee3f8a144c079cd98af784",
         "dateadded": "2020-07-18T17:12:25.723953+00:00",
         "description": "Includes: Add missing Mach prefixes",
