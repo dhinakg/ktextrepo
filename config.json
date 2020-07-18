@@ -2912,6 +2912,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "32bf4191362f933a54fb62314bda2bc73d936d65",
+        "dateadded": "2020-07-18T01:51:40.872306+00:00",
+        "description": "OcAppleKernelLib: Fix memory corruption with many kexts in 11.0",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/32bf4191362f933a54fb62314bda2bc73d936d65/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/32bf4191362f933a54fb62314bda2bc73d936d65/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "da30ba20686262d438575375e21b2b2e4cb0ef72e630016ac45989fa18536c95",
+          "release": "4e46fe5ba88faa8e1180494022bc03e028bcab4d31948b19367a67ee251ff6bc"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/32bf4191362f933a54fb62314bda2bc73d936d65/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/32bf4191362f933a54fb62314bda2bc73d936d65/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "f1e8766af9fe5837da59e838861d403015596fcf",
         "dateadded": "2020-07-17T21:20:26.847993+00:00",
         "description": "Utilities/KextInject: Determine Info/EXE reserve sizes",
