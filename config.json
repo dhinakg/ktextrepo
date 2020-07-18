@@ -2912,6 +2912,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "6eea5727c5e455e4284a8ce19aa9c13762b6507f",
+        "dateadded": "2020-07-18T21:23:53.248916+00:00",
+        "description": "OcDevicePathLib: Fix potential deadloop",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6eea5727c5e455e4284a8ce19aa9c13762b6507f/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6eea5727c5e455e4284a8ce19aa9c13762b6507f/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "5adbb7451bbea728fc2915c38a7e0f9a6e91e8076cb9943037bbfa27e0424d00",
+          "release": "f5baf1876a28206ea12b0e6dbbd72f76dfa231fc22f8cebc54dc6940d3ec8e01"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6eea5727c5e455e4284a8ce19aa9c13762b6507f/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6eea5727c5e455e4284a8ce19aa9c13762b6507f/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "7b5b145ad50909aab381aca60902c4749b762bd4",
         "dateadded": "2020-07-18T20:30:03.326337+00:00",
         "description": "Patches: Add AtaAtapiPassThru patches for G33",
