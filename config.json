@@ -2912,6 +2912,28 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "a88d8ef03e9d943e352a0623cf96a2d7596e5467",
+        "dateadded": "2020-07-18T02:22:41.048429+00:00",
+        "description": "Patches: Add SataControllerDxe patch for G33 in RAID mode\n\nStill need to fix AtaAtapi driver",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a88d8ef03e9d943e352a0623cf96a2d7596e5467/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a88d8ef03e9d943e352a0623cf96a2d7596e5467/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "abc36f40d8f06b36a9c4b9d8eead820232431a262f9f324086c19929322b0eef",
+          "release": "be06feadd166f68c3e1650a1a6024f9d4068cb630a3687806e82c63a7442e5bd"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a88d8ef03e9d943e352a0623cf96a2d7596e5467/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a88d8ef03e9d943e352a0623cf96a2d7596e5467/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "32bf4191362f933a54fb62314bda2bc73d936d65",
         "dateadded": "2020-07-18T01:51:40.872306+00:00",
         "description": "OcAppleKernelLib: Fix memory corruption with many kexts in 11.0",
