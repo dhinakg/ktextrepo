@@ -2952,6 +2952,29 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "b7e99c100c442b6b94f9e76eff70f44c25ea3942",
+        "dateadded": "2020-07-19T19:49:03.799737+00:00",
+        "datecommitted": "2020-07-19T19:21:10+00:00",
+        "description": "Includes: Fix MKext header comments",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b7e99c100c442b6b94f9e76eff70f44c25ea3942/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b7e99c100c442b6b94f9e76eff70f44c25ea3942/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": "5a5e961b0bb4c1e75787ed6398487f3f6495da5faa8b64269f304ccb01a30457",
+          "release": "cbf38bbc587e9084fb22dc6a84f7883301a5600006abde76025a0f0ec2367cef"
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b7e99c100c442b6b94f9e76eff70f44c25ea3942/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b7e99c100c442b6b94f9e76eff70f44c25ea3942/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "32828b04c467d890466610cbde677ea9b92e6968",
         "dateadded": "2020-07-19T15:25:53.727081+00:00",
         "description": "OcCompressionLib: Expose Adler32 function",
