@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "ce5aa98a8448f44e89e1f3e2f94a8d1fd89f2bce",
+        "dateadded": "2020-07-19T10:34:49.595848+00:00",
+        "description": "Support boot-arg & property `brcmfx-aspm` to override value used for pci-aspm-default, support ioreg property brcmfx-wowl",
+        "hashes": {
+          "debug": {
+            "sha256": "45c781594a7c756e589e44782fa1049fa758021cdc0468e074ac6ea2b0cffc16"
+          },
+          "release": {
+            "sha256": "059b71172ff70deb45106dcb39f5907a599da9695966f62e4b7ee1e95c0a5bad"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/ce5aa98a8448f44e89e1f3e2f94a8d1fd89f2bce/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/ce5aa98a8448f44e89e1f3e2f94a8d1fd89f2bce/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
         "commit": "904b7122c18abc672ff9d601d1704d8a54bf97b1",
         "dateadded": "2020-07-16T09:44:58.473087+00:00",
         "description": "Fix critical issue introduced in previous 2 commits (getting of brcmfx-driver index)",
