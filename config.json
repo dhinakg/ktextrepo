@@ -3,6 +3,26 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "ab5e7f8322d6c73b1888f2ecb20a5eebef63e90a",
+        "dateadded": "2020-07-19T13:26:20.239277+00:00",
+        "description": "Support brcmfx-aspm for all chipsets",
+        "hashes": {
+          "debug": {
+            "sha256": "8b2b7a1fc4d4168597b70818aec7bd65c6070e8e3a45e279a89ba18bf069ef95"
+          },
+          "release": {
+            "sha256": "b54c0551df3272e6660349dd20d294566b950b2626779ebaf1cedf156da76838"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/ab5e7f8322d6c73b1888f2ecb20a5eebef63e90a/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/ab5e7f8322d6c73b1888f2ecb20a5eebef63e90a/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
         "commit": "ce5aa98a8448f44e89e1f3e2f94a8d1fd89f2bce",
         "dateadded": "2020-07-19T10:34:49.595848+00:00",
         "description": "Support boot-arg & property `brcmfx-aspm` to override value used for pci-aspm-default, support ioreg property brcmfx-wowl",
