@@ -72,10 +72,10 @@ def add_built(plugin):
         release["hashes"]["debug" if debug else "release"]["sha256"] = hash_file(path_to_files / Path(files[0]))
     if files[1] and combined:
         for file in files[1]:
-            release["hashes"][file]["sha256"] = hash_file(debug_dir / Path(file))
+            release["hashes"][file] = {"sha256": hash_file(debug_dir / Path(file))}
     elif files[1] and not combined:
         for file in files[1]:
-            release["hashes"][file]["sha256"] = hash_file(path_to_files / Path(file))
+            release["hashes"][file] = {"sha256": hash_file(path_to_files / Path(file))}
     if not release.get("links", None):
         release["links"] = {}
     base_url = '/'.join(["https://raw.githubusercontent.com/dhinakg/ktextrepo/builds", category_type, name, commit_info["sha"]])
