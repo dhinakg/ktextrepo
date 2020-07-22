@@ -60,11 +60,11 @@ def add_built(plugin):
     release["knowngood"] = False
     if not release.get("hashes", None):
         if combined:
-            release["hashes"] = {"debug": {}, "release": {}}
+            release["hashes"] = {"debug": {"sha256": ""}, "release": {"sha256": ""}}
         else:
-            release["hashes"] = {"debug" if debug else "release": {}}
+            release["hashes"] = {"debug" if debug else "release": {"sha256": ""}}
     if not release["hashes"].get("debug" if debug else "release"):
-        release["hashes"]["debug" if debug else "release"] = {}
+        release["hashes"]["debug" if debug else "release"] = {"sha256": ""}
     if combined:
         release["hashes"]["debug"]["sha256"] = hash_file(debug_dir / Path(files[0]["debug"]))
         release["hashes"]["release"]["sha256"] = hash_file(release_dir / Path(files[0]["release"]))
