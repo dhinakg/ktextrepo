@@ -13337,6 +13337,33 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "4a4ac3db04a66fd7338661522387e608f029e734",
+        "dateadded": "2020-07-23T09:41:21.119660+00:00",
+        "datecommitted": "2020-07-23T09:22:13+00:00",
+        "description": "Merge remote-tracking branch 'origin/master'\n\n* origin/master:\n  Update README.md\n  Update FAQ.IntelHD.en.md",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/4a4ac3db04a66fd7338661522387e608f029e734/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031"
+          },
+          "debug": {
+            "sha256": "9f102d256daddcbd8ddfabf6e124312bcff674bdf550d2a0a441a7fdad27fbbf"
+          },
+          "release": {
+            "sha256": "9a3f902b2cb2c370e1c83d4ec31794fa8548eb4105c6cf3f679a3ca8b7901842"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/4a4ac3db04a66fd7338661522387e608f029e734/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/4a4ac3db04a66fd7338661522387e608f029e734/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
         "commit": "3e1f15aad1bc8e39e1ca3d4848bff4bdfd21124f",
         "dateadded": "2020-07-23T06:50:15.070970+00:00",
         "datecommitted": "2020-07-23T06:44:50+00:00",
