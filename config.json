@@ -3,6 +3,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "dffce0d5189c2b44c975dc42bdb7e8ffd6e30899",
+        "dateadded": "2020-07-23T06:57:57.041017+00:00",
+        "datecommitted": "2020-07-23T06:50:11+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "b8176ec717e2347b13a5fb1d421e0da11629208adae269b831d063b78cdb043d"
+          },
+          "release": {
+            "sha256": "5347d8300331787e84352d8a02d2273dc7fb38e279228ffab82f6e9584151a2c"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/dffce0d5189c2b44c975dc42bdb7e8ffd6e30899/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/dffce0d5189c2b44c975dc42bdb7e8ffd6e30899/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
         "commit": "ab5e7f8322d6c73b1888f2ecb20a5eebef63e90a",
         "dateadded": "2020-07-19T13:26:20.239277+00:00",
         "description": "Support brcmfx-aspm for all chipsets",
@@ -307,6 +328,27 @@
   "AppleALC": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "25cc96ffed01b965ca18a7be81c488cc9d7f8ed7",
+        "dateadded": "2020-07-23T06:57:56.998417+00:00",
+        "datecommitted": "2020-07-23T06:51:48+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "51a06d8c9547d623619149805062ec9830ef1457605f257e13d769647d129a9d"
+          },
+          "release": {
+            "sha256": "aaec82266e4651e42baf7bb71b488eb5b5bcc7ed63e5fd0f733751622eb1b9cf"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/25cc96ffed01b965ca18a7be81c488cc9d7f8ed7/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/25cc96ffed01b965ca18a7be81c488cc9d7f8ed7/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
       {
         "commit": "f07c1f8c65270f58a50f96bac2588710d0ff7683",
         "dateadded": "2020-07-13T14:23:54.643928+00:00",
@@ -1821,6 +1863,27 @@
   "Lilu": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "d9c82288a56c643af644ef2196616f822fdcd358",
+        "dateadded": "2020-07-23T06:57:57.080619+00:00",
+        "datecommitted": "2020-07-23T06:53:32+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "37f5974df1e7ac7fbee111df23ccabe47b0f30bec30f16af088993c19fc635dd"
+          },
+          "release": {
+            "sha256": "f4ac9e4cc94d406d9ec6a6b216e4df5f0aebb07198630baeca0c0a24f0b15d59"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/d9c82288a56c643af644ef2196616f822fdcd358/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/d9c82288a56c643af644ef2196616f822fdcd358/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
       {
         "commit": "28122d0084dc5fe1b486bd52945160cf5be64d49",
         "dateadded": "2020-07-13T14:23:54.695475+00:00",
@@ -12501,6 +12564,27 @@
   "VirtualSMC": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "22f32eea53ab8c09ffea815b3978ae038e16b800",
+        "dateadded": "2020-07-23T06:57:57.121900+00:00",
+        "datecommitted": "2020-07-23T06:52:45+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "79b664688306f00dd4df67c8d01fff778499ca1c02f67d042b151ab4f3412b44"
+          },
+          "release": {
+            "sha256": "b84bac05d3b411900662f1b01da863754fed7c456e512961ba6ba42df55de34f"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/22f32eea53ab8c09ffea815b3978ae038e16b800/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/22f32eea53ab8c09ffea815b3978ae038e16b800/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
       {
         "commit": "1d83a31e172a1b6ee221f440c1a1d1386855506e",
         "dateadded": "2020-07-16T23:49:45.872284+00:00",
