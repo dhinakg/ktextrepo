@@ -3015,6 +3015,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "426a5dbe09365d3fe1d18dbde9868fe12900c30c",
+        "dateadded": "2020-07-25T15:43:38.335048+00:00",
+        "datecommitted": "2020-07-25T15:23:05+00:00",
+        "description": "OcAppleKernelLib: Fixed OSXSAVE reporting when emulating CPUID on newer CPUs",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/426a5dbe09365d3fe1d18dbde9868fe12900c30c/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/426a5dbe09365d3fe1d18dbde9868fe12900c30c/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "ffe85a3176dc1367f0a7631d46bb4242407714ef127eacea4837636c3aec3f0c"
+          },
+          "release": {
+            "sha256": "61427fa8d549215bd1e5fecc255ddf8fd07fc08bcc4af128a44d0e708fb67679"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/426a5dbe09365d3fe1d18dbde9868fe12900c30c/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/426a5dbe09365d3fe1d18dbde9868fe12900c30c/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "f95c00919caa29b76754ce726c2e243450b785d6",
         "dateadded": "2020-07-25T15:16:26.242963+00:00",
         "datecommitted": "2020-07-25T15:07:01+00:00",
