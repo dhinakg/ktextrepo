@@ -3015,6 +3015,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "870017d0e5d53abeaf0347997da912c3e382a04a",
+        "dateadded": "2020-07-25T16:44:45.481083+00:00",
+        "datecommitted": "2020-07-25T16:32:57+00:00",
+        "description": "OcDevicePathLib: Added a workaround for PCI0 with 0x1 _UID\n\nreferences acidanthera/bugtracker#664",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/870017d0e5d53abeaf0347997da912c3e382a04a/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/870017d0e5d53abeaf0347997da912c3e382a04a/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "d5c836d2c5ef5826f447be7f9798ac1cb2c7bdefe2042c1a6916dc1f681c4cc6"
+          },
+          "release": {
+            "sha256": "66e861dff86d02229a75fba5bf3190beb2cfa39503cd7501b629c582ed01372d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/870017d0e5d53abeaf0347997da912c3e382a04a/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/870017d0e5d53abeaf0347997da912c3e382a04a/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "bb990c8c5d3c4e6bef819e9909d0e58f7ad1f7af",
         "dateadded": "2020-07-25T16:28:19.339922+00:00",
         "datecommitted": "2020-07-25T16:04:56+00:00",
