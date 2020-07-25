@@ -3015,6 +3015,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "a6b6902fed8637007b175b4bfe90ece48e465633",
+        "dateadded": "2020-07-25T17:42:27.566118+00:00",
+        "datecommitted": "2020-07-25T17:23:15+00:00",
+        "description": "Utilities: Drop OpenDuetPkg binary and rebuild it with OC",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a6b6902fed8637007b175b4bfe90ece48e465633/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a6b6902fed8637007b175b4bfe90ece48e465633/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "07e683c679057bba138befddac6057b1fb32c5d17cde0b4aad63f9753f03cf6b"
+          },
+          "release": {
+            "sha256": "2c1a55b61ea60c23f77ec839c7f16a2364bc4340d5c83b5d83a6fe618a3ad502"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a6b6902fed8637007b175b4bfe90ece48e465633/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a6b6902fed8637007b175b4bfe90ece48e465633/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "870017d0e5d53abeaf0347997da912c3e382a04a",
         "dateadded": "2020-07-25T16:44:45.481083+00:00",
         "datecommitted": "2020-07-25T16:32:57+00:00",
