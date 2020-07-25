@@ -3015,6 +3015,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "ee30d2f5e0a0a6a82e73645ed8029e345cf9bf09",
+        "dateadded": "2020-07-25T15:06:11.731847+00:00",
+        "datecommitted": "2020-07-25T14:55:04+00:00",
+        "description": "OcConsoleLib: Update UGA comments\n\ncloses acidanthera/bugtracker#1061",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ee30d2f5e0a0a6a82e73645ed8029e345cf9bf09/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ee30d2f5e0a0a6a82e73645ed8029e345cf9bf09/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "8c749a73292f27d7d02f2a505c3053624d51a45881f8af7a8bbbb007928b1339"
+          },
+          "release": {
+            "sha256": "c0e568aa955ae5d5e7838ad8f200bcf48b91f7001aa6bcde7503332e8960b5da"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ee30d2f5e0a0a6a82e73645ed8029e345cf9bf09/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ee30d2f5e0a0a6a82e73645ed8029e345cf9bf09/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "cb4d43e2f74c41033b48b0459e6eef7858685a74",
         "dateadded": "2020-07-23T23:27:34.559311+00:00",
         "datecommitted": "2020-07-23T23:17:14+00:00",
