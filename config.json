@@ -3015,6 +3015,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "0a16c8a126eb8243943dd36f0979c906fb1f25ea",
+        "dateadded": "2020-07-25T23:21:43.367537+00:00",
+        "datecommitted": "2020-07-25T23:03:59+00:00",
+        "description": "OcXmlLib: Implement XmlNodeChangeContent",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0a16c8a126eb8243943dd36f0979c906fb1f25ea/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0a16c8a126eb8243943dd36f0979c906fb1f25ea/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "f2c370c194d1580deb434d86687986e0050cb85f9d40561909ea9a2e0612e216"
+          },
+          "release": {
+            "sha256": "956182a80fba3182b2da19a6c026b06cc37aee7876d988412860b2a3228ae912"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0a16c8a126eb8243943dd36f0979c906fb1f25ea/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0a16c8a126eb8243943dd36f0979c906fb1f25ea/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "a6b6902fed8637007b175b4bfe90ece48e465633",
         "dateadded": "2020-07-25T17:42:27.566118+00:00",
         "datecommitted": "2020-07-25T17:23:15+00:00",
