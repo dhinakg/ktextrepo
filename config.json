@@ -3015,6 +3015,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "b2e55152ea4ef45fb64d2267b4d4606165692b5c",
+        "dateadded": "2020-07-26T02:33:59.530369+00:00",
+        "datecommitted": "2020-07-26T02:26:02+00:00",
+        "description": "OcFileLib: Implement AllocateCopyFileData",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b2e55152ea4ef45fb64d2267b4d4606165692b5c/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b2e55152ea4ef45fb64d2267b4d4606165692b5c/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "95222611f14edfd1be27496461822f93e9c8d6357fdcd7c6572f1f60d2901938"
+          },
+          "release": {
+            "sha256": "d5bab2b2481de80281991296bf0f13371962a2e1aa7f63eae861c15cad95439d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b2e55152ea4ef45fb64d2267b4d4606165692b5c/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b2e55152ea4ef45fb64d2267b4d4606165692b5c/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "0a16c8a126eb8243943dd36f0979c906fb1f25ea",
         "dateadded": "2020-07-25T23:21:43.367537+00:00",
         "datecommitted": "2020-07-25T23:03:59+00:00",
