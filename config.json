@@ -3,6 +3,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "81cdbc52092401ab81088170d0739ced6d64a11e",
+        "dateadded": "2020-07-27T07:54:41.324270+00:00",
+        "datecommitted": "2020-07-27T07:50:40+00:00",
+        "description": "Fix ordering of build stages (#8)\n\nPlugins were previously added after archive",
+        "hashes": {
+          "debug": {
+            "sha256": "e6e1bd002487b52b111567c9f0576199ee0a75c896df8bc31e58dee4b8228eb1"
+          },
+          "release": {
+            "sha256": "12f7b716e78b51e52a73b3720f845274b25c0e4e675247b71da18e08b4cec6d5"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/81cdbc52092401ab81088170d0739ced6d64a11e/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/81cdbc52092401ab81088170d0739ced6d64a11e/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
         "commit": "dffce0d5189c2b44c975dc42bdb7e8ffd6e30899",
         "dateadded": "2020-07-23T06:57:57.041017+00:00",
         "datecommitted": "2020-07-23T06:50:11+00:00",
