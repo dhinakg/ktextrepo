@@ -3015,6 +3015,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "cbdef704f461f04be12531e6fa0ee9fb59d74796",
+        "dateadded": "2020-07-27T01:34:05.919485+00:00",
+        "datecommitted": "2020-07-27T01:25:25+00:00",
+        "description": "OcXmlLib: Add plist doctype export option",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cbdef704f461f04be12531e6fa0ee9fb59d74796/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cbdef704f461f04be12531e6fa0ee9fb59d74796/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "671b585147a4ae36560956d9875e0ed012226c0db02e5cd445ad7f2796022655"
+          },
+          "release": {
+            "sha256": "7b78ce1665921000a308e00431b0891d059a23af618aa31670a8f19e9436f6e1"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cbdef704f461f04be12531e6fa0ee9fb59d74796/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/cbdef704f461f04be12531e6fa0ee9fb59d74796/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "2b534360627a6c9d96d4f2f9e795742bf73cc7a7",
         "dateadded": "2020-07-26T17:56:05.474029+00:00",
         "datecommitted": "2020-07-26T17:44:15+00:00",
