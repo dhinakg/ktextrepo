@@ -1885,6 +1885,48 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "633f948147a95eb3dc4339bb096f4c7094ddf8dc",
+        "dateadded": "2020-07-27T09:22:48.715109+00:00",
+        "datecommitted": "2020-07-27T08:00:36+00:00",
+        "description": "Fix typo in debug logging",
+        "hashes": {
+          "debug": {
+            "sha256": "7f800337a0953c41e7c46cbe916a351e1317f46b0841f7a29ab2bbec3bd6492c"
+          },
+          "release": {
+            "sha256": "aa5b11dcc77840ef1b70c43a1173add9e923e30aacd1f5fac38cdf39a1303a49"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/633f948147a95eb3dc4339bb096f4c7094ddf8dc/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/633f948147a95eb3dc4339bb096f4c7094ddf8dc/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": "496213ab793b20b1996cedaed752bcb7005e80bc",
+        "dateadded": "2020-07-27T09:22:48.672540+00:00",
+        "datecommitted": "2020-07-27T09:18:57+00:00",
+        "description": "Implement Lilu loading at console init in 11.0",
+        "hashes": {
+          "debug": {
+            "sha256": "bf281cfafa4afaf90e33b9f712fae74fe4cef38fbeb4a2c8d71effd2604f99a8"
+          },
+          "release": {
+            "sha256": "a3811b1f153b1131d6a62484eb387c4cc52319762ae4b6b5c56ca6a6bfc0c4d7"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/496213ab793b20b1996cedaed752bcb7005e80bc/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/496213ab793b20b1996cedaed752bcb7005e80bc/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "d9c82288a56c643af644ef2196616f822fdcd358",
         "dateadded": "2020-07-23T06:57:57.080619+00:00",
         "datecommitted": "2020-07-23T06:53:32+00:00",
