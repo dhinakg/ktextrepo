@@ -3141,6 +3141,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "697a2e5b0f77af61a35fdf77d1b47c50c912ad99",
+        "dateadded": "2020-07-27T21:28:46.760185+00:00",
+        "datecommitted": "2020-07-27T21:08:18+00:00",
+        "description": "OcXmlLib: Free original buffer on failure",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/697a2e5b0f77af61a35fdf77d1b47c50c912ad99/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/697a2e5b0f77af61a35fdf77d1b47c50c912ad99/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "34b289190d1a0a53e652aa86462388ac77cd83c367ffd2ab98d5ffe1707adfc7"
+          },
+          "release": {
+            "sha256": "91d290332309325acb32bb111820edcaf6f75f5a2df6f3b974783bdae435ec09"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/697a2e5b0f77af61a35fdf77d1b47c50c912ad99/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/697a2e5b0f77af61a35fdf77d1b47c50c912ad99/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "2bbf6a466b524e1ce004ed0903c90586f5b48c28",
         "dateadded": "2020-07-27T21:15:00.260408+00:00",
         "datecommitted": "2020-07-27T21:05:27+00:00",
