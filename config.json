@@ -1885,6 +1885,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "7620da2ceca7d933d544a9beb0e077c6fe546979",
+        "dateadded": "2020-07-27T12:51:58.020370+00:00",
+        "datecommitted": "2020-07-27T12:47:17+00:00",
+        "description": "Abort on PCI register read failure",
+        "hashes": {
+          "debug": {
+            "sha256": "f60f9e9b876d34e82a4309c4282b4da25afa775ca232a7dd753ca699d7879be0"
+          },
+          "release": {
+            "sha256": "08035226c62dececfb48f66ae7bdda06339eb5796556d408155c3597e6f4be58"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/7620da2ceca7d933d544a9beb0e077c6fe546979/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/7620da2ceca7d933d544a9beb0e077c6fe546979/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "633f948147a95eb3dc4339bb096f4c7094ddf8dc",
         "dateadded": "2020-07-27T09:22:48.715109+00:00",
         "datecommitted": "2020-07-27T08:00:36+00:00",
