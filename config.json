@@ -1885,6 +1885,48 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "0e56f47fa3ba98337542049a188b892834da3f2d",
+        "dateadded": "2020-07-27T17:17:24.224703+00:00",
+        "datecommitted": "2020-07-27T17:08:25+00:00",
+        "description": "Add RTC register indices",
+        "hashes": {
+          "debug": {
+            "sha256": "fe85e6cda7dc9a7bf31a2df66ac542ce9397daab2ca27abab64ff870e6c3bdef"
+          },
+          "release": {
+            "sha256": "8270f7127767cb77a17038f7e231261246ce22280aa1c648bc4b8fb9bbd1f233"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/0e56f47fa3ba98337542049a188b892834da3f2d/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/0e56f47fa3ba98337542049a188b892834da3f2d/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": "124de8b27fa79d42f43bce0d93597839c9462cd2",
+        "dateadded": "2020-07-27T17:17:24.183018+00:00",
+        "datecommitted": "2020-07-27T17:08:45+00:00",
+        "description": "Initialise kernel patches in parallel to PCI",
+        "hashes": {
+          "debug": {
+            "sha256": "c07736dc2752a28b131c711e1597db06a4268f145080d0ee0870528d4bf8adcc"
+          },
+          "release": {
+            "sha256": "06bcbc41b7b06ed84ee9ab37902ef99ea3ff8e0ac949933375631faf75f0431d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/124de8b27fa79d42f43bce0d93597839c9462cd2/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/124de8b27fa79d42f43bce0d93597839c9462cd2/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "7620da2ceca7d933d544a9beb0e077c6fe546979",
         "dateadded": "2020-07-27T12:51:58.020370+00:00",
         "datecommitted": "2020-07-27T12:47:17+00:00",
@@ -13175,6 +13217,27 @@
   "VirtualSMC": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61",
+        "dateadded": "2020-07-27T17:17:24.267078+00:00",
+        "datecommitted": "2020-07-27T17:11:59+00:00",
+        "description": "Fixed crashes when trying to read CLKT key",
+        "hashes": {
+          "debug": {
+            "sha256": "e56cddf39c426956876f2134d90714a8d2d35d3fff8fe3a244b3709db012b9a3"
+          },
+          "release": {
+            "sha256": "5eb5840f1db133c480fec6a08fba654da1acc803a957c53e9b77d225f2c1c516"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
       {
         "commit": "22f32eea53ab8c09ffea815b3978ae038e16b800",
         "dateadded": "2020-07-23T06:57:57.121900+00:00",
