@@ -3141,6 +3141,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "20fa9074e6bf3d6acad24869670626986d84ac97",
+        "dateadded": "2020-07-28T22:35:35.503719+00:00",
+        "datecommitted": "2020-07-28T22:25:25+00:00",
+        "description": "Docs: Document the DeviceProperty limitations for some drivers",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/20fa9074e6bf3d6acad24869670626986d84ac97/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/20fa9074e6bf3d6acad24869670626986d84ac97/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "1bcdee16cc170a431e17af047f41fe1498bada3b783ad1830abd34df6c2f20c9"
+          },
+          "release": {
+            "sha256": "e055158614f004af341d594bf0bd1f28ed60918b8d12dd914c2b41dc5a8117f3"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/20fa9074e6bf3d6acad24869670626986d84ac97/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/20fa9074e6bf3d6acad24869670626986d84ac97/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "fedeba8ceb710985ee8d194e97d650deba3492e0",
         "dateadded": "2020-07-28T02:31:51.051250+00:00",
         "datecommitted": "2020-07-28T02:08:16+00:00",
