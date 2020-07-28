@@ -3141,6 +3141,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "fedeba8ceb710985ee8d194e97d650deba3492e0",
+        "dateadded": "2020-07-28T02:31:51.051250+00:00",
+        "datecommitted": "2020-07-28T02:08:16+00:00",
+        "description": "Update SSDT-EC-USBX.dsl (#92)\n\ncan not nest \\_SB under \\_SB, possible better ways to organize scopes",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fedeba8ceb710985ee8d194e97d650deba3492e0/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fedeba8ceb710985ee8d194e97d650deba3492e0/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "5cd51bbf3076f70561d1337218f546fddc3b08b61f319002830673b6e6cf7d57"
+          },
+          "release": {
+            "sha256": "6ed7ef586b038c1d479bd0d84eef62fa6db2f118574d28f00c4239630f8e6542"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fedeba8ceb710985ee8d194e97d650deba3492e0/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fedeba8ceb710985ee8d194e97d650deba3492e0/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "697a2e5b0f77af61a35fdf77d1b47c50c912ad99",
         "dateadded": "2020-07-27T21:28:46.760185+00:00",
         "datecommitted": "2020-07-27T21:08:18+00:00",
