@@ -3162,6 +3162,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "42c7e8a69f792e8fef2ad5da843d1406eed8d536",
+        "dateadded": "2020-07-29T12:26:19.372535+00:00",
+        "datecommitted": "2020-07-29T12:10:50+00:00",
+        "description": "Include: Update AppleCsrConfig with 11.0 definitions",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/42c7e8a69f792e8fef2ad5da843d1406eed8d536/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/42c7e8a69f792e8fef2ad5da843d1406eed8d536/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "3cfbe7af67b129b0a9dbcafbfdc305d922ab1841e789e8e0ea0837253c79ebe4"
+          },
+          "release": {
+            "sha256": "ac50af140e3e3dff28aa20ee7d529a4d72c1750d7d971a57d3492876017ef2d1"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/42c7e8a69f792e8fef2ad5da843d1406eed8d536/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/42c7e8a69f792e8fef2ad5da843d1406eed8d536/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "c8904a48dd263c1608ca4f17a5c367c5f312cc34",
         "dateadded": "2020-07-29T02:57:48.587416+00:00",
         "datecommitted": "2020-07-29T02:43:08+00:00",
