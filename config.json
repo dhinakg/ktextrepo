@@ -3,6 +3,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "13d7329ec307f5b6e817bf1459622788fbd55465",
+        "dateadded": "2020-07-29T15:34:22.816285+00:00",
+        "datecommitted": "2020-07-29T15:24:31+00:00",
+        "description": "Get things compile in Xcode 12 (is not guaranteed to work)",
+        "hashes": {
+          "debug": {
+            "sha256": "0ad3ccb48b5b46d6bcf00be06c3475c74aabfeeddd62179af991cfca667a92e7"
+          },
+          "release": {
+            "sha256": "b218a02f137082b9c18d25c71d4d0f0f888ffacc5655845b04ef3ba3d50a7285"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/13d7329ec307f5b6e817bf1459622788fbd55465/Debug/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/13d7329ec307f5b6e817bf1459622788fbd55465/Release/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
         "commit": "81cdbc52092401ab81088170d0739ced6d64a11e",
         "dateadded": "2020-07-27T07:54:41.324270+00:00",
         "datecommitted": "2020-07-27T07:50:40+00:00",
@@ -349,6 +370,27 @@
   "AppleALC": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f",
+        "dateadded": "2020-07-29T15:34:22.682473+00:00",
+        "datecommitted": "2020-07-29T15:24:46+00:00",
+        "description": "Get things compile in Xcode 12 (is not guaranteed to work)",
+        "hashes": {
+          "debug": {
+            "sha256": "8dc274c779c6198e412d60928f8e602e06297ee8237d5a20269da51a8ec385fb"
+          },
+          "release": {
+            "sha256": "2f51c8fd056fa900b7950fc4a0855aaa44f45f404b2d3d987db4d3f375b6a247"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
       {
         "commit": "25cc96ffed01b965ca18a7be81c488cc9d7f8ed7",
         "dateadded": "2020-07-23T06:57:56.998417+00:00",
@@ -1785,6 +1827,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "bc17c6d7857cffbedc0be3dfcaa7d2487fe310b3",
+        "dateadded": "2020-07-29T15:34:22.862085+00:00",
+        "datecommitted": "2020-07-29T15:25:03+00:00",
+        "description": "Get things compile in Xcode 12 (is not guaranteed to work)",
+        "hashes": {
+          "debug": {
+            "sha256": "9b36fbb59c8d2388c737b9a839c69c389a1bfe1be88fbea3aef0596d57b389da"
+          },
+          "release": {
+            "sha256": "f16c915099ffa478fe90a0c8df11d66e2919c2dd8225bfe7f2e90b78dbcfe944"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/BT4LEContinuityFixup/bc17c6d7857cffbedc0be3dfcaa7d2487fe310b3/Debug/BT4LEContinuityFixup-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/BT4LEContinuityFixup/bc17c6d7857cffbedc0be3dfcaa7d2487fe310b3/Release/BT4LEContinuityFixup-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "74675aa478cd6d46b4807ec3eff7b9305ac3e32e",
         "dateadded": "2020-07-06T15:39:19.623063+00:00",
         "description": "Added constants for 11.0 support",
@@ -1810,6 +1873,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "13f3832eabec09c2a690f2e8eaa99ada76e83750",
+        "dateadded": "2020-07-29T15:34:22.771871+00:00",
+        "datecommitted": "2020-07-29T15:25:18+00:00",
+        "description": "Get things compile in Xcode 12 (is not guaranteed to work)",
+        "hashes": {
+          "debug": {
+            "sha256": "8a3e29a1f269e125364776fa6d6a1df7fe5e2e9c4d2ea68183c9a7cc9c5f6cd8"
+          },
+          "release": {
+            "sha256": "670eecf54076ecae6eea63c66a54bb4ab2bb5b9991d7646ad4223ab195cc0afc"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/CPUFriend/13f3832eabec09c2a690f2e8eaa99ada76e83750/Debug/CPUFriend-1.2.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/CPUFriend/13f3832eabec09c2a690f2e8eaa99ada76e83750/Release/CPUFriend-1.2.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.2.1"
+      },
+      {
         "commit": "2ca43058c9ade32ebbb46ad5d4012f1d81378c1e",
         "dateadded": "2020-07-06T15:39:19.587335+00:00",
         "description": "Added constants for 11.0 support",
@@ -1834,6 +1918,27 @@
   "HibernationFixup": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "2d3f6dc126b3a5adae3c614bd76dad19b8635427",
+        "dateadded": "2020-07-29T15:34:22.905277+00:00",
+        "datecommitted": "2020-07-29T15:24:15+00:00",
+        "description": "Get things compile in Xcode 12 (is not guaranteed to work)",
+        "hashes": {
+          "debug": {
+            "sha256": "778b828f89a5419f87d4e742889e1150cd8c794286abe70be1bc8d990d80db8d"
+          },
+          "release": {
+            "sha256": "fd2e5ff8cf68c9b95518378ff75fa8e199659f32fba9c5e7b3319dd2f42af38b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/HibernationFixup/2d3f6dc126b3a5adae3c614bd76dad19b8635427/Debug/HibernationFixup-1.3.4-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/HibernationFixup/2d3f6dc126b3a5adae3c614bd76dad19b8635427/Release/HibernationFixup-1.3.4-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.4"
+      },
       {
         "commit": "bb49d28c7dd5d379f8729121c92bd9ad98509245",
         "dateadded": "2020-07-06T15:39:19.659293+00:00",
@@ -2776,6 +2881,27 @@
   "NVMeFix": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "409058b93b8942d012dba39ec758c59e4572357e",
+        "dateadded": "2020-07-29T15:34:22.728158+00:00",
+        "datecommitted": "2020-07-29T15:23:58+00:00",
+        "description": "Get things compile in Xcode 12 (is not guaranteed to work)",
+        "hashes": {
+          "debug": {
+            "sha256": "60301abec881cf3287c622cc23195704b01383cf3042715d812ac8ba4e4710fd"
+          },
+          "release": {
+            "sha256": "e4109f42c6b570518b4356a025cbfbd22597e059e0e712c8c1736957fd62aca9"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/409058b93b8942d012dba39ec758c59e4572357e/Debug/NVMeFix-1.0.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/409058b93b8942d012dba39ec758c59e4572357e/Release/NVMeFix-1.0.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.3"
+      },
       {
         "commit": "48a0fda97650fd6a7563d65e479421524685bcee",
         "dateadded": "2020-06-28T22:33:49.961516+00:00",
@@ -13456,6 +13582,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "0254817099f712c27094977f863d912884fbe4a2",
+        "dateadded": "2020-07-29T15:34:22.946955+00:00",
+        "datecommitted": "2020-07-29T15:23:41+00:00",
+        "description": "Get things compile in Xcode 12 (is not guaranteed to work)",
+        "hashes": {
+          "debug": {
+            "sha256": "2725212aca3ccc67bf499e6f540c1b38352a0eb985390bb0f86ce063fdfc2557"
+          },
+          "release": {
+            "sha256": "59b04c9e9535f30b1cd767cf722d12c3ff9cefe3231e6db08d976268729e09c0"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/0254817099f712c27094977f863d912884fbe4a2/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/0254817099f712c27094977f863d912884fbe4a2/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61",
         "dateadded": "2020-07-27T17:17:24.267078+00:00",
         "datecommitted": "2020-07-27T17:11:59+00:00",
@@ -14248,6 +14395,33 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "e58aaf629e7826ec36484fd7e904b425b01e19e2",
+        "dateadded": "2020-07-29T15:34:23.052560+00:00",
+        "datecommitted": "2020-07-29T15:23:23+00:00",
+        "description": "Get things compile in Xcode 12 (is not guaranteed to work)",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e58aaf629e7826ec36484fd7e904b425b01e19e2/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031"
+          },
+          "debug": {
+            "sha256": "335bb745b5bb972c03ae08ea88c4af6df7053ac8d4cbc485ddb14aab0ec0fb45"
+          },
+          "release": {
+            "sha256": "4d7e1ba48d84eaeeb86bd66bf98ace0c35da1f270edf307fe26bf1ac8444cb95"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e58aaf629e7826ec36484fd7e904b425b01e19e2/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/e58aaf629e7826ec36484fd7e904b425b01e19e2/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
       {
         "commit": "5d3b31afea0393721dcd00272e21ca065e3b40ad",
         "dateadded": "2020-07-24T01:29:10.986381+00:00",
