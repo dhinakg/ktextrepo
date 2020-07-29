@@ -1885,6 +1885,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "7eb4f25cfc4a5a93318c0620bc78a334d823a52c",
+        "dateadded": "2020-07-29T05:47:42.815278+00:00",
+        "datecommitted": "2020-07-29T05:43:21+00:00",
+        "description": "Get things compile in Xcode 12 (is not guaranteed to work)",
+        "hashes": {
+          "debug": {
+            "sha256": "340f65d8d592b5cc6999ec1c1a85cab16fd3209d4f0f8e0593225a7da23ebbcb"
+          },
+          "release": {
+            "sha256": "85c3db113648dbef299445056b5c43311d89d7f0d7569c7e9e09049e2a617745"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/7eb4f25cfc4a5a93318c0620bc78a334d823a52c/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/7eb4f25cfc4a5a93318c0620bc78a334d823a52c/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "0e56f47fa3ba98337542049a188b892834da3f2d",
         "dateadded": "2020-07-27T17:17:24.224703+00:00",
         "datecommitted": "2020-07-27T17:08:25+00:00",
