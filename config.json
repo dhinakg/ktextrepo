@@ -3288,6 +3288,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "0209c3434a4e9a297565c13008e78ebb43c5e5ad",
+        "dateadded": "2020-07-29T23:42:20.750779+00:00",
+        "datecommitted": "2020-07-29T23:24:05+00:00",
+        "description": "EfiLdr: Revert removal of memmap shifts",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0209c3434a4e9a297565c13008e78ebb43c5e5ad/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0209c3434a4e9a297565c13008e78ebb43c5e5ad/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "f9fa8348eaf0dcb018767c0371b031847b81999a903dd4c99ef072ec0fc194c9"
+          },
+          "release": {
+            "sha256": "3b347af412a4876ec7bc5b5046727eedec0243b9f3d3e66484da9228e394fc40"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0209c3434a4e9a297565c13008e78ebb43c5e5ad/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0209c3434a4e9a297565c13008e78ebb43c5e5ad/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "42c7e8a69f792e8fef2ad5da843d1406eed8d536",
         "dateadded": "2020-07-29T12:26:19.372535+00:00",
         "datecommitted": "2020-07-29T12:10:50+00:00",
