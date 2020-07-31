@@ -1990,6 +1990,48 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "68830da59fdc94c8d68343f3d7f7f7ee6e78137e",
+        "dateadded": "2020-07-31T18:24:03.469161+00:00",
+        "datecommitted": "2020-07-31T18:08:05+00:00",
+        "description": "Make function routing atomic in several places\n\nThis resolves some issues with 11.0",
+        "hashes": {
+          "debug": {
+            "sha256": "11a80efedb2fa555e558b689cbafa24e01978c5c5122a77278b9f6b60e8d5140"
+          },
+          "release": {
+            "sha256": "edccb0d51bc80796303320e98d2cf50673b078aedc9f8911de71b5e4ab505c92"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/68830da59fdc94c8d68343f3d7f7f7ee6e78137e/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/68830da59fdc94c8d68343f3d7f7f7ee6e78137e/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": "405f521afdf2c6825875197b67fdf7eeb74b3c90",
+        "dateadded": "2020-07-31T18:24:03.426608+00:00",
+        "datecommitted": "2020-07-31T18:08:24+00:00",
+        "description": "Process already loaded kexts early in 11.0",
+        "hashes": {
+          "debug": {
+            "sha256": "51d6e62afd41ca60b070e920630e4784abc4d6ffcc9b18625d68edaae16e64ed"
+          },
+          "release": {
+            "sha256": "7b276132f68988a59d5b551b4463f3ff614be0ac02029a19cc992f7f45b6678e"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/405f521afdf2c6825875197b67fdf7eeb74b3c90/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/405f521afdf2c6825875197b67fdf7eeb74b3c90/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "7eb4f25cfc4a5a93318c0620bc78a334d823a52c",
         "dateadded": "2020-07-29T05:47:42.815278+00:00",
         "datecommitted": "2020-07-29T05:43:21+00:00",
