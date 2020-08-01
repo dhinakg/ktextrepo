@@ -14469,6 +14469,33 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "8a8530405d9e440b605a4eb998acf8f5119dbf2c",
+        "dateadded": "2020-08-01T06:46:10.643973+00:00",
+        "datecommitted": "2020-08-01T06:43:27+00:00",
+        "description": "fix typo and spaces (#59)",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/8a8530405d9e440b605a4eb998acf8f5119dbf2c/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031"
+          },
+          "debug": {
+            "sha256": "53c28486d1d0a64dfc0f912aff630ea402b9261f921c1976752bbe5dc812c1b0"
+          },
+          "release": {
+            "sha256": "492e9607bf7287591b40e94527afe51d060d8b4f9c72b591185023fed3c2ad00"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/8a8530405d9e440b605a4eb998acf8f5119dbf2c/Debug/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/8a8530405d9e440b605a4eb998acf8f5119dbf2c/Release/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
         "commit": "e58aaf629e7826ec36484fd7e904b425b01e19e2",
         "dateadded": "2020-07-29T15:34:23.052560+00:00",
         "datecommitted": "2020-07-29T15:23:23+00:00",
