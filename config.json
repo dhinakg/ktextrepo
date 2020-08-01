@@ -1990,6 +1990,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "961d066917a53eb552b4148b1a0c4fce10ca1767",
+        "dateadded": "2020-08-01T17:12:14.080653+00:00",
+        "datecommitted": "2020-08-01T17:11:25+00:00",
+        "description": "Force x86_64",
+        "hashes": {
+          "debug": {
+            "sha256": "e03765b9d6a0b80d273d0dda8859300d78cc188966e1fa0d4dbaa0a8adb7b092"
+          },
+          "release": {
+            "sha256": "5233193df7515eaea282253d4fc42eccb351b5a66cafed5b69296a25d73361cb"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/961d066917a53eb552b4148b1a0c4fce10ca1767/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/961d066917a53eb552b4148b1a0c4fce10ca1767/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "68830da59fdc94c8d68343f3d7f7f7ee6e78137e",
         "dateadded": "2020-07-31T18:24:03.469161+00:00",
         "datecommitted": "2020-07-31T18:08:05+00:00",
