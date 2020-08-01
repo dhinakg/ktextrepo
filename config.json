@@ -13779,6 +13779,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "14988e34adacd9646efc8e5d9762bce9fc560d73",
+        "dateadded": "2020-08-01T15:32:47.571405+00:00",
+        "datecommitted": "2020-08-01T15:31:10+00:00",
+        "description": "Resolve booting issue on macOS 11 due to provider race condition\n\nNow keystore may get probed much later, causing AppleSMC to arrive\nbefore VirtualSMC instance is active",
+        "hashes": {
+          "debug": {
+            "sha256": "79d2e58d6a052c4840bee6b7e00e07f8464b9d36360e6437a536706d69d89afc"
+          },
+          "release": {
+            "sha256": "e32947d1eab27518e722d4245c2da5a954d8f31d25bd3da7b741c68f9a72114c"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/14988e34adacd9646efc8e5d9762bce9fc560d73/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/14988e34adacd9646efc8e5d9762bce9fc560d73/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "0254817099f712c27094977f863d912884fbe4a2",
         "dateadded": "2020-07-29T15:34:22.946955+00:00",
         "datecommitted": "2020-07-29T15:23:41+00:00",
