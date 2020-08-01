@@ -2924,6 +2924,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "8f8bb88c2ccfd7bd45a08c454a3a40c7ac806bf5",
+        "dateadded": "2020-08-01T15:54:35.272695+00:00",
+        "datecommitted": "2020-08-01T15:50:24+00:00",
+        "description": "Leave a note regarding 11.0",
+        "hashes": {
+          "debug": {
+            "sha256": "e7da08b96efad82522b30e94cfe9f4d4ee4dad6b7cca4002e30ee00cd63d8e27"
+          },
+          "release": {
+            "sha256": "360f385589e778e5e1bb063698ea2c4b8fa9004145c2a884b1c10c202f01c00b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/8f8bb88c2ccfd7bd45a08c454a3a40c7ac806bf5/Debug/NVMeFix-1.0.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/8f8bb88c2ccfd7bd45a08c454a3a40c7ac806bf5/Release/NVMeFix-1.0.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.3"
+      },
+      {
         "commit": "409058b93b8942d012dba39ec758c59e4572357e",
         "dateadded": "2020-07-29T15:34:22.728158+00:00",
         "datecommitted": "2020-07-29T15:23:58+00:00",
