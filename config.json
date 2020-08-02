@@ -13989,6 +13989,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "3afec50bda58632ab85cf00d70bb490570cc3595",
+        "dateadded": "2020-08-02T06:15:16.742068+00:00",
+        "datecommitted": "2020-08-02T06:05:27+00:00",
+        "description": "Improve SMC generation debugging",
+        "hashes": {
+          "debug": {
+            "sha256": "6efec7a5a20f14fa73f8a32b5d67466b31c17b85129e001f5fb1408d75c8e8a3"
+          },
+          "release": {
+            "sha256": "e9d3deb87323bed0e2560129e3ccf4d940a849ad04167ad50657262d95b5c01f"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/3afec50bda58632ab85cf00d70bb490570cc3595/Debug/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/3afec50bda58632ab85cf00d70bb490570cc3595/Release/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "fc858268bd288d02c323d964e290963b8a729b45",
         "dateadded": "2020-08-01T19:18:10.456825+00:00",
         "datecommitted": "2020-08-01T19:06:51+00:00",
