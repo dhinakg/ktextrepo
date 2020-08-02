@@ -3540,6 +3540,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "87a287f2bea07ff4e1a1e5ef21b9aef1a738ce09",
+        "dateadded": "2020-08-02T06:50:49.917023+00:00",
+        "datecommitted": "2020-08-02T06:39:22+00:00",
+        "description": "OcCpuLib: Fix display name for i9 CPUs like 7920X",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/87a287f2bea07ff4e1a1e5ef21b9aef1a738ce09/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/87a287f2bea07ff4e1a1e5ef21b9aef1a738ce09/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "8f0e15204531d2122d05bf8e957e4ebab5b3995418411620f89700cfecbb1364"
+          },
+          "release": {
+            "sha256": "95fbe5a10d69ac6cb949a9f6a2729e7d40e78519ce486b030336ab85db4e3c6e"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/87a287f2bea07ff4e1a1e5ef21b9aef1a738ce09/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/87a287f2bea07ff4e1a1e5ef21b9aef1a738ce09/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "748d906c7cbaabebd43204f7dd824ba6f939af1a",
         "dateadded": "2020-08-01T14:34:38.230824+00:00",
         "datecommitted": "2020-08-01T14:24:17+00:00",
