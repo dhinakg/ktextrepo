@@ -2095,6 +2095,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "993d5b54ba8eac2745d88a5c31a7d020ddba6f59",
+        "dateadded": "2020-08-02T04:55:40.944226+00:00",
+        "datecommitted": "2020-08-02T04:52:26+00:00",
+        "description": "Resolve init issues on 11.0 with multiple PCI root devices",
+        "hashes": {
+          "debug": {
+            "sha256": "3b662f853460da6f3db688e711ef531411f3c83c24119a1b3f449e14412e7cd2"
+          },
+          "release": {
+            "sha256": "e68622aff3ea03ac5597568afd4c42186bbd1d1fe32c2c3b95a26d53ba856759"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/993d5b54ba8eac2745d88a5c31a7d020ddba6f59/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/993d5b54ba8eac2745d88a5c31a7d020ddba6f59/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "961d066917a53eb552b4148b1a0c4fce10ca1767",
         "dateadded": "2020-08-01T17:12:14.080653+00:00",
         "datecommitted": "2020-08-01T17:11:25+00:00",
