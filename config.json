@@ -2095,6 +2095,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "34dd31d860df0d746b7703a0526c3b379bdb54d7",
+        "dateadded": "2020-08-02T05:48:43.854679+00:00",
+        "datecommitted": "2020-08-02T05:47:27+00:00",
+        "description": "Fixed another race condition in kext patcher loading code in 11.0",
+        "hashes": {
+          "debug": {
+            "sha256": "cdade5d55ac7bd38d05e2620a6a30db9fd577b776cba22df29ff4d7f80bc51c9"
+          },
+          "release": {
+            "sha256": "15685d321f5f851158977240a6adae9136569d5f9db7a0c3bbe9654b98e5a79c"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/34dd31d860df0d746b7703a0526c3b379bdb54d7/Debug/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/34dd31d860df0d746b7703a0526c3b379bdb54d7/Release/Lilu-1.4.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "993d5b54ba8eac2745d88a5c31a7d020ddba6f59",
         "dateadded": "2020-08-02T04:55:40.944226+00:00",
         "datecommitted": "2020-08-02T04:52:26+00:00",
