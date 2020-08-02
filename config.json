@@ -3540,6 +3540,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "58bb572f157f7deba665c89d106c2917e9a836fc",
+        "dateadded": "2020-08-02T13:01:58.907202+00:00",
+        "datecommitted": "2020-08-02T12:52:44+00:00",
+        "description": "Update SSDT-EC-USBX.dsl",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/58bb572f157f7deba665c89d106c2917e9a836fc/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/58bb572f157f7deba665c89d106c2917e9a836fc/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "2118c18e9d3342e2d38adebc7b789dc516e90e87d2ed092a76ab4972f8577027"
+          },
+          "release": {
+            "sha256": "14969186d1e8b1f6c530974a1a7037aa2747956c841f905979c7274a022742ac"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/58bb572f157f7deba665c89d106c2917e9a836fc/Debug/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/58bb572f157f7deba665c89d106c2917e9a836fc/Release/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "87a287f2bea07ff4e1a1e5ef21b9aef1a738ce09",
         "dateadded": "2020-08-02T06:50:49.917023+00:00",
         "datecommitted": "2020-08-02T06:39:22+00:00",
