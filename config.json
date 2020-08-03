@@ -392,6 +392,90 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd",
+        "dateadded": "2020-08-03T10:03:49.547763+00:00",
+        "datecommitted": "2020-08-03T09:53:26+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "3042c2dd11dfd9721a1408950c99edcc08f4dd29e1775658c92e2a12107e462c"
+          },
+          "release": {
+            "sha256": "8446a67f63febe19879665ceb655ecd86d67db7a0308c3b0d619ee8bacb0619a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": "bdeb42e662b409fffab454e1bf1b1a3da3b2bde0",
+        "dateadded": "2020-08-03T10:03:49.500443+00:00",
+        "datecommitted": "2020-08-03T09:53:51+00:00",
+        "description": "Fix Headphone NodeID\uff0cAdd SPDIFOut NodeID\uff0cALC255 layout-id 20 for DELL 7447 by was3912734 (#574)\n\n* Add ALC255 layout20 for DELL 7447 by was3912734.  Add Subwoofer drive.\r\n\r\n* Fixed  XML structure in PinConfigs/info.plist\r\n\r\n* Fix Headphone NodeID\uff0cAdd SPDIFOut NodeID\uff0cALC255 layout-id 20 for DELL 7447 by was3912734\r\n\r\nCo-authored-by: ike <ike@macbook-pro-2.lan>\r\nCo-authored-by: ike <ike@macbook-pro-2.local>",
+        "hashes": {
+          "debug": {
+            "sha256": "87f592aa7f3304ff636c8157b5b38d4e8e40ddb18850cc978d3e61d10baa1c6f"
+          },
+          "release": {
+            "sha256": "de113327c683bc3f808a386492007626f16daa22516510f2ee5118d9be1dc900"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/bdeb42e662b409fffab454e1bf1b1a3da3b2bde0/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/bdeb42e662b409fffab454e1bf1b1a3da3b2bde0/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": "36d8322257b07772cb431d4ad522290e95af9b8f",
+        "dateadded": "2020-08-03T10:03:49.450688+00:00",
+        "datecommitted": "2020-08-03T09:56:41+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "bd47f1da39d5e5cefbcd81547d002fe8cfc28d4398d40af7d07c746eb7dffaa7"
+          },
+          "release": {
+            "sha256": "6830d064d0f04304d593003e242f1fb01766d39c01c811cd83f71a7aa5695494"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/36d8322257b07772cb431d4ad522290e95af9b8f/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/36d8322257b07772cb431d4ad522290e95af9b8f/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": "2138e905beb044f7317ebc2012167b7e0e768c8e",
+        "dateadded": "2020-08-03T10:03:49.403284+00:00",
+        "datecommitted": "2020-08-03T09:57:05+00:00",
+        "description": "Add ALC290 - LayoutID 15 (0F) for HP m6 n015dx (#575)",
+        "hashes": {
+          "debug": {
+            "sha256": "a1f02383e660a790ba70dae9dfc6c10ade55db331c6d5b3a582c8724bad0ba84"
+          },
+          "release": {
+            "sha256": "bf25d11f6eee8512a5dd020a821be99c9e4d8d71185a9f454ccac23570a4d669"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/2138e905beb044f7317ebc2012167b7e0e768c8e/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/2138e905beb044f7317ebc2012167b7e0e768c8e/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
         "commit": "414114432e3f4c3c3112655a8e85e5c873da7ca8",
         "dateadded": "2020-08-03T09:55:39.188314+00:00",
         "datecommitted": "2020-08-03T09:46:41+00:00",
