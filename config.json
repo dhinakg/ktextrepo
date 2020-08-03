@@ -3,6 +3,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "cca592ed676cedb99bcd66320f951fd49c35acd6",
+        "dateadded": "2020-08-03T16:55:34.602226+00:00",
+        "datecommitted": "2020-08-03T16:13:15+00:00",
+        "description": "Bump version",
+        "hashes": {
+          "debug": {
+            "sha256": "885131c8a08aa645e43b566057e628181bc2c5240f1c8e8c423308ce64f020ad"
+          },
+          "release": {
+            "sha256": "1cd9da8d391963562ba7b19c3ab036538850a8b879345ba6422c40610228a082"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/cca592ed676cedb99bcd66320f951fd49c35acd6/Debug/AirportBrcmFixup-2.0.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/cca592ed676cedb99bcd66320f951fd49c35acd6/Release/AirportBrcmFixup-2.0.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.9"
+      },
+      {
         "commit": "5b275948f41ce4d8ee2364c66d849fc33247f006",
         "dateadded": "2020-08-01T19:18:10.318133+00:00",
         "datecommitted": "2020-08-01T19:04:41+00:00",
@@ -2163,6 +2184,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "976c13dfc35d2aad5048173321407243e8bbfefb",
+        "dateadded": "2020-08-03T16:55:34.758421+00:00",
+        "datecommitted": "2020-08-03T16:22:33+00:00",
+        "description": "Bump version",
+        "hashes": {
+          "debug": {
+            "sha256": "79a2fb6ff5fe54ff39817991135baa3c34e1ee967733ed383c0927a0155f6bb5"
+          },
+          "release": {
+            "sha256": "c545c9cada1a41f3baeabfd0f87645db41adfa5b775d0375176feee78d849b01"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/BT4LEContinuityFixup/976c13dfc35d2aad5048173321407243e8bbfefb/Debug/BT4LEContinuityFixup-1.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/BT4LEContinuityFixup/976c13dfc35d2aad5048173321407243e8bbfefb/Release/BT4LEContinuityFixup-1.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
         "commit": "adcb029afeea9f0a3128f0f7359ecc3382872a00",
         "dateadded": "2020-08-01T19:18:10.362268+00:00",
         "datecommitted": "2020-08-01T19:04:56+00:00",
@@ -2229,6 +2271,27 @@
   "CPUFriend": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "4aebe0b24c478cb78ba2bca46ccc8c2f294b3528",
+        "dateadded": "2020-08-03T16:55:34.414088+00:00",
+        "datecommitted": "2020-08-03T16:12:26+00:00",
+        "description": "Bump version",
+        "hashes": {
+          "debug": {
+            "sha256": "bbf0541d6697f03dd7f996b9dc4f749a75929b5157463d74a579f54f3826ef51"
+          },
+          "release": {
+            "sha256": "26b89b6e5051401eb81081768309251d13b930fad1d409f5424eaf7189a6dc1e"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/CPUFriend/4aebe0b24c478cb78ba2bca46ccc8c2f294b3528/Debug/CPUFriend-1.2.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/CPUFriend/4aebe0b24c478cb78ba2bca46ccc8c2f294b3528/Release/CPUFriend-1.2.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.2.2"
+      },
       {
         "commit": "104c6a197c8375d882e3dd2dac3f18c31cd3e801",
         "dateadded": "2020-08-01T19:18:10.273512+00:00",
@@ -3896,6 +3959,37 @@
   "OpenCorePkg": {
     "type": "Bootloader",
     "versions": [
+      {
+        "commit": "7c9220f90491a04a6002aa53344223df93f5daa7",
+        "dateadded": "2020-08-03T16:55:34.229931+00:00",
+        "datecommitted": "2020-08-03T16:20:02+00:00",
+        "description": "Bump version to 0.6.1",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7c9220f90491a04a6002aa53344223df93f5daa7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7c9220f90491a04a6002aa53344223df93f5daa7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "84fa6bd1a383cf418ebc1204cc850b9be930c925165deb4f8fc3d70dfba9de84"
+          },
+          "release": {
+            "sha256": "25be8b784841321d6281f5cfa3da51d73f28459d184f637865a63fc0b6e70ec2"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7c9220f90491a04a6002aa53344223df93f5daa7/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7c9220f90491a04a6002aa53344223df93f5daa7/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
       {
         "commit": "63898ce990b898bbaf5da4feda90cd23ed9b7a43",
         "dateadded": "2020-08-03T13:25:35.177807+00:00",
