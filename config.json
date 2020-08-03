@@ -14907,6 +14907,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "c421bd9fac9483b79bdb256a7df5a841d6e30a70",
+        "dateadded": "2020-08-03T06:18:24.688244+00:00",
+        "datecommitted": "2020-08-03T06:16:48+00:00",
+        "description": "Fix requiring to switch between targets to compile",
+        "hashes": {
+          "debug": {
+            "sha256": "1ec25394d7af8ef2d52a86ffeb52af46c8bfe2ca3bd26cfc2c6cdb38d2475708"
+          },
+          "release": {
+            "sha256": "f0a1b355d616b369f900395bb2d41ee01bb99450c61d541c8b7b715a0a75f5c0"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VoodooPS2-Alps/c421bd9fac9483b79bdb256a7df5a841d6e30a70/Debug/debug.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VoodooPS2-Alps/c421bd9fac9483b79bdb256a7df5a841d6e30a70/Release/release.zip"
+        },
+        "source": "built",
+        "version": "6.0.0"
+      },
+      {
         "commit": "e3defcc5391b99b322d6d93844086b59c8c9fc5e",
         "dateadded": "2020-03-03T18:58:01.570123+00:00",
         "description": "Fixed inversion",
