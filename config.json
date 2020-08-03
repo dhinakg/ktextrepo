@@ -392,6 +392,90 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "d54c679f69fb9ecaaf3d755d9ce839705add6e96",
+        "dateadded": "2020-08-03T10:28:17.604167+00:00",
+        "datecommitted": "2020-08-03T09:58:58+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "b3f5de50e7e4b82426fe1fd54f64aa9bf50ea57f1d52b147021043c49a44da11"
+          },
+          "release": {
+            "sha256": "cc26b85dcbedaef1da808826d8890cda4dda42c7150c74e4dcf1c171d5173254"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/d54c679f69fb9ecaaf3d755d9ce839705add6e96/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/d54c679f69fb9ecaaf3d755d9ce839705add6e96/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": "da77493f9028d5b61caeb81883621fcef6655156",
+        "dateadded": "2020-08-03T10:28:17.461014+00:00",
+        "datecommitted": "2020-08-03T09:59:29+00:00",
+        "description": "Add ALC285 layout 61 for Lenovo Yoga C740 (#576)\n\n* Working on 400 series LP controller and layout 61\r\n\r\n* Working out remaining issues with layout 61 on the Yoga C740\r\n\r\n* Correct headphone audio distortion after sleep on battery.\r\n\r\n* Send the SET_PIN_WIDGET_CONTROL signal on wake, corrects the last bit of distortion after sleep",
+        "hashes": {
+          "debug": {
+            "sha256": "26bd94c22161a1fe550f1a1001f5b0274624b9a73e7a4075db5d58018458b598"
+          },
+          "release": {
+            "sha256": "6e305b08f653aff6ce2036d22c3662153d1c57f6f0e75a146128ac8319f560db"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/da77493f9028d5b61caeb81883621fcef6655156/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/da77493f9028d5b61caeb81883621fcef6655156/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": "38f15b80ea6aeb722c186494d55b329bb821aa82",
+        "dateadded": "2020-08-03T10:28:17.315178+00:00",
+        "datecommitted": "2020-08-03T10:03:23+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "63169a98a38a0f18adb871c8e6fc9239769f73b97e0c6d29a5e423dc7a0a0116"
+          },
+          "release": {
+            "sha256": "d9a020ac2bedc553430fdcc6bffdf97efa469c046aa06f566a984f85088ac97f"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/38f15b80ea6aeb722c186494d55b329bb821aa82/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/38f15b80ea6aeb722c186494d55b329bb821aa82/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": "efc223a11b143531a6c6ae987b5408b8a5fc287a",
+        "dateadded": "2020-08-03T10:28:17.165739+00:00",
+        "datecommitted": "2020-08-03T10:04:27+00:00",
+        "description": "Creative CA0132 5.1 channel for Alienware-M17X-R4 by DalianSky (#578)",
+        "hashes": {
+          "debug": {
+            "sha256": "71571a64b3ea35904492535eb3212c35bd7c302161ecb0ee156d00266eda8e66"
+          },
+          "release": {
+            "sha256": "08dd6727d4848f498ae62b226cfb236e9f252c11e07a383b540af2e996056735"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/efc223a11b143531a6c6ae987b5408b8a5fc287a/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/efc223a11b143531a6c6ae987b5408b8a5fc287a/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
         "commit": "6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd",
         "dateadded": "2020-08-03T10:03:49.547763+00:00",
         "datecommitted": "2020-08-03T09:53:26+00:00",
