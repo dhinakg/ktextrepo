@@ -15167,6 +15167,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "4bb776c9f417c6c5c54221b9539f21eeeab1625a",
+        "dateadded": "2020-08-03T15:26:23.905647+00:00",
+        "datecommitted": "2020-08-03T15:24:10+00:00",
+        "description": "Bump version",
+        "hashes": {
+          "debug": {
+            "sha256": "4264bb012074d45e740ac9bfb6351d8292fc092f9189237302191610c61ce339"
+          },
+          "release": {
+            "sha256": "3c245e3c2970a0f12170ec497b2e93394da23c3da7cc60749e8ea61edcdcb30b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VoodooInput/4bb776c9f417c6c5c54221b9539f21eeeab1625a/Debug/VoodooInput-1.0.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VoodooInput/4bb776c9f417c6c5c54221b9539f21eeeab1625a/Release/VoodooInput-1.0.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.7"
+      },
+      {
         "commit": "c28c0db2cfc034af9b6b9900572b7df49bb00a34",
         "dateadded": "2020-07-17T20:15:36.945042+00:00",
         "description": "Update Changelog.md",
