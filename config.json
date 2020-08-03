@@ -392,6 +392,69 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "414114432e3f4c3c3112655a8e85e5c873da7ca8",
+        "dateadded": "2020-08-03T09:55:39.188314+00:00",
+        "datecommitted": "2020-08-03T09:46:41+00:00",
+        "description": "Add ALC295 layout-id 24 for HP Pavilion / OMEN-2 (#564)\n\nBased on layout-id 23 and 28.\r\nFixed problem in layout-id 23 that Output devices can't be muted.\r\nCombined Input devices, using ALCPlugFix to switch autometically.",
+        "hashes": {
+          "debug": {
+            "sha256": "da46368ca019011198ebe09addbe70a0ecbc70923b0567da68dcbc8ff1cde98e"
+          },
+          "release": {
+            "sha256": "644b066d4df10e636d13205868ea6bd71d2016c4009bcbd1fbf0d3bf16ca9caa"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/414114432e3f4c3c3112655a8e85e5c873da7ca8/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/414114432e3f4c3c3112655a8e85e5c873da7ca8/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": "d017393f4a854b10cd9c9d69633a5fccfe9dfb2c",
+        "dateadded": "2020-08-03T09:55:39.139848+00:00",
+        "datecommitted": "2020-08-03T09:48:27+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "a189e67c3fe639fa11c89cdf50e2efce25fac3eec8f8ff001d3c51ccfca16671"
+          },
+          "release": {
+            "sha256": "f6a0a5459f6b3023b9f08279b3da460d467c0e500d1524e9518d9609b078015d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/d017393f4a854b10cd9c9d69633a5fccfe9dfb2c/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/d017393f4a854b10cd9c9d69633a5fccfe9dfb2c/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": "5d645bc366f0bfc519ffb013e089ce7ea1734a28",
+        "dateadded": "2020-08-03T09:55:39.091439+00:00",
+        "datecommitted": "2020-08-03T09:49:03+00:00",
+        "description": "CA0132: Layout-ID 7, 4, 2, 1 update and added IDT92HD95: Layout-ID 11 (#566)\n\n* CA0132: Layout-ID 4 should work when CodecCommander is loading from the boot loader.\r\n\r\n* CA0132: Layout-ID 2 adapted for Alienware 17, can also be used for desktops if multichannel is not required, but 2x Line-In.\r\n\r\n* CA0132: Layout-ID 1 revised\r\n\r\n* Added resources for Toshiba Satellite Pro C50, layout 11\r\n\r\n* Added layout-id 7 for the ZxRi codec. The PathMapID was adapted to the layout-id.",
+        "hashes": {
+          "debug": {
+            "sha256": "00fe1a11a21452e96576a901eafcddd9bfb286677c2c9f3d102805b9b0178274"
+          },
+          "release": {
+            "sha256": "ea8310fd2176aec66804d297ca02ec6a12cafb7e3ad1dd85e8aeb5ef3bcbb59d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/5d645bc366f0bfc519ffb013e089ce7ea1734a28/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/5d645bc366f0bfc519ffb013e089ce7ea1734a28/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
         "commit": "3cfcfc1210fc69beaf2ef8ac934825c07cf1508f",
         "dateadded": "2020-08-01T19:18:10.182419+00:00",
         "datecommitted": "2020-08-01T19:05:34+00:00",
