@@ -392,6 +392,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "4d3c5718c624381f9b4fde0b24aa33f817811b5b",
+        "dateadded": "2020-08-03T10:57:12.943903+00:00",
+        "datecommitted": "2020-08-03T10:50:50+00:00",
+        "description": "Added ALC289 layout-id 11 for alienware m17r2 by leeoem",
+        "hashes": {
+          "debug": {
+            "sha256": "4f58ed7d995022c2f624494e586a19b61c1d53b5e9cadcb9ebbaee424a1a8351"
+          },
+          "release": {
+            "sha256": "2bb657c1bce855eb8550df6091e218eca9627979cfb230fd7dca60ff709bee8c"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/4d3c5718c624381f9b4fde0b24aa33f817811b5b/Debug/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/4d3c5718c624381f9b4fde0b24aa33f817811b5b/Release/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
         "commit": "9826d1970ac85ac24254dcf268f4cdc58ac59e3f",
         "dateadded": "2020-08-03T10:34:59.033749+00:00",
         "datecommitted": "2020-08-03T10:08:57+00:00",
