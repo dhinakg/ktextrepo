@@ -2389,6 +2389,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "acee81d49f09c0f656d305409bbcd4a557db9d6d",
+        "dateadded": "2020-08-03T16:05:48.192399+00:00",
+        "datecommitted": "2020-08-03T16:02:28+00:00",
+        "description": "Bump version",
+        "hashes": {
+          "debug": {
+            "sha256": "24c5a0a5f92afe51998bd4c2d24d6ef0881e83174c3364969cb70153afba974c"
+          },
+          "release": {
+            "sha256": "58886c0ca6cb23c0bf87b01dd3c32fe21fbd3fa1c8049b50fa3061c241141923"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/acee81d49f09c0f656d305409bbcd4a557db9d6d/Debug/Lilu-1.4.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/acee81d49f09c0f656d305409bbcd4a557db9d6d/Release/Lilu-1.4.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.7"
+      },
+      {
         "commit": "34dd31d860df0d746b7703a0526c3b379bdb54d7",
         "dateadded": "2020-08-02T05:48:43.854679+00:00",
         "datecommitted": "2020-08-02T05:47:27+00:00",
@@ -3385,6 +3406,27 @@
   "NVMeFix": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "612e055a69ff335b043cedbeec0dc87b904b6775",
+        "dateadded": "2020-08-03T16:05:48.146666+00:00",
+        "datecommitted": "2020-08-03T16:04:05+00:00",
+        "description": "Bump version",
+        "hashes": {
+          "debug": {
+            "sha256": "9c86123b7b7226cf14a4931f87671160cf6d64cb29d736e2cdc435735fae2430"
+          },
+          "release": {
+            "sha256": "dfc7a5fc5feb36dffff0170687bbef933a5138b849b1be560907e6ce7bc57d6d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/612e055a69ff335b043cedbeec0dc87b904b6775/Debug/NVMeFix-1.0.4-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/NVMeFix/612e055a69ff335b043cedbeec0dc87b904b6775/Release/NVMeFix-1.0.4-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.4"
+      },
       {
         "commit": "a4fbe9817a77ef58f9587f9155aee69c532fb128",
         "dateadded": "2020-08-01T19:18:10.230320+00:00",
