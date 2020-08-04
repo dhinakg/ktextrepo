@@ -14554,6 +14554,48 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "182f7b80eaf1060417e727436691d4376702d47b",
+        "dateadded": "2020-08-04T04:54:48.015287+00:00",
+        "datecommitted": "2020-08-04T04:49:47+00:00",
+        "description": "Drop extra semicolon",
+        "hashes": {
+          "debug": {
+            "sha256": "5a8ed756539609ea5850d827f3970a3628d710df20589791e54221c70a8413ba"
+          },
+          "release": {
+            "sha256": "811b89a37efb5ed53298dab9b1a626377cac434bd3458410e234929a8171f28e"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/182f7b80eaf1060417e727436691d4376702d47b/Debug/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/182f7b80eaf1060417e727436691d4376702d47b/Release/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
+        "commit": "6dced7de3553c675735367092fe881376aa79b3f",
+        "dateadded": "2020-08-04T04:54:47.967385+00:00",
+        "datecommitted": "2020-08-04T04:52:44+00:00",
+        "description": "Add experimental support for supplement information (#34)",
+        "hashes": {
+          "debug": {
+            "sha256": "4b2bc176cad38f7e0ed2d815f20a52617e7557a18ca1ffb7174663e497f14091"
+          },
+          "release": {
+            "sha256": "1963c94a33e4fda47b7a5640d8485fd44c5ea07ba2706dbf4c8e09fe6361a30a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/6dced7de3553c675735367092fe881376aa79b3f/Debug/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/6dced7de3553c675735367092fe881376aa79b3f/Release/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
         "commit": "75beb63629a6dcaf5b2ac5819b560895846a58d6",
         "dateadded": "2020-08-03T16:13:43.813378+00:00",
         "datecommitted": "2020-08-03T16:07:39+00:00",
