@@ -3981,6 +3981,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "e5c9ce0e041651cf9d413cdb7901b14aed9990ef",
+        "dateadded": "2020-08-04T05:06:50.733331+00:00",
+        "datecommitted": "2020-08-04T04:58:28+00:00",
+        "description": "OcInputLib: Do not reset input protocols (#93)\n\nThis allows catching pressed keys ahead of the OC initialization",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e5c9ce0e041651cf9d413cdb7901b14aed9990ef/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e5c9ce0e041651cf9d413cdb7901b14aed9990ef/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "dce3d5736b6c227d44d3b797c1b841582c3347d3c7ea20cceb7ae2a2404c5b9b"
+          },
+          "release": {
+            "sha256": "55ca252cc27aacbe356336d5190af810fac54be4f357935ac75ae6c8b4f962dd"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e5c9ce0e041651cf9d413cdb7901b14aed9990ef/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e5c9ce0e041651cf9d413cdb7901b14aed9990ef/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "7c9220f90491a04a6002aa53344223df93f5daa7",
         "dateadded": "2020-08-03T16:55:34.229931+00:00",
         "datecommitted": "2020-08-03T16:20:02+00:00",
@@ -14553,6 +14584,27 @@
   "VirtualSMC": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "c7660f685eccf95baa74a5374c8b1f4daa3a1686",
+        "dateadded": "2020-08-04T05:06:50.793160+00:00",
+        "datecommitted": "2020-08-04T04:57:01+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "0aaab2a251b9e10bdd4098fbcf723b24341a2db088711bb6d0a971b8122195ff"
+          },
+          "release": {
+            "sha256": "1d05490c01786618e184f9fbd8410031cefaf7d7f1a0882e5a4c22fa536405ba"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/c7660f685eccf95baa74a5374c8b1f4daa3a1686/Debug/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/c7660f685eccf95baa74a5374c8b1f4daa3a1686/Release/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
       {
         "commit": "182f7b80eaf1060417e727436691d4376702d47b",
         "dateadded": "2020-08-04T04:54:48.015287+00:00",
