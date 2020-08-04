@@ -413,6 +413,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "186c8881c68acef22d9855f3b25e9a489f471916",
+        "dateadded": "2020-08-04T10:21:03.470708+00:00",
+        "datecommitted": "2020-08-04T10:18:26+00:00",
+        "description": "Update Changelog.md",
+        "hashes": {
+          "debug": {
+            "sha256": "a05069a66e1a8d9d321ca52a4c3ab40bed23129a8de5f42387647e7f904efd67"
+          },
+          "release": {
+            "sha256": "f06acc5901d2ff7d9463484191a8d1c6af6163dbe1bb0c826c0bc8ecf96c8080"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/186c8881c68acef22d9855f3b25e9a489f471916/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/186c8881c68acef22d9855f3b25e9a489f471916/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
         "commit": "c11666105e60b5f41c6a91ace56c66cd63f4d7bd",
         "dateadded": "2020-08-04T09:54:35.156629+00:00",
         "datecommitted": "2020-08-04T09:50:59+00:00",
