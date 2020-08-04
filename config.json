@@ -413,6 +413,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "c11666105e60b5f41c6a91ace56c66cd63f4d7bd",
+        "dateadded": "2020-08-04T09:54:35.156629+00:00",
+        "datecommitted": "2020-08-04T09:50:59+00:00",
+        "description": "Added missing layout7.xml (#586)",
+        "hashes": {
+          "debug": {
+            "sha256": "5a3e37d66b7abd316c834143a69702388afcf8fab55e137a1ebf771de2d540cd"
+          },
+          "release": {
+            "sha256": "95c446c7d6f136b543e99a611030ade17dac1517d81dec324d244f665fe627d6"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/c11666105e60b5f41c6a91ace56c66cd63f4d7bd/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/c11666105e60b5f41c6a91ace56c66cd63f4d7bd/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
         "commit": "e9920b3d6abc62545f12631b860c4727b4358437",
         "dateadded": "2020-08-03T17:02:15.734216+00:00",
         "datecommitted": "2020-08-03T16:57:29+00:00",
