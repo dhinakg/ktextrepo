@@ -4023,6 +4023,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "830b0139de9811782e766f10f4df42b4fd8ead94",
+        "dateadded": "2020-08-05T03:49:09.355070+00:00",
+        "datecommitted": "2020-08-05T03:39:56+00:00",
+        "description": "OcBootManagementLib: Make DMG loading support configurable\n\ncloses acidanthera/bugtracker#1073",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/830b0139de9811782e766f10f4df42b4fd8ead94/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/830b0139de9811782e766f10f4df42b4fd8ead94/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "3a6ff060407742d94d22a25b782fa7e0c6efc01839880e6a44129787edf10e8b"
+          },
+          "release": {
+            "sha256": "2b70373ecb29d87be68dadab0b33cbc4f651b29aeb2eedf8ed5661cfdcf0b1ba"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/830b0139de9811782e766f10f4df42b4fd8ead94/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/830b0139de9811782e766f10f4df42b4fd8ead94/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "fc33425c975eaf938caf2ff9ef9a3d451bca64ca",
         "dateadded": "2020-08-04T05:20:30.577973+00:00",
         "datecommitted": "2020-08-04T05:00:04+00:00",
