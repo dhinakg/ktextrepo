@@ -4023,6 +4023,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "e5f086c779db41812b9e12b903006783f619b4a1",
+        "dateadded": "2020-08-05T04:05:34.136168+00:00",
+        "datecommitted": "2020-08-05T03:55:22+00:00",
+        "description": "OcVirtualFsLib: Add virtual directory support",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e5f086c779db41812b9e12b903006783f619b4a1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e5f086c779db41812b9e12b903006783f619b4a1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "787b811b07154829d59885a35b10cdd72664a12ffd05d2ad09805f15c38a92b7"
+          },
+          "release": {
+            "sha256": "1883a2ae98c3a457bf56b4f9d176fab9ef09f545f2cfa1a57c15806de4c5cbca"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e5f086c779db41812b9e12b903006783f619b4a1/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/e5f086c779db41812b9e12b903006783f619b4a1/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "830b0139de9811782e766f10f4df42b4fd8ead94",
         "dateadded": "2020-08-05T03:49:09.355070+00:00",
         "datecommitted": "2020-08-05T03:39:56+00:00",
