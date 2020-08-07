@@ -3,6 +3,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "53d81f3fd38a9594849aa553a3da085f2d22cb12",
+        "dateadded": "2020-08-07T15:25:45.871618+00:00",
+        "datecommitted": "2020-08-07T15:22:52+00:00",
+        "description": "boot-arg and property `brcmfx-aspm` supports special value `255` in order to skip logic disabling APSM for 0x14e4:0x43a3 (DW1820A).",
+        "hashes": {
+          "debug": {
+            "sha256": "4f50ed802a8c46a2ba4c6c80ceac50b0d387870bda871a8132c921b19484b5e5"
+          },
+          "release": {
+            "sha256": "3ae5313e5174f6b00762efc56636bb7b290aa180a0a8b9c615c548806a092cbf"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/53d81f3fd38a9594849aa553a3da085f2d22cb12/Debug/AirportBrcmFixup-2.0.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/53d81f3fd38a9594849aa553a3da085f2d22cb12/Release/AirportBrcmFixup-2.0.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.9"
+      },
+      {
         "commit": "cca592ed676cedb99bcd66320f951fd49c35acd6",
         "dateadded": "2020-08-03T16:55:34.602226+00:00",
         "datecommitted": "2020-08-03T16:13:15+00:00",
