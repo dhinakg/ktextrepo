@@ -4044,6 +4044,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "2c72e0d7991e20a18a93d3432cd0d5235328c42e",
+        "dateadded": "2020-08-07T16:42:11.325268+00:00",
+        "datecommitted": "2020-08-07T16:32:56+00:00",
+        "description": "DataBase: Added IM201",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2c72e0d7991e20a18a93d3432cd0d5235328c42e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2c72e0d7991e20a18a93d3432cd0d5235328c42e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "1aabcca15b6ba74f353ed134c3c49e5ac1e4a01acac3c7594689344a2fa09ed1"
+          },
+          "release": {
+            "sha256": "b0dfa21d53c90bbfbed096c53c2b6e6afc49b3d321f132e52157b37c6c2f3d12"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2c72e0d7991e20a18a93d3432cd0d5235328c42e/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/2c72e0d7991e20a18a93d3432cd0d5235328c42e/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "8ebad051184ea7f00520b20bd7824c83ab17e4d6",
         "dateadded": "2020-08-07T00:32:43.766139+00:00",
         "datecommitted": "2020-08-07T00:01:01+00:00",
