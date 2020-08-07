@@ -4023,6 +4023,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "8ebad051184ea7f00520b20bd7824c83ab17e4d6",
+        "dateadded": "2020-08-07T00:32:43.766139+00:00",
+        "datecommitted": "2020-08-07T00:01:01+00:00",
+        "description": "OcMemoryLib: Add LegacyRegion2Protocol support",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8ebad051184ea7f00520b20bd7824c83ab17e4d6/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8ebad051184ea7f00520b20bd7824c83ab17e4d6/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "d744c5b9a64008be522c902d44e2414cf8c7d98ed560bbe2be3f94df5a401456"
+          },
+          "release": {
+            "sha256": "d5cf100e8743bd919763492cb95aafe74af2a0894e57eedbad36bd598b8aa324"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8ebad051184ea7f00520b20bd7824c83ab17e4d6/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8ebad051184ea7f00520b20bd7824c83ab17e4d6/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "b7c9d29ee72fc5df6347cba7671b0c94bdd57d89",
         "dateadded": "2020-08-05T14:42:59.172322+00:00",
         "datecommitted": "2020-08-05T14:29:29+00:00",
