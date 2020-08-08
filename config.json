@@ -14896,6 +14896,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "da7d723ce3949b5f094a77777c40bd31beaa8f38",
+        "dateadded": "2020-08-08T04:40:05.473022+00:00",
+        "datecommitted": "2020-08-08T04:39:18+00:00",
+        "description": "Fix audio lags in Safari caused by reading SMM in SMCDellSensors plugin (#36)",
+        "hashes": {
+          "debug": {
+            "sha256": "fd276c114a81e1328fe59e96d3693fe818335fc471e47d2f308074e13214e476"
+          },
+          "release": {
+            "sha256": "6c041a844d8cacbb5fa079efbafbde3c4d82aba5de7190a4583fa01725ac6e73"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/da7d723ce3949b5f094a77777c40bd31beaa8f38/Debug/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/da7d723ce3949b5f094a77777c40bd31beaa8f38/Release/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
         "commit": "c7660f685eccf95baa74a5374c8b1f4daa3a1686",
         "dateadded": "2020-08-04T05:06:50.793160+00:00",
         "datecommitted": "2020-08-04T04:57:01+00:00",
