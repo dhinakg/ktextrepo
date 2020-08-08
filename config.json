@@ -4044,6 +4044,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "ba5c51e32b6bdc45495d75774306234f6de882f1",
+        "dateadded": "2020-08-08T21:58:18.009845+00:00",
+        "datecommitted": "2020-08-08T21:49:28+00:00",
+        "description": "OpenCoreMisc: Provide handling of recovery-boot-mode",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ba5c51e32b6bdc45495d75774306234f6de882f1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ba5c51e32b6bdc45495d75774306234f6de882f1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "78638003ace93b7b34dd35c2441529978d3dd24caffaaf69ce21c2af9beed02a"
+          },
+          "release": {
+            "sha256": "5b37baf75e23546add6f2c6459ccd23637f58ef61eda6442e3c148c5935b5e82"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ba5c51e32b6bdc45495d75774306234f6de882f1/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ba5c51e32b6bdc45495d75774306234f6de882f1/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "6404e1ece0c65620a2f1c40f7f557f208f7472aa",
         "dateadded": "2020-08-08T20:58:37.458676+00:00",
         "datecommitted": "2020-08-08T20:45:08+00:00",
