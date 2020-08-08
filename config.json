@@ -4044,6 +4044,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "1d0516741eb126c4857bda9b584d3e318d52ae1d",
+        "dateadded": "2020-08-08T18:09:39.936177+00:00",
+        "datecommitted": "2020-08-08T18:01:49+00:00",
+        "description": "OcHdaDevicesLib: Add Comet Lake-LP device code",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d0516741eb126c4857bda9b584d3e318d52ae1d/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d0516741eb126c4857bda9b584d3e318d52ae1d/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "45e093ad244f0e9e31d174ba34ca6ee64e0f62e9dd30e8f8a91a8505a9b87a8a"
+          },
+          "release": {
+            "sha256": "6ff8af35a61a7650c39d547565c63079bc829ab8f23c2b1f57853884885d2fd9"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d0516741eb126c4857bda9b584d3e318d52ae1d/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1d0516741eb126c4857bda9b584d3e318d52ae1d/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "7e965893bdce6889f380b2be12b0aa3106a275de",
         "dateadded": "2020-08-08T17:23:41.412544+00:00",
         "datecommitted": "2020-08-08T17:05:23+00:00",
