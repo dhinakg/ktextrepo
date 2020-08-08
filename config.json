@@ -4044,6 +4044,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "c9b719670ec33e07bff58d1e8a4a531765a12cef",
+        "dateadded": "2020-08-08T18:55:14.006840+00:00",
+        "datecommitted": "2020-08-08T18:25:03+00:00",
+        "description": "OcAppleKernelLib: Use original modified time for virtual SLE",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c9b719670ec33e07bff58d1e8a4a531765a12cef/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c9b719670ec33e07bff58d1e8a4a531765a12cef/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "5d2d5a3ee787a7eed3a1049d13c62c9444bbc20da1c0ed7c9b97c5cb9431ff1f"
+          },
+          "release": {
+            "sha256": "621d716556b6cbd83c51bcb3f02cce1715f79d3aba0fb40a1c2ee709bad75b06"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c9b719670ec33e07bff58d1e8a4a531765a12cef/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c9b719670ec33e07bff58d1e8a4a531765a12cef/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "1d0516741eb126c4857bda9b584d3e318d52ae1d",
         "dateadded": "2020-08-08T18:09:39.936177+00:00",
         "datecommitted": "2020-08-08T18:01:49+00:00",
