@@ -4044,6 +4044,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "6f4f762354c64ea3666297fc4fe2e9bf09897084",
+        "dateadded": "2020-08-08T14:47:48.811370+00:00",
+        "datecommitted": "2020-08-08T14:20:45+00:00",
+        "description": "OcCpuLib: Fixed display name for older Xeon CPUs like Xeon E5450\n\ncloses acidanthera/bugtracker#1079",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f4f762354c64ea3666297fc4fe2e9bf09897084/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f4f762354c64ea3666297fc4fe2e9bf09897084/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "7be58efd6fdfae1c3872a76104b641628f9cc9e893ea185adeb546b7d1226f30"
+          },
+          "release": {
+            "sha256": "85d5dff15efc56db07a09a17598b485add554c0e48e5d1376104113c122c7d69"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f4f762354c64ea3666297fc4fe2e9bf09897084/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f4f762354c64ea3666297fc4fe2e9bf09897084/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "2636b192cd9eaf5a595c9a0c77171dd4f9e235b7",
         "dateadded": "2020-08-07T20:39:48.583045+00:00",
         "datecommitted": "2020-08-07T20:27:27+00:00",
