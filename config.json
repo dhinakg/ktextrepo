@@ -4044,6 +4044,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "f5a9ff02b09f8a2bdd716750de9f78c901338e39",
+        "dateadded": "2020-08-08T20:48:35.327467+00:00",
+        "datecommitted": "2020-08-08T20:25:48+00:00",
+        "description": "OpenCoreKernel: Free cacheless context if previously valid",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f5a9ff02b09f8a2bdd716750de9f78c901338e39/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f5a9ff02b09f8a2bdd716750de9f78c901338e39/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "1d3e75b31b2b1703000af54dc7dbbd0d37f96494d4bac8178ea11b622dca521e"
+          },
+          "release": {
+            "sha256": "80fd7fd695b310fb3da867487be701d9bacd01783cce5b018b01427814827b74"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f5a9ff02b09f8a2bdd716750de9f78c901338e39/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f5a9ff02b09f8a2bdd716750de9f78c901338e39/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "c9b719670ec33e07bff58d1e8a4a531765a12cef",
         "dateadded": "2020-08-08T18:55:14.006840+00:00",
         "datecommitted": "2020-08-08T18:25:03+00:00",
