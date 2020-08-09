@@ -4065,6 +4065,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "4d7d8268ffb371161bdd4c37bf2afcb0191029a7",
+        "dateadded": "2020-08-09T05:53:21.171536+00:00",
+        "datecommitted": "2020-08-09T05:30:33+00:00",
+        "description": "OcDevicePathLib: Fix matching disk controllers with legacy OPROM (#95)\n\ncloses acidanthera/bugtracker#991",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4d7d8268ffb371161bdd4c37bf2afcb0191029a7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4d7d8268ffb371161bdd4c37bf2afcb0191029a7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "e54d81e8a09b215f8fe4acbdac5f93d09459cb27f2db1d619d7c165532589f1b"
+          },
+          "release": {
+            "sha256": "31277ca2af8e3575d1f624a3727f973393751dee01917fc9241b0524a467440a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4d7d8268ffb371161bdd4c37bf2afcb0191029a7/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4d7d8268ffb371161bdd4c37bf2afcb0191029a7/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "ba5c51e32b6bdc45495d75774306234f6de882f1",
         "dateadded": "2020-08-08T21:58:18.009845+00:00",
         "datecommitted": "2020-08-08T21:49:28+00:00",
