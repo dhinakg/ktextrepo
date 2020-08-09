@@ -4065,6 +4065,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "459a769f8323bc750d42af2f95bb632991e28027",
+        "dateadded": "2020-08-09T20:36:33.338986+00:00",
+        "datecommitted": "2020-08-09T20:11:00+00:00",
+        "description": "OpenCoreUefi: Add immutablekernel loading support\n\nreferences acidanthera/bugtracker#1071",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/459a769f8323bc750d42af2f95bb632991e28027/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/459a769f8323bc750d42af2f95bb632991e28027/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "0e6f5fa83d964a7e9c6c84c02d72266b66367efb9f805dcb5fd456796f42496a"
+          },
+          "release": {
+            "sha256": "c4dc6ee0ab41319ad8d45c193bfce023330ae9e0396fd276d4faf44ec14485cb"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/459a769f8323bc750d42af2f95bb632991e28027/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/459a769f8323bc750d42af2f95bb632991e28027/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "0df1307bdb7f3fd7d60555c65426bd6178a4760c",
         "dateadded": "2020-08-09T19:34:47.386781+00:00",
         "datecommitted": "2020-08-09T19:24:10+00:00",
