@@ -4065,6 +4065,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "b32f9bde54a4e645258395934a30be17b9de1a59",
+        "dateadded": "2020-08-09T17:57:51.747325+00:00",
+        "datecommitted": "2020-08-09T17:42:36+00:00",
+        "description": "OcAcpiLib: Fix RSDP checksum behavior",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b32f9bde54a4e645258395934a30be17b9de1a59/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b32f9bde54a4e645258395934a30be17b9de1a59/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "b88eb3436eb60de44f4b500ece23e71414b61fca5e6f0e2d65d8d8dd73881dfd"
+          },
+          "release": {
+            "sha256": "6f0588910f5d1a390426028bd7eb8e88f3723798abb469098637cf764401c165"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b32f9bde54a4e645258395934a30be17b9de1a59/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b32f9bde54a4e645258395934a30be17b9de1a59/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "16eb84f94be676ebcd8d7d6c43f3084b38dcff08",
         "dateadded": "2020-08-09T13:02:48.802758+00:00",
         "datecommitted": "2020-08-09T12:54:00+00:00",
