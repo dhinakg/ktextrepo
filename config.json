@@ -3,6 +3,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "6c02ad955f3ee5832deb5047fbee40e0c2f5cd43",
+        "dateadded": "2020-08-09T00:42:07.241823+00:00",
+        "datecommitted": "2020-08-09T00:38:53+00:00",
+        "description": "Update Changelog.md",
+        "hashes": {
+          "debug": {
+            "sha256": "aca6066e0f2521a91840e50d4bf2c903e4105bdb5c38df5d0160951ee0669241"
+          },
+          "release": {
+            "sha256": "f3397d3b7725145242e0269d57adb0b6390aa2e12f3cd4d11cf91e852fcddd6d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/6c02ad955f3ee5832deb5047fbee40e0c2f5cd43/Debug/AirportBrcmFixup-2.0.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/6c02ad955f3ee5832deb5047fbee40e0c2f5cd43/Release/AirportBrcmFixup-2.0.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.9"
+      },
+      {
         "commit": "53d81f3fd38a9594849aa553a3da085f2d22cb12",
         "dateadded": "2020-08-07T15:25:45.871618+00:00",
         "datecommitted": "2020-08-07T15:22:52+00:00",
