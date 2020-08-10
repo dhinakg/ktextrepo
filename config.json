@@ -455,6 +455,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "cf0d8434cba879d5f76f41dfaf73b5f808046db9",
+        "dateadded": "2020-08-10T21:48:10.300303+00:00",
+        "datecommitted": "2020-08-10T21:38:55+00:00",
+        "description": "Update README_CN.md",
+        "hashes": {
+          "debug": {
+            "sha256": "768749fb8d918e0bccdd1200c044abe2176c10a1bc3f47df0fe8fbca620265ca"
+          },
+          "release": {
+            "sha256": "eca64a8d4ffe2478a9e1614f88868f54a9385d244b6bf7941ad40aad508f209a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/cf0d8434cba879d5f76f41dfaf73b5f808046db9/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/cf0d8434cba879d5f76f41dfaf73b5f808046db9/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
         "commit": "186c8881c68acef22d9855f3b25e9a489f471916",
         "dateadded": "2020-08-04T10:21:03.470708+00:00",
         "datecommitted": "2020-08-04T10:18:26+00:00",
