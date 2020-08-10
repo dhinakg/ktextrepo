@@ -63,5 +63,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: builds
           FOLDER: Push
+          GIT_CONFIG_NAME: "Dhinak G"
+          GIT_CONFIG_EMAIL: dhinakg@users.noreply.github.com
 
           
