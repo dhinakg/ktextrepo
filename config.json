@@ -4065,6 +4065,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "f48c647b7081282dc839bb652a7e105069c5918e",
+        "dateadded": "2020-08-10T18:35:53.009718+00:00",
+        "datecommitted": "2020-08-10T18:28:39+00:00",
+        "description": "OcAppleKernelLib: Fix solving kernel symbols to zero in 11.0\n\nObserved with Black80211 when trying to solve Black80211Control vtable\nimports from IONetworkingFamily. When trying to look up\n__ZNK19IONetworkController11getFeaturesEv it will be found not just in\nIONetworkingFamily but also IO80211Family, where it is going to be\nexternal undefined, i.e. Type = 0x1.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f48c647b7081282dc839bb652a7e105069c5918e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f48c647b7081282dc839bb652a7e105069c5918e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "52e918ab31fad663e34be6f444f7d65fa54b89cba0c9a87e0eadaf102dadb396"
+          },
+          "release": {
+            "sha256": "fb6383f9c77623021c3f9b7792cb27959aee051261bc630bef4e20c4c0d334e5"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f48c647b7081282dc839bb652a7e105069c5918e/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f48c647b7081282dc839bb652a7e105069c5918e/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "add398317221bd918d1525c7e572ab700643f943",
         "dateadded": "2020-08-10T15:46:20.397443+00:00",
         "datecommitted": "2020-08-10T15:31:23+00:00",
