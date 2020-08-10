@@ -4065,6 +4065,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "d99f0640f61a35ffb568c2aec2b43d1f2c2fb0ec",
+        "dateadded": "2020-08-10T08:28:27.421996+00:00",
+        "datecommitted": "2020-08-10T08:18:40+00:00",
+        "description": "OcAppleImg4Lib: Optimise model lookup and fix some doc issues",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d99f0640f61a35ffb568c2aec2b43d1f2c2fb0ec/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d99f0640f61a35ffb568c2aec2b43d1f2c2fb0ec/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "abad38d36a921ba2a7398b0b144b88c8cc96faf14cff3bc768a234388be644db"
+          },
+          "release": {
+            "sha256": "aeb2e245baab37cbf59c6d239446adedc8679a785ddb29937d905ec99a571a87"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d99f0640f61a35ffb568c2aec2b43d1f2c2fb0ec/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d99f0640f61a35ffb568c2aec2b43d1f2c2fb0ec/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "8837838fb306c6d5d64a424627a3946f9aa674c9",
         "dateadded": "2020-08-10T06:21:41.320268+00:00",
         "datecommitted": "2020-08-10T04:32:50+00:00",
