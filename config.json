@@ -2599,6 +2599,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "bd4664f9b758c115ac1bf38ca278088859ec428e",
+        "dateadded": "2020-08-11T13:17:01.214134+00:00",
+        "datecommitted": "2020-08-11T12:57:41+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "9912fa8960d895b3b552708fcfc90433acc382deb081c0ad661a3a0ffcc10fd8"
+          },
+          "release": {
+            "sha256": "e506da792106972e76ac5072b759995017df3640c4a0fb61282bbdb47d684fb1"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/bd4664f9b758c115ac1bf38ca278088859ec428e/Debug/Lilu-1.4.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/bd4664f9b758c115ac1bf38ca278088859ec428e/Release/Lilu-1.4.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.7"
+      },
+      {
         "commit": "bcdee92320dcb6dd3e813973bd515a957c80adf9",
         "dateadded": "2020-08-11T06:25:29.364180+00:00",
         "datecommitted": "2020-08-11T06:20:31+00:00",
