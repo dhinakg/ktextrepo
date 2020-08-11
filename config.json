@@ -4128,6 +4128,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "fa58908b2697477e080ba73564a08743802de61b",
+        "dateadded": "2020-08-11T18:01:27.252139+00:00",
+        "datecommitted": "2020-08-11T17:29:30+00:00",
+        "description": "OcAppleImg4Lib: Improve debug logging",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fa58908b2697477e080ba73564a08743802de61b/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fa58908b2697477e080ba73564a08743802de61b/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "e7d23cc69abbc44bc57cd594fcdf472f674de3e1cd6717a413e4c597fb7a862d"
+          },
+          "release": {
+            "sha256": "690ec18c41e594a750e7f8e92f421488331accb90b0b85f80bdd2bc7c14f3b64"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fa58908b2697477e080ba73564a08743802de61b/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/fa58908b2697477e080ba73564a08743802de61b/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "816e82188faf75c6122eb5773cb4a281b28ae94a",
         "dateadded": "2020-08-11T15:18:00.082256+00:00",
         "datecommitted": "2020-08-11T15:03:10+00:00",
