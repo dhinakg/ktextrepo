@@ -2599,6 +2599,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "bcdee92320dcb6dd3e813973bd515a957c80adf9",
+        "dateadded": "2020-08-11T06:25:29.364180+00:00",
+        "datecommitted": "2020-08-11T06:20:31+00:00",
+        "description": "Do not remove osfmk folder from SDK's libraries (will be used by SMCDellSensors and probably SMCProcessor)",
+        "hashes": {
+          "debug": {
+            "sha256": "feeb755071c97d83c18b4b2ec6c0230d80706edc1445767b6f7979c96b4da786"
+          },
+          "release": {
+            "sha256": "fa784deb8fd81eb79c336fb13fef384ca1af6c9131d8e214aedce20b91684f77"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/bcdee92320dcb6dd3e813973bd515a957c80adf9/Debug/Lilu-1.4.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/bcdee92320dcb6dd3e813973bd515a957c80adf9/Release/Lilu-1.4.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.7"
+      },
+      {
         "commit": "acee81d49f09c0f656d305409bbcd4a557db9d6d",
         "dateadded": "2020-08-03T16:05:48.192399+00:00",
         "datecommitted": "2020-08-03T16:02:28+00:00",
