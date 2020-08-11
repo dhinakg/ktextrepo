@@ -2574,6 +2574,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "c6e7eb00da433e324ce062bdf832275f5cf48ec0",
+        "dateadded": "2020-08-11T21:21:15.392229+00:00",
+        "datecommitted": "2020-08-11T21:13:20+00:00",
+        "description": "Bump version",
+        "hashes": {
+          "debug": {
+            "sha256": "43c2991b38c84f7e2e05442b46cfb8e76865af3a4e42e6908d4ed5bd261f8448"
+          },
+          "release": {
+            "sha256": "3968241223ce45906bf686b80dd92537be31094a436f31ce4f9888d6db958d6f"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/IntelMausi/c6e7eb00da433e324ce062bdf832275f5cf48ec0/Debug/IntelMausi-1.0.4-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/IntelMausi/c6e7eb00da433e324ce062bdf832275f5cf48ec0/Release/IntelMausi-1.0.4-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.0.4"
+      },
+      {
         "commit": "179a3b305f4df017db7847d28cbd189d40089980",
         "dateadded": "2020-07-06T15:39:19.738582+00:00",
         "description": "Merged changes from 2.5.1d1 for CML support",
