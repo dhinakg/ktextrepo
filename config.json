@@ -4128,6 +4128,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "816e82188faf75c6122eb5773cb4a281b28ae94a",
+        "dateadded": "2020-08-11T15:18:00.082256+00:00",
+        "datecommitted": "2020-08-11T15:03:10+00:00",
+        "description": "OpenCanopy: Reduce size by restricting boot management access",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/816e82188faf75c6122eb5773cb4a281b28ae94a/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/816e82188faf75c6122eb5773cb4a281b28ae94a/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "cc6eade6f48cd94a641a29fe3cbc61fec038350b84f02e180a8be652a78ad38b"
+          },
+          "release": {
+            "sha256": "4acf534dbdd9036d061d1838d932a84a803275b3c6378342fba07b3c9d982024"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/816e82188faf75c6122eb5773cb4a281b28ae94a/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/816e82188faf75c6122eb5773cb4a281b28ae94a/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "89c5e90bfbcfe9037cb4981e249733193cd09701",
         "dateadded": "2020-08-11T13:04:41.400036+00:00",
         "datecommitted": "2020-08-11T12:43:56+00:00",
