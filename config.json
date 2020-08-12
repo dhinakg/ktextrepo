@@ -4149,6 +4149,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "d7d16127c53d8e6c0b4af15747a6144e5ead43bc",
+        "dateadded": "2020-08-12T17:01:08.252367+00:00",
+        "datecommitted": "2020-08-12T16:48:57+00:00",
+        "description": "OcConsoleLib: Add BuiltinText TextRenderer mode\n\nDiscovered on Lenovo V580 (i3 3120M)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d7d16127c53d8e6c0b4af15747a6144e5ead43bc/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d7d16127c53d8e6c0b4af15747a6144e5ead43bc/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "5601387e8f3abcb0824021a8e5ee81ddb3fb740510f090971940a3cb81e3171e"
+          },
+          "release": {
+            "sha256": "239f6ee61ad45b12b3d27ed790d6379f2b3c524664fa371dda7a5f314610ced3"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d7d16127c53d8e6c0b4af15747a6144e5ead43bc/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d7d16127c53d8e6c0b4af15747a6144e5ead43bc/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "fa58908b2697477e080ba73564a08743802de61b",
         "dateadded": "2020-08-11T18:01:27.252139+00:00",
         "datecommitted": "2020-08-11T17:29:30+00:00",
