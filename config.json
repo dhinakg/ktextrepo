@@ -15807,6 +15807,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "357de11621917f474d0b3a4aa6f855e6b90fab50",
+        "dateadded": "2020-08-14T15:02:36.635974+00:00",
+        "datecommitted": "2020-08-14T14:54:44+00:00",
+        "description": "Optimise SMM access by avoiding CPU rendezvous (#38)",
+        "hashes": {
+          "debug": {
+            "sha256": "347b8c691b4dae67ea315cfa80c09f2551ac72005976104cc8412a5d63fc6c96"
+          },
+          "release": {
+            "sha256": "4bc57d1b3767fd479156911a4c54849d0b6a4626581c6311451ef6b5a5bc3765"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/357de11621917f474d0b3a4aa6f855e6b90fab50/Debug/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/357de11621917f474d0b3a4aa6f855e6b90fab50/Release/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
         "commit": "460be0d664237f8a34ef0b33dfa0452d1bcf9396",
         "dateadded": "2020-08-13T17:57:54.336023+00:00",
         "datecommitted": "2020-08-13T17:49:54+00:00",
