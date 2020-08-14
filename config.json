@@ -16852,6 +16852,33 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "5b67774aa06695e561c5613801646be5f7c29b49",
+        "dateadded": "2020-08-14T10:18:11.996220+00:00",
+        "datecommitted": "2020-08-14T10:15:21+00:00",
+        "description": "Fixed `disable-external-gpu` (`-wegnoegpu`) on some systems",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/5b67774aa06695e561c5613801646be5f7c29b49/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031"
+          },
+          "debug": {
+            "sha256": "b1fc9b42e68dd7791e70091c9512db7bd41891d57a977f4e749d4a698b8a6972"
+          },
+          "release": {
+            "sha256": "4edcbfbd1b3c7ea5449854d24985789936a9ff961903aac954144c456adbede4"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/5b67774aa06695e561c5613801646be5f7c29b49/Debug/WhateverGreen-1.4.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/5b67774aa06695e561c5613801646be5f7c29b49/Release/WhateverGreen-1.4.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.2"
+      },
+      {
         "commit": "47d6fa92686367e4b7e49c248ddda6858d814c6d",
         "dateadded": "2020-08-03T16:13:43.859940+00:00",
         "datecommitted": "2020-08-03T16:11:05+00:00",
