@@ -15807,6 +15807,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "f11d885eff0058021eee8fdb0db4243ec7af5834",
+        "dateadded": "2020-08-14T17:40:10.239463+00:00",
+        "datecommitted": "2020-08-14T17:39:20+00:00",
+        "description": "Fix typo in the previous commit",
+        "hashes": {
+          "debug": {
+            "sha256": "f75bb6aedda402940bcd34eb0d91824a58d0e9ced5b55b84ab64a544a2a9b003"
+          },
+          "release": {
+            "sha256": "589c6e0905b6ace19d5efd1a7bd5be89e5f624c4805611644916c9c0349a3e2a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/f11d885eff0058021eee8fdb0db4243ec7af5834/Debug/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/f11d885eff0058021eee8fdb0db4243ec7af5834/Release/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
         "commit": "357de11621917f474d0b3a4aa6f855e6b90fab50",
         "dateadded": "2020-08-14T15:02:36.635974+00:00",
         "datecommitted": "2020-08-14T14:54:44+00:00",
