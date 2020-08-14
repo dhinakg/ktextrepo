@@ -4149,6 +4149,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "c3e14b6824fc053285f4f4e3c3634d2d240625d2",
+        "dateadded": "2020-08-14T21:50:19.446939+00:00",
+        "datecommitted": "2020-08-14T21:40:06+00:00",
+        "description": "OcAppleKernelLib: Implement mkext injection support (#99)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c3e14b6824fc053285f4f4e3c3634d2d240625d2/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c3e14b6824fc053285f4f4e3c3634d2d240625d2/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "59df7b3c458c2fc08bdc884eec813bfde0ad3cb4c816de887cbbc20648e8cae4"
+          },
+          "release": {
+            "sha256": "cd85659b804009e229e26e6e453411024dc866dd28e2f3364db08dc2abd29f36"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c3e14b6824fc053285f4f4e3c3634d2d240625d2/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c3e14b6824fc053285f4f4e3c3634d2d240625d2/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "c9ffc6d2f5d0eb91e9e53eecc173389f2c47e662",
         "dateadded": "2020-08-12T23:10:48.606322+00:00",
         "datecommitted": "2020-08-12T22:54:33+00:00",
