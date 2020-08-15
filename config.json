@@ -4149,6 +4149,68 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "399f05c3618709b8aa9524c80fa030765eeac3c3",
+        "dateadded": "2020-08-15T22:23:26.099492+00:00",
+        "datecommitted": "2020-08-15T21:33:30+00:00",
+        "description": "OcMemoryLib: Fix MAT processing for SyncRuntimePermissions (#100)\n\ncloses acidanthera/bugtracker#1096",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/399f05c3618709b8aa9524c80fa030765eeac3c3/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/399f05c3618709b8aa9524c80fa030765eeac3c3/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "2602066b7bca3a3a122faf5af65f43cb91ee5dad92b0c220ca798a81f71ff052"
+          },
+          "release": {
+            "sha256": "583457fa0c1395ba0dee36bb777fb584acaaaee24b2eefd2333261f9c9d470d6"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/399f05c3618709b8aa9524c80fa030765eeac3c3/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/399f05c3618709b8aa9524c80fa030765eeac3c3/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
+        "commit": "b5dcbd32d15b3d16bef8527dfb5ca165ab462781",
+        "dateadded": "2020-08-15T22:23:25.896716+00:00",
+        "datecommitted": "2020-08-15T21:33:56+00:00",
+        "description": "OcAppleKernelLib: Implement KXLD link state handling (#101)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b5dcbd32d15b3d16bef8527dfb5ca165ab462781/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b5dcbd32d15b3d16bef8527dfb5ca165ab462781/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "6a4dd293440fdfc80acfef22c035d0dd81557af20e97d4387852722b5112d52e"
+          },
+          "release": {
+            "sha256": "48357210eea35b70e02e3e3a43d4f5704c319f260dafcfcfcba7bb4bbecf1763"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b5dcbd32d15b3d16bef8527dfb5ca165ab462781/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b5dcbd32d15b3d16bef8527dfb5ca165ab462781/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "b0e86b3a866de80bbe632d24a6713f5d0bc3f7ca",
         "dateadded": "2020-08-15T20:28:14.490074+00:00",
         "datecommitted": "2020-08-15T20:20:46+00:00",
