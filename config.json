@@ -4149,6 +4149,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "70c55e03bbeeb2d5f85e2a6d21d4ce90f0ca1960",
+        "dateadded": "2020-08-16T02:08:34.812612+00:00",
+        "datecommitted": "2020-08-16T01:59:47+00:00",
+        "description": "OcAppleKernelLib: Implement CPUID patching for 10.6 64-bit",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/70c55e03bbeeb2d5f85e2a6d21d4ce90f0ca1960/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/70c55e03bbeeb2d5f85e2a6d21d4ce90f0ca1960/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "c3f91865f14b4bfc5f2e6c2c43156a8f8521a724ab037f41dfe51b2a542e7fe2"
+          },
+          "release": {
+            "sha256": "2fcef4944cacc765a8f20e707d6482b07cc5e87c8cec36e7e52a1a7360578616"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/70c55e03bbeeb2d5f85e2a6d21d4ce90f0ca1960/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/70c55e03bbeeb2d5f85e2a6d21d4ce90f0ca1960/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "399f05c3618709b8aa9524c80fa030765eeac3c3",
         "dateadded": "2020-08-15T22:23:26.099492+00:00",
         "datecommitted": "2020-08-15T21:33:30+00:00",
