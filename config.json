@@ -4212,6 +4212,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "40f81f29f74044ae5ad01f2ef8becc9a05bbcbcd",
+        "dateadded": "2020-08-16T23:00:58.443265+00:00",
+        "datecommitted": "2020-08-16T22:43:19+00:00",
+        "description": "OcBootManagementLib: Implement FAT image loading",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/40f81f29f74044ae5ad01f2ef8becc9a05bbcbcd/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/40f81f29f74044ae5ad01f2ef8becc9a05bbcbcd/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "132f8583aea8d94db5967b5d04a7e9ee3368ae32e08dca87f83bfd426ca2fa41"
+          },
+          "release": {
+            "sha256": "0e56a5d389f2e36a05a5c562c5368ee65271ca3d9367c14aacc2ed044f2e9d19"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/40f81f29f74044ae5ad01f2ef8becc9a05bbcbcd/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/40f81f29f74044ae5ad01f2ef8becc9a05bbcbcd/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "17e99ea36b69bb63f24893e3b37ecccf66098feb",
         "dateadded": "2020-08-16T21:24:51.747189+00:00",
         "datecommitted": "2020-08-16T21:04:34+00:00",
