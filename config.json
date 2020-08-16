@@ -2486,6 +2486,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "fc433de3a5f7f1c821fd3d6932ce2284ef672d6d",
+        "dateadded": "2020-08-16T10:12:07.435952+00:00",
+        "datecommitted": "2020-08-16T10:05:13+00:00",
+        "description": "Postpone RTC wake in AppleRTC::setupDateTimeAlarm according to current standby/autopoweroff delay (if auto-hibernate feature and standby/autopoweroff is on) in order to avoid an earlier wake.",
+        "hashes": {
+          "debug": {
+            "sha256": "e1e27a491315a758882ee23ca94b430e8486d00078e69242fce8861348ac0ac0"
+          },
+          "release": {
+            "sha256": "90266fe80547e80f962fb9873ea7ac80fd9cc0cd705e54b45866badd38d11d9a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/HibernationFixup/fc433de3a5f7f1c821fd3d6932ce2284ef672d6d/Debug/HibernationFixup-1.3.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/HibernationFixup/fc433de3a5f7f1c821fd3d6932ce2284ef672d6d/Release/HibernationFixup-1.3.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.5"
+      },
+      {
         "commit": "5225149bed1660cd23caec5624be9ff37944115a",
         "dateadded": "2020-08-03T16:13:43.767617+00:00",
         "datecommitted": "2020-08-03T16:09:27+00:00",
