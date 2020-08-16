@@ -2620,6 +2620,48 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "cb52405757d601abab39c9c1301b4ba74b3f20fa",
+        "dateadded": "2020-08-16T03:12:55.128410+00:00",
+        "datecommitted": "2020-08-16T03:02:21+00:00",
+        "description": "Fix chaining symbols regression\n\ncloses acidanthera/bugtracker#1101",
+        "hashes": {
+          "debug": {
+            "sha256": "1a8cacda44c8e43d20295e066656eb21b56ff8f659e2285069e0482c0cc3c6be"
+          },
+          "release": {
+            "sha256": "00ce7efde30258a0af570d4da64cafda33af487bbdf56752cffd438b4fa1b306"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/cb52405757d601abab39c9c1301b4ba74b3f20fa/Debug/Lilu-1.4.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/cb52405757d601abab39c9c1301b4ba74b3f20fa/Release/Lilu-1.4.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.7"
+      },
+      {
+        "commit": "94a467fc58cff8b0d0c81126b263eef5c184bd22",
+        "dateadded": "2020-08-16T03:12:55.079474+00:00",
+        "datecommitted": "2020-08-16T03:03:09+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "b1f7756cad9f64b08e544e8573af8a2174e3fd540429202172f177ccbb21d0c6"
+          },
+          "release": {
+            "sha256": "954e86fc31edcb2b3ff4300312ded2e762ae104e62c3c7e65232835c95a07660"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/94a467fc58cff8b0d0c81126b263eef5c184bd22/Debug/Lilu-1.4.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/94a467fc58cff8b0d0c81126b263eef5c184bd22/Release/Lilu-1.4.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.7"
+      },
+      {
         "commit": "bd4664f9b758c115ac1bf38ca278088859ec428e",
         "dateadded": "2020-08-11T13:17:01.214134+00:00",
         "datecommitted": "2020-08-11T12:57:41+00:00",
