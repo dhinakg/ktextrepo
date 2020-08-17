@@ -4212,6 +4212,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "deb1d2c825176bfcfab71fd0177190012310b4b3",
+        "dateadded": "2020-08-17T09:40:57.631212+00:00",
+        "datecommitted": "2020-08-17T09:29:15+00:00",
+        "description": "OcBootManagementLib: Fix linking on Linux",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/deb1d2c825176bfcfab71fd0177190012310b4b3/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/deb1d2c825176bfcfab71fd0177190012310b4b3/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "6dff663c7038adeedd1f2c3196c6cc70c916cc734a3633bc010c0cbcf055d6de"
+          },
+          "release": {
+            "sha256": "6d8bee7ffbf4c5c4d96432f8fcc0af6172f3bfcc77ff844d3d57bf48cd506066"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/deb1d2c825176bfcfab71fd0177190012310b4b3/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/deb1d2c825176bfcfab71fd0177190012310b4b3/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "40f81f29f74044ae5ad01f2ef8becc9a05bbcbcd",
         "dateadded": "2020-08-16T23:00:58.443265+00:00",
         "datecommitted": "2020-08-16T22:43:19+00:00",
