@@ -4233,6 +4233,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "04db39f161714874c6ca6560e930e4e5a91c1d1b",
+        "dateadded": "2020-08-17T17:11:20.544443+00:00",
+        "datecommitted": "2020-08-17T16:05:14+00:00",
+        "description": "Fix case folding name compare in btree code\n\nRemove folding of 0x0000 char to invalid unicode char 0xFFFF.\n\nFix false match when name in the btree on disk is the prefix of longer search key.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/04db39f161714874c6ca6560e930e4e5a91c1d1b/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/04db39f161714874c6ca6560e930e4e5a91c1d1b/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "c4b2687acd9623706e0f1b34028947bb2859c7916904357295988a9c9f280daa"
+          },
+          "release": {
+            "sha256": "962c18e78b6ceb9bd01f37b6d4b81356fec304d31165457119194a298955914d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/04db39f161714874c6ca6560e930e4e5a91c1d1b/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/04db39f161714874c6ca6560e930e4e5a91c1d1b/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "deb1d2c825176bfcfab71fd0177190012310b4b3",
         "dateadded": "2020-08-17T09:40:57.631212+00:00",
         "datecommitted": "2020-08-17T09:29:15+00:00",
