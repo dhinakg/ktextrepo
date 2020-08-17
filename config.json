@@ -2641,6 +2641,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "b8eb26fadc827d1df8f4e5ab8c9216c5098e8318",
+        "dateadded": "2020-08-17T12:35:03.989009+00:00",
+        "datecommitted": "2020-08-17T12:34:33+00:00",
+        "description": "Update KnownPlugins.md (#58)",
+        "hashes": {
+          "debug": {
+            "sha256": "c7bd4141d03fa6fe62833ff596057d8ccf22f248e92f6b7560ec4559dfeef0f5"
+          },
+          "release": {
+            "sha256": "c284d61e56f038aace1a04634a891632685a4c71f8fc433a7adb56d8dce3d113"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/b8eb26fadc827d1df8f4e5ab8c9216c5098e8318/Debug/Lilu-1.4.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/b8eb26fadc827d1df8f4e5ab8c9216c5098e8318/Release/Lilu-1.4.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.7"
+      },
+      {
         "commit": "cb52405757d601abab39c9c1301b4ba74b3f20fa",
         "dateadded": "2020-08-16T03:12:55.128410+00:00",
         "datecommitted": "2020-08-16T03:02:21+00:00",
