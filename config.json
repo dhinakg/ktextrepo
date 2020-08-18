@@ -4233,6 +4233,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "a1316334ad9a7bdc18536f275e9e7c9b4c7830ca",
+        "dateadded": "2020-08-18T22:23:21.870917+00:00",
+        "datecommitted": "2020-08-18T22:11:34+00:00",
+        "description": "OpenCoreKernel: Don't match .kext or .im4m during XNU hook",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a1316334ad9a7bdc18536f275e9e7c9b4c7830ca/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a1316334ad9a7bdc18536f275e9e7c9b4c7830ca/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "7914a01827ceeb2a8529caa0b55002fa05649ef47c3aa696336d8b859a3e73b1"
+          },
+          "release": {
+            "sha256": "0dd7b09a8c02ed60bef2053c2c57fec7c44ca6d64f32edbb7777613673e27e59"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a1316334ad9a7bdc18536f275e9e7c9b4c7830ca/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a1316334ad9a7bdc18536f275e9e7c9b4c7830ca/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "04fa1c2394bc44089b78eea8a1bf316408cf1177",
         "dateadded": "2020-08-18T20:56:20.937435+00:00",
         "datecommitted": "2020-08-18T20:47:38+00:00",
