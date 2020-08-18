@@ -4233,6 +4233,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "9a0f1bc12c9a23f30373b0be6c0f39e6d72e9480",
+        "dateadded": "2020-08-18T20:30:20.560600+00:00",
+        "datecommitted": "2020-08-18T20:22:14+00:00",
+        "description": "Build: Fix iasl dependency",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9a0f1bc12c9a23f30373b0be6c0f39e6d72e9480/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9a0f1bc12c9a23f30373b0be6c0f39e6d72e9480/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "0c7650ece04bba5cd67f4f300150c8e0f11e372c84e69d599154683f79a10e8f"
+          },
+          "release": {
+            "sha256": "62f7df909f74a66fde7b24ed0d23510e2a53e0465dee3c6f78ccdfffe3450ccf"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9a0f1bc12c9a23f30373b0be6c0f39e6d72e9480/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/9a0f1bc12c9a23f30373b0be6c0f39e6d72e9480/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "04db39f161714874c6ca6560e930e4e5a91c1d1b",
         "dateadded": "2020-08-17T17:11:20.544443+00:00",
         "datecommitted": "2020-08-17T16:05:14+00:00",
