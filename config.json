@@ -4233,6 +4233,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "5ea680a0551a30762b3b77967177d9c440281c0b",
+        "dateadded": "2020-08-19T16:36:04.754592+00:00",
+        "datecommitted": "2020-08-19T16:25:41+00:00",
+        "description": "OcAppleKernelLib: Fix handling for codeless kexts",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5ea680a0551a30762b3b77967177d9c440281c0b/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5ea680a0551a30762b3b77967177d9c440281c0b/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "f2c22d26312bc7f9aa953722218f36a944e0b81823c8a1c81aa8a6c6f64c7320"
+          },
+          "release": {
+            "sha256": "30ff0b4152d7d8fd722366a03350fe17db0d1d5c075d30dcc8ae6b59ce4fda02"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5ea680a0551a30762b3b77967177d9c440281c0b/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5ea680a0551a30762b3b77967177d9c440281c0b/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "5c92fe309827c10465b8314372eecfb4302fb2c8",
         "dateadded": "2020-08-19T15:31:39.827649+00:00",
         "datecommitted": "2020-08-19T15:23:22+00:00",
