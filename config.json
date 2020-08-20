@@ -2486,6 +2486,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "e278709b28037ae7780475105b51fd440289c1ba",
+        "dateadded": "2020-08-20T06:45:42.083795+00:00",
+        "datecommitted": "2020-08-20T06:41:22+00:00",
+        "description": "Fix leap year detection function (thanks to PMHeart)",
+        "hashes": {
+          "debug": {
+            "sha256": "5d957cdfae78ddfa7a5a821f4998d1ef0661df408d85b880f811a28d98ee2f8b"
+          },
+          "release": {
+            "sha256": "e617f124edf348d4ff360edaeac39ec0dd8c3cd96226e32cf49ed51710e68210"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/HibernationFixup/e278709b28037ae7780475105b51fd440289c1ba/Debug/HibernationFixup-1.3.5-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/HibernationFixup/e278709b28037ae7780475105b51fd440289c1ba/Release/HibernationFixup-1.3.5-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.5"
+      },
+      {
         "commit": "fc433de3a5f7f1c821fd3d6932ce2284ef672d6d",
         "dateadded": "2020-08-16T10:12:07.435952+00:00",
         "datecommitted": "2020-08-16T10:05:13+00:00",
