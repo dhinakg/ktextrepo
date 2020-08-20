@@ -4254,6 +4254,130 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "442ec2f2c3d625a1ca03f5854be076720feacda3",
+        "dateadded": "2020-08-20T21:04:33.729760+00:00",
+        "datecommitted": "2020-08-20T19:19:42+00:00",
+        "description": "OcAppleKernelLib: Add ParseFatArchitecture status check",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/442ec2f2c3d625a1ca03f5854be076720feacda3/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/442ec2f2c3d625a1ca03f5854be076720feacda3/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "32a1cb6571b0b083b702b265c6b49f1c5a5a7de70b23dfb5afd6c3163510408d"
+          },
+          "release": {
+            "sha256": "38c2c780b54cdc7affd282732d9dcd9f63905cf5d248ae4b85010d571a1b3a83"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/442ec2f2c3d625a1ca03f5854be076720feacda3/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/442ec2f2c3d625a1ca03f5854be076720feacda3/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
+        "commit": "c2f7b3cea5a09db9d56ce7f08a8cdccbe5939283",
+        "dateadded": "2020-08-20T21:04:33.490403+00:00",
+        "datecommitted": "2020-08-20T19:28:08+00:00",
+        "description": "OpenCoreUefi: Prohibit unsigned DMG loading with secure boot",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c2f7b3cea5a09db9d56ce7f08a8cdccbe5939283/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c2f7b3cea5a09db9d56ce7f08a8cdccbe5939283/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "3ab6172ba54863857f9fea2b48faa72f6a0bcee6ccf1b2e9e124bd6b6a003e75"
+          },
+          "release": {
+            "sha256": "3fa87d72bc3c3dbc295edda8f36fabb0c31b811df7fc6ca6bc439aa32fc7e0ff"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c2f7b3cea5a09db9d56ce7f08a8cdccbe5939283/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c2f7b3cea5a09db9d56ce7f08a8cdccbe5939283/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
+        "commit": "1a4c8c22bf422cfa7cad14792ebee33ce1950ca6",
+        "dateadded": "2020-08-20T21:04:33.191639+00:00",
+        "datecommitted": "2020-08-20T19:28:08+00:00",
+        "description": "OcAppleSecureBootLib: Remove insecure interfaces",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1a4c8c22bf422cfa7cad14792ebee33ce1950ca6/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1a4c8c22bf422cfa7cad14792ebee33ce1950ca6/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "eb643464d9cb90a5b15acded089ff8f9d36d3fa9f6d5a8d45a4d4912527a1e21"
+          },
+          "release": {
+            "sha256": "db1f84e00924c25312669b9f0d4b77a080bd8a92889f6011b76c1d6ab4c44e71"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1a4c8c22bf422cfa7cad14792ebee33ce1950ca6/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/1a4c8c22bf422cfa7cad14792ebee33ce1950ca6/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
+        "commit": "baa6e8de34dc037701a45646c43bfb54fc48dc8e",
+        "dateadded": "2020-08-20T21:04:32.937529+00:00",
+        "datecommitted": "2020-08-20T19:28:08+00:00",
+        "description": "OcBootManagementLib: Add AppleSecureBoot support on EFI files",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/baa6e8de34dc037701a45646c43bfb54fc48dc8e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/baa6e8de34dc037701a45646c43bfb54fc48dc8e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "102941fb9eee9896f02a364d28e77efd4ddbb7204e424e6561803096d73c1cbe"
+          },
+          "release": {
+            "sha256": "f6f8b897b6355c5dbb94671e0ff2cd695651bb3e8b2e97f24e1bda2212712a90"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/baa6e8de34dc037701a45646c43bfb54fc48dc8e/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/baa6e8de34dc037701a45646c43bfb54fc48dc8e/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "09ab92f83365ff4df93bff04b5c6f83a02fb561f",
         "dateadded": "2020-08-20T00:07:42.485595+00:00",
         "datecommitted": "2020-08-19T23:54:45+00:00",
