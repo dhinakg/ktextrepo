@@ -4254,6 +4254,68 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "818f9e3f571908f6e0e6a08e09e8d84cc7c4872e",
+        "dateadded": "2020-08-22T03:51:51.803172+00:00",
+        "datecommitted": "2020-08-22T03:31:19+00:00",
+        "description": "32-bit kernel switching support (#104)\n\n* OcMacInfoLib: Add 64-bit model compatibility function\r\n\r\n* OcMacInfoLib: Fix previous commit\r\n\r\n* OpenCorePlatform: Store current SMBIOS platform\r\n\r\n* OpenCorePlatform: Fix variable\r\n\r\n* OpenCoreKernel: Implement 32-bit kernel switching\r\n\r\n* OpenCoreKernel: Force 32-bit on EFI32\r\n\r\n* OpenCoreKernel: Fix previous commit",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/818f9e3f571908f6e0e6a08e09e8d84cc7c4872e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/818f9e3f571908f6e0e6a08e09e8d84cc7c4872e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "fac0620a149497c704908b8ba2e907820385dcdc094bd33c081e83b3314a9644"
+          },
+          "release": {
+            "sha256": "f8887be0f0b6dae7c57b01e909df2eec6aa9e9494fc0d27735d1f027337408d7"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/818f9e3f571908f6e0e6a08e09e8d84cc7c4872e/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/818f9e3f571908f6e0e6a08e09e8d84cc7c4872e/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
+        "commit": "7839632455df5e429bf57d614860ff9394279749",
+        "dateadded": "2020-08-22T03:51:51.727435+00:00",
+        "datecommitted": "2020-08-22T03:34:00+00:00",
+        "description": "Build: Fix rebuilding tools after header updates (#105)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7839632455df5e429bf57d614860ff9394279749/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7839632455df5e429bf57d614860ff9394279749/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "a50ffe1f0b99b7a818ef441684b897181adc8f6a347b033b7076fb2e07f31abe"
+          },
+          "release": {
+            "sha256": "84f7daad662680d9b63b6b46d29f2ed1d5becf7d201b65a75c0e55ceb89dcc12"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7839632455df5e429bf57d614860ff9394279749/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7839632455df5e429bf57d614860ff9394279749/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "89be8ea5bb98dc8c9eb49a5e29c5343643535ae4",
         "dateadded": "2020-08-22T01:02:41.700114+00:00",
         "datecommitted": "2020-08-22T00:09:44+00:00",
