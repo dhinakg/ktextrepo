@@ -4254,6 +4254,68 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "89be8ea5bb98dc8c9eb49a5e29c5343643535ae4",
+        "dateadded": "2020-08-22T01:02:41.700114+00:00",
+        "datecommitted": "2020-08-22T00:09:44+00:00",
+        "description": "OcApfsLib: Improve APFS hotplug recovery fix",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/89be8ea5bb98dc8c9eb49a5e29c5343643535ae4/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/89be8ea5bb98dc8c9eb49a5e29c5343643535ae4/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "b4cc7ac5ee930da122ca569d9b86570976ad6a9012980846b4d40d136506dba4"
+          },
+          "release": {
+            "sha256": "72f7e0731eea5c0060c9d9b7ed41656d51cdc77cc80b4fe63a155bd146897bd4"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/89be8ea5bb98dc8c9eb49a5e29c5343643535ae4/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/89be8ea5bb98dc8c9eb49a5e29c5343643535ae4/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
+        "commit": "ec7a8cfd2ed8551eb7851e31ae2d5f0c435c8037",
+        "dateadded": "2020-08-22T01:02:41.626179+00:00",
+        "datecommitted": "2020-08-22T00:11:31+00:00",
+        "description": "Docs: Sync changes regarding APFS recovery\n\ncloses acidanthera/bugtracker#1078",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ec7a8cfd2ed8551eb7851e31ae2d5f0c435c8037/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ec7a8cfd2ed8551eb7851e31ae2d5f0c435c8037/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "a4bf11df9fcaba1b6679bf53af1c1e34bb1305d30844940a2eabe28575d36566"
+          },
+          "release": {
+            "sha256": "51403958681981018409663ae199cb67b3053dc43bf2e0f5fbd125102618f1b6"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ec7a8cfd2ed8551eb7851e31ae2d5f0c435c8037/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ec7a8cfd2ed8551eb7851e31ae2d5f0c435c8037/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "c8dfa95b601e131d7cb06e504008c20411d47466",
         "dateadded": "2020-08-22T00:04:56.419586+00:00",
         "datecommitted": "2020-08-21T23:37:17+00:00",
