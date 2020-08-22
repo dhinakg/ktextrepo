@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "c8dfa95b601e131d7cb06e504008c20411d47466",
+        "dateadded": "2020-08-22T00:04:56.419586+00:00",
+        "datecommitted": "2020-08-21T23:37:17+00:00",
+        "description": "OcAppleDiskImageLib: Fix connecting APFS dmg recoveries",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c8dfa95b601e131d7cb06e504008c20411d47466/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c8dfa95b601e131d7cb06e504008c20411d47466/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "393afba01749357370a57a412006c6aa409e04347b4014cb940ba40db74ba0c6"
+          },
+          "release": {
+            "sha256": "cc981f3da61b6941fb4b987d96df137c1c8b9c872b8d3d0b097d783d27db0c43"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c8dfa95b601e131d7cb06e504008c20411d47466/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c8dfa95b601e131d7cb06e504008c20411d47466/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "7609f459f5fcabbc4117285192af63077b5e86c6",
         "dateadded": "2020-08-21T19:05:11.775883+00:00",
         "datecommitted": "2020-08-21T18:55:32+00:00",
