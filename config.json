@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "dde7432b629fad525ed6d35684aabcd926e74b7e",
+        "dateadded": "2020-08-22T06:33:34.951673+00:00",
+        "datecommitted": "2020-08-22T06:11:28+00:00",
+        "description": "OcAppleKernelLib: Implement KXLD symbolic solver",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/dde7432b629fad525ed6d35684aabcd926e74b7e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/dde7432b629fad525ed6d35684aabcd926e74b7e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "d64172b084fdf7ed89eb6d41483fa8bbf4781fb627f09c68f2474de429fc5ded"
+          },
+          "release": {
+            "sha256": "2a7e5024939f460fb5f4269bf7ebb708a93e8f676e50e58c0da2343fd6511e8b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/dde7432b629fad525ed6d35684aabcd926e74b7e/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/dde7432b629fad525ed6d35684aabcd926e74b7e/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "818f9e3f571908f6e0e6a08e09e8d84cc7c4872e",
         "dateadded": "2020-08-22T03:51:51.803172+00:00",
         "datecommitted": "2020-08-22T03:31:19+00:00",
