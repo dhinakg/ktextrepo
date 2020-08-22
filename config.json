@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "4b00ad2c1cd2112d14d9f5543e8b80415aca9aea",
+        "dateadded": "2020-08-22T21:36:47.714705+00:00",
+        "datecommitted": "2020-08-22T21:25:52+00:00",
+        "description": "OcAppleKernelLib: Improve error checking for kernel quirks (part 1)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4b00ad2c1cd2112d14d9f5543e8b80415aca9aea/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4b00ad2c1cd2112d14d9f5543e8b80415aca9aea/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "b7e1cb89cf5c25cb69a3e3bd9b88702e179195cffc6bbcec83ad22f30827ef11"
+          },
+          "release": {
+            "sha256": "0fd1a85e803651d7fad48a11f85bb4cb6fb1efd22b40b23fdd3ec6e64b62cffb"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4b00ad2c1cd2112d14d9f5543e8b80415aca9aea/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/4b00ad2c1cd2112d14d9f5543e8b80415aca9aea/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "5ded24b71f944be28784f146ed451a342343fa8f",
         "dateadded": "2020-08-22T20:00:50.823928+00:00",
         "datecommitted": "2020-08-22T19:28:28+00:00",
