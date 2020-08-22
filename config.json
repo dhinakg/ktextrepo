@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "5ded24b71f944be28784f146ed451a342343fa8f",
+        "dateadded": "2020-08-22T20:00:50.823928+00:00",
+        "datecommitted": "2020-08-22T19:28:28+00:00",
+        "description": "OcAppleKernelLib: Expose kernel version to quirks",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5ded24b71f944be28784f146ed451a342343fa8f/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5ded24b71f944be28784f146ed451a342343fa8f/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "32c4feae180f248a807f337b2d394861933f27687fdff22429ab52ad52bae5e6"
+          },
+          "release": {
+            "sha256": "969b494a09ab086d66591364654c4f10c42cbb160912d4795cf4abaf2a3936bf"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5ded24b71f944be28784f146ed451a342343fa8f/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5ded24b71f944be28784f146ed451a342343fa8f/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "d4b1f49b65dfab26641d1bdf0a7bfb08125b84f3",
         "dateadded": "2020-08-22T18:28:30.722910+00:00",
         "datecommitted": "2020-08-22T18:17:31+00:00",
