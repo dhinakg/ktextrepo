@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "6f795d6a802bacf0322be00e51567f6090cbcbca",
+        "dateadded": "2020-08-22T06:43:40.368429+00:00",
+        "datecommitted": "2020-08-22T06:29:26+00:00",
+        "description": "OcAppleKernelLib: Fix memory initialisation",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f795d6a802bacf0322be00e51567f6090cbcbca/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f795d6a802bacf0322be00e51567f6090cbcbca/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "73cd8ac9908f4aff90bd1b430d81a3603ab21441eab55e9257a5c5ee91e062fb"
+          },
+          "release": {
+            "sha256": "8b3bacdb94d462c22108b35efe163094c53f17841bb9405deafb2ced95dc7057"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f795d6a802bacf0322be00e51567f6090cbcbca/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f795d6a802bacf0322be00e51567f6090cbcbca/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "dde7432b629fad525ed6d35684aabcd926e74b7e",
         "dateadded": "2020-08-22T06:33:34.951673+00:00",
         "datecommitted": "2020-08-22T06:11:28+00:00",
