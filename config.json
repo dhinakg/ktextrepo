@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "7b53fa714295ae48d2ec3138e6f14df79028f6df",
+        "dateadded": "2020-08-22T17:59:34.402968+00:00",
+        "datecommitted": "2020-08-22T17:49:39+00:00",
+        "description": "OcAppleDiskImageLib: Fix ScanPolicy clash with DMG loading",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7b53fa714295ae48d2ec3138e6f14df79028f6df/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7b53fa714295ae48d2ec3138e6f14df79028f6df/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "9957646ab0e67f943ad3c1f090c8b71faa8d6687b75aab87069d01a939c095f1"
+          },
+          "release": {
+            "sha256": "996ac119626bc73d63104e06f1171ef1c2ae595f666143a85355cdd71e3dd191"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7b53fa714295ae48d2ec3138e6f14df79028f6df/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/7b53fa714295ae48d2ec3138e6f14df79028f6df/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "5eb9d36e12d9ec1318808942692446ca04eae6d8",
         "dateadded": "2020-08-22T16:59:19.673971+00:00",
         "datecommitted": "2020-08-22T16:49:58+00:00",
