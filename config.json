@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "5eb9d36e12d9ec1318808942692446ca04eae6d8",
+        "dateadded": "2020-08-22T16:59:19.673971+00:00",
+        "datecommitted": "2020-08-22T16:49:58+00:00",
+        "description": "OcApfsLib: Improve debug output",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5eb9d36e12d9ec1318808942692446ca04eae6d8/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5eb9d36e12d9ec1318808942692446ca04eae6d8/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "af482128ca47202712b4f567d1a9898541c6c71423d3f298c64cda1b39eba1e1"
+          },
+          "release": {
+            "sha256": "1c131f93c87f5d080b18cadd94cfb8ef61e0a3ab4e639f92557bfc978a36b105"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5eb9d36e12d9ec1318808942692446ca04eae6d8/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/5eb9d36e12d9ec1318808942692446ca04eae6d8/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "d8e58af165f74e673b39875d5d1d22fbc7a94f25",
         "dateadded": "2020-08-22T13:55:17.376755+00:00",
         "datecommitted": "2020-08-22T13:43:48+00:00",
