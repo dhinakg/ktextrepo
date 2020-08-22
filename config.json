@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "dc923bc895ee0ca8d17f4355a3dadd76f601f2c3",
+        "dateadded": "2020-08-22T07:06:01.877743+00:00",
+        "datecommitted": "2020-08-22T06:54:29+00:00",
+        "description": "OcAppleKernelLib: Partially fix kext blocking for 11.0",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/dc923bc895ee0ca8d17f4355a3dadd76f601f2c3/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/dc923bc895ee0ca8d17f4355a3dadd76f601f2c3/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "df25e61d70b25ed8d71921c3800f712f12c916c047f3aa0ace3b821d0d12043e"
+          },
+          "release": {
+            "sha256": "4ea65a0247b1d2955ebb7e4d0328a47269073ebd3d846bdcf4a888b65bd37528"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/dc923bc895ee0ca8d17f4355a3dadd76f601f2c3/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/dc923bc895ee0ca8d17f4355a3dadd76f601f2c3/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "6f795d6a802bacf0322be00e51567f6090cbcbca",
         "dateadded": "2020-08-22T06:43:40.368429+00:00",
         "datecommitted": "2020-08-22T06:29:26+00:00",
