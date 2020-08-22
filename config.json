@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "d8e58af165f74e673b39875d5d1d22fbc7a94f25",
+        "dateadded": "2020-08-22T13:55:17.376755+00:00",
+        "datecommitted": "2020-08-22T13:43:48+00:00",
+        "description": "DataBase: Add AppleBoardCode for iMac20,1 (#103)\n\n* AppleBoardCode for iMac20,1\r\n\r\nOne of the valid AppleBoardCode for iMac20,1 is PHCD, which is shown in an actual iMac20,1 with i5-10500. \r\nThe temporal value (0000) for the code (line 101) could be updated.\r\n\r\n* Update modelinfo_autogen.h",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d8e58af165f74e673b39875d5d1d22fbc7a94f25/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d8e58af165f74e673b39875d5d1d22fbc7a94f25/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "8df251791f6805eae81eec019471e1780465f93fab22072f8fa646374b528c79"
+          },
+          "release": {
+            "sha256": "37f824b8fa9be0b41a89b3aa5943164e579500b7d9c1a4bbfebbdc792805b4d1"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d8e58af165f74e673b39875d5d1d22fbc7a94f25/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d8e58af165f74e673b39875d5d1d22fbc7a94f25/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "dc923bc895ee0ca8d17f4355a3dadd76f601f2c3",
         "dateadded": "2020-08-22T07:06:01.877743+00:00",
         "datecommitted": "2020-08-22T06:54:29+00:00",
