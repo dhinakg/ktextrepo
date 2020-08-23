@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "ee7aaa37e12c5e06765ef01347df5cac5d358916",
+        "dateadded": "2020-08-23T19:23:30.813954+00:00",
+        "datecommitted": "2020-08-23T19:03:16+00:00",
+        "description": "OcAppleKernelLib: Fix CFG lock patch for SNB",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ee7aaa37e12c5e06765ef01347df5cac5d358916/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ee7aaa37e12c5e06765ef01347df5cac5d358916/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "df53334dd95b305128791aaf0b708bd4ea98d5efad40e3f7af94d92b1f2bb7cd"
+          },
+          "release": {
+            "sha256": "4e22877aee138c6526dbb140afce689f58bbefd2703642c6295303bc60dda783"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ee7aaa37e12c5e06765ef01347df5cac5d358916/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ee7aaa37e12c5e06765ef01347df5cac5d358916/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "28884d145611a9d53dbd423ec85d087abc2f4966",
         "dateadded": "2020-08-23T18:50:33.510140+00:00",
         "datecommitted": "2020-08-23T18:41:32+00:00",
