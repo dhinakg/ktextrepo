@@ -18591,6 +18591,33 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "6319f826f7c4c0c2f9b8097cea847ad5265e8946",
+        "dateadded": "2020-08-23T16:32:43.704638+00:00",
+        "datecommitted": "2020-08-23T16:23:29+00:00",
+        "description": "Support all valid Core Display Clock frequencies to fix the kernel panic on Intel ICL platforms (#62)\n\n* Implement the maximum link rate fix for some laptops with 4K display.\r\n\r\n* Added the manual for the DPCD max link rate fix.\r\n\r\n* Fix the formatting issue in the manual.\r\n\r\n* Adjust the alignment of the screen capture in the manual.\r\n\r\n* Adjust the code style.\r\n\r\n* A better approach to retrieve the current framebuffer index.\r\n\r\n* [SYNC] Replace the DPCD image in the manual.\r\n\r\n* Fix the indentation in kern_igfx.\r\n\r\n* Add the driver support for onboard LSPCON chips to enable DisplayPort to HDMI 2.0 output.\r\n\r\n* Update the change log and fix a typo.\r\n\r\n* Update the README.\r\n\r\n* Added the manual for LSPCON driver support.\r\n\r\n* Improve the return type of AppleIntelFramebufferController::ReadAUX().\r\n\r\n* Fix the infinite loop when calculating dividers for HDMI connection on SKL, KBL and CFL platforms.\r\n\r\n* Update the README and change log for the infinite loop fix.\r\n\r\n* Update the manual for the infinite loop fix and improve the comments.\r\n\r\n* Improve the formatting in the manual\r\n\r\n* Attempt to fix the memory analyzer warning.\r\n\r\n* Improve the verbose output when -igfxi2cverbose is specified.\r\n\r\n* Fix the unused variable warning under RELEASE configurations.\r\n\r\n* Improve the error message in ComputeHdmiP0P1P2.\r\n\r\n* Improve the code style; several minor fixes.\r\n\r\n* Improve the deleter by adding the NONNULL attribute; Implement the getIndex helper.\r\n\r\n* User should use DEBUG version to enable verbose I2C-over-AUX output.\r\n\r\n* Remove the property `LSPCON::isActive` and always read the latest mode from the adapter as some LSPCON adapters are automatically switched back to LS mode on power off (i.e. Cable removal, sleep/wake up cycle).\r\n\r\n* Update the change log.\r\n\r\n* Fix the maximum link rate value in the extended DPCD buffer as well. (e.g. Dell Inspiration 7590 with Sharp display)\r\n\r\n* Update the manual for the new max link rate fix.\r\n\r\n* Update the changelog.\r\n\r\n* Merge from upstream: Resolve conflicts.\r\n\r\n* CDC: Add support for valid yet unsupported Core Display Clock (CDCLK) frequencies on ICL platforms to avoid the kernel panic.\r\n\r\n* CDC: Fix an issue that the reference frequency is not properly decoded.\r\n\r\n* CDC: Fix a typo in the switch statement.\r\n\r\n* CDC: Update the README.\r\n\r\n* CDC: Update the change log.\r\n\r\n* CDC: Update the manual.\r\n\r\n* CDC: Fix a typo.\r\n\r\n* CDC: Always print the clock frequency before and after sanitized.\r\n\r\n* CDC: Fix the analyzer warning.\r\n\r\n* CDC: Leftover: No need to erase the prefix for functions that are no longer routed for debugging.\r\n\r\n* CDC: Use the shared ReadRegister32() function.\r\n\r\nCo-authored-by: PMheart <17109513+PMheart@users.noreply.github.com>\r\nCo-authored-by: FireWolf <0xFireWolf@users.noreply.github.com>",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/6319f826f7c4c0c2f9b8097cea847ad5265e8946/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031"
+          },
+          "debug": {
+            "sha256": "dc1280efbdad480a7ec79921f94e5147ace0d563c7ce68b7974ad667a62ce9f3"
+          },
+          "release": {
+            "sha256": "75d12c839f9f3c5b72c62817cd79463ad7b1e4c8991b9ff262f1cd2d979c1a4b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/6319f826f7c4c0c2f9b8097cea847ad5265e8946/Debug/WhateverGreen-1.4.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/6319f826f7c4c0c2f9b8097cea847ad5265e8946/Release/WhateverGreen-1.4.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.2"
+      },
+      {
         "commit": "947f69bc5946ac903b5a2aae7300e80416e569f3",
         "dateadded": "2020-08-19T10:30:19.243132+00:00",
         "datecommitted": "2020-08-19T10:28:20+00:00",
