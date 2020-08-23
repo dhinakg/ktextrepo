@@ -4254,6 +4254,68 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "c8c9ee5608dea0155af50dbfc4e66b09dc505dbd",
+        "dateadded": "2020-08-23T14:24:31.505277+00:00",
+        "datecommitted": "2020-08-23T14:03:24+00:00",
+        "description": "OcAppleKernelLib: Fixed `XhciPortLimit` on 10.12.6",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c8c9ee5608dea0155af50dbfc4e66b09dc505dbd/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c8c9ee5608dea0155af50dbfc4e66b09dc505dbd/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "c175eb6556203a4b47c6f1dd63795c73f87f93815608f6ade6dd47a56394adeb"
+          },
+          "release": {
+            "sha256": "6c297b0f3099026d0d59e03725338cb9b7e4266a75d5daa919511c12849a6a20"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c8c9ee5608dea0155af50dbfc4e66b09dc505dbd/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c8c9ee5608dea0155af50dbfc4e66b09dc505dbd/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
+        "commit": "ca6c82996166ad53d587163c2a32ef1a68393d89",
+        "dateadded": "2020-08-23T14:24:31.430641+00:00",
+        "datecommitted": "2020-08-23T14:04:08+00:00",
+        "description": "OcAppleKernelLib: Rework `AppleCpuPmCfgLock` to support 10.6.8",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ca6c82996166ad53d587163c2a32ef1a68393d89/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ca6c82996166ad53d587163c2a32ef1a68393d89/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "b885036778c319b6bef87f3d1ee9381a0622b9a7f4da4df9f666751a86ac43a5"
+          },
+          "release": {
+            "sha256": "7e8d5320bd839bb6254222cf5628fea7fa31ff7c770348bbaab7e16bdd277b62"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ca6c82996166ad53d587163c2a32ef1a68393d89/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ca6c82996166ad53d587163c2a32ef1a68393d89/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "d43b0864520b74e8fc335e9b34713f16d21f78c6",
         "dateadded": "2020-08-23T13:48:22.231976+00:00",
         "datecommitted": "2020-08-23T13:40:11+00:00",
