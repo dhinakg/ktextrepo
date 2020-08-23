@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "55b93a9f5e440f64b7322aa19ba01240764a2248",
+        "dateadded": "2020-08-23T06:18:55.253698+00:00",
+        "datecommitted": "2020-08-23T06:01:04+00:00",
+        "description": "OcBootManagementLib: Respect optional param",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/55b93a9f5e440f64b7322aa19ba01240764a2248/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/55b93a9f5e440f64b7322aa19ba01240764a2248/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "41f202421c96d4159bd55ee6a142cffc0f35d1fdb3a8648503b7935dd04be417"
+          },
+          "release": {
+            "sha256": "97fe4c73398a753a336b954836615f85b116dafb224712391fa4e99d137b13a8"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/55b93a9f5e440f64b7322aa19ba01240764a2248/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/55b93a9f5e440f64b7322aa19ba01240764a2248/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "1ecceb0068f3d30118e798266db69535d077329d",
         "dateadded": "2020-08-23T01:19:55.659695+00:00",
         "datecommitted": "2020-08-22T21:53:00+00:00",
