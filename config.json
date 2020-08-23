@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "28884d145611a9d53dbd423ec85d087abc2f4966",
+        "dateadded": "2020-08-23T18:50:33.510140+00:00",
+        "datecommitted": "2020-08-23T18:41:32+00:00",
+        "description": "OpenCoreKernel: Only calculate hash if SB is enabled",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/28884d145611a9d53dbd423ec85d087abc2f4966/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/28884d145611a9d53dbd423ec85d087abc2f4966/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "b7d5dd213a00ac9e5fbd2e2f91dfe528889587ef6e1ce1f768bb11ed9573f39b"
+          },
+          "release": {
+            "sha256": "4b7d5a4a7f1b2b0c7ddb95328850cd1d9ef91240171504eb827975d842ba1895"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/28884d145611a9d53dbd423ec85d087abc2f4966/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/28884d145611a9d53dbd423ec85d087abc2f4966/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "57fc9000ad6e03d7c36b604376ed8e52c9ee84c1",
         "dateadded": "2020-08-23T16:22:38.466152+00:00",
         "datecommitted": "2020-08-23T15:50:54+00:00",
