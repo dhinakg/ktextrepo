@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "444365c87cda9eff710fcba23650478342156b3c",
+        "dateadded": "2020-08-23T14:45:06.234522+00:00",
+        "datecommitted": "2020-08-23T14:32:10+00:00",
+        "description": "OcAppleKernelLib: Fixed `IncreasePciBarSize` on 10.11.5",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/444365c87cda9eff710fcba23650478342156b3c/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/444365c87cda9eff710fcba23650478342156b3c/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "b5fdea6a837558f27ef08eb5e7bdcf9360d6963855dce802578c0e0ad0f8387a"
+          },
+          "release": {
+            "sha256": "52ebe4ace4f824a6f1f6e4f062895f3e6ae69b0e857f52579d31e314835ff62f"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/444365c87cda9eff710fcba23650478342156b3c/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/444365c87cda9eff710fcba23650478342156b3c/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "c8c9ee5608dea0155af50dbfc4e66b09dc505dbd",
         "dateadded": "2020-08-23T14:24:31.505277+00:00",
         "datecommitted": "2020-08-23T14:03:24+00:00",
