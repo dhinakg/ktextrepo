@@ -17524,6 +17524,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "7496bec634f9f9316018f50f8e1a31fe4d513372",
+        "dateadded": "2020-08-23T21:11:21.861317+00:00",
+        "datecommitted": "2020-08-23T21:07:22+00:00",
+        "description": "Added MacBookPro16,3 SMC dump (#40)",
+        "hashes": {
+          "debug": {
+            "sha256": "6b4c9e290b98efa5d3eb32231970d0c101e4d81bd4c12575e7817cd7804bfe21"
+          },
+          "release": {
+            "sha256": "d7d411ed5280b4770fc2b18e2c20ef1137f22cd46be7f8c2adf9abf12f48e38c"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/7496bec634f9f9316018f50f8e1a31fe4d513372/Debug/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/7496bec634f9f9316018f50f8e1a31fe4d513372/Release/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
         "commit": "2dc2af36a75b87990afd4cb2a48889e2af63589a",
         "dateadded": "2020-08-18T05:00:27.682975+00:00",
         "datecommitted": "2020-08-18T04:51:29+00:00",
