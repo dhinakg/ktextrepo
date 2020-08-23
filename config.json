@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "57fc9000ad6e03d7c36b604376ed8e52c9ee84c1",
+        "dateadded": "2020-08-23T16:22:38.466152+00:00",
+        "datecommitted": "2020-08-23T15:50:54+00:00",
+        "description": "OcAppleKernelLib: Fixed `LapicKernelPanic` quirk on 10.8.5",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/57fc9000ad6e03d7c36b604376ed8e52c9ee84c1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/57fc9000ad6e03d7c36b604376ed8e52c9ee84c1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "993d75501100b53edb4a71679caf0e75c3843445f3cc8bc936976e8a8e04e2e4"
+          },
+          "release": {
+            "sha256": "31422e2b2a2bfc565d734fd28a232315b1b2927c60aa43248a1605a03d0aa7dd"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/57fc9000ad6e03d7c36b604376ed8e52c9ee84c1/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/57fc9000ad6e03d7c36b604376ed8e52c9ee84c1/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "444365c87cda9eff710fcba23650478342156b3c",
         "dateadded": "2020-08-23T14:45:06.234522+00:00",
         "datecommitted": "2020-08-23T14:32:10+00:00",
