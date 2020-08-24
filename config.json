@@ -3,6 +3,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "3f1d608810578071720c73d5713868b0d13e36be",
+        "dateadded": "2020-08-24T15:20:13.688823+00:00",
+        "datecommitted": "2020-08-24T15:18:48+00:00",
+        "description": "- Remove dependencies corecapture and IONetworkingFamily\n- Do not use OSMetaClass::allocClassWithName since it requires dependencies corecapture and IONetworkingFamily\n- removeDrivers does not cause new service matching since it is not safe to call it in processKext\n- Service matching is executed via single-shot timer (when it is safe)",
+        "hashes": {
+          "debug": {
+            "sha256": "64a0683ff1b190aba1b328fe5419c0d7010def06e8ac190a974389bbe3de21b0"
+          },
+          "release": {
+            "sha256": "68c60f7a89254a0c51c0b8bc07912ba28b1c769746b25b57d81a4d5788767ab4"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/3f1d608810578071720c73d5713868b0d13e36be/Debug/AirportBrcmFixup-2.0.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/3f1d608810578071720c73d5713868b0d13e36be/Release/AirportBrcmFixup-2.0.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.9"
+      },
+      {
         "commit": "6c02ad955f3ee5832deb5047fbee40e0c2f5cd43",
         "dateadded": "2020-08-09T00:42:07.241823+00:00",
         "datecommitted": "2020-08-09T00:38:53+00:00",
