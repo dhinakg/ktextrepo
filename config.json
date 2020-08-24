@@ -4254,6 +4254,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "a97b74e83cea44d7cbbfddaef799e8ad150d9d2d",
+        "dateadded": "2020-08-24T11:40:52.927385+00:00",
+        "datecommitted": "2020-08-24T10:52:34+00:00",
+        "description": "OpenCore: Use direct PE loading for Secure Boot (#108)\n\nImplement and integrate a PE image loader to circumvent UEFI Secure Boot when Apple Secure Boot is used.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a97b74e83cea44d7cbbfddaef799e8ad150d9d2d/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a97b74e83cea44d7cbbfddaef799e8ad150d9d2d/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "d1e0e3809bcfc19ef48ed14c1f2a8b385978991eb6a97bbc43220337755c72c4"
+          },
+          "release": {
+            "sha256": "c5448afc34a90cc3a379c594c6f35541a2d2b0d960e1abeb2ca12493d18da434"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a97b74e83cea44d7cbbfddaef799e8ad150d9d2d/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/a97b74e83cea44d7cbbfddaef799e8ad150d9d2d/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "ee7aaa37e12c5e06765ef01347df5cac5d358916",
         "dateadded": "2020-08-23T19:23:30.813954+00:00",
         "datecommitted": "2020-08-23T19:03:16+00:00",
