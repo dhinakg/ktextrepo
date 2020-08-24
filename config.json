@@ -4275,6 +4275,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "825e4d26c67745f921ff4518853c48ce502f45a2",
+        "dateadded": "2020-08-24T19:28:50.283804+00:00",
+        "datecommitted": "2020-08-24T19:14:25+00:00",
+        "description": "Docs: Added minimum builds for SecureBootModel",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/825e4d26c67745f921ff4518853c48ce502f45a2/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/825e4d26c67745f921ff4518853c48ce502f45a2/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "36e3843171377fc83466e81deb7a8d8849fe480d444f4d6dea794f5155b37f81"
+          },
+          "release": {
+            "sha256": "b64e5f4a51266a394cd22a37cb6b849720e441a081052e3f4b8f24a7826dcb6c"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/825e4d26c67745f921ff4518853c48ce502f45a2/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/825e4d26c67745f921ff4518853c48ce502f45a2/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "9d60f8c4c3138ea505b4292a5045c28ec77f2ed4",
         "dateadded": "2020-08-24T18:53:20.870049+00:00",
         "datecommitted": "2020-08-24T18:40:49+00:00",
