@@ -4275,6 +4275,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "0c4034087674dcd4fa9564d9020c9ec14d1a0ea7",
+        "dateadded": "2020-08-24T18:35:13.587510+00:00",
+        "datecommitted": "2020-08-24T18:22:09+00:00",
+        "description": "Docs: Added minimum macOS for SecureBootModel",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c4034087674dcd4fa9564d9020c9ec14d1a0ea7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c4034087674dcd4fa9564d9020c9ec14d1a0ea7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "34919b16b95da9d4b4a03fc6c852ac7079f0521d061648fe4e0d94f5524d1e27"
+          },
+          "release": {
+            "sha256": "b9c69411b081a0eb8a7cfec84a3deeb9f355db4adb8baf52e1221a26bdf5a564"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c4034087674dcd4fa9564d9020c9ec14d1a0ea7/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c4034087674dcd4fa9564d9020c9ec14d1a0ea7/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "a97b74e83cea44d7cbbfddaef799e8ad150d9d2d",
         "dateadded": "2020-08-24T11:40:52.927385+00:00",
         "datecommitted": "2020-08-24T10:52:34+00:00",
