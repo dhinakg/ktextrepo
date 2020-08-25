@@ -4275,6 +4275,99 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "f6728ae65f7e00e3e1e598da2ba5262fab28c219",
+        "dateadded": "2020-08-25T20:13:37.919833+00:00",
+        "datecommitted": "2020-08-25T19:29:26+00:00",
+        "description": "OcAppleSecureBoot: Change SecureBootModel to j137\n\nThis allows booting to 10.13 by default and makes it consistent with\nAPFS JumpStart defaults.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f6728ae65f7e00e3e1e598da2ba5262fab28c219/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f6728ae65f7e00e3e1e598da2ba5262fab28c219/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "1d8437835b2ac697183c7c9f8f155b5306b91f6e8a44904f9651a8051c1d351e"
+          },
+          "release": {
+            "sha256": "b599b74a927e1d377003d9288d91d1c6b72a6ec164533fc133071328f3d22f03"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f6728ae65f7e00e3e1e598da2ba5262fab28c219/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f6728ae65f7e00e3e1e598da2ba5262fab28c219/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
+        "commit": "ff4b97b79b7535c232d82d1b1de95700e89d16ac",
+        "dateadded": "2020-08-25T20:13:37.832113+00:00",
+        "datecommitted": "2020-08-25T19:30:12+00:00",
+        "description": "OcAppleSecureBootLib: Make missing hash fatal in the manifest\n\nIf we have a manifest and it does not contain a valid hash for our\nimage this will now be treated as a fatal error.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ff4b97b79b7535c232d82d1b1de95700e89d16ac/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ff4b97b79b7535c232d82d1b1de95700e89d16ac/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "c9f4c2c653cf8c344491e86fb4fc1245ba2915df5cc6447cfc9471d82f6d6ab4"
+          },
+          "release": {
+            "sha256": "2eef363749b54f7d76567f4f81d011c9a58c63b89ac2d9b2d4ab7b4cc4f30780"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ff4b97b79b7535c232d82d1b1de95700e89d16ac/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ff4b97b79b7535c232d82d1b1de95700e89d16ac/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
+        "commit": "c6a3e17fc3f7c2b9a1d0f4edfc172aef7a7d0ba8",
+        "dateadded": "2020-08-25T20:13:37.606974+00:00",
+        "datecommitted": "2020-08-25T19:30:35+00:00",
+        "description": "OcPngLib: Print error code on failure",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c6a3e17fc3f7c2b9a1d0f4edfc172aef7a7d0ba8/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c6a3e17fc3f7c2b9a1d0f4edfc172aef7a7d0ba8/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "9c2a97cd49d1844f901af478a9cf37ac0a6ef7d59c5b2a4cbc3cc4187cdb9253"
+          },
+          "release": {
+            "sha256": "b4daca4c19c6fd963614d2fd213502dfbc45e0d5e67d1c7ab76eaad316821a0b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c6a3e17fc3f7c2b9a1d0f4edfc172aef7a7d0ba8/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c6a3e17fc3f7c2b9a1d0f4edfc172aef7a7d0ba8/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "6b6304aa7466e71f6261420538d771d054cf5aa1",
         "dateadded": "2020-08-25T03:07:53.705422+00:00",
         "datecommitted": "2020-08-25T02:47:20+00:00",
