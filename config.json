@@ -17731,6 +17731,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "f17022f17f29222d7a9cde6edd51810a5c41c389",
+        "dateadded": "2020-08-25T18:26:47.706085+00:00",
+        "datecommitted": "2020-08-25T18:24:34+00:00",
+        "description": "Add SMC dumps for MBP7,1 & IM16,1 (#41)",
+        "hashes": {
+          "debug": {
+            "sha256": "20bba7db2361cbb59b7c4f0f9cb19693889442178305fb0adaaa5e1a52953349"
+          },
+          "release": {
+            "sha256": "b376793b302ddd9349bd7b463ceb4ba29d022031cdd923ceeb22959b7e6d37f6"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/f17022f17f29222d7a9cde6edd51810a5c41c389/Debug/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/f17022f17f29222d7a9cde6edd51810a5c41c389/Release/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
         "commit": "7496bec634f9f9316018f50f8e1a31fe4d513372",
         "dateadded": "2020-08-23T21:11:21.861317+00:00",
         "datecommitted": "2020-08-23T21:07:22+00:00",
