@@ -4275,6 +4275,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "d2230ec7ebf4a53f192cea1c50be1e63c63d65e6",
+        "dateadded": "2020-08-26T15:37:26.684516+00:00",
+        "datecommitted": "2020-08-26T15:18:57+00:00",
+        "description": "OpenCorePlatform: Properly copy SMBIOS product name",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d2230ec7ebf4a53f192cea1c50be1e63c63d65e6/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d2230ec7ebf4a53f192cea1c50be1e63c63d65e6/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "91ad15e6d6d2f4efe6694a1e830f7c398e4c198e7b10cd32ff738fbbbdbcb449"
+          },
+          "release": {
+            "sha256": "d5e90ce4bde5143f3d819571e59a0bf32c4a5e512ae898d699ea25f720adf369"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d2230ec7ebf4a53f192cea1c50be1e63c63d65e6/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d2230ec7ebf4a53f192cea1c50be1e63c63d65e6/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "b217cd52d25d873c3b8e951e1b4815ecbcb258d2",
         "dateadded": "2020-08-26T15:10:40.749905+00:00",
         "datecommitted": "2020-08-26T14:55:56+00:00",
