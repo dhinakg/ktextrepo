@@ -4275,6 +4275,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "520d27d66d970e67b31f235401c50c1bf3b4ca55",
+        "dateadded": "2020-08-26T22:49:41.420560+00:00",
+        "datecommitted": "2020-08-26T22:38:13+00:00",
+        "description": "OcAppleKernelLib: Fix KPI handling in 10.6 prelinkedkernel\n\nResolves issues injecting AppleIntelE1000e.kext referencing IOLockLock",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/520d27d66d970e67b31f235401c50c1bf3b4ca55/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/520d27d66d970e67b31f235401c50c1bf3b4ca55/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "ca60bde01ace79aa1385a201bdf215af748cc6b37ee14e2701f01c4b6fa47d95"
+          },
+          "release": {
+            "sha256": "b0a78de24af36cbd44f2ccd7e8dbb1ad2d41465fc7ad8830e3ca7edc5885c084"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/520d27d66d970e67b31f235401c50c1bf3b4ca55/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/520d27d66d970e67b31f235401c50c1bf3b4ca55/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "d2230ec7ebf4a53f192cea1c50be1e63c63d65e6",
         "dateadded": "2020-08-26T15:37:26.684516+00:00",
         "datecommitted": "2020-08-26T15:18:57+00:00",
