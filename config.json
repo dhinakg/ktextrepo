@@ -4275,6 +4275,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "b217cd52d25d873c3b8e951e1b4815ecbcb258d2",
+        "dateadded": "2020-08-26T15:10:40.749905+00:00",
+        "datecommitted": "2020-08-26T14:55:56+00:00",
+        "description": "OpenCorePlatform: Allow for NULL product names in config",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b217cd52d25d873c3b8e951e1b4815ecbcb258d2/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b217cd52d25d873c3b8e951e1b4815ecbcb258d2/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "6b5bb6e2229bfb9f5d19af316b6cc0a3449455ac7af65c3d521eecdb41ce8b45"
+          },
+          "release": {
+            "sha256": "a2dc495dcaace1f669343d45778fc8d411fca9cb57b0be6eb5366a7a409bae6f"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b217cd52d25d873c3b8e951e1b4815ecbcb258d2/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b217cd52d25d873c3b8e951e1b4815ecbcb258d2/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "c0b040a893aeafa2d5f0198ab9e409777db718b4",
         "dateadded": "2020-08-26T13:02:00.812412+00:00",
         "datecommitted": "2020-08-26T12:49:07+00:00",
