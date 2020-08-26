@@ -4275,6 +4275,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "f427a77d81c5c7997c656ae6772d72eaea16ea84",
+        "dateadded": "2020-08-26T23:38:17.291081+00:00",
+        "datecommitted": "2020-08-26T23:27:29+00:00",
+        "description": "OcAppleKernelLib: Update PrelinkedStateKextsAddress after rebase\n\nThis lets kext patching work after injection on 10.6.8",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f427a77d81c5c7997c656ae6772d72eaea16ea84/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f427a77d81c5c7997c656ae6772d72eaea16ea84/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "c6b36ca623bea5387919bb0c3d1183e4b26e48e905df63e90cc8cdc179e632ea"
+          },
+          "release": {
+            "sha256": "c5e1d3729a4b1ce1f2a9a276d372642c1a331899e61ccc645b5ee01bc36ee7b8"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f427a77d81c5c7997c656ae6772d72eaea16ea84/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f427a77d81c5c7997c656ae6772d72eaea16ea84/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "520d27d66d970e67b31f235401c50c1bf3b4ca55",
         "dateadded": "2020-08-26T22:49:41.420560+00:00",
         "datecommitted": "2020-08-26T22:38:13+00:00",
