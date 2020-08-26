@@ -19150,6 +19150,33 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "191311061fa08531d2ae9490b29dc46984cb2704",
+        "dateadded": "2020-08-26T19:52:41.412914+00:00",
+        "datecommitted": "2020-08-26T19:47:42+00:00",
+        "description": "Add NVCAP template",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/191311061fa08531d2ae9490b29dc46984cb2704/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43"
+          },
+          "debug": {
+            "sha256": "aae0c5436f0da156fe0de5a2aa751596f12a677669fe03b55fe2e42def5659f9"
+          },
+          "release": {
+            "sha256": "203b21091312b28f0790d4a2af0509c13347b5002086cb4a821f4ad62add05c0"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/191311061fa08531d2ae9490b29dc46984cb2704/Debug/WhateverGreen-1.4.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/191311061fa08531d2ae9490b29dc46984cb2704/Release/WhateverGreen-1.4.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.2"
+      },
+      {
         "commit": "6319f826f7c4c0c2f9b8097cea847ad5265e8946",
         "dateadded": "2020-08-23T16:32:43.704638+00:00",
         "datecommitted": "2020-08-23T16:23:29+00:00",
