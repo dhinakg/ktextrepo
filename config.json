@@ -4275,6 +4275,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "8b452306e5396ce8a145e7eb5e13c24c60d07842",
+        "dateadded": "2020-08-27T16:30:48.890364+00:00",
+        "datecommitted": "2020-08-27T15:52:53+00:00",
+        "description": "OpenCoreKernel: Implement force injection of system kexts (#111)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8b452306e5396ce8a145e7eb5e13c24c60d07842/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8b452306e5396ce8a145e7eb5e13c24c60d07842/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "36e181d8b10449caedbbc742bb191fd70ed1fc5ffa769921321bc8d5de1e0e92"
+          },
+          "release": {
+            "sha256": "8d52b867af53adf1df602bb85d480a0e51f90a859b7b6c6099b6eb9034ff84a6"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8b452306e5396ce8a145e7eb5e13c24c60d07842/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8b452306e5396ce8a145e7eb5e13c24c60d07842/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "f427a77d81c5c7997c656ae6772d72eaea16ea84",
         "dateadded": "2020-08-26T23:38:17.291081+00:00",
         "datecommitted": "2020-08-26T23:27:29+00:00",
