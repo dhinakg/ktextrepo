@@ -4275,6 +4275,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "c177f4ea90ef89bb76e54cc0bb04606ae6ca2e64",
+        "dateadded": "2020-08-28T08:48:52.416350+00:00",
+        "datecommitted": "2020-08-28T08:22:58+00:00",
+        "description": "Debug: Fix warning for 64-bit efidebug",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c177f4ea90ef89bb76e54cc0bb04606ae6ca2e64/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c177f4ea90ef89bb76e54cc0bb04606ae6ca2e64/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "73af61b04e8788e9dce91a5fdadcaec7261d2cdab1c2f013073099d2a23f840d"
+          },
+          "release": {
+            "sha256": "e89c87653a385b830290aa15a443e20cc350ed087a64401c9b69ff588de015fe"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c177f4ea90ef89bb76e54cc0bb04606ae6ca2e64/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c177f4ea90ef89bb76e54cc0bb04606ae6ca2e64/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "8b452306e5396ce8a145e7eb5e13c24c60d07842",
         "dateadded": "2020-08-27T16:30:48.890364+00:00",
         "datecommitted": "2020-08-27T15:52:53+00:00",
