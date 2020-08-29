@@ -4275,6 +4275,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "b5c74d3e62b44bedd17eb95e8a334bb803ada9f4",
+        "dateadded": "2020-08-29T07:53:17.242696+00:00",
+        "datecommitted": "2020-08-29T07:45:17+00:00",
+        "description": "OcBootManagementLib: Add some callback stubs for image loader",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b5c74d3e62b44bedd17eb95e8a334bb803ada9f4/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b5c74d3e62b44bedd17eb95e8a334bb803ada9f4/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "491c7ac7955cd20940e72a69beb5ca3223f2b286e6c5602a41f8180860e7ab21"
+          },
+          "release": {
+            "sha256": "2c0e4d8bd18ee236eb67ac6110432cc6badbda16dc39062de55a4ef7d55a9abf"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b5c74d3e62b44bedd17eb95e8a334bb803ada9f4/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b5c74d3e62b44bedd17eb95e8a334bb803ada9f4/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "f4862365118c45e7636d05083a4490502078a145",
         "dateadded": "2020-08-29T07:05:40.249034+00:00",
         "datecommitted": "2020-08-29T06:26:58+00:00",
