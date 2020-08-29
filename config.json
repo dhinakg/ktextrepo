@@ -4296,6 +4296,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "91ff2510bca1214825fa61c91aea4ebebce8dfc5",
+        "dateadded": "2020-08-29T17:13:59.388664+00:00",
+        "datecommitted": "2020-08-29T17:00:48+00:00",
+        "description": "OcMacInfoLib: Fix matching MBP for 64-bit kernel type",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/91ff2510bca1214825fa61c91aea4ebebce8dfc5/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/91ff2510bca1214825fa61c91aea4ebebce8dfc5/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "a0149bfe9160d6100125efe62981aec7705031347cf5a0cacd95d77795373bb9"
+          },
+          "release": {
+            "sha256": "d65a08c6ec0d9b939316d45382dc7a38e07213793f01ded652de5655e08b2b3e"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/91ff2510bca1214825fa61c91aea4ebebce8dfc5/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/91ff2510bca1214825fa61c91aea4ebebce8dfc5/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "479226f4c62eefb79da3838ac17f8b167894f57b",
         "dateadded": "2020-08-29T16:02:49.888585+00:00",
         "datecommitted": "2020-08-29T15:55:12+00:00",
