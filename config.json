@@ -4296,6 +4296,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "479226f4c62eefb79da3838ac17f8b167894f57b",
+        "dateadded": "2020-08-29T16:02:49.888585+00:00",
+        "datecommitted": "2020-08-29T15:55:12+00:00",
+        "description": "Docs: Provide SB guide",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/479226f4c62eefb79da3838ac17f8b167894f57b/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/479226f4c62eefb79da3838ac17f8b167894f57b/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "1ea708fe90a551a1ee8bf4fb1ebaad88146b69c2698849dedcde583997e28ae3"
+          },
+          "release": {
+            "sha256": "871696b533dc29d84366d78ebb923eb2f221700ced6b09118300050c97e6b941"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/479226f4c62eefb79da3838ac17f8b167894f57b/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/479226f4c62eefb79da3838ac17f8b167894f57b/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "ddb8b58b27a2dfac71975c95cdef57d4c6d60475",
         "dateadded": "2020-08-29T15:06:57.641590+00:00",
         "datecommitted": "2020-08-29T14:57:50+00:00",
