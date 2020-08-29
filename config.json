@@ -4296,6 +4296,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "ddb8b58b27a2dfac71975c95cdef57d4c6d60475",
+        "dateadded": "2020-08-29T15:06:57.641590+00:00",
+        "datecommitted": "2020-08-29T14:57:50+00:00",
+        "description": "Docs: Improve documentation on legacy OS and secure boot",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ddb8b58b27a2dfac71975c95cdef57d4c6d60475/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ddb8b58b27a2dfac71975c95cdef57d4c6d60475/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "f3110d13a019835552d1fa233870280ed61cff2209c0a83f5ac214d0b288ff14"
+          },
+          "release": {
+            "sha256": "e64eadf985af6ab3ce219d23d8f6b4a9b56a626b3fb3987c2956f7e7b874be42"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ddb8b58b27a2dfac71975c95cdef57d4c6d60475/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/ddb8b58b27a2dfac71975c95cdef57d4c6d60475/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "250c1eefae6a6ea2dffc7a16761b15988afdfd7f",
         "dateadded": "2020-08-29T13:27:34.809071+00:00",
         "datecommitted": "2020-08-29T13:18:59+00:00",
