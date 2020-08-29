@@ -4275,6 +4275,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "f4862365118c45e7636d05083a4490502078a145",
+        "dateadded": "2020-08-29T07:05:40.249034+00:00",
+        "datecommitted": "2020-08-29T06:26:58+00:00",
+        "description": "OcFileLib: Provide file protocol reading to OcFileLib",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f4862365118c45e7636d05083a4490502078a145/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f4862365118c45e7636d05083a4490502078a145/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "6b47b72f7a15f1f2be4a472d1cfe20b097004b8535b4938e8d4bf8b0a352e924"
+          },
+          "release": {
+            "sha256": "ac113718532b985fe191193e166b5d6d72b43524e7659711fa5c75f6a84a2bfd"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f4862365118c45e7636d05083a4490502078a145/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/f4862365118c45e7636d05083a4490502078a145/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "47b0c0a9800925454ad0f181b24ab6465c9a64a8",
         "dateadded": "2020-08-29T04:58:02.808826+00:00",
         "datecommitted": "2020-08-29T04:39:37+00:00",
