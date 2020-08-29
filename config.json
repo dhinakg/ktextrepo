@@ -3,6 +3,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "e78e7212c319cab4e86413fea816812e6a2656ce",
+        "dateadded": "2020-08-29T12:44:11.907401+00:00",
+        "datecommitted": "2020-08-29T12:39:56+00:00",
+        "description": "Perform service matching a few times if there were no any successfully started services yet",
+        "hashes": {
+          "debug": {
+            "sha256": "0d3f605feb8d5e0e7c4903f196e9bd93d626fc842950e6a2e15069fe467c6357"
+          },
+          "release": {
+            "sha256": "05e774bc815b110e5627fec9ef72b8acb707889ad336158b9a7aee7f308373b0"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/e78e7212c319cab4e86413fea816812e6a2656ce/Debug/AirportBrcmFixup-2.0.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/e78e7212c319cab4e86413fea816812e6a2656ce/Release/AirportBrcmFixup-2.0.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.9"
+      },
+      {
         "commit": "3f1d608810578071720c73d5713868b0d13e36be",
         "dateadded": "2020-08-24T15:20:13.688823+00:00",
         "datecommitted": "2020-08-24T15:18:48+00:00",
