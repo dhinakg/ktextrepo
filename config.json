@@ -4275,6 +4275,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "0c2e97748df6fe707bee5b8bb589ce570b1af3dd",
+        "dateadded": "2020-08-29T04:16:09.632170+00:00",
+        "datecommitted": "2020-08-29T04:01:08+00:00",
+        "description": "OcBootManagementLib: Implement EfiBoot kernel capability detection",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c2e97748df6fe707bee5b8bb589ce570b1af3dd/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c2e97748df6fe707bee5b8bb589ce570b1af3dd/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "29f48c7b4ea37a7affcfedb7c26b65113034865dbdbda46774b2de529e29b022"
+          },
+          "release": {
+            "sha256": "e5d8bca4dd336ab0a2a57572ee34f562cf7873d6eeec0b892ef9a5a4410f1d61"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c2e97748df6fe707bee5b8bb589ce570b1af3dd/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/0c2e97748df6fe707bee5b8bb589ce570b1af3dd/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "c177f4ea90ef89bb76e54cc0bb04606ae6ca2e64",
         "dateadded": "2020-08-28T08:48:52.416350+00:00",
         "datecommitted": "2020-08-28T08:22:58+00:00",
