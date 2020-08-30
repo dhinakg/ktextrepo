@@ -4296,6 +4296,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "d5a3013d15a1ec269468c9eac8cbc7a975dc08a5",
+        "dateadded": "2020-08-30T16:30:43.091676+00:00",
+        "datecommitted": "2020-08-30T15:57:56+00:00",
+        "description": "OpenCoreKernelPatch: Fix typo in previous commit",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d5a3013d15a1ec269468c9eac8cbc7a975dc08a5/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d5a3013d15a1ec269468c9eac8cbc7a975dc08a5/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "652b1181a7c52ccc114bbb94ac9a3ed344c66a1db994d3cb071cd28063be8c0b"
+          },
+          "release": {
+            "sha256": "56d42f57898f2bd72df883da2b759576a3558d2d9142b203fe1c12e1d5cf776a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d5a3013d15a1ec269468c9eac8cbc7a975dc08a5/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d5a3013d15a1ec269468c9eac8cbc7a975dc08a5/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "2bddd41443db1f5bd1b3f8bf6f5209ce48ab84e5",
         "dateadded": "2020-08-30T16:03:42.533141+00:00",
         "datecommitted": "2020-08-30T15:55:09+00:00",
