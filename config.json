@@ -4296,6 +4296,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "6ba372fe50fac491ee3dc90fcc40070ebca05146",
+        "dateadded": "2020-08-30T01:21:14.952674+00:00",
+        "datecommitted": "2020-08-30T00:57:46+00:00",
+        "description": "OpenCoreKernel: Fix EM64T check",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6ba372fe50fac491ee3dc90fcc40070ebca05146/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6ba372fe50fac491ee3dc90fcc40070ebca05146/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "7c8cc8aff085f67f4e3db4a77aa0ea42f5a2e58e845995a53d7d47fc78fdaef6"
+          },
+          "release": {
+            "sha256": "aa651f11416c31d7e9cc71fba721460e96eb8a61a7c82d82ab514c07495721cf"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6ba372fe50fac491ee3dc90fcc40070ebca05146/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6ba372fe50fac491ee3dc90fcc40070ebca05146/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "1eaab9ad755b0c5b6964bccc33130f5b78fe9e08",
         "dateadded": "2020-08-30T01:05:15.994418+00:00",
         "datecommitted": "2020-08-30T00:53:13+00:00",
