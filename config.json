@@ -4317,6 +4317,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "6c1d7e8570177990385e9fc3cc27065b18da2056",
+        "dateadded": "2020-08-30T20:50:09.097201+00:00",
+        "datecommitted": "2020-08-30T20:36:34+00:00",
+        "description": "Bootstrap: Rename to Bootstrap.efi",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6c1d7e8570177990385e9fc3cc27065b18da2056/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6c1d7e8570177990385e9fc3cc27065b18da2056/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "11411774ab944cad480042af9285ead8210b3619f814123f8e7ab6fbb0197c86"
+          },
+          "release": {
+            "sha256": "684f13edeba29dd609b626f6e1c2dbd8d2339cc549616c801bea7ba2a500af19"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6c1d7e8570177990385e9fc3cc27065b18da2056/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6c1d7e8570177990385e9fc3cc27065b18da2056/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "360982d0702dd3d21dc0fb6cd2ff05b0857fde21",
         "dateadded": "2020-08-30T17:47:22.527771+00:00",
         "datecommitted": "2020-08-30T17:24:39+00:00",
