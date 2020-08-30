@@ -4296,6 +4296,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "bda3750d07473d5a1af75c9e827088340fd618ea",
+        "dateadded": "2020-08-30T02:45:29.198161+00:00",
+        "datecommitted": "2020-08-30T02:07:10+00:00",
+        "description": "OcMacInfoLib: Fix 64-bit compatibility function",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bda3750d07473d5a1af75c9e827088340fd618ea/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bda3750d07473d5a1af75c9e827088340fd618ea/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "f52aa65f013dc5c23380ff9081707f74e79f8381b2666368625e1f87e67e78a0"
+          },
+          "release": {
+            "sha256": "612ea206dfb309af622f68f675be4ceb5e603dff17f7b2345d9ba7815ae1d20a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bda3750d07473d5a1af75c9e827088340fd618ea/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/bda3750d07473d5a1af75c9e827088340fd618ea/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "6ba372fe50fac491ee3dc90fcc40070ebca05146",
         "dateadded": "2020-08-30T01:21:14.952674+00:00",
         "datecommitted": "2020-08-30T00:57:46+00:00",
