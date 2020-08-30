@@ -4296,6 +4296,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "29d5b9d781f17b7607064129c62700489c7c3306",
+        "dateadded": "2020-08-30T15:14:25.384088+00:00",
+        "datecommitted": "2020-08-30T14:59:28+00:00",
+        "description": "OcAfterBootCompatLib: Fix VMware compatibility with Apple Secure Boot",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/29d5b9d781f17b7607064129c62700489c7c3306/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/29d5b9d781f17b7607064129c62700489c7c3306/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "25a7c75c7a1a210480c9e902446b74487e29d98e88935f2ea0c43b9d5d13501f"
+          },
+          "release": {
+            "sha256": "36304a7f0e9501daea2173aa777cca9a00abf3cde352cafcbd1b22d1ca35ca1f"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/29d5b9d781f17b7607064129c62700489c7c3306/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/29d5b9d781f17b7607064129c62700489c7c3306/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "c66f6e5274864c37bf09a47a5f68074f38d1cc84",
         "dateadded": "2020-08-30T10:50:23.513009+00:00",
         "datecommitted": "2020-08-30T10:38:42+00:00",
