@@ -3,6 +3,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "087819da57fd995f4d5e32c5af6e6168b0cbe8b8",
+        "dateadded": "2020-08-30T18:26:30.443696+00:00",
+        "datecommitted": "2020-08-30T18:21:13+00:00",
+        "description": "More improvements in matching logic",
+        "hashes": {
+          "debug": {
+            "sha256": "a280d5ce6f127091f51b01342e7ed8661985173266c14e1a44dfa80d506fb90a"
+          },
+          "release": {
+            "sha256": "d705e3acfae1a9620418d465bee32e0135f161884a449a08ec10eec31269ddf3"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/087819da57fd995f4d5e32c5af6e6168b0cbe8b8/Debug/AirportBrcmFixup-2.0.9-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/087819da57fd995f4d5e32c5af6e6168b0cbe8b8/Release/AirportBrcmFixup-2.0.9-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.0.9"
+      },
+      {
         "commit": "e78e7212c319cab4e86413fea816812e6a2656ce",
         "dateadded": "2020-08-29T12:44:11.907401+00:00",
         "datecommitted": "2020-08-29T12:39:56+00:00",
