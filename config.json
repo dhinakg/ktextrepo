@@ -4296,6 +4296,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "eb74fb9f0d3ae84ce5288587d5936509b137bc74",
+        "dateadded": "2020-08-30T02:59:50.235042+00:00",
+        "datecommitted": "2020-08-30T02:51:45+00:00",
+        "description": "OcCpuLib: Detect extended CPUID features",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eb74fb9f0d3ae84ce5288587d5936509b137bc74/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eb74fb9f0d3ae84ce5288587d5936509b137bc74/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "23ff865b00fae4e3499e40d48583a951c14b60c5b4a229907020603c02625880"
+          },
+          "release": {
+            "sha256": "389d99bcac238f4fca4082ec618df313a867769c805c28224785f8dca30b0033"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eb74fb9f0d3ae84ce5288587d5936509b137bc74/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/eb74fb9f0d3ae84ce5288587d5936509b137bc74/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "bda3750d07473d5a1af75c9e827088340fd618ea",
         "dateadded": "2020-08-30T02:45:29.198161+00:00",
         "datecommitted": "2020-08-30T02:07:10+00:00",
