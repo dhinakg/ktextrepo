@@ -4317,6 +4317,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "6f80437f5e9cce3eaed82bc51ac5761b8328930b",
+        "dateadded": "2020-09-01T22:01:52.949564+00:00",
+        "datecommitted": "2020-09-01T21:40:20+00:00",
+        "description": "Docs: Added MinKernel for kexts",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f80437f5e9cce3eaed82bc51ac5761b8328930b/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f80437f5e9cce3eaed82bc51ac5761b8328930b/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "fe9cd85b791a682751f33e09781e2e3d0bcfbb8e3a670f603df17efc268db6cb"
+          },
+          "release": {
+            "sha256": "cc2f8ec8919f84d15558be90218ea788ea551b9978eab8d72ffc06aa3fd98760"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f80437f5e9cce3eaed82bc51ac5761b8328930b/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6f80437f5e9cce3eaed82bc51ac5761b8328930b/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "f9f9ff3de5341b7989f528bcabd0d28d36d5a162",
         "dateadded": "2020-09-01T05:04:38.885366+00:00",
         "datecommitted": "2020-09-01T04:52:27+00:00",
