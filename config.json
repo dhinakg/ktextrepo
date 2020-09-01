@@ -18920,6 +18920,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "dcf11a762e25c2e0212fbebb8485a8031a690f11",
+        "dateadded": "2020-09-01T04:42:30.398088+00:00",
+        "datecommitted": "2020-09-01T04:38:09+00:00",
+        "description": "Fix coreOffset detection on MBP model and Macmini8,1 (#42)",
+        "hashes": {
+          "debug": {
+            "sha256": "3a7c6d06fc713a7718759632817c7d43770dc22c5e65482de0ff7f951cf15ec4"
+          },
+          "release": {
+            "sha256": "7132607499ce79ef1e292f25be6ff3f2cb136a009316138b89f89fca8c3c061a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/dcf11a762e25c2e0212fbebb8485a8031a690f11/Debug/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/dcf11a762e25c2e0212fbebb8485a8031a690f11/Release/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
         "commit": "f17022f17f29222d7a9cde6edd51810a5c41c389",
         "dateadded": "2020-08-25T18:26:47.706085+00:00",
         "datecommitted": "2020-08-25T18:24:34+00:00",
