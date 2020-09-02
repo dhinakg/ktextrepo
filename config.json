@@ -518,6 +518,90 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "39a5432925a6588fb2f3c6b11634ae0961ff7910",
+        "dateadded": "2020-09-02T09:27:36.480433+00:00",
+        "datecommitted": "2020-09-02T09:18:11+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "111afb8e1bdc51a36785e2fc89bd191922cabce3790245631a347ea023b7a9c1"
+          },
+          "release": {
+            "sha256": "046e48d72b660e2b5fcaba028c73fd2b872d5b29701b14ae751402457eb85ab1"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/39a5432925a6588fb2f3c6b11634ae0961ff7910/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/39a5432925a6588fb2f3c6b11634ae0961ff7910/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": "872d9b67c4f36856e1984e7c3cc2f6c9506cf672",
+        "dateadded": "2020-09-02T09:27:36.372604+00:00",
+        "datecommitted": "2020-09-02T09:18:38+00:00",
+        "description": "Add new layout 17 for ALC280 (#591)\n\nThis layout is a mix of 13, 15 & 16 such that there will be 2 devices listed in the preferences `Internal Speaker/Line Out` depending on if theres something plugged in the rear green plug, and `Headphones`. You can manually select between these two devices in the preferences or on the sound icon on the top bar.\r\n\r\nThe main limitations lie with the hardware and with apples decision to have line-out override the headphones. The hardware limitation is that the internal speaker cannot not function if there is something in the line-out plug because they share the same AMP etc. So it only makes sense to have this part auto-switch. And because of the apple decision we really need to manually select that part.",
+        "hashes": {
+          "debug": {
+            "sha256": "d3aa7a80a331a764d4636b8c59f95d896c951f0cd5c926f826e6b977779d478d"
+          },
+          "release": {
+            "sha256": "ab4dc858f64e3099e194cd374d225ea352d87ab2533e6a436f137a706508b6a1"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/872d9b67c4f36856e1984e7c3cc2f6c9506cf672/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/872d9b67c4f36856e1984e7c3cc2f6c9506cf672/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": "c5263e88d89b700fe53999bfe9e3e753a2e7a814",
+        "dateadded": "2020-09-02T09:27:36.290632+00:00",
+        "datecommitted": "2020-09-02T09:20:19+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "72d6e2f0f43bfa91ee4b2eec8ede45df6a4ac015ff9129a5b045458f723350b3"
+          },
+          "release": {
+            "sha256": "efb7c716fd74c03fdbda7b211a5f2bf713de199a7eef1b438242a8268515f37a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/c5263e88d89b700fe53999bfe9e3e753a2e7a814/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/c5263e88d89b700fe53999bfe9e3e753a2e7a814/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": "240df475bc17aa767263b92e84e7f685036a5361",
+        "dateadded": "2020-09-02T09:27:36.212292+00:00",
+        "datecommitted": "2020-09-02T09:20:50+00:00",
+        "description": "ALC236 layout 14 for Lenovo 330S (#593)\n\n* Add layout 14 for Lenovo 330S\r\n\r\n* FIx pin order\r\n\r\n* Fixed broken xml structure\r\n\r\nCo-authored-by: erinviegas <erin@novasemita.com>",
+        "hashes": {
+          "debug": {
+            "sha256": "e24e81f3e27c4f2b4c22b5763bac9ae7f96da080b4fb4262b0375e3641ee6ae2"
+          },
+          "release": {
+            "sha256": "50eaf9973cdacb7b8032dbbf27e385f453815b1b33e252ae1aaa7292e5c40aee"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/240df475bc17aa767263b92e84e7f685036a5361/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/240df475bc17aa767263b92e84e7f685036a5361/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
         "commit": "03ef0086f7b8c7d2bde937cf8fbe26b4a9cd199a",
         "dateadded": "2020-09-02T09:13:42.766790+00:00",
         "datecommitted": "2020-09-02T09:06:06+00:00",
