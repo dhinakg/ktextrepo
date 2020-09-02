@@ -4317,6 +4317,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "53614abdad8ff8e1db468118f835a229ebeb6ba0",
+        "dateadded": "2020-09-02T07:29:05.416777+00:00",
+        "datecommitted": "2020-09-02T07:21:00+00:00",
+        "description": "OcAppleKernelLib: Fix prelinked kext patches in KC mode",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/53614abdad8ff8e1db468118f835a229ebeb6ba0/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/53614abdad8ff8e1db468118f835a229ebeb6ba0/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "00f806ce2042c98cf4a887e69c8f0227290effa489afc87bced0f87ee6d41489"
+          },
+          "release": {
+            "sha256": "c2633e5aec39c49aa59cf3a425600d3b1719805b5cac05bf69d3bc02047291ec"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/53614abdad8ff8e1db468118f835a229ebeb6ba0/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/53614abdad8ff8e1db468118f835a229ebeb6ba0/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "4ee980e180f29b02d0423c2ae8653df436a013d6",
         "dateadded": "2020-09-02T00:59:35.021578+00:00",
         "datecommitted": "2020-09-02T00:32:23+00:00",
