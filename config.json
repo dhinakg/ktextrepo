@@ -518,6 +518,48 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "734fc2be06a7b9affc3223cca2bb8c24cfac28f1",
+        "dateadded": "2020-09-02T09:59:44.369445+00:00",
+        "datecommitted": "2020-09-02T09:49:12+00:00",
+        "description": "Add layout23 for Thinkpad T430 with fixed micophone inputlevel (#596)",
+        "hashes": {
+          "debug": {
+            "sha256": "fcaf31af34e441d308734d434c28eab9512685dbb95fc81f6a083e1bad68675c"
+          },
+          "release": {
+            "sha256": "609d9f6a55b4e18d1a3aa2773ecf07f8dca87f883fecb297a046d09ca6ff8e20"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/734fc2be06a7b9affc3223cca2bb8c24cfac28f1/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/734fc2be06a7b9affc3223cca2bb8c24cfac28f1/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": "affe566e7fe8051f907af8568c0b75d0bb61a804",
+        "dateadded": "2020-09-02T09:59:44.302952+00:00",
+        "datecommitted": "2020-09-02T09:50:41+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "d9dd18362b3a4bfa578da23c3d131d047950c19cae98bdd4ea2130362a390f5c"
+          },
+          "release": {
+            "sha256": "c0ac05fed14bb155ca0ca1ddd719b96a9c71e6be1f010ee6b7b02a7cce180d07"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/affe566e7fe8051f907af8568c0b75d0bb61a804/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/affe566e7fe8051f907af8568c0b75d0bb61a804/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
         "commit": "04c5edc8aaf6e8dd8dc32041199812d2e2a74b89",
         "dateadded": "2020-09-02T09:50:29.179687+00:00",
         "datecommitted": "2020-09-02T09:48:05+00:00",
