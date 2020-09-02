@@ -518,6 +518,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c",
+        "dateadded": "2020-09-02T10:18:37.239852+00:00",
+        "datecommitted": "2020-09-02T10:02:51+00:00",
+        "description": "Added ALC245 and ALC287 by lunjielee",
+        "hashes": {
+          "debug": {
+            "sha256": "6cb71640c910edddf90ffa9a89d1de44d8194b8b6f90a5a618b2e286812e05c8"
+          },
+          "release": {
+            "sha256": "e1d80c604aa06b422e9a9fcfe76bfa211ee16cf85f82be1f05d1cce0a5105a33"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
         "commit": "734fc2be06a7b9affc3223cca2bb8c24cfac28f1",
         "dateadded": "2020-09-02T09:59:44.369445+00:00",
         "datecommitted": "2020-09-02T09:49:12+00:00",
