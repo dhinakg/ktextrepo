@@ -518,6 +518,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "04c5edc8aaf6e8dd8dc32041199812d2e2a74b89",
+        "dateadded": "2020-09-02T09:50:29.179687+00:00",
+        "datecommitted": "2020-09-02T09:48:05+00:00",
+        "description": "Fix previous PR",
+        "hashes": {
+          "debug": {
+            "sha256": "0afc8f3abc64f06edcb6e5186ba380f1fc8340cf8f64dff4bb0e8e4ec67847ef"
+          },
+          "release": {
+            "sha256": "3101488324fcf1943793503ccd327c0c7e8c63188be34d12bbe2e475b592d8b7"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/04c5edc8aaf6e8dd8dc32041199812d2e2a74b89/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/04c5edc8aaf6e8dd8dc32041199812d2e2a74b89/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
         "commit": "8f9406ae6a93bc96400cda0096b78b7c1696dc9d",
         "dateadded": "2020-09-02T09:42:25.364863+00:00",
         "datecommitted": "2020-09-02T09:35:32+00:00",
