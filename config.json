@@ -518,6 +518,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "8f9406ae6a93bc96400cda0096b78b7c1696dc9d",
+        "dateadded": "2020-09-02T09:42:25.364863+00:00",
+        "datecommitted": "2020-09-02T09:35:32+00:00",
+        "description": "Added ALCS1200A layout-id 49 for Asrock Z490M-ITX by VanXNF",
+        "hashes": {
+          "debug": {
+            "sha256": "07be6b1b1286199b1990845df4cd1556be1997fc6f73fee2d552b780bc53aaca"
+          },
+          "release": {
+            "sha256": "c92ee96d66f3dc1c615c72dd98514486977bac6977ea9984fccc7131b16c03f1"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/8f9406ae6a93bc96400cda0096b78b7c1696dc9d/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/8f9406ae6a93bc96400cda0096b78b7c1696dc9d/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
         "commit": "a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3",
         "dateadded": "2020-09-02T09:32:20.998454+00:00",
         "datecommitted": "2020-09-02T09:22:08+00:00",
