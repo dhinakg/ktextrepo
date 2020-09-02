@@ -4611,6 +4611,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "96e2c0b5922245209289035761766c1b9ed2b661",
+        "dateadded": "2020-09-02T19:42:42.826921+00:00",
+        "datecommitted": "2020-09-02T19:20:05+00:00",
+        "description": "Update AppleSmBios.h for 10.15",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96e2c0b5922245209289035761766c1b9ed2b661/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96e2c0b5922245209289035761766c1b9ed2b661/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "8fa444c613e6c3332296bd7575651442e6ecb8611a03ae44689cd8ca35fba751"
+          },
+          "release": {
+            "sha256": "dd030578858e8aaf122813fdb2c91715a716b7836f26aaf18c13ddf329ac7f37"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96e2c0b5922245209289035761766c1b9ed2b661/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/96e2c0b5922245209289035761766c1b9ed2b661/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "53614abdad8ff8e1db468118f835a229ebeb6ba0",
         "dateadded": "2020-09-02T07:29:05.416777+00:00",
         "datecommitted": "2020-09-02T07:21:00+00:00",
