@@ -518,6 +518,69 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "03ef0086f7b8c7d2bde937cf8fbe26b4a9cd199a",
+        "dateadded": "2020-09-02T09:13:42.766790+00:00",
+        "datecommitted": "2020-09-02T09:06:06+00:00",
+        "description": "Add 0xA3F0 device in 400 series chipsets (#587)",
+        "hashes": {
+          "debug": {
+            "sha256": "ce04d196f14c4d0556861960e0c3313e93e09c94b7f171ab4d4da15d6d6d05d1"
+          },
+          "release": {
+            "sha256": "84f9291ee8b0238042e23d30b96bbd699fd101fbac22f47d87b23bebc247ad0f"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/03ef0086f7b8c7d2bde937cf8fbe26b4a9cd199a/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/03ef0086f7b8c7d2bde937cf8fbe26b4a9cd199a/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": "cb958c687cbcfdfe127bbda9c10e6688f2bac075",
+        "dateadded": "2020-09-02T09:13:42.704058+00:00",
+        "datecommitted": "2020-09-02T09:08:02+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "306f5d528eee72098342b78797f326d9e64b0bbc3ebd3373d10163f329fe6965"
+          },
+          "release": {
+            "sha256": "81c608a822f708ccf8284a2cfcee4b8bcf35f355d02468a36cd57a499be1f639"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/cb958c687cbcfdfe127bbda9c10e6688f2bac075/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/cb958c687cbcfdfe127bbda9c10e6688f2bac075/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": "afb0cfae791b4570f6ddad5af8ecef497d41074e",
+        "dateadded": "2020-09-02T09:13:42.639329+00:00",
+        "datecommitted": "2020-09-02T09:08:38+00:00",
+        "description": "MAG-Z490-TOMAHAWK ALCS1200A (#588)\n\n* MAG-Z490-TOMAHAWK ALCS1200A\r\n\r\n* Mirone\r\n\r\n* Change id to 11",
+        "hashes": {
+          "debug": {
+            "sha256": "5a9fc3f7f179389f44c742915fdf612313e753645bf2922d53e2e38333337868"
+          },
+          "release": {
+            "sha256": "062296c41e4d8f6825d3637a36114e5df89b5301c9ce31981408121824325092"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/afb0cfae791b4570f6ddad5af8ecef497d41074e/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/afb0cfae791b4570f6ddad5af8ecef497d41074e/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
         "commit": "cf0d8434cba879d5f76f41dfaf73b5f808046db9",
         "dateadded": "2020-08-10T21:48:10.300303+00:00",
         "datecommitted": "2020-08-10T21:38:55+00:00",
