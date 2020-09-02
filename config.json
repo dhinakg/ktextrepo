@@ -518,6 +518,48 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3",
+        "dateadded": "2020-09-02T09:32:20.998454+00:00",
+        "datecommitted": "2020-09-02T09:22:08+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "57e3d8449c2ae2ee3f39013ff2b4600d924c8f817247ae638a9fc785ec839a1b"
+          },
+          "release": {
+            "sha256": "b2890a28c45d98006c25e28b3b591099c8573f75ea2170fe40e2b7cdfade3be7"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": "e7e19c097e13c28afd56f9e7d1f86720b94e0adf",
+        "dateadded": "2020-09-02T09:32:20.932185+00:00",
+        "datecommitted": "2020-09-02T09:28:20+00:00",
+        "description": "Added ALC887 layout-id 12 for ASUS H81M-D by VanXNF",
+        "hashes": {
+          "debug": {
+            "sha256": "6057af38741a9b09ae24307e2e55910b0b07cc8b501f70948ac063d89e4f63bc"
+          },
+          "release": {
+            "sha256": "17fb022f1a5c4992982da7273c93b03c90be7a5a495e970d1786ca5863cdf6f2"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/e7e19c097e13c28afd56f9e7d1f86720b94e0adf/Debug/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/e7e19c097e13c28afd56f9e7d1f86720b94e0adf/Release/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
         "commit": "39a5432925a6588fb2f3c6b11634ae0961ff7910",
         "dateadded": "2020-09-02T09:27:36.480433+00:00",
         "datecommitted": "2020-09-02T09:18:11+00:00",
