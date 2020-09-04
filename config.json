@@ -4611,6 +4611,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "6df942413c09b5d64b8f7b4af17315d33ba8412c",
+        "dateadded": "2020-09-04T12:50:29.479085+00:00",
+        "datecommitted": "2020-09-04T12:28:08+00:00",
+        "description": "OcAppleKernelLib: Fix issues in 11.0 kext injection and patching\n\n- KcGetKextSize may report far larger kext size due to using segment\n  address instead of kext address as a base.\n- KC Mach-O header rebuild may make Context->LinkEditSegment point\n  to invalid memory breaking KcGetKextSize in the kext patcher.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6df942413c09b5d64b8f7b4af17315d33ba8412c/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6df942413c09b5d64b8f7b4af17315d33ba8412c/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "646ed3b7fd1a6236fac5e93bfb6a18b9f5f1ca9c30705e5a51d4603fbf1c2e90"
+          },
+          "release": {
+            "sha256": "e9d0d76e9ebee3c8042f37658ca14500bbef03dcab2630e525393d0767ca6545"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6df942413c09b5d64b8f7b4af17315d33ba8412c/Debug/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6df942413c09b5d64b8f7b4af17315d33ba8412c/Release/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
         "commit": "f35b3806758583f4d39aa10c10c45c0eddaa3f9e",
         "dateadded": "2020-09-03T22:22:51.926854+00:00",
         "datecommitted": "2020-09-03T21:13:03+00:00",
