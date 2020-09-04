@@ -20706,6 +20706,33 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "68b87f9ad3c8d45b48c543300603ba8022cb3ab9",
+        "dateadded": "2020-09-04T13:07:24.145017+00:00",
+        "datecommitted": "2020-09-04T13:05:49+00:00",
+        "description": "Docs: Fixed spoiled SNB Framebuffer List",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/68b87f9ad3c8d45b48c543300603ba8022cb3ab9/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43"
+          },
+          "debug": {
+            "sha256": "c3636af5b2d3abccb422c0f8fe807ee3ef64a12e2e14645c67d8548b142de7ec"
+          },
+          "release": {
+            "sha256": "69c5d9acf4b13b3d58b812f6dfbbf4e0de21f22414105507b219709641f7e250"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/68b87f9ad3c8d45b48c543300603ba8022cb3ab9/Debug/WhateverGreen-1.4.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/68b87f9ad3c8d45b48c543300603ba8022cb3ab9/Release/WhateverGreen-1.4.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.2"
+      },
+      {
         "commit": "5087f9fc3972df31b3735cc000ba67bf51d9197a",
         "dateadded": "2020-09-02T21:27:41.434886+00:00",
         "datecommitted": "2020-09-02T21:14:31+00:00",
