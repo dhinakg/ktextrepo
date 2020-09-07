@@ -4611,6 +4611,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "6c1bd84d341e308d1e23fbe939e66a7e77ecc1ee",
+        "dateadded": "2020-09-07T21:07:23.636272+00:00",
+        "datecommitted": "2020-09-07T20:59:12+00:00",
+        "description": "DataBase: Updated builtin firmware versions",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6c1bd84d341e308d1e23fbe939e66a7e77ecc1ee/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6c1bd84d341e308d1e23fbe939e66a7e77ecc1ee/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "1a93e53aa25dd19e20db2c89b5e3c3e407b69ca56d62ff2fd590e0068cb7c899"
+          },
+          "release": {
+            "sha256": "b8bac93b4ea6181d6050daea9361324456e65387d6cf1983d474b81017165e0b"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6c1bd84d341e308d1e23fbe939e66a7e77ecc1ee/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/6c1bd84d341e308d1e23fbe939e66a7e77ecc1ee/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "b7741b7dab74314e0bc6deff6246472707599e6f",
         "dateadded": "2020-09-07T17:59:53.803463+00:00",
         "datecommitted": "2020-09-07T17:49:54+00:00",
