@@ -20954,6 +20954,33 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "aade8dd931f7496ce6d6b06c8480625637b47c20",
+        "dateadded": "2020-09-09T10:54:09.162261+00:00",
+        "datecommitted": "2020-09-09T10:51:52+00:00",
+        "description": "Fix logging in DVMTCalcFix (#67)\n\nOnly check for platform availability if the patch is enabled",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/aade8dd931f7496ce6d6b06c8480625637b47c20/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43"
+          },
+          "debug": {
+            "sha256": "5a9d01184f252678121680f068a24562d68d44eb6d9c8a2a6621d02efa62e1f3"
+          },
+          "release": {
+            "sha256": "9b8023950b010712ea3028baacef8e35f2478421cd16ac2cdac02be1721beee0"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/aade8dd931f7496ce6d6b06c8480625637b47c20/Debug/WhateverGreen-1.4.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/aade8dd931f7496ce6d6b06c8480625637b47c20/Release/WhateverGreen-1.4.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.2"
+      },
+      {
         "commit": "68b87f9ad3c8d45b48c543300603ba8022cb3ab9",
         "dateadded": "2020-09-04T13:07:24.145017+00:00",
         "datecommitted": "2020-09-04T13:05:49+00:00",
