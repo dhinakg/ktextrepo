@@ -3,6 +3,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "ee17cb799ff4503ee619dd9aedaad2ea8770f14c",
+        "dateadded": "2020-09-09T13:23:33.724672+00:00",
+        "datecommitted": "2020-09-09T13:18:21+00:00",
+        "description": "Bump version",
+        "hashes": {
+          "debug": {
+            "sha256": "97484764016ac0025eb545d6eb2821f66a46334ca6ab9bcea425a1eec7d3de55"
+          },
+          "release": {
+            "sha256": "4588c40c568f00ebec99c5a4c20b2797ab27571d36620df74f6fd9e469622f61"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/ee17cb799ff4503ee619dd9aedaad2ea8770f14c/Debug/AirportBrcmFixup-2.1.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/ee17cb799ff4503ee619dd9aedaad2ea8770f14c/Release/AirportBrcmFixup-2.1.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.0"
+      },
+      {
         "commit": "087819da57fd995f4d5e32c5af6e6168b0cbe8b8",
         "dateadded": "2020-08-30T18:26:30.443696+00:00",
         "datecommitted": "2020-08-30T18:21:13+00:00",
@@ -517,6 +538,27 @@
   "AppleALC": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "193f4c8b7ea6040fb7c20ed620c7c4b689fc53b3",
+        "dateadded": "2020-09-09T13:23:33.638391+00:00",
+        "datecommitted": "2020-09-09T13:13:30+00:00",
+        "description": "Bump version",
+        "hashes": {
+          "debug": {
+            "sha256": "c01083231f1f2bd43cd01c0322ce29846b2e54d7b1b5e898573294acd9be4e13"
+          },
+          "release": {
+            "sha256": "a489e44adcc34945a01311a7c80f4e20ac91ac657e6d3b59c620d33789b44a1d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/193f4c8b7ea6040fb7c20ed620c7c4b689fc53b3/Debug/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/193f4c8b7ea6040fb7c20ed620c7c4b689fc53b3/Release/AppleALC-1.5.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.3"
+      },
       {
         "commit": "a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c",
         "dateadded": "2020-09-02T10:18:37.239852+00:00",
@@ -3018,6 +3060,27 @@
   "Lilu": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "8f35264a36ddac055b265f42bcb39c0f83eb0fae",
+        "dateadded": "2020-09-09T13:23:33.835703+00:00",
+        "datecommitted": "2020-09-09T13:14:37+00:00",
+        "description": "Bump version",
+        "hashes": {
+          "debug": {
+            "sha256": "fcac4c5e81030df35265ff6475ba21e3ba18c6781d9b62477ab676d944c3605b"
+          },
+          "release": {
+            "sha256": "496e1c4a25c013abc6c458660686ae4c3f66620612c8ac58caccc74fe601a4dc"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/8f35264a36ddac055b265f42bcb39c0f83eb0fae/Debug/Lilu-1.4.8-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/Lilu/8f35264a36ddac055b265f42bcb39c0f83eb0fae/Release/Lilu-1.4.8-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
       {
         "commit": "b8eb26fadc827d1df8f4e5ab8c9216c5098e8318",
         "dateadded": "2020-08-17T12:35:03.989009+00:00",
@@ -19741,6 +19804,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "1a791ebcbf151faedc406e6290002cfeb1b68991",
+        "dateadded": "2020-09-09T13:23:33.918584+00:00",
+        "datecommitted": "2020-09-09T13:16:23+00:00",
+        "description": "Bump version",
+        "hashes": {
+          "debug": {
+            "sha256": "f2abba5396350cff60b8b96f93e6d9a0f1b797e77b3cb129befedc20102bdff2"
+          },
+          "release": {
+            "sha256": "0053d494add87535ac97581f7258f32b305886b11ede5c869e8c6dca35f47456"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/1a791ebcbf151faedc406e6290002cfeb1b68991/Debug/VirtualSMC-1.1.7-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/VirtualSMC/1a791ebcbf151faedc406e6290002cfeb1b68991/Release/VirtualSMC-1.1.7-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.1.7"
+      },
+      {
         "commit": "eda655bc5c21519cc7734ce7e6d1ae10a8d9b27d",
         "dateadded": "2020-09-01T05:04:38.963232+00:00",
         "datecommitted": "2020-09-01T04:53:40+00:00",
@@ -20953,6 +21037,33 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "927483cb720fa71a3eca939c1188b578819fa307",
+        "dateadded": "2020-09-09T13:23:33.988097+00:00",
+        "datecommitted": "2020-09-09T13:15:32+00:00",
+        "description": "Bump version",
+        "extras": {
+          "SSDT-PNLF.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/927483cb720fa71a3eca939c1188b578819fa307/Debug/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43"
+          },
+          "debug": {
+            "sha256": "b9146e0e2fb7f1cb89b5d2bef77cb9b67ce3950adfec6f6918904243b6dbbef6"
+          },
+          "release": {
+            "sha256": "05f6e5f044aad54cb2727ec0dd89d899d8a3abb79b51033b8d87e6499b3bbb09"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/927483cb720fa71a3eca939c1188b578819fa307/Debug/WhateverGreen-1.4.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/WhateverGreen/927483cb720fa71a3eca939c1188b578819fa307/Release/WhateverGreen-1.4.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.4.3"
+      },
       {
         "commit": "aade8dd931f7496ce6d6b06c8480625637b47c20",
         "dateadded": "2020-09-09T10:54:09.162261+00:00",
