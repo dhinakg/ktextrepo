@@ -2885,6 +2885,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "c7b0eff3eaba9a8a171c49097239debc37354838",
+        "dateadded": "2020-09-09T13:27:36.575130+00:00",
+        "datecommitted": "2020-09-09T13:20:35+00:00",
+        "description": "Bump version",
+        "hashes": {
+          "debug": {
+            "sha256": "047090b94bdd4b1955dc37a0ce686e20f7eec3c6a1c5d91560fe6a996d2e97fe"
+          },
+          "release": {
+            "sha256": "df51e845213301da2ce0a2aa2d7bdb8d3e54d1fd3d2ea324c0b4a44e492f3586"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/HibernationFixup/c7b0eff3eaba9a8a171c49097239debc37354838/Debug/HibernationFixup-1.3.6-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/HibernationFixup/c7b0eff3eaba9a8a171c49097239debc37354838/Release/HibernationFixup-1.3.6-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.3.6"
+      },
+      {
         "commit": "e278709b28037ae7780475105b51fd440289c1ba",
         "dateadded": "2020-08-20T06:45:42.083795+00:00",
         "datecommitted": "2020-08-20T06:41:22+00:00",
