@@ -539,6 +539,48 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "5f7f90b05657dad53eaa8e1d3c253ebec4e1c642",
+        "dateadded": "2020-09-09T20:18:43.557228+00:00",
+        "datecommitted": "2020-09-09T20:01:19+00:00",
+        "description": "Fix ALCS1200A lost ID 11 (#599)",
+        "hashes": {
+          "debug": {
+            "sha256": "d137af9123c4237a15d01882c6230dd7d2cf4d6634e15d710009a46e39b56633"
+          },
+          "release": {
+            "sha256": "a17426e147cb8eb7e868ea6b067f6b7b403b75f122b0d543eed626d10cc56512"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/5f7f90b05657dad53eaa8e1d3c253ebec4e1c642/Debug/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/5f7f90b05657dad53eaa8e1d3c253ebec4e1c642/Release/AppleALC-1.5.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.3"
+      },
+      {
+        "commit": "88ed1ddc670f30c867ca7863a93785c03ec56981",
+        "dateadded": "2020-09-09T20:18:43.345025+00:00",
+        "datecommitted": "2020-09-09T20:03:38+00:00",
+        "description": "Sync changelog",
+        "hashes": {
+          "debug": {
+            "sha256": "327bd7192328137dbb5522d0edff495785fadc8bcdb328c493115705ac6a8cf3"
+          },
+          "release": {
+            "sha256": "95e1545b86a78e1600613291ac0a37ba969afa4d11ba81f18ef6b16e25630d07"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/88ed1ddc670f30c867ca7863a93785c03ec56981/Debug/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AppleALC/88ed1ddc670f30c867ca7863a93785c03ec56981/Release/AppleALC-1.5.3-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "1.5.3"
+      },
+      {
         "commit": "193f4c8b7ea6040fb7c20ed620c7c4b689fc53b3",
         "dateadded": "2020-09-09T13:23:33.638391+00:00",
         "datecommitted": "2020-09-09T13:13:30+00:00",
