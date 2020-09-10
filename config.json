@@ -4737,6 +4737,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "78f0907c032e88736e66e038ed1f4e5ca1313492",
+        "dateadded": "2020-09-10T16:42:30.689386+00:00",
+        "datecommitted": "2020-09-10T16:00:12+00:00",
+        "description": "OpenCorePlatform: Added `ProcessorType` option to `Generic`\n\nThis allows custom CPU names. Do not use this is the detection\nis wrong for you but rather bugreport with CPUID dumps.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/78f0907c032e88736e66e038ed1f4e5ca1313492/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/78f0907c032e88736e66e038ed1f4e5ca1313492/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "8fd3c8d6997c6a9bff60a430be710265b1dde736634fcb3a61b2d7b3e420f8fb"
+          },
+          "release": {
+            "sha256": "59c55ae90c88d1d00b01514b68cf681eb56e4fc79d00f77f50374f2706db2279"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/78f0907c032e88736e66e038ed1f4e5ca1313492/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/78f0907c032e88736e66e038ed1f4e5ca1313492/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "298269245bfd0dc081537ab778634974d3196cab",
         "dateadded": "2020-09-07T22:00:50.864799+00:00",
         "datecommitted": "2020-09-07T21:04:53+00:00",
