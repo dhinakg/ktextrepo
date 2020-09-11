@@ -4737,6 +4737,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "c72e71689570758d7642cbabd33e078f99689975",
+        "dateadded": "2020-09-11T12:48:54.028012+00:00",
+        "datecommitted": "2020-09-11T12:14:26+00:00",
+        "description": "OcCpuLib: Improve SNB-E engineering sample detection\n\ncloses acidanthera/bugtracker#1149",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c72e71689570758d7642cbabd33e078f99689975/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c72e71689570758d7642cbabd33e078f99689975/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "890561af090bb8d9db8bfd9c580af9586b1921faa99485507907efe99e1195dd"
+          },
+          "release": {
+            "sha256": "9ab4f573cf3a2ab7f6e79856fc360a3d629fd3a865a35f72e7e9282aae9f121e"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c72e71689570758d7642cbabd33e078f99689975/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/c72e71689570758d7642cbabd33e078f99689975/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "d3cf117c8661a4eda1863ca1fcdfae5c277974db",
         "dateadded": "2020-09-11T12:02:37.289974+00:00",
         "datecommitted": "2020-09-11T11:43:55+00:00",
