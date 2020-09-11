@@ -4737,6 +4737,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "d3cf117c8661a4eda1863ca1fcdfae5c277974db",
+        "dateadded": "2020-09-11T12:02:37.289974+00:00",
+        "datecommitted": "2020-09-11T11:43:55+00:00",
+        "description": "OcApfsLib: Disconnect the drives we connect to with `UnblockFsConnect`\n\ncloses acidanthera/bugtracker#1128",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d3cf117c8661a4eda1863ca1fcdfae5c277974db/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d3cf117c8661a4eda1863ca1fcdfae5c277974db/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "66d6f4d7f6d49bd555af1884c0181d2a77d42eb5b8e99b5bacc12d5a9b9fb45b"
+          },
+          "release": {
+            "sha256": "abc22508f439258653a388afef962b054033f1a47685000e607a7aec9260519d"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d3cf117c8661a4eda1863ca1fcdfae5c277974db/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d3cf117c8661a4eda1863ca1fcdfae5c277974db/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "0d8cbe07f9a0ab2c9f5d555219242a592e4868b3",
         "dateadded": "2020-09-10T16:56:10.149846+00:00",
         "datecommitted": "2020-09-10T16:43:04+00:00",
