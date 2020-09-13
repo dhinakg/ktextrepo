@@ -4737,6 +4737,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "85d0532e172a03c1ac6ad01a05e280982fca82d7",
+        "dateadded": "2020-09-13T17:00:34.007266+00:00",
+        "datecommitted": "2020-09-13T16:49:02+00:00",
+        "description": "OcAppleKernelLib: Fix previous commit",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/85d0532e172a03c1ac6ad01a05e280982fca82d7/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/85d0532e172a03c1ac6ad01a05e280982fca82d7/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "8ae4bf94466ad3d16fc2a1650d456e9ea13e7c63f18af771139019c913556ee2"
+          },
+          "release": {
+            "sha256": "7317fdaef2f89a3a08aa6e6432e3bcc888cb161d179167e76f2a4aff0b5b2d6f"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/85d0532e172a03c1ac6ad01a05e280982fca82d7/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/85d0532e172a03c1ac6ad01a05e280982fca82d7/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "b7a5bf322d456b6fcb65f97fcb126633d1fc2abc",
         "dateadded": "2020-09-13T16:34:17.856683+00:00",
         "datecommitted": "2020-09-13T16:16:36+00:00",
