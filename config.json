@@ -4737,6 +4737,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "74062d4e0f2f954fd7d5577f6841775514287f34",
+        "dateadded": "2020-09-13T20:08:29.889485+00:00",
+        "datecommitted": "2020-09-13T19:57:10+00:00",
+        "description": "OcAppleKernelLib: Add 32-bit Mach-O and patching support (#118)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74062d4e0f2f954fd7d5577f6841775514287f34/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74062d4e0f2f954fd7d5577f6841775514287f34/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "557519fc4cf000f1a51bbeb1d6525c2ea93d709cf0660d0443649432cf303f19"
+          },
+          "release": {
+            "sha256": "a640a68fe8b777601a170f50026d390f48f6da04beefe453e0cf464d5a8c00cf"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74062d4e0f2f954fd7d5577f6841775514287f34/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/74062d4e0f2f954fd7d5577f6841775514287f34/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "18ce64b40894e91130cf315d7530859c272938d4",
         "dateadded": "2020-09-13T17:24:54.238534+00:00",
         "datecommitted": "2020-09-13T17:16:24+00:00",
