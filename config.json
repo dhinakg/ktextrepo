@@ -4737,6 +4737,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "b27299c75752d569c802e100a51f72b73a1f3bdd",
+        "dateadded": "2020-09-13T23:33:38.709440+00:00",
+        "datecommitted": "2020-09-13T23:24:28+00:00",
+        "description": "Update Kexts.md",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b27299c75752d569c802e100a51f72b73a1f3bdd/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b27299c75752d569c802e100a51f72b73a1f3bdd/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "b9ac6e88ff0384e09571b97e2c49bcd2dae3b56c4c2252ebe5eb45baac1527d7"
+          },
+          "release": {
+            "sha256": "c09a54ccfb1f7f48ca2d4be421d6465b19526456b7842aabcd1c75e6c1fcf268"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b27299c75752d569c802e100a51f72b73a1f3bdd/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b27299c75752d569c802e100a51f72b73a1f3bdd/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "d53a5125f2bdde30a3b80d7e7b4a950ffccd8d31",
         "dateadded": "2020-09-13T20:28:59.078917+00:00",
         "datecommitted": "2020-09-13T20:19:48+00:00",
