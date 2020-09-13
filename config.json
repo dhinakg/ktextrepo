@@ -4737,6 +4737,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "8c66f78a3d4f4620787d92f92df7c436602e0f3a",
+        "dateadded": "2020-09-13T14:40:38.447317+00:00",
+        "datecommitted": "2020-09-13T14:30:45+00:00",
+        "description": "Build: Fix booter suffix for IA32",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8c66f78a3d4f4620787d92f92df7c436602e0f3a/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8c66f78a3d4f4620787d92f92df7c436602e0f3a/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "513a0c1679905e769b09bd0fab4d64140a0b5b0fcb64f590cfc88514872545fb"
+          },
+          "release": {
+            "sha256": "712af74d99c19227d331cb30346e5602cfc8aab5b08ec2c25c290d9c1040e3ea"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8c66f78a3d4f4620787d92f92df7c436602e0f3a/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8c66f78a3d4f4620787d92f92df7c436602e0f3a/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "733e8b7b27a5a1bd9484b3e558e99af5481db2d5",
         "dateadded": "2020-09-13T13:27:13.412108+00:00",
         "datecommitted": "2020-09-13T13:18:20+00:00",
