@@ -4737,6 +4737,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "733e8b7b27a5a1bd9484b3e558e99af5481db2d5",
+        "dateadded": "2020-09-13T13:27:13.412108+00:00",
+        "datecommitted": "2020-09-13T13:18:20+00:00",
+        "description": "Build: Added IA32 binry variant to the release bundles",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/733e8b7b27a5a1bd9484b3e558e99af5481db2d5/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/733e8b7b27a5a1bd9484b3e558e99af5481db2d5/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "f57d514b1d844e22b66b1981992f2fc900406ab9f07f287c6a728b2caf73f54e"
+          },
+          "release": {
+            "sha256": "ff2b6dccdfe1b024be0021d1714587e02b0051e45d2da7848c4caf3e0f9cfaa0"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/733e8b7b27a5a1bd9484b3e558e99af5481db2d5/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/733e8b7b27a5a1bd9484b3e558e99af5481db2d5/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "ec40cc5b3871e2da84a3ffdb29c16c7dfe5009d1",
         "dateadded": "2020-09-13T12:08:25.786728+00:00",
         "datecommitted": "2020-09-13T12:00:00+00:00",
