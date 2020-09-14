@@ -4737,6 +4737,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "b832f0332b9dab08993fd638168b36e948f3b7c4",
+        "dateadded": "2020-09-14T12:29:21.038980+00:00",
+        "datecommitted": "2020-09-14T11:58:28+00:00",
+        "description": "Docs: Update recommendation on ACPI patches (#113)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b832f0332b9dab08993fd638168b36e948f3b7c4/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b832f0332b9dab08993fd638168b36e948f3b7c4/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "8fe86582d1b5131ba89007ca0c4e7718c3ffab2b96e578860928395497d37c53"
+          },
+          "release": {
+            "sha256": "e1872c881c67f205a10f12fec277e2a1aa1b6e6cc8ae0c0fde488a46be0e5c85"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b832f0332b9dab08993fd638168b36e948f3b7c4/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/b832f0332b9dab08993fd638168b36e948f3b7c4/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "b27299c75752d569c802e100a51f72b73a1f3bdd",
         "dateadded": "2020-09-13T23:33:38.709440+00:00",
         "datecommitted": "2020-09-13T23:24:28+00:00",
