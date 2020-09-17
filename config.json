@@ -4737,6 +4737,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "8c93e5e2dc17642824189f292430280d0efa34d1",
+        "dateadded": "2020-09-17T17:45:15.101981+00:00",
+        "datecommitted": "2020-09-17T17:35:33+00:00",
+        "description": "Docs: Revert _STA value overriding\n\nMethod objects cannot be redefined without operating system support.\nWhen EC _STA method is present it is not possible to write anything\nto it without invoking undefined behaviour.",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8c93e5e2dc17642824189f292430280d0efa34d1/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8c93e5e2dc17642824189f292430280d0efa34d1/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "640a130bb31ba50de01be6c63a95629061565e9cfe914dcc8a0b1a5ecfa50ac9"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "82b73016a6b8df38e16c587e731d69c843f2a96af234dcc9628932ad1e2a6599"
+          },
+          "release": {
+            "sha256": "8d89a3ebc82666216b3d4c75a18658113abbfe8d07886ca8fd091a14da5e024e"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8c93e5e2dc17642824189f292430280d0efa34d1/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/8c93e5e2dc17642824189f292430280d0efa34d1/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "542c50997ddb608cc20cda29ce590d988c9d3d95",
         "dateadded": "2020-09-17T15:35:37.101866+00:00",
         "datecommitted": "2020-09-17T15:22:02+00:00",
