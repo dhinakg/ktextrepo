@@ -4737,6 +4737,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "d89484877d7dc75efde90e9122d73edab81ce44e",
+        "dateadded": "2020-09-17T18:00:42.623568+00:00",
+        "datecommitted": "2020-09-17T17:41:30+00:00",
+        "description": "Docs: Revert _STA value overriding in SSDT-EC-USBX\n\nSee previous commit for more details:\n- https://github.com/acidanthera/OpenCorePkg/commit/8c93e5e2dc17642824189f292430280d0efa34d1",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d89484877d7dc75efde90e9122d73edab81ce44e/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d89484877d7dc75efde90e9122d73edab81ce44e/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "640a130bb31ba50de01be6c63a95629061565e9cfe914dcc8a0b1a5ecfa50ac9"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "d47e7b946794f8055bc47814f1c009984d7f1169025b82506f8e32ab089d3657"
+          },
+          "release": {
+            "sha256": "b241d456c45bac186a21613f4db1f8b9180726f35d5d7987a8f6464613404c1a"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d89484877d7dc75efde90e9122d73edab81ce44e/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/d89484877d7dc75efde90e9122d73edab81ce44e/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "8c93e5e2dc17642824189f292430280d0efa34d1",
         "dateadded": "2020-09-17T17:45:15.101981+00:00",
         "datecommitted": "2020-09-17T17:35:33+00:00",
