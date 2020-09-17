@@ -4737,6 +4737,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "542c50997ddb608cc20cda29ce590d988c9d3d95",
+        "dateadded": "2020-09-17T15:35:37.101866+00:00",
+        "datecommitted": "2020-09-17T15:22:02+00:00",
+        "description": "Docs: Improve ACPI Darwin detection in non-critical areas (#119)",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/542c50997ddb608cc20cda29ce590d988c9d3d95/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/542c50997ddb608cc20cda29ce590d988c9d3d95/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "640a130bb31ba50de01be6c63a95629061565e9cfe914dcc8a0b1a5ecfa50ac9"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "4dda959fbbae7e8c1339b4e15b0de8aff91fd449e08ab325af9849d14f056a21"
+          },
+          "release": {
+            "sha256": "755d7d4efa8a17179dac33a3f0b75668c1554e26b0ac083629f4cc158913ce13"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/542c50997ddb608cc20cda29ce590d988c9d3d95/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/542c50997ddb608cc20cda29ce590d988c9d3d95/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "b2861203e6d26931e19b28aba18bb5aec68c8901",
         "dateadded": "2020-09-16T20:25:14.089209+00:00",
         "datecommitted": "2020-09-16T19:59:44+00:00",
