@@ -4737,6 +4737,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "293d85fdd88282d472848f04e8c457e54a368a22",
+        "dateadded": "2020-09-18T06:53:50.315243+00:00",
+        "datecommitted": "2020-09-18T06:43:14+00:00",
+        "description": "Use str as output filename (#120)\n\ncloses https://github.com/acidanthera/bugtracker/issues/1163",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/293d85fdd88282d472848f04e8c457e54a368a22/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/293d85fdd88282d472848f04e8c457e54a368a22/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "640a130bb31ba50de01be6c63a95629061565e9cfe914dcc8a0b1a5ecfa50ac9"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "36bc2a90880e7114d7fefa4ecbc2b37560370fe8f0388b15ec98e6117ae23c39"
+          },
+          "release": {
+            "sha256": "94e268c9fc9d139473b74a54a5dc05247f68e4be5dfad5971af93e43cb1ec312"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/293d85fdd88282d472848f04e8c457e54a368a22/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/293d85fdd88282d472848f04e8c457e54a368a22/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "71952261a7587f1b27fd67ef12fec73dcc9fee42",
         "dateadded": "2020-09-17T20:52:16.128791+00:00",
         "datecommitted": "2020-09-17T20:42:15+00:00",
