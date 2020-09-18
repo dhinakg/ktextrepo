@@ -4737,6 +4737,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "3dfcdd759b602ffe039a2d96408c748eb5dff84c",
+        "dateadded": "2020-09-18T10:38:06.676341+00:00",
+        "datecommitted": "2020-09-18T10:24:08+00:00",
+        "description": "OcPeCoffLib: Tolerate gaps between sections",
+        "extras": {
+          "SSDT-PLUG.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3dfcdd759b602ffe039a2d96408c748eb5dff84c/Release/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3dfcdd759b602ffe039a2d96408c748eb5dff84c/Release/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "640a130bb31ba50de01be6c63a95629061565e9cfe914dcc8a0b1a5ecfa50ac9"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "debug": {
+            "sha256": "bd42f5ee7252a6fcbdb2e988bda0ac461af09387f7a93421dc1d9d75537a0374"
+          },
+          "release": {
+            "sha256": "111431df32f25f752216f6a8602733bece0d518d813bde083b907001b70712fb"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3dfcdd759b602ffe039a2d96408c748eb5dff84c/Debug/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Bootloaders/OpenCorePkg/3dfcdd759b602ffe039a2d96408c748eb5dff84c/Release/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
         "commit": "293d85fdd88282d472848f04e8c457e54a368a22",
         "dateadded": "2020-09-18T06:53:50.315243+00:00",
         "datecommitted": "2020-09-18T06:43:14+00:00",
