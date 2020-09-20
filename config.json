@@ -3,6 +3,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "f938db667dea02150fed9ff5d7f48a94864f7548",
+        "dateadded": "2020-09-20T13:37:55.596317+00:00",
+        "datecommitted": "2020-09-20T13:36:24+00:00",
+        "description": "Add pci14e4,4331 into AirPortBrcmNIC_Injector.kext",
+        "hashes": {
+          "debug": {
+            "sha256": "32dfba0baa4b892ff59aab434231cb481afdbf840ac667945dd73b19de80576a"
+          },
+          "release": {
+            "sha256": "e31c712af64983ede2daadc3878ad0aa1688650d2b961a60351f6c7a3b5a6727"
+          }
+        },
+        "knowngood": false,
+        "links": {
+          "debug": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/f938db667dea02150fed9ff5d7f48a94864f7548/Debug/AirportBrcmFixup-2.1.0-DEBUG.zip",
+          "release": "https://raw.githubusercontent.com/dhinakg/ktextrepo/builds/Kexts/AirportBrcmFixup/f938db667dea02150fed9ff5d7f48a94864f7548/Release/AirportBrcmFixup-2.1.0-RELEASE.zip"
+        },
+        "source": "built",
+        "version": "2.1.0"
+      },
+      {
         "commit": "ee17cb799ff4503ee619dd9aedaad2ea8770f14c",
         "dateadded": "2020-09-09T13:23:33.724672+00:00",
         "datecommitted": "2020-09-09T13:18:21+00:00",
